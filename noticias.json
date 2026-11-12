@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T21:46:12.156102+00:00",
+ "atualizado": "2026-11-12T21:47:58.158578+00:00",
  "categorias": [
   {
    "id": "mundo",
@@ -130,13 +130,6 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Anatel exige validação biométrica facial para linhas móveis a partir de 2027",
-     "resumo": "A Agência Nacional de Telecomunicações (Anatel) aprovou a Norma Técnica GT-SEG.2026.11, que obriga as prestadoras do Serviço Móvel Pessoal (SMP) a verificar a identidade dos usuários por meio de reconhecimento facial…",
-     "link": "https://www.cisoadvisor.com.br/anatel-exige-validacao-biometrica-facial-para-linhas-moveis-a-partir-de-2027/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T19:56:42+00:00"
-    },
-    {
      "titulo": "Golpes por convites de calendário roubam sessões do Google e furam autenticação",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/golpes-por-convites-de-calendario-roubam-sessoes-do-google-e-furam-autenticacao/",
@@ -152,17 +145,10 @@
     },
     {
      "titulo": "Ex-CEO da Nvidia teve relacionamento extraconjugal com uma terceira mulher, diz agência",
-     "resumo": "CEO da Nvidia renuncia após escândalo O ex-presidente-executivo (CEO) da Nvidia Jensen Huang teve um relacionamento íntimo com uma segunda funcionária da empresa, segundo duas fontes ouvidas pela Reuters.",
+     "resumo": "CEO da Nvidia renuncia após escândalo O ex-presidente-executivo da Nvidia, Jensen Huang, teria mantido mais um relacionamento íntimo com outra funcionária da empresa, segundo duas fontes ouvidas pela Reuters.",
      "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/ceo-nvidia-caso.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-12T19:34:08+00:00"
-    },
-    {
-     "titulo": "Caixa Vida e Previdência confirma incidente com cópia de dados",
-     "resumo": "A Caixa Vida e Previdência, uma empresa subsidiária da Caixa Econômica Federal, subordinada à Caixa Seguridade, confirmou ao CISO Advisor que foi vítima de um ataque cibernético que resultou no acesso não autorizado e…",
-     "link": "https://www.cisoadvisor.com.br/caixa-vida-e-previdencia-confirma-incidente-com-copia-de-dados/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T17:57:50+00:00"
     },
     {
      "titulo": "Microsoft Teams caiu? Outlook, 365 e outros serviços Microsoft instáveis nesta quinta (12)",
@@ -186,18 +172,32 @@
      "data": "2026-11-12T19:15:13+00:00"
     },
     {
-     "titulo": "900 domínios em ataques usando o nome gov.br",
-     "resumo": "A Lumu Technologies identificou uma campanha de golpes que se passa pelo gov.br, pelo Banco Central e por alguns dos principais bancos digitais, para cobrar taxas falsas via Pix.",
-     "link": "https://www.cisoadvisor.com.br/900-dominios-em-ataques-usando-o-nome-gov-br/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T14:20:29+00:00"
-    },
-    {
      "titulo": "Zoom corrige falhas críticas que permitiam invasão remota no Windows",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/zoom-corrige-falhas-criticas-que-permitiam-invasao-remota-no-windows/",
      "fonte": "TecMundo",
      "data": "2026-11-12T21:30:00+00:00"
+    },
+    {
+     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
+     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
+     "fonte": "The Hack",
+     "data": "2022-05-04T12:00:00+00:00"
+    },
+    {
+     "titulo": "Outlook fora do ar? Serviço de e-mail e IA da Microsoft apresentam instabilidade nesta quinta",
+     "resumo": "Usuários enfrentam dificuldades para acessar alguns serviços da Microsoft no início da tarde desta quinta-feira (12), como o Outlook.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/outlook-fora-do-ar.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-12T18:40:04+00:00"
+    },
+    {
+     "titulo": "United Airlines proíbe agentes de IA de reservar voos em contas de clientes",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/united-airlines-proibe-agentes-de-ia-de-reservar-voos-em-contas-de-clientes/",
+     "fonte": "TecMundo",
+     "data": "2026-11-12T20:35:00+00:00"
     }
    ]
   },

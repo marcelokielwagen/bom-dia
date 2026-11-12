@@ -36,6 +36,12 @@ CATEGORIAS = [
         ("The Hack", "https://thehack.com.br/feed/", None),
         ("g1 Tecnologia", "https://g1.globo.com/rss/g1/tecnologia/", "!" + PROMO),
     ]),
+    ("acoes", "Ações e Mercado", 10, [
+        ("Money Times", "https://www.moneytimes.com.br/feed/", None),
+        ("Investing.com", "https://br.investing.com/rss/news_25.rss", None),
+        ("Seu Dinheiro", "https://www.seudinheiro.com/feed/", None),
+        ("E-Investidor", "https://einvestidor.estadao.com.br/feed/", None),
+    ]),
 ]
 POR_FONTE = 4
 TAM_RESUMO = 220

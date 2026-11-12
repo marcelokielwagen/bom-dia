@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T22:15:47.188356+00:00",
+ "atualizado": "2026-11-12T22:19:34.987529+00:00",
  "categorias": [
   {
    "id": "mundo",
@@ -198,6 +198,82 @@
      "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/golpes-por-convites-de-calendario-roubam-sessoes-do-google-e-furam-autenticacao/",
      "fonte": "TecMundo",
      "data": "2026-11-05T13:00:00+00:00"
+    }
+   ]
+  },
+  {
+   "id": "acoes",
+   "nome": "Ações e Mercado",
+   "noticias": [
+    {
+     "titulo": "Bolsas de Nova York fecham em queda com crise da Nvidia e ataques ao Irã",
+     "resumo": "As bolsas de Nova York encerraram a sessão desta quinta-feira (12) em queda, após a renúncia de Jensen Huang do comando da Nvidia reacender os temores em torno do setor de tecnologia.",
+     "link": "https://www.moneytimes.com.br/bolsas-de-nova-york-fecham-em-queda-com-crise-da-nvidia-e-ataques-ao-ira-davs/",
+     "fonte": "Money Times",
+     "data": "2026-11-12T22:09:44+00:00"
+    },
+    {
+     "titulo": "Inter&Co tem alta de 26% no lucro no 3º tri, em linha com estimativa",
+     "resumo": "",
+     "link": "https://br.investing.com/news/stock-market-news/interco-tem-alta-de-26-no-lucro-no-3o-tri-em-linha-com-estimativa-2125826",
+     "fonte": "Investing.com",
+     "data": "2026-11-12T21:56:07+00:00"
+    },
+    {
+     "titulo": "“O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem deixar a qualidade do crédito para trás",
+     "resumo": "Ao Seu Dinheiro, Santiago Stel explica como a instituição tenta acelerar a expansão sem comprometer a qualidade dos empréstimos The post “O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem…",
+     "link": "https://www.seudinheiro.com/2026/empresas/o-que-nao-fizermos-outro-fara-o-dilema-do-inter-inbr34-para-crescer-sem-deixar-a-qualidade-do-credito-para-tras-miql/",
+     "fonte": "Seu Dinheiro",
+     "data": "2026-11-12T21:44:45+00:00"
+    },
+    {
+     "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
+     "resumo": "A operadora de data centers Ascenty anunciou investimentos de US$ 1,2 bilhão para a construção de quatro novos data centers no Estado de São Paulo. Os contratos somam 150 megawatts (MW) de capacidade de processamento,",
+     "link": "https://einvestidor.estadao.com.br/investimentos/ascenty-investimento-12-bilhao-primeiro-data-center-inteligencia-artificial-ia-america-latina/",
+     "fonte": "E-Investidor",
+     "data": "2026-05-27T21:59:36+00:00"
+    },
+    {
+     "titulo": "MBRF (MBRF3) tem lucro de R$ 210 milhões no 3T26, alta de 123,5% em um ano",
+     "resumo": "A MBRF (MBRF3) registrou lucro líquido de R$ 210 milhões no terceiro trimestre de 2026, crescimento de 123,5% na comparação com o mesmo período do ano passado.",
+     "link": "https://www.moneytimes.com.br/mbrf-mbrf3-tem-lucro-de-r-210-milhoes-no-3t26-alta-de-1235-em-um-ano-pads/",
+     "fonte": "Money Times",
+     "data": "2026-11-12T22:01:26+00:00"
+    },
+    {
+     "titulo": "Rede D’Or tem lucro acima do esperado no 3º tri",
+     "resumo": "",
+     "link": "https://br.investing.com/news/stock-market-news/rede-dor-tem-lucro-acima-do-esperado-no-3o-tri-2125827",
+     "fonte": "Investing.com",
+     "data": "2026-11-12T21:56:07+00:00"
+    },
+    {
+     "titulo": "Como a Motiva quer lucrar com publicidade e até imóveis — e fazer novos negócios valerem 10% da companhia",
+     "resumo": "Com plataforma recém-criada, concessionária quer transformar terrenos, estações, fluxo de veículos e infraestrutura em novas fontes de receita The post Como a Motiva quer lucrar com publicidade e até imóveis — e fazer…",
+     "link": "https://www.seudinheiro.com/2026/empresas/como-a-motiva-quer-lucrar-com-publicidade-e-ate-imoveis-e-fazer-novos-negocios-valerem-10-da-companhia/",
+     "fonte": "Seu Dinheiro",
+     "data": "2026-11-12T21:24:00+00:00"
+    },
+    {
+     "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
+     "resumo": "O Ibovespa hoje fechou em queda, em movimento contrário ao dos índices de Nova York, que encerraram em alta. Nesta quarta-feira (27), a principal referência da B3 cedeu 0,48% aos 175.744,37 pontos, com volume negociado",
+     "link": "https://einvestidor.estadao.com.br/mercado/ibovespa-hoje-usiminas-usim5-lidera-altas-cosan-csan3-cai/",
+     "fonte": "E-Investidor",
+     "data": "2026-05-27T21:47:03+00:00"
+    },
+    {
+     "titulo": "Ibovespa fecha no vermelho em meio a preocupações com o ajuste fiscal e à temporada de balanços",
+     "resumo": "O ajuste fiscal anunciado pelo governo do presidente Luiz Inácio Lula da Silva (PT) não convenceu o mercado, e quem sofreu foi o Ibovespa (IBOV).",
+     "link": "https://www.moneytimes.com.br/ibovespa-12-11-2026-davs/",
+     "fonte": "Money Times",
+     "data": "2026-11-12T21:51:34+00:00"
+    },
+    {
+     "titulo": "Ibovespa fecha em queda pressionado por BB, com balanços e fiscal no radar",
+     "resumo": "",
+     "link": "https://br.investing.com/news/stock-market-news/ibovespa-fecha-em-queda-pressionado-por-bb-com-balancos-e-fiscal-no-radar-2125824",
+     "fonte": "Investing.com",
+     "data": "2026-11-12T21:56:06+00:00"
     }
    ]
   }

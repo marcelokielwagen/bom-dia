@@ -1,5 +1,10 @@
 {
- "atualizado": "2026-11-12T22:19:34.987529+00:00",
+ "atualizado": "2026-11-12T22:30:21.939250+00:00",
+ "ibovespa": {
+  "pontos": 171324,
+  "variacao": -0.43,
+  "hora": "2026-11-12T21:19:00+00:00"
+ },
  "categorias": [
   {
    "id": "mundo",
@@ -137,11 +142,11 @@
      "data": "2026-11-12T19:56:42+00:00"
     },
     {
-     "titulo": "Jensen Huang aceita ir ao Congresso dos EUA esclarecer relação com suposta espiã chinesa",
+     "titulo": "Silent Hill: Townfall e mais games de PS5 e PS4 com até 90% OFF",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/big-techs/jensen-huang-vai-ao-congresso-dos-eua-esclarecer-relacao-com-suposta-espia-chinesa/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/silent-hill-townfall-e-mais-games-de-ps5-e-ps4-com-ate-90-off/",
      "fonte": "TecMundo",
-     "data": "2026-11-12T22:00:00+00:00"
+     "data": "2026-11-12T22:15:00+00:00"
     },
     {
      "titulo": "Programa gratuito quer capacitar novos talentos em cibersegurança",
@@ -152,7 +157,7 @@
     },
     {
      "titulo": "Ex-CEO da Nvidia teve relacionamento extraconjugal com uma terceira mulher, diz agência",
-     "resumo": "CEO da Nvidia renuncia após escândalo O ex-presidente-executivo da Nvidia, Jensen Huang, teria mantido mais um relacionamento íntimo com outra funcionária da empresa, segundo duas fontes ouvidas pela Reuters.",
+     "resumo": "Ex-CEO da Nvidia teria mantido terceiro relacionamento extraconjugal, diz imprensa O ex-presidente-executivo da Nvidia, Jensen Huang, teria mantido mais um relacionamento íntimo com outra funcionária da empresa, segundo…",
      "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/ceo-nvidia-caso.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-12T19:34:08+00:00"
@@ -165,11 +170,11 @@
      "data": "2026-11-12T17:57:50+00:00"
     },
     {
-     "titulo": "Vivo Satélite: como verificar a compatibilidade do celular e usar a internet da Starlink?",
+     "titulo": "Jensen Huang aceita ir ao Congresso dos EUA esclarecer relação com suposta espiã chinesa",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/big-techs/vivo-satelite-como-verificar-a-compatibilidade-do-celular-e-usar-a-internet-da-starlink/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/jensen-huang-vai-ao-congresso-dos-eua-esclarecer-relacao-com-suposta-espia-chinesa/",
      "fonte": "TecMundo",
-     "data": "2026-11-07T13:00:00+00:00"
+     "data": "2026-11-12T22:00:00+00:00"
     },
     {
      "titulo": "Fim das senhas: autenticação passwordless já é realidade",
@@ -193,11 +198,11 @@
      "data": "2026-11-12T14:20:29+00:00"
     },
     {
-     "titulo": "Golpes por convites de calendário roubam sessões do Google e furam autenticação",
+     "titulo": "Vivo Satélite: como verificar a compatibilidade do celular e usar a internet da Starlink?",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/golpes-por-convites-de-calendario-roubam-sessoes-do-google-e-furam-autenticacao/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/vivo-satelite-como-verificar-a-compatibilidade-do-celular-e-usar-a-internet-da-starlink/",
      "fonte": "TecMundo",
-     "data": "2026-11-05T13:00:00+00:00"
+     "data": "2026-11-07T13:00:00+00:00"
     }
    ]
   },
@@ -213,11 +218,11 @@
      "data": "2026-11-12T22:09:44+00:00"
     },
     {
-     "titulo": "Inter&Co tem alta de 26% no lucro no 3º tri, em linha com estimativa",
+     "titulo": "Track&Field tem lucro de R$35 mi no 3º tri, alta de 17%",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/interco-tem-alta-de-26-no-lucro-no-3o-tri-em-linha-com-estimativa-2125826",
+     "link": "https://br.investing.com/news/stock-market-news/trackfield-tem-lucro-de-r35-mi-no-3o-tri-alta-de-17-2125853",
      "fonte": "Investing.com",
-     "data": "2026-11-12T21:56:07+00:00"
+     "data": "2026-11-12T22:21:04+00:00"
     },
     {
      "titulo": "“O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem deixar a qualidade do crédito para trás",
@@ -241,11 +246,11 @@
      "data": "2026-11-12T22:01:26+00:00"
     },
     {
-     "titulo": "Rede D’Or tem lucro acima do esperado no 3º tri",
+     "titulo": "Petz Cobasi tem alta de 31% no lucro no 3º trimestre",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/rede-dor-tem-lucro-acima-do-esperado-no-3o-tri-2125827",
+     "link": "https://br.investing.com/news/stock-market-news/petz-cobasi-tem-alta-de-31-no-lucro-no-3o-trimestre-2125854",
      "fonte": "Investing.com",
-     "data": "2026-11-12T21:56:07+00:00"
+     "data": "2026-11-12T22:21:04+00:00"
     },
     {
      "titulo": "Como a Motiva quer lucrar com publicidade e até imóveis — e fazer novos negócios valerem 10% da companhia",
@@ -269,11 +274,11 @@
      "data": "2026-11-12T21:51:34+00:00"
     },
     {
-     "titulo": "Ibovespa fecha em queda pressionado por BB, com balanços e fiscal no radar",
+     "titulo": "CPFL tem queda do lucro no 3º tri com efeito contábil de renovação de concessões",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/ibovespa-fecha-em-queda-pressionado-por-bb-com-balancos-e-fiscal-no-radar-2125824",
+     "link": "https://br.investing.com/news/stock-market-news/cpfl-tem-queda-do-lucro-no-3o-tri-com-efeito-contabil-de-renovacao-de-concessoes-2125852",
      "fonte": "Investing.com",
-     "data": "2026-11-12T21:56:06+00:00"
+     "data": "2026-11-12T22:21:03+00:00"
     }
    ]
   }

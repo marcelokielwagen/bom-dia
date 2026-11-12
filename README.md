@@ -5,7 +5,8 @@ Página do dia para **Blumenau** e **Balneário Camboriú**:
 | Parte | De onde vem |
 |---|---|
 | Previsão de hoje hora a hora, gráfico da temperatura e a semana | [Open-Meteo](https://open-meteo.com/), buscada ao abrir a página (sempre atual) |
-| Frase motivacional e frase de Câncer | `frases.js` — troca sozinha a cada dia |
+| Cotações (dólar, euro, bitcoin) ao vivo; Ibovespa pelo robô | AwesomeAPI e Yahoo Finance |
+| Frase motivacional, frase e cor do dia de Câncer | `frases.js` — troca sozinha a cada dia |
 | Notícias em 4 abas: Mundo, Política, TI e Segurança, Ações e Mercado | Vários sites (lista em `scripts/noticias.py`); o GitHub roda `scripts/noticias.py` a cada 3 horas e grava `noticias.json` |
 
 ## Arquivos

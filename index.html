@@ -18,15 +18,15 @@
   --sky1:#8ec5ff; --sky2:#cfe6ff; --sky3:#f4f9ff;
   --ink:#0f2236; --soft:#4b5d73; --card:rgba(255,255,255,.62); --card-line:rgba(255,255,255,.75);
   --chip:rgba(15,34,54,.06); --accent:#0b6bcb; --warm:#e8890c; --rain:#2f7fd1; --grid:rgba(15,34,54,.14);
-  --head-ink:#0f2236; --on-ink:#ffffff;
+  --head-ink:#0f2236; --on-ink:#ffffff; --sobe:#13804a; --cai:#c0392b;
 }
 [data-ceu="amanhecer"]{--sky1:#f7b98f;--sky2:#d9b4dc;--sky3:#a9b8e6;--ink:#2a1f35;--soft:#6a5a73;--accent:#c4512a;--warm:#e0761f;--head-ink:#2a1f35}
 [data-ceu="entardecer"]{--sky1:#ff9a6b;--sky2:#c86a9b;--sky3:#4b3f8a;--ink:#2a1a33;--soft:#6e5872;--accent:#b8336a;--warm:#e8700c;--head-ink:#2a1a33}
 [data-ceu="chuva"]{--sky1:#7f93ab;--sky2:#b4c0cf;--sky3:#dfe4ea;--ink:#16212e;--soft:#4f5b69;--accent:#2d6aa8;--warm:#c98417;--head-ink:#16212e}
 [data-ceu="noite"]{--sky1:#070b1f;--sky2:#151d48;--sky3:#2c3570;--ink:#eef1ff;--soft:#a9b2d8;--card:rgba(22,29,68,.62);--card-line:rgba(160,175,255,.18);
-  --chip:rgba(238,241,255,.07);--accent:#9db4ff;--warm:#ffc857;--rain:#7fb6ff;--grid:rgba(238,241,255,.14);--head-ink:#eef1ff;--on-ink:#0b1026;color-scheme:dark}
+  --chip:rgba(238,241,255,.07);--accent:#9db4ff;--warm:#ffc857;--rain:#7fb6ff;--grid:rgba(238,241,255,.14);--head-ink:#eef1ff;--on-ink:#0b1026;--sobe:#5fd38d;--cai:#ff8a80;color-scheme:dark}
 [data-ceu="noite-chuva"]{--sky1:#0d121c;--sky2:#1d2533;--sky3:#323d50;--ink:#e9eef6;--soft:#a3adbd;--card:rgba(28,35,48,.66);--card-line:rgba(200,215,235,.14);
-  --chip:rgba(233,238,246,.07);--accent:#8fb8e8;--warm:#ffc857;--rain:#7fb6ff;--grid:rgba(233,238,246,.14);--head-ink:#e9eef6;--on-ink:#0d121c;color-scheme:dark}
+  --chip:rgba(233,238,246,.07);--accent:#8fb8e8;--warm:#ffc857;--rain:#7fb6ff;--grid:rgba(233,238,246,.14);--head-ink:#e9eef6;--on-ink:#0d121c;--sobe:#5fd38d;--cai:#ff8a80;color-scheme:dark}
 
 *{box-sizing:border-box}
 html{background:var(--sky1)}
@@ -121,6 +121,14 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .feriados .falta{font-size:.78rem;font-weight:700;text-align:right;white-space:nowrap}
 .feriados .selo{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;font-size:.7rem;font-weight:800;text-transform:none;background:color-mix(in srgb,var(--warm) 25%,transparent);color:var(--ink)}
 /* Aviso do fim de semana */
+.aviso-chuva{font-weight:700;font-size:.9rem;margin:-4px 0 12px;padding:8px 12px;border-radius:12px;background:var(--chip);display:inline-block}
+.aviso-chuva:empty{display:none}
+/* Mercado */
+.mercado{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.mercado .vidro{padding:14px 16px;border-radius:18px}
+.mercado .valor{font:600 1.35rem var(--serif);margin-top:2px;white-space:nowrap}
+.mercado .var{font-size:.8rem;font-weight:800}
+.mercado .sobe{color:var(--sobe)} .mercado .cai{color:var(--cai)}
 .fds{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px;
   background:linear-gradient(120deg,color-mix(in srgb,var(--warm) 22%,var(--card)),var(--card) 60%);border-left:5px solid var(--warm)}
 .fds h3{margin:4px 0 6px;font:600 clamp(1.25rem,3.2vw,1.6rem)/1.2 var(--serif)}
@@ -176,13 +184,14 @@ footer a{color:inherit}
   .hero,.frases,.noticias{grid-template-columns:minmax(0,1fr)}
   .grande .temp{font-size:5rem}
   .semana{grid-template-columns:minmax(0,1fr)}
-  .dia{display:grid;grid-template-columns:44px 52px 30px 1fr 38px 50px;align-items:center;text-align:left;padding:8px 12px;border-radius:14px;gap:6px}
+  .dia{display:grid;grid-template-columns:40px 56px 30px 1fr 34px 56px;align-items:center;text-align:left;padding:8px 12px;border-radius:14px;gap:6px}
   .fds{grid-template-columns:minmax(0,1fr)}
+  .mercado{grid-template-columns:repeat(2,minmax(0,1fr))}
   .fds .mini div{flex:1}
   .dia .e{font-size:1.3rem;margin:0}
   .dia .max{font-size:1.1rem;text-align:right}
-  .dia .min{text-align:right;order:5}
-  .dia .ch{margin:0;text-align:right}
+  .dia .min{text-align:left}
+  .dia .ch{margin:0;text-align:right;white-space:nowrap}
 }
 </style>
 </head>
@@ -238,6 +247,15 @@ footer a{color:inherit}
     <ul class="feriados" id="feriados"></ul>
     <div class="atualizado">Feriados nacionais e o aniversário da cidade escolhida. ⭐ = ponto facultativo.</div>
   </section>
+
+  <h2 class="titulo">Mercado</h2>
+  <div class="mercado">
+    <div class="vidro"><div class="etiqueta">💵 Dólar</div><div class="valor" id="m-usd">…</div><div class="var" id="v-usd"></div></div>
+    <div class="vidro"><div class="etiqueta">💶 Euro</div><div class="valor" id="m-eur">…</div><div class="var" id="v-eur"></div></div>
+    <div class="vidro"><div class="etiqueta">₿ Bitcoin</div><div class="valor" id="m-btc">…</div><div class="var" id="v-btc"></div></div>
+    <div class="vidro"><div class="etiqueta">📊 Ibovespa</div><div class="valor" id="m-ibov">…</div><div class="var" id="v-ibov"></div></div>
+  </div>
+  <div class="dica" id="mercado-hora"></div>
 
   <h2 class="titulo">Notícias</h2>
   <section class="vidro">
@@ -351,7 +369,7 @@ if (window.CORES_CANCER) { const [nomeCor, cor] = escolher(window.CORES_CANCER, 
   $("cor-dia").innerHTML = `<i style="background:${cor}"></i><span>Cor do dia: <b>${nomeCor}</b></span>`; }
 
 // ---------- Previsao ----------
-let dados = null, diaSel = HOJE, cidade = "blumenau";
+let mar = null, dados = null, diaSel = HOJE, cidade = "blumenau";
 try { cidade = localStorage.getItem("cidade") || cidade; } catch(e) {}
 if (!CIDADES[cidade]) cidade = "blumenau";
 aplicarCeu(0);
@@ -362,14 +380,19 @@ async function carregar() {
   const url = "https://api.open-meteo.com/v1/forecast?latitude=" + c.lat + "&longitude=" + c.lon +
     "&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,is_day" +
     "&hourly=temperature_2m,precipitation_probability,weather_code,is_day" +
-    "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,sunrise,sunset" +
+    "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,sunrise,sunset,uv_index_max" +
     "&timezone=" + encodeURIComponent(TZ) + "&forecast_days=15";
   $("agora").innerHTML = '<span class="etiqueta">Carregando previsão…</span>';
   desenharFeriados();
+  mar = null;
+  const pedirMar = cidade === "bc" ? fetch("https://marine-api.open-meteo.com/v1/marine?latitude=-26.99&longitude=-48.60" +
+    "&current=wave_height,sea_surface_temperature&daily=wave_height_max&forecast_days=15&timezone=" + encodeURIComponent(TZ))
+    .then(r => r.ok ? r.json() : null).catch(() => null) : Promise.resolve(null);
   try {
     const r = await fetch(url);
     if (!r.ok) throw new Error(r.status);
     dados = await r.json();
+    mar = await pedirMar;
     aplicarCeu(dados.current.weather_code);
     desenharSemana();
     desenharFimDeSemana();
@@ -377,6 +400,24 @@ async function carregar() {
   } catch (e) {
     $("agora").innerHTML = '<span class="erro">Não consegui buscar a previsão agora. Tente recarregar a página.</span>';
   }
+}
+
+// Frase pratica sobre a chuva: "leve guarda-chuva a partir das 15h" etc.
+function avisoChuva(horas, ehHoje) {
+  const hh = n => String(n).padStart(2, "0") + "h";
+  const resto = ehHoje ? horas.filter(x => x.h >= HORA_AGORA) : horas;
+  if (!resto.length) return "";
+  const forte = resto.filter(x => (x.chuva ?? 0) >= 50), max = Math.max(...resto.map(x => x.chuva ?? 0));
+  if (ehHoje && dados.current.weather_code >= 51) {
+    const para = resto.find(x => x.h > HORA_AGORA && (x.chuva ?? 0) < 40);
+    return `☂️ Está chovendo agora${para ? ` — deve melhorar por volta das ${hh(para.h)}` : ". Leve o guarda-chuva!"}`;
+  }
+  if (forte.length) {
+    const ini = forte[0].h, fim = forte[forte.length - 1].h;
+    return `☂️ Leve guarda-chuva: chuva ${ini === fim ? `por volta das ${hh(ini)}` : `entre ${hh(ini)} e ${hh(fim + 1 > 23 ? 23 : fim + 1)}`}`;
+  }
+  if (max >= 30) return `🌦️ Pode cair uma garoa (até ${max}% de chance), mas nada de muito`;
+  return ehHoje ? "😎 Sem chuva no resto do dia" : "😎 Dia sem chuva prevista";
 }
 
 function horasDoDia(dia) {
@@ -391,15 +432,26 @@ function desenharDia() {
   const hm = s => s ? s.slice(11,16) : "--";
   const sol = `<span>🌅 ${hm(d.sunrise[i])}</span><span>🌇 ${hm(d.sunset[i])}</span>`;
   const chuva = d.precipitation_probability_max[i] ?? 0;
+  const uv = d.uv_index_max ? d.uv_index_max[i] : null;
+  const uvTxt = uv == null ? "" : `<span>☀️ UV máx <b>${r0(uv)}</b> ${uv >= 11 ? "extremo" : uv >= 8 ? "muito alto" : uv >= 6 ? "alto" : uv >= 3 ? "moderado" : "baixo"}</span>`;
+  let marTxt = "";
+  if (mar && cidade === "bc") {
+    const mi = mar.daily ? mar.daily.time.indexOf(diaSel) : -1;
+    if (ehHoje && mar.current) marTxt = `<span>🌊 Ondas <b>${mar.current.wave_height.toFixed(1).replace(".", ",")} m</b></span><span>🏖️ Água <b>${r0(mar.current.sea_surface_temperature)}°</b></span>`;
+    else if (mi >= 0) marTxt = `<span>🌊 Ondas até <b>${mar.daily.wave_height_max[mi].toFixed(1).replace(".", ",")} m</b></span>`;
+  }
+  const aviso = avisoChuva(horas, ehHoje);
   if (ehHoje) {
     const c = dados.current, t = tempo(c.weather_code, !c.is_day);
     $("agora").innerHTML = `<div class="etiqueta">Agora em ${esc(CIDADES[cidade].nome)}</div>
       <div class="grande"><span class="temp">${r0(c.temperature_2m)}°</span><span class="ico">${t.ico}</span></div>
       <div class="cond">${t.txt}</div>
+      <div class="aviso-chuva">${aviso}</div>
       <div class="fichas">
         <span>Mín <b>${r0(d.temperature_2m_min[i])}°</b> · Máx <b>${r0(d.temperature_2m_max[i])}°</b></span>
         <span>💧 Chuva <b>${chuva}%</b></span>
         <span>Vento <b>${r0(c.wind_speed_10m)} km/h</b></span>
+        ${uvTxt}${marTxt}
         ${sol}
       </div>`;
   } else {
@@ -407,9 +459,11 @@ function desenharDia() {
     $("agora").innerHTML = `<div class="etiqueta" style="text-transform:capitalize">${nomeDia(diaSel,{weekday:"long",day:"numeric",month:"short"})} · ${esc(CIDADES[cidade].nome)}</div>
       <div class="grande"><span class="temp">${r0(d.temperature_2m_max[i])}°</span><span class="ico">${t.ico}</span></div>
       <div class="cond">${t.txt}</div>
+      <div class="aviso-chuva">${aviso}</div>
       <div class="fichas">
         <span>Mín <b>${r0(d.temperature_2m_min[i])}°</b></span>
         <span>💧 Chuva <b>${chuva}%</b> · ${(d.precipitation_sum[i] ?? 0).toFixed(1)} mm</span>
+        ${uvTxt}${marTxt}
         ${sol}
       </div>`;
   }
@@ -558,7 +612,24 @@ carregar();
 
 // ---------- Noticias (arquivo atualizado pelo GitHub a cada 3 horas) ----------
 const ICONE_CAT = {mundo: "🌍", politica: "🏛️", ti: "💻", acoes: "📈"};
+// ---------- Mercado: dolar, euro e bitcoin ao vivo; Ibovespa vem do robo ----------
+const brl = (n, dec = 2) => n.toLocaleString("pt-BR", {minimumFractionDigits: dec, maximumFractionDigits: dec});
+function pintarVar(id, pct) {
+  const el = $(id); if (pct == null || isNaN(pct)) { el.textContent = ""; return; }
+  el.className = "var " + (pct >= 0 ? "sobe" : "cai");
+  el.textContent = (pct >= 0 ? "▲ " : "▼ ") + brl(Math.abs(pct)) + "% hoje";
+}
+fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL").then(r => r.json()).then(m => {
+  $("m-usd").textContent = "R$ " + brl(+m.USDBRL.bid); pintarVar("v-usd", +m.USDBRL.pctChange);
+  $("m-eur").textContent = "R$ " + brl(+m.EURBRL.bid); pintarVar("v-eur", +m.EURBRL.pctChange);
+  $("m-btc").textContent = "R$ " + brl(+m.BTCBRL.bid, 0); pintarVar("v-btc", +m.BTCBRL.pctChange);
+  const at = new Date(+m.USDBRL.timestamp * 1000).toLocaleString("pt-BR", {timeZone: TZ, hour: "2-digit", minute: "2-digit"});
+  $("mercado-hora").textContent = `Cotações das ${at}. Ibovespa atualizado a cada 3 horas (fechamento quando a bolsa está fechada).`;
+}).catch(() => { ["m-usd", "m-eur", "m-btc"].forEach(id => $(id).textContent = "—"); });
+
 fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(j => {
+  if (j.ibovespa) { $("m-ibov").textContent = brl(j.ibovespa.pontos, 0) + " pts"; pintarVar("v-ibov", j.ibovespa.variacao); }
+  else $("m-ibov").textContent = "—";
   const cats = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
   let atual = cats[0].id;
   try { const s = localStorage.getItem("categoria"); if (cats.some(c => c.id === s)) atual = s; } catch(e) {}

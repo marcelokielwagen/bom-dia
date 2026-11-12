@@ -158,6 +158,20 @@ def montar_categoria(fontes, total, ja_usados):
     return lista[:total]
 
 
+def ibovespa():
+    """Pontos e variacao do Ibovespa no dia (Yahoo Finance). Se falhar, devolve None."""
+    try:
+        req = urllib.request.Request("https://query1.finance.yahoo.com/v8/finance/chart/%5EBVSP?range=1d&interval=1d",
+                                     headers={"User-Agent": "Mozilla/5.0"})
+        meta = json.loads(urllib.request.urlopen(req, timeout=20).read())["chart"]["result"][0]["meta"]
+        atual, anterior = meta["regularMarketPrice"], meta["chartPreviousClose"]
+        return {"pontos": round(atual), "variacao": round((atual / anterior - 1) * 100, 2),
+                "hora": datetime.fromtimestamp(meta["regularMarketTime"], timezone.utc).isoformat()}
+    except Exception as e:
+        print(f"Falhou Ibovespa: {e}", file=sys.stderr)
+        return None
+
+
 def main(destino):
     usados, categorias = set(), []
     for cid, nome, total, fontes in CATEGORIAS:
@@ -168,7 +182,7 @@ def main(destino):
         print("Nenhuma noticia baixada; mantendo o arquivo anterior.", file=sys.stderr)
         return 1
     with open(destino, "w", encoding="utf-8") as f:
-        json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "categorias": categorias},
+        json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "ibovespa": ibovespa(), "categorias": categorias},
                   f, ensure_ascii=False, indent=1)
     print(f"Gravado em {destino}")
     return 0

@@ -6,7 +6,7 @@ Página do dia para **Blumenau** e **Balneário Camboriú**:
 |---|---|
 | Previsão de hoje hora a hora, gráfico da temperatura e a semana | [Open-Meteo](https://open-meteo.com/), buscada ao abrir a página (sempre atual) |
 | Frase motivacional e frase de Câncer | `frases.js` — troca sozinha a cada dia |
-| Principais notícias do mundo | BBC Brasil, g1 Mundo e DW Brasil; o GitHub roda `scripts/noticias.py` a cada 3 horas e grava `noticias.json` |
+| Notícias em 4 abas: Mundo, Política, TI e Segurança, Promoções | Vários sites (lista em `scripts/noticias.py`); o GitHub roda `scripts/noticias.py` a cada 3 horas e grava `noticias.json` |
 
 ## Arquivos
 

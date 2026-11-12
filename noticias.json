@@ -1,75 +1,267 @@
 {
- "atualizado": "2026-11-12T21:38:23.751155+00:00",
- "noticias": [
+ "atualizado": "2026-11-12T21:46:12.156102+00:00",
+ "categorias": [
   {
-   "titulo": "Mostrar na novela um Nordeste do atraso e a Faria Lima pulsante é vender que só um Brasil 'dá certo', diz pesquisador",
-   "resumo": "Novela 'Lá na Minha Terra' tem sido criticada por associar Nordeste ao sertão seco e pobre. Autor diz que o folhetim reforça estereótipos e argumenta que os efeitos dessa representação são práticos na vida dos…",
-   "link": "https://www.bbc.com/portuguese/articles/c6grey09e9n1o?at_medium=RSS&at_campaign=rss",
-   "fonte": "BBC Brasil",
-   "data": "2026-11-12T19:35:47+00:00"
+   "id": "mundo",
+   "nome": "Mundo",
+   "noticias": [
+    {
+     "titulo": "Mostrar na novela um Nordeste do atraso e a Faria Lima pulsante é vender que só um Brasil 'dá certo', diz pesquisador",
+     "resumo": "Novela 'Lá na Minha Terra' tem sido criticada por associar Nordeste ao sertão seco e pobre. Autor diz que o folhetim reforça estereótipos e argumenta que os efeitos dessa representação são práticos na vida dos…",
+     "link": "https://www.bbc.com/portuguese/articles/c6grey09e9n1o?at_medium=RSS&at_campaign=rss",
+     "fonte": "BBC Brasil",
+     "data": "2026-11-12T19:35:47+00:00"
+    },
+    {
+     "titulo": "Trump diz que quer 'resolver a questão de Cuba' antes de deixar cargo",
+     "resumo": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta quinta-feira (12) que considera usar força contra Cuba.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/12/trump-diz-que-quer-resolver-a-questao-de-cuba-antes-de-deixar-cargo.ghtml",
+     "fonte": "g1 Mundo",
+     "data": "2026-11-12T21:09:24+00:00"
+    },
+    {
+     "titulo": "Assédio sexual no Exército alemão é mais disseminado do que indicam registros",
+     "resumo": "Levantamento indica que problema é muito maior do que indicavam os registros oficiais. Mulheres jovens são as principais vítimas, e apenas uma parcela dos casos chega a ser denunciada.",
+     "link": "https://www.dw.com/pt-br/assédio-sexual-no-exército-alemão-é-mais-disseminado-do-que-indicam-registros/a-79928530?maca=bra-rss-br-all-1030-rdf",
+     "fonte": "DW Brasil",
+     "data": "2026-11-12T20:02:00+00:00"
+    },
+    {
+     "titulo": "O que se sabe de falha na Microsoft que deixou fora do ar Outlook e afetou Teams, Microsoft 365 e outras plataformas",
+     "resumo": "Empresa informou que registra falhas em seus servidores, após relatos de perda de conexão com serviços como Outlook, Microsoft 365 e Teams em nível mundial.",
+     "link": "https://www.bbc.com/portuguese/articles/c6wy49w32epwo?at_medium=RSS&at_campaign=rss",
+     "fonte": "BBC Brasil",
+     "data": "2026-11-12T21:11:32+00:00"
+    },
+    {
+     "titulo": "VÍDEO: Condenado por terrorismo, italiano de 74 anos escala prédio e foge de prisão domiciliar na Argentina",
+     "resumo": "Italiano condenado por terrorismo escala prédio e foge da prisão domiciliar na Argentina Um italiano de 74 anos condenado por crimes de terrorismo escapou da prisão domiciliar em Buenos Aires, na Argentina, depois de…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/12/video-condenado-por-terrorismo-italiano-de-74-anos-escala-predio-e-foge-de-prisao-domiciliar-na-argentina.ghtml",
+     "fonte": "g1 Mundo",
+     "data": "2026-11-12T21:08:26+00:00"
+    },
+    {
+     "titulo": "Escândalo de traição com suposta espiã chinesa leva a renúncia de Jensen Huang como CEO da Nvidia",
+     "resumo": "Jensen Huang renunciou à chefia da gigante tecnológica depois de relato sobre caso amoroso com suposta espiã chinesa e notícia de um outro romance extraconjugal, desta vez com uma subordinada.",
+     "link": "https://www.dw.com/pt-br/escândalo-de-traição-com-suposta-espiã-chinesa-leva-a-renúncia-de-jensen-huang-como-ceo-da-nvidia/a-79928053?maca=bra-rss-br-all-1030-rdf",
+     "fonte": "DW Brasil",
+     "data": "2026-11-12T19:56:00+00:00"
+    },
+    {
+     "titulo": "Meta exibe mais de 700 anúncios de bets proibidas, revela levantamento da BBC",
+     "resumo": "Relatório interno do governo obtido pela reportagem já apontava publicidade irregular nas plataformas da empresa; BBC identificou novas peças após a proibição.",
+     "link": "https://www.bbc.com/portuguese/articles/cw4gnvzzdjr7o?at_medium=RSS&at_campaign=rss",
+     "fonte": "BBC Brasil",
+     "data": "2026-11-12T21:18:29+00:00"
+    },
+    {
+     "titulo": "É #FAKE que vídeo de trânsito no Paraguai mostre 'êxodo' bolsonarista; cena é de congestionamento do feriado de 12 de outubro",
+     "resumo": "Vídeo não mostra saídade bolsonaristas do Paraguia de volta ao Brasil g1 Circula nas redes sociais uma publicação que afirma que um vídeo de carros enfileirados em um trânsito intenso representa um 'êxodo' de…",
+     "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/12/e-fake-que-video-de-transito-no-paraguai-mostre-exodo-bolsonarista-cena-mostra-congestionamento-do-feriado-de-12-de-outubro.ghtml",
+     "fonte": "g1 Mundo",
+     "data": "2026-11-12T20:11:23+00:00"
+    }
+   ]
   },
   {
-   "titulo": "Trump diz que quer 'resolver a questão de Cuba' antes de deixar cargo",
-   "resumo": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta quinta-feira (12) que considera usar força contra Cuba.",
-   "link": "https://g1.globo.com/mundo/noticia/2026/11/12/trump-diz-que-quer-resolver-a-questao-de-cuba-antes-de-deixar-cargo.ghtml",
-   "fonte": "g1 Mundo",
-   "data": "2026-11-12T21:09:24+00:00"
+   "id": "politica",
+   "nome": "Política",
+   "noticias": [
+    {
+     "titulo": "ASSISTA: Senado inicia discussão do projeto de ajuste fiscal",
+     "resumo": "",
+     "link": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-12T21:01:56+00:00"
+    },
+    {
+     "titulo": "No Peru, papa prega contra machismo e pede que Igreja enfrente abusos",
+     "resumo": "Declarações foram feitas durante compromissos do pontífice em Lima; Peru é o 3º país de sua viagem pela América Latina",
+     "link": "https://www.poder360.com.br/poder-internacional/no-peru-papa-prega-contra-machismo-e-pede-que-igreja-enfrente-abusos/",
+     "fonte": "Poder360",
+     "data": "2026-11-12T21:44:02+00:00"
+    },
+    {
+     "titulo": "STF decide que norma que absolve crime patrimonial contra mulher é incompatível com a Constituição",
+     "resumo": "O Supremo Tribunal Federal (STF) decidiu nesta quarta-feira (11), por unanimidade, que é incompatível com a Constituição dispositivo do Código Penal que isentava de pena quem cometia crime patrimonial contra a mulher em…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/12/stf-decide-que-norma-que-absolve-crime-patrimonial-contra-mulher-e-incompativel-com-a-constituicao.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-12T19:53:22+00:00"
+    },
+    {
+     "titulo": "União Brasil negocia ter 2 ministérios no 4º governo de Lula",
+     "resumo": "Já há um entendimento de que o partido comandará duas pastas, mas ainda não está definido quais serão; MDB também deve continuar com dois ministérios na próxima gestão",
+     "link": "https://www.poder360.com.br/poder-governo/uniao-brasil-negocia-ter-2-ministerios-no-4o-governo-de-lula/",
+     "fonte": "Poder360",
+     "data": "2026-11-12T21:43:36+00:00"
+    },
+    {
+     "titulo": "Lula embarca para Filipinas para participar de cúpula e ampliar mercado brasileiro na Ásia",
+     "resumo": "COP 31: Lula fica de fora do segundo dia da cúpula de lideranças mundiais O presidente Luiz Inácio Lula da Silva (PT) embarcou nesta quinta-feira (12) para as Filipinas para participar da cúpula da Associação de Nações…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/12/lula-embarca-para-filipinas-para-participar-de-cupula-e-ampliar-mercado-brasileiro-na-asia.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-12T18:37:20+00:00"
+    },
+    {
+     "titulo": "Dólar sobe 1,62% e fecha em R$ 5,652 e Ibovespa cai 0,47%",
+     "resumo": "O mercado está de olho no plano de ajuste fiscal de Lula; pacote pode ter impacto de até R$ 60 bilhões em 2027",
+     "link": "https://www.poder360.com.br/poder-economia/dolar-sobe-162-e-fecha-em-r-5652-e-ibovespa-cai-047/",
+     "fonte": "Poder360",
+     "data": "2026-11-12T21:26:25+00:00"
+    },
+    {
+     "titulo": "STF mantém afastamento de Marco Buzzi do STJ após acusação de assédio, mas mantém salário",
+     "resumo": "O ministro Nunes Marques, do Supremo Tribunal Federal (STF), manteve o afastamento do ministro Marco Buzzi determinado pelo Superior Tribunal de Justiça (STJ), mas negou a suspensão do pagamento do salário.",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/12/stf-mantem-afastamento-de-marco-buzzi-do-stj-apos-acusacao-de-assedio-mas-mantem-salario.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-12T18:35:37+00:00"
+    },
+    {
+     "titulo": "STF derruba isenção de pena em crime patrimonial contra mulher",
+     "resumo": "Por unanimidade, ministros invalidam artigos 181 e 182 do Código Penal; julgamento foi suspenso para definir a modulação dos efeitos",
+     "link": "https://www.poder360.com.br/poder-justica/stf-derruba-isencao-de-pena-em-crime-patrimonial-contra-mulher/",
+     "fonte": "Poder360",
+     "data": "2026-11-12T21:15:17+00:00"
+    }
+   ]
   },
   {
-   "titulo": "Assédio sexual no Exército alemão é mais disseminado do que indicam registros",
-   "resumo": "Levantamento indica que problema é muito maior do que indicavam os registros oficiais. Mulheres jovens são as principais vítimas, e apenas uma parcela dos casos chega a ser denunciada.",
-   "link": "https://www.dw.com/pt-br/assédio-sexual-no-exército-alemão-é-mais-disseminado-do-que-indicam-registros/a-79928530?maca=bra-rss-br-all-1030-rdf",
-   "fonte": "DW Brasil",
-   "data": "2026-11-12T20:02:00+00:00"
+   "id": "ti",
+   "nome": "TI e Segurança",
+   "noticias": [
+    {
+     "titulo": "Anatel exige validação biométrica facial para linhas móveis a partir de 2027",
+     "resumo": "A Agência Nacional de Telecomunicações (Anatel) aprovou a Norma Técnica GT-SEG.2026.11, que obriga as prestadoras do Serviço Móvel Pessoal (SMP) a verificar a identidade dos usuários por meio de reconhecimento facial…",
+     "link": "https://www.cisoadvisor.com.br/anatel-exige-validacao-biometrica-facial-para-linhas-moveis-a-partir-de-2027/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T19:56:42+00:00"
+    },
+    {
+     "titulo": "Golpes por convites de calendário roubam sessões do Google e furam autenticação",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/golpes-por-convites-de-calendario-roubam-sessoes-do-google-e-furam-autenticacao/",
+     "fonte": "TecMundo",
+     "data": "2026-11-05T13:00:00+00:00"
+    },
+    {
+     "titulo": "Programa gratuito quer capacitar novos talentos em cibersegurança",
+     "resumo": "A maratona de três semanas vai oferecer, sem custo algum, o curso “Fundamentos em Cibersegurança” da Cisco Networking Academy.",
+     "link": "https://www.thehack.com.br/programa-gratuito-quer-capacitar-novos-talentos-em-ciberseguranca/",
+     "fonte": "The Hack",
+     "data": "2022-05-16T12:00:00+00:00"
+    },
+    {
+     "titulo": "Ex-CEO da Nvidia teve relacionamento extraconjugal com uma terceira mulher, diz agência",
+     "resumo": "CEO da Nvidia renuncia após escândalo O ex-presidente-executivo (CEO) da Nvidia Jensen Huang teve um relacionamento íntimo com uma segunda funcionária da empresa, segundo duas fontes ouvidas pela Reuters.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/ceo-nvidia-caso.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-12T19:34:08+00:00"
+    },
+    {
+     "titulo": "Caixa Vida e Previdência confirma incidente com cópia de dados",
+     "resumo": "A Caixa Vida e Previdência, uma empresa subsidiária da Caixa Econômica Federal, subordinada à Caixa Seguridade, confirmou ao CISO Advisor que foi vítima de um ataque cibernético que resultou no acesso não autorizado e…",
+     "link": "https://www.cisoadvisor.com.br/caixa-vida-e-previdencia-confirma-incidente-com-copia-de-dados/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T17:57:50+00:00"
+    },
+    {
+     "titulo": "Microsoft Teams caiu? Outlook, 365 e outros serviços Microsoft instáveis nesta quinta (12)",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/microsoft-teams-caiu-outlook-365-e-outros-servicos-microsoft-instaveis-nesta-quinta-12/",
+     "fonte": "TecMundo",
+     "data": "2026-11-12T19:05:00+00:00"
+    },
+    {
+     "titulo": "Fim das senhas: autenticação passwordless já é realidade",
+     "resumo": "Plataforma Secure Access by Duo, da Cisco, passa a suportar login sem o uso das velhas palavras-passe.",
+     "link": "https://www.thehack.com.br/fim-das-senhas-autenticacao-passwordless-ja-e-realidade/",
+     "fonte": "The Hack",
+     "data": "2022-05-09T12:00:00+00:00"
+    },
+    {
+     "titulo": "O que são os chips H200, no centro da polêmica que levou à renúncia do CEO da Nvidia",
+     "resumo": "Os desafios de suceder Huang na Nvidia A polêmica que levou à renúncia do CEO da Nvidia, Jensen Huang, nesta quinta-feira (12) envolve um pequeno componente: o chip H200, um dos mais avançados da empresa americana e que…",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/chips-h200-nvidia.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-12T19:15:13+00:00"
+    },
+    {
+     "titulo": "900 domínios em ataques usando o nome gov.br",
+     "resumo": "A Lumu Technologies identificou uma campanha de golpes que se passa pelo gov.br, pelo Banco Central e por alguns dos principais bancos digitais, para cobrar taxas falsas via Pix.",
+     "link": "https://www.cisoadvisor.com.br/900-dominios-em-ataques-usando-o-nome-gov-br/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T14:20:29+00:00"
+    },
+    {
+     "titulo": "Zoom corrige falhas críticas que permitiam invasão remota no Windows",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/zoom-corrige-falhas-criticas-que-permitiam-invasao-remota-no-windows/",
+     "fonte": "TecMundo",
+     "data": "2026-11-12T21:30:00+00:00"
+    }
+   ]
   },
   {
-   "titulo": "O que se sabe de falha na Microsoft que deixou fora do ar Outlook e afetou Teams, Microsoft 365 e outras plataformas",
-   "resumo": "Empresa informou que registra falhas em seus servidores, após relatos de perda de conexão com serviços como Outlook, Microsoft 365 e Teams em nível mundial.",
-   "link": "https://www.bbc.com/portuguese/articles/c6wy49w32epwo?at_medium=RSS&at_campaign=rss",
-   "fonte": "BBC Brasil",
-   "data": "2026-11-12T21:11:32+00:00"
-  },
-  {
-   "titulo": "VÍDEO: Condenado por terrorismo, italiano de 74 anos escala prédio e foge de prisão domiciliar na Argentina",
-   "resumo": "Italiano condenado por terrorismo escala prédio e foge da prisão domiciliar na Argentina Um italiano de 74 anos condenado por crimes de terrorismo escapou da prisão domiciliar em Buenos Aires, na Argentina, depois de…",
-   "link": "https://g1.globo.com/mundo/noticia/2026/11/12/video-condenado-por-terrorismo-italiano-de-74-anos-escala-predio-e-foge-de-prisao-domiciliar-na-argentina.ghtml",
-   "fonte": "g1 Mundo",
-   "data": "2026-11-12T21:08:26+00:00"
-  },
-  {
-   "titulo": "Escândalo de traição com suposta espiã chinesa leva a renúncia de Jensen Huang como CEO da Nvidia",
-   "resumo": "Jensen Huang renunciou à chefia da gigante tecnológica depois de relato sobre caso amoroso com suposta espiã chinesa e notícia de um outro romance extraconjugal, desta vez com uma subordinada.",
-   "link": "https://www.dw.com/pt-br/escândalo-de-traição-com-suposta-espiã-chinesa-leva-a-renúncia-de-jensen-huang-como-ceo-da-nvidia/a-79928053?maca=bra-rss-br-all-1030-rdf",
-   "fonte": "DW Brasil",
-   "data": "2026-11-12T19:56:00+00:00"
-  },
-  {
-   "titulo": "Os brasileiros que decidiram morar nas grandes metrópoles da China: 'A liberdade muda nossa forma de viver'",
-   "resumo": "China tem a segunda maior comunidade de brasileiros na Ásia, atrás apenas do Japão. Pequim prioriza a concessão de vistos a trabalhadores qualificados e estudantes.",
-   "link": "https://www.bbc.com/portuguese/articles/c235j4dgpz9o?at_medium=RSS&at_campaign=rss",
-   "fonte": "BBC Brasil",
-   "data": "2026-11-12T08:26:27+00:00"
-  },
-  {
-   "titulo": "É #FAKE que vídeo de trânsito no Paraguai mostre 'êxodo' bolsonarista; cena é de congestionamento do feriado de 12 de outubro",
-   "resumo": "Vídeo não mostra saídade bolsonaristas do Paraguia de volta ao Brasil g1 Circula nas redes sociais uma publicação que afirma que um vídeo de carros enfileirados em um trânsito intenso representa um 'êxodo' de…",
-   "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/12/e-fake-que-video-de-transito-no-paraguai-mostre-exodo-bolsonarista-cena-mostra-congestionamento-do-feriado-de-12-de-outubro.ghtml",
-   "fonte": "g1 Mundo",
-   "data": "2026-11-12T20:11:23+00:00"
-  },
-  {
-   "titulo": "Em que pé está a guerra dos EUA contra o Irã?",
-   "resumo": "Embora nenhum dos lados afirme que o conflito tenha terminado formalmente, tensão baixou na região e quadro se assemelha a um \"cessar-fogo virtual\". Para analista, país persa entrou em \"modo de espera\".",
-   "link": "https://www.dw.com/pt-br/em-que-pé-está-a-guerra-dos-eua-contra-o-irã/a-79933179?maca=bra-rss-br-all-1030-rdf",
-   "fonte": "DW Brasil",
-   "data": "2026-11-12T19:41:00+00:00"
-  },
-  {
-   "titulo": "Mãe de menino brasileiro que teve dedo mutilado em Portugal contesta resultado de investigação: 'É como se a vida do meu filho não valesse de nada'",
-   "resumo": "Família contesta conclusão de investigação oficial que descartou bullying e classificou o caso como acidente e aguarda desfecho de processos judiciais.",
-   "link": "https://www.bbc.com/portuguese/articles/ck0jxpxl6q24o?at_medium=RSS&at_campaign=rss",
-   "fonte": "BBC Brasil",
-   "data": "2026-11-12T20:55:16+00:00"
+   "id": "promocoes",
+   "nome": "Promoções",
+   "noticias": [
+    {
+     "titulo": "Celular Samsung na Magalu na Black Friday 2026: quais Galaxy valem a pena",
+     "resumo": "Qual celular Samsung comprar na Magalu na Black Friday? Veja 7 Galaxy com as menores ofertas postadas no Promobit e quais já estão mais baratos que em 2025.",
+     "link": "https://www.promobit.com.br/blog/celular-samsung-magalu-black-friday/",
+     "fonte": "Promobit",
+     "data": "2026-11-12T16:17:31+00:00"
+    },
+    {
+     "titulo": "GTA VI, Street Fighter 6 e mais: seleção de jogos PS5 em promoção na Amazon",
+     "resumo": "O catálogo do PlayStation 5 está recheado de títulos incríveis, e a Amazon reuniu uma seleção de jogos que vale muito a pena conferir.",
+     "link": "https://olhardigital.com.br/2026/11/12/reviews/gta-vi-street-fighter-6-e-mais-selecao-de-jogos-ps5-em-promocao-na-amazon-2/",
+     "fonte": "Olhar Digital",
+     "data": "2026-11-12T21:20:18+00:00"
+    },
+    {
+     "titulo": "Huawei Watch GT 7 Pro sai pelo menor preço em oferta Black antecipada",
+     "resumo": "Smartwatch premium com corpo em titânio possui mais de 110 modos de treino, mede VFC, ECG e detecta arritmias. Oferta no Mercado Livre concede 45% OFF Huawei Watch GT 7 Pro sai pelo menor preço em oferta Black antecipada",
+     "link": "https://tecnoblog.net/achados/huawei-watch-gt-7-pro-sai-pelo-menor-preco-em-oferta-black-antecipada/",
+     "fonte": "Tecnoblog",
+     "data": "2026-11-12T21:03:05+00:00"
+    },
+    {
+     "titulo": "Samsung Galaxy A57: até quanto vale a pena pagar na Black Friday?",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/produto-e-review/samsung-galaxy-a57-ate-quanto-vale-a-pena-pagar-na-black-friday/",
+     "fonte": "TecMundo",
+     "data": "2026-11-12T21:00:00+00:00"
+    },
+    {
+     "titulo": "Cupom de primeira compra Amazon: R$ 30 OFF no app com o código 30PROMOBIT",
+     "resumo": "Use o cupom 30PROMOBIT e ganhe R$ 30 OFF na primeira compra no app da Amazon, em pedidos acima de R$ 100. Veja regras, passo a passo e 7 produtos.",
+     "link": "https://www.promobit.com.br/blog/cupom-primeira-compra-amazon/",
+     "fonte": "Promobit",
+     "data": "2026-11-11T14:44:02+00:00"
+    },
+    {
+     "titulo": "Hora de renovar o escritório: impressoras em promoção na Amazon",
+     "resumo": "Se você está pensando em trocar a impressora ou adquirir uma pela primeira vez, este é o momento certo. Reunimos três boas opções de impressoras multifuncionais em oferta na Amazon, com modelos para diferentes perfis de…",
+     "link": "https://olhardigital.com.br/2026/11/12/reviews/hora-de-renovar-o-escritorio-impressoras-em-promocao-na-amazon-6/",
+     "fonte": "Olhar Digital",
+     "data": "2026-11-12T21:00:18+00:00"
+    },
+    {
+     "titulo": "TV Samsung OLED 55″ para jogos tem R$ 3.000 OFF com cupom da Black November",
+     "resumo": "Smart TV 4K OLED Samsung S85H oferece jogabilidade fluida e responsiva com painel de 120 Hz; oferta no mês da Black Friday reduz preço em 37% TV Samsung OLED 55″ para jogos tem R$ 3.000 OFF com cupom da Black November",
+     "link": "https://tecnoblog.net/achados/tv-samsung-oled-55-para-jogos-tem-r-3-000-off-com-cupom-da-black-november/",
+     "fonte": "Tecnoblog",
+     "data": "2026-11-12T20:44:30+00:00"
+    },
+    {
+     "titulo": "Lava-louças Electrolux com 8 serviços com um ótimo desconto",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/guia-de-compras/lava-loucas-electrolux-com-8-servicos-com-um-otimo-desconto/",
+     "fonte": "TecMundo",
+     "data": "2026-11-12T18:20:00+00:00"
+    }
+   ]
   }
  ]
 }

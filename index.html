@@ -607,11 +607,12 @@ document.querySelectorAll(".cidades button").forEach(b => b.addEventListener("cl
   cidade = b.dataset.cidade; diaSel = HOJE;
   try { localStorage.setItem("cidade", cidade); } catch(e) {}
   carregar();
+  if (window.reajustarNoticias) window.reajustarNoticias();
 }));
 carregar();
 
 // ---------- Noticias (arquivo atualizado pelo GitHub a cada 3 horas) ----------
-const ICONE_CAT = {mundo: "🌍", politica: "🏛️", ti: "💻", acoes: "📈"};
+const ICONE_CAT = {mundo: "🌍", politica: "🏛️", ti: "💻", acoes: "📈", blumenau: "📍", bc: "📍"};
 // ---------- Mercado: dolar, euro e bitcoin ao vivo; Ibovespa vem do robo ----------
 const brl = (n, dec = 2) => n.toLocaleString("pt-BR", {minimumFractionDigits: dec, maximumFractionDigits: dec});
 function pintarVar(id, pct) {
@@ -630,9 +631,15 @@ fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL").th
 fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(j => {
   if (j.ibovespa) { $("m-ibov").textContent = brl(j.ibovespa.pontos, 0) + " pts"; pintarVar("v-ibov", j.ibovespa.variacao); }
   else $("m-ibov").textContent = "—";
-  const cats = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
-  let atual = cats[0].id;
-  try { const s = localStorage.getItem("categoria"); if (cats.some(c => c.id === s)) atual = s; } catch(e) {}
+  const todas = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
+  let cats = [], atual = "mundo";
+  try { atual = localStorage.getItem("categoria") || atual; } catch(e) {}
+  // a aba da cidade escolhida vem primeiro; a da outra cidade fica escondida
+  window.reajustarNoticias = () => {
+    cats = [...todas.filter(c => c.id === cidade), ...todas.filter(c => c.id !== "blumenau" && c.id !== "bc")];
+    if (!cats.some(c => c.id === atual)) atual = cats[0].id;
+    mostrar();
+  };
   const mostrar = () => {
     $("abas").innerHTML = cats.map(c => `<button role="tab" data-cat="${c.id}" aria-selected="${c.id === atual}">${ICONE_CAT[c.id] || ""} ${esc(c.nome)}<span class="qtd">${c.noticias.length}</span></button>`).join("");
     const cat = cats.find(c => c.id === atual);
@@ -645,7 +652,7 @@ fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).
     try { localStorage.setItem("categoria", atual); } catch(e) {}
     mostrar();
   });
-  mostrar();
+  window.reajustarNoticias();
   const at = new Date(j.atualizado).toLocaleString("pt-BR", {timeZone: TZ, day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"});
   $("noticias-hora").textContent = "Atualizado em " + at + " (horário de Brasília).";
 }).catch(() => { $("noticias").innerHTML = '<li class="erro">Não consegui carregar as notícias agora.</li>'; });

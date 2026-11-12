@@ -13,12 +13,20 @@ import html
 import json
 import re
 import sys
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 PROMO = r"promo|oferta|cupom|desconto|menor pre[cç]o|black friday|baixou|barato|pre[cç]o no ch[aã]o"
+
+
+def gnews(busca):
+    """Endereco do Google Noticias para uma busca (ultimos 3 dias, em portugues)."""
+    return ("https://news.google.com/rss/search?q=" + urllib.parse.quote(busca + " when:3d") +
+            "&hl=pt-BR&gl=BR&ceid=BR:pt-419")
+
 
 CATEGORIAS = [
     ("mundo", "Mundo", 8, [
@@ -41,6 +49,15 @@ CATEGORIAS = [
         ("Investing.com", "https://br.investing.com/rss/news_25.rss", None),
         ("Seu Dinheiro", "https://www.seudinheiro.com/feed/", None),
         ("E-Investidor", "https://einvestidor.estadao.com.br/feed/", None),
+    ]),
+    # Noticias da cidade: a pagina mostra so a da cidade escolhida (ids = "blumenau" e "bc")
+    ("blumenau", "Blumenau", 8, [
+        ("Google Notícias", gnews("Blumenau"), None),
+    ]),
+    ("bc", "Balneário Camboriú", 10, [
+        ("BC Notícias", "https://www.bcnoticias.com.br/feed/", None),
+        ("Camboriú News", "https://camboriu.news/feed/", None),
+        ("Google Notícias", gnews('"Balneário Camboriú"'), None),
     ]),
 ]
 POR_FONTE = 4
@@ -113,7 +130,37 @@ def baixar(url):
     return _cache[url]
 
 
+def ler_google(url, por_veiculo=2, maximo=8):
+    """Google Noticias: o titulo vem como 'Titulo - Veiculo'. Separa os dois, mostra as mais
+    novas primeiro e limita por veiculo para nao ficar tudo do mesmo site."""
+    raiz = ET.fromstring(baixar(url))
+    itens = []
+    for it in raiz.iter():
+        if it.tag.split("}")[-1] != "item":
+            continue
+        bruto, link = limpar(filho(it, "title")), filho(it, "link")
+        if " - " not in bruto or not link:
+            continue
+        titulo, veiculo = bruto.rsplit(" - ", 1)
+        itens.append({"titulo": titulo.strip(), "resumo": "", "link": link, "fonte": veiculo.strip(),
+                      "data": data_iso(filho(it, "pubDate"))})
+    itens.sort(key=lambda x: x["data"] or "", reverse=True)
+    saida, contagem, vistos = [], {}, set()
+    for x in itens:
+        chave = x["titulo"].lower()[:50]
+        if contagem.get(x["fonte"], 0) >= por_veiculo or chave in vistos:
+            continue
+        contagem[x["fonte"]] = contagem.get(x["fonte"], 0) + 1
+        vistos.add(chave)
+        saida.append(x)
+        if len(saida) >= maximo:
+            break
+    return saida
+
+
 def ler_fonte(nome, url, filtro):
+    if "news.google.com" in url:
+        return ler_google(url)
     raiz = ET.fromstring(baixar(url))
     itens = [e for e in raiz.iter() if e.tag.split("}")[-1] == "item"]
     saida = []
@@ -150,7 +197,7 @@ def montar_categoria(fontes, total, ja_usados):
             print(f"Falhou {nome}: {e}", file=sys.stderr)
     # intercala as fontes: 1a de cada, 2a de cada...
     lista = []
-    for i in range(POR_FONTE):
+    for i in range(max([len(x) for x in por_fonte] or [0])):
         for itens in por_fonte:
             if i < len(itens) and itens[i]["link"] not in ja_usados:
                 ja_usados.add(itens[i]["link"])

@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T22:33:18.545212+00:00",
+ "atualizado": "2026-11-12T22:52:20.850021+00:00",
  "ibovespa": {
   "pontos": 171324,
   "variacao": -0.43,
@@ -73,18 +73,18 @@
    "nome": "Política",
    "noticias": [
     {
-     "titulo": "ASSISTA: Senado aprova urgência para votar ajuste fiscal ainda hoje",
+     "titulo": "ASSISTA: Senado discute o projeto de ajuste fiscal; texto pode ser votado ainda hoje",
      "resumo": "",
      "link": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-12T22:24:48+00:00"
+     "data": "2026-11-12T22:41:45+00:00"
     },
     {
-     "titulo": "Braga mantém proteções a gastos em relatório do ajuste fiscal de Lula",
-     "resumo": "Parecer tem impacto de até R$ 56,1 bilhões em 2027 e impede remanejamento de economias de outros Poderes",
-     "link": "https://www.poder360.com.br/poder-congresso/braga-mantem-protecoes-a-gastos-em-relatorio-do-ajuste-fiscal-de-lula/",
+     "titulo": "Kassab elogia “pré-disposição” de Lula para fazer ajuste fiscal",
+     "resumo": "Presidente do PSD não respondeu diretamente se aceitaria assumir um ministério; disse que participação em cargos é secundária",
+     "link": "https://www.poder360.com.br/poder-economia/kassab-elogia-pre-disposicao-de-lula-para-fazer-ajuste-fiscal/",
      "fonte": "Poder360",
-     "data": "2026-11-12T22:14:23+00:00"
+     "data": "2026-11-12T22:39:40+00:00"
     },
     {
      "titulo": "STF decide que norma que absolve crime patrimonial contra mulher é incompatível com a Constituição",
@@ -94,11 +94,11 @@
      "data": "2026-11-12T19:53:22+00:00"
     },
     {
-     "titulo": "Ações do Banco do Brasil fecham em queda de 8,35% após balanço",
-     "resumo": "O resultado financeiro do 3º tri foi considerado muito negativo pelos analistas; lucro caiu 66,5% na comparação anual",
-     "link": "https://www.poder360.com.br/poder-economia/acoes-do-banco-do-brasil-fecham-em-queda-de-835-apos-balanco/",
+     "titulo": "Braga mantém proteções a gastos em relatório do ajuste fiscal de Lula",
+     "resumo": "Parecer tem impacto de até R$ 56,1 bilhões em 2027 e impede remanejamento de economias de outros Poderes",
+     "link": "https://www.poder360.com.br/poder-congresso/braga-mantem-protecoes-a-gastos-em-relatorio-do-ajuste-fiscal-de-lula/",
      "fonte": "Poder360",
-     "data": "2026-11-12T22:02:24+00:00"
+     "data": "2026-11-12T22:14:23+00:00"
     },
     {
      "titulo": "Lula embarca para Filipinas para participar de cúpula e ampliar mercado brasileiro na Ásia",
@@ -108,11 +108,11 @@
      "data": "2026-11-12T18:37:20+00:00"
     },
     {
-     "titulo": "Pará decreta emergência ambiental e climática por 120 dias",
-     "resumo": "Medida suspende autorizações para uso do fogo e restringe queimadas em 31 municípios",
-     "link": "https://www.poder360.com.br/poder-brasil/para-decreta-emergencia-ambiental-e-climatica-por-120-dias/",
+     "titulo": "Ações do Banco do Brasil fecham em queda de 8,35% após balanço",
+     "resumo": "O resultado financeiro do 3º tri foi considerado muito negativo pelos analistas; lucro caiu 66,5% na comparação anual",
+     "link": "https://www.poder360.com.br/poder-economia/acoes-do-banco-do-brasil-fecham-em-queda-de-835-apos-balanco/",
      "fonte": "Poder360",
-     "data": "2026-11-12T21:54:53+00:00"
+     "data": "2026-11-12T22:02:24+00:00"
     },
     {
      "titulo": "STF mantém afastamento de Marco Buzzi do STJ após acusação de assédio, mas mantém salário",
@@ -122,11 +122,11 @@
      "data": "2026-11-12T18:35:37+00:00"
     },
     {
-     "titulo": "Lucro líquido do Nubank sobe 39,5% no 3º trimestre e bate recorde",
-     "resumo": "Instituição registrou ganhos de US$ 1,09 bilhão de julho a setembro; valor foi de US$ 782,70 milhões no mesmo período de 2025",
-     "link": "https://www.poder360.com.br/poder-economia/lucro-liquido-do-nubank-sobe-395-no-3o-trimestre-e-bate-recorde/",
+     "titulo": "Pará decreta emergência ambiental e climática por 120 dias",
+     "resumo": "Medida suspende autorizações para uso do fogo e restringe queimadas em 31 municípios",
+     "link": "https://www.poder360.com.br/poder-brasil/para-decreta-emergencia-ambiental-e-climatica-por-120-dias/",
      "fonte": "Poder360",
-     "data": "2026-11-12T21:52:30+00:00"
+     "data": "2026-11-12T21:54:53+00:00"
     }
    ]
   },
@@ -135,11 +135,18 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Silent Hill: Townfall e mais games de PS5 e PS4 com até 90% OFF",
+     "titulo": "Apache corrige falha crítica de execução remota no HTTP/2",
+     "resumo": "A Apache Software Foundation corrigiu uma vulnerabilidade crítica no módulo HTTP/2 do Apache HTTP Server que pode ser explorada por um atacante não autenticado para obter execução remota de código (RCE).",
+     "link": "https://www.cisoadvisor.com.br/apache-corrige-falha-critica-de-execucao-remota-no-http-2/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T22:50:15+00:00"
+    },
+    {
+     "titulo": "Fraudes judiciais usam emails falsos para roubar dados na América Latina",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/silent-hill-townfall-e-mais-games-de-ps5-e-ps4-com-ate-90-off/",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/fraudes-judiciais-usam-emails-falsos-para-roubar-dados-na-america-latina/",
      "fonte": "TecMundo",
-     "data": "2026-11-12T22:15:00+00:00"
+     "data": "2026-11-12T22:30:00+00:00"
     },
     {
      "titulo": "Programa gratuito quer capacitar novos talentos em cibersegurança",
@@ -156,11 +163,18 @@
      "data": "2026-11-12T19:34:08+00:00"
     },
     {
-     "titulo": "Jensen Huang aceita ir ao Congresso dos EUA esclarecer relação com suposta espiã chinesa",
+     "titulo": "Zero-day no N-able N-central é explorada e instala mineradores",
+     "resumo": "Atacantes exploram uma nova zero-day no N-able N-central, apelidada “4EverAble2Shell”, para comprometer servidores e instalar mineradores de criptomoedas.",
+     "link": "https://www.cisoadvisor.com.br/zero-day-no-n-able-n-central-e-explorada-e-instala-mineradores/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T22:46:07+00:00"
+    },
+    {
+     "titulo": "Silent Hill: Townfall e mais games de PS5 e PS4 com até 90% OFF",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/big-techs/jensen-huang-vai-ao-congresso-dos-eua-esclarecer-relacao-com-suposta-espia-chinesa/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/silent-hill-townfall-e-mais-games-de-ps5-e-ps4-com-ate-90-off/",
      "fonte": "TecMundo",
-     "data": "2026-11-12T22:00:00+00:00"
+     "data": "2026-11-12T22:15:00+00:00"
     },
     {
      "titulo": "Fim das senhas: autenticação passwordless já é realidade",
@@ -177,32 +191,18 @@
      "data": "2026-11-12T19:15:13+00:00"
     },
     {
-     "titulo": "Vivo Satélite: como verificar a compatibilidade do celular e usar a internet da Starlink?",
+     "titulo": "Anatel exige validação biométrica facial para linhas móveis a partir de 2027",
+     "resumo": "A Agência Nacional de Telecomunicações (Anatel) aprovou a Norma Técnica GT-SEG.2026.11, que obriga as prestadoras do Serviço Móvel Pessoal (SMP) a verificar a identidade dos usuários por meio de reconhecimento facial…",
+     "link": "https://www.cisoadvisor.com.br/anatel-exige-validacao-biometrica-facial-para-linhas-moveis-a-partir-de-2027/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T19:56:42+00:00"
+    },
+    {
+     "titulo": "Jensen Huang aceita ir ao Congresso dos EUA esclarecer relação com suposta espiã chinesa",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/big-techs/vivo-satelite-como-verificar-a-compatibilidade-do-celular-e-usar-a-internet-da-starlink/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/jensen-huang-vai-ao-congresso-dos-eua-esclarecer-relacao-com-suposta-espia-chinesa/",
      "fonte": "TecMundo",
-     "data": "2026-11-07T13:00:00+00:00"
-    },
-    {
-     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
-     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
-     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
-     "fonte": "The Hack",
-     "data": "2022-05-04T12:00:00+00:00"
-    },
-    {
-     "titulo": "Outlook fora do ar? Serviço de e-mail e IA da Microsoft apresentam instabilidade nesta quinta",
-     "resumo": "Usuários relataram dificuldades para acessar alguns serviços da Microsoft, como o Outlook, na tarde desta quinta-feira (12).",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/outlook-fora-do-ar.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-12T18:40:04+00:00"
-    },
-    {
-     "titulo": "Golpes por convites de calendário roubam sessões do Google e furam autenticação",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/golpes-por-convites-de-calendario-roubam-sessoes-do-google-e-furam-autenticacao/",
-     "fonte": "TecMundo",
-     "data": "2026-11-05T13:00:00+00:00"
+     "data": "2026-11-12T22:00:00+00:00"
     }
    ]
   },
@@ -279,6 +279,144 @@
      "link": "https://br.investing.com/news/stock-market-news/cpfl-tem-queda-do-lucro-no-3o-tri-com-efeito-contabil-de-renovacao-de-concessoes-2125852",
      "fonte": "Investing.com",
      "data": "2026-11-12T22:21:03+00:00"
+    }
+   ]
+  },
+  {
+   "id": "blumenau",
+   "nome": "Blumenau",
+   "noticias": [
+    {
+     "titulo": "Natal em Blumenau terá programação diária com atrações culturais e atividades para toda a família - Top Society",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR2hmOEI1Tkd4akkyOWFBYWZQMS14YUliUnJNb0xyRUlVUmlERjRUOWRKbWdUaWpGSmdvdVphc2ZsenFlUnBJYkttWTJlaGp6Z0M0LVJYUXJFbThlYlZNRXJpQ1JqQjhZU3lWdEx1bTZmVjJOVmYyM1RZS1dWZ00wZmkzMDl3blJVWU4wRF82eUM2R0EwbjJoNFRLdWtJNzhZWW5IaXFqRzd5aUFoM1J6OTJGM1Q3aTBRTG9LR29zTTZTUQ?oc=5",
+     "fonte": "Karla Cruz",
+     "data": "2026-11-12T22:29:25+00:00"
+    },
+    {
+     "titulo": "Polícia Civil prende homem e apreende mais de quatro quilos de maconha em Indaial",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHBLNTZOcTlpZXNueXdDRHRFaFYzNVlyWkkxZDdKYkxSLVJ6MmRyczFEZ3VfTnZqa3kwRktiS1d6S2FyUGgxX0tQNlNMeVZGSU5ZSjlVNXc1Q0lXVEtQd0pyNHV0cFFJaWFVM2hSVHJlczBHblRIeVFKTjVQSE93N2NDWEVJWFRKbXZsVkJ1V3NYcmFOS290anVLRndmZTNCbURDOWxIOXhZZkdxeW5Zb3l2Z3ZJVXh5?oc=5",
+     "fonte": "AJ Notícias",
+     "data": "2026-11-12T21:59:00+00:00"
+    },
+    {
+     "titulo": "Quem será o futuro líder do Governo Egidio na Câmara de Blumenau?",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZnpkaXVta0czSDgtSVNYNWxHX0dORHVWS1NsdVV6RVFpdXFibGdBZGdVdkRlZXlyX0FWUjZEOVgyTXRQRkVWaDBBV0lTQWNhS19IbTQ2ZHZYX1BERHVzMUllQW1yUm9iN0g3S0dKc2d2Q0NEZHlPUzNRbWJTM2dHTjI1S2VXbklSblBqd1JRYTF0cFl3MWk0MzJFTTdxQQ?oc=5",
+     "fonte": "Informe Blumenau",
+     "data": "2026-11-12T21:35:17+00:00"
+    },
+    {
+     "titulo": "Professora de Blumenau vence “Oscar da Educação” com projeto sobre ciclo da água",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamxfTDR2Sm1zYVp1bE1LQTgzUEZ2Um5wUnFRZHZ4eFFnckwyWi1YR2EzUzd0ZWVtbm1JVzZudU53VDVWVHNrVlZVc2Y4dWR0UV9VdzVHOFpXVVNucXVLbnlUc0RuNWdTT1IyaFg5V1hPRHRTTC1JeXphb2JTeVpoN3NiT1ZnUlV1TVNHTmhzZG1CZlFjeDFSQnZaN2dVWmhXb2REcmxnN0tFcFY4WXF3SU1EbDV1dw?oc=5",
+     "fonte": "No Ponto SC",
+     "data": "2026-11-12T20:42:44+00:00"
+    },
+    {
+     "titulo": "Proposta que altera convocação de suplentes de vereadores é aprovada em segundo turno",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZS13YnVvNHpOLVBNUUNsa0pMVnY0bVgtUF9uSDUyUU5QWHZZc1VhMXhhMld4UnRLVjVJT2tWanJiYWREOGM5UGNndlpsMUJ3RXB0TEtET3pYQjZPV0pNcWQzMUZ2V3k1ZlV1bmZ0LUVOS2NCOFhXeUtlLUw4VjhRcWZpNUtuR1FOdUt0RjNGZkNRSGFDS0NiMG9ubEZiYkxEc2ZqVjl3VnlzN3pvZG5HYWpSUjQyb0RVbUE?oc=5",
+     "fonte": "Informe Blumenau",
+     "data": "2026-11-12T20:39:40+00:00"
+    },
+    {
+     "titulo": "Professora da rede estadual de Blumenau vence o Prêmio Educador Nota 10 na categoria Inovação e Tecnologia",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTnEyS2xIU2szZjk2VUktMGJ4bTgtSlhpcjlIQ21vTzA4UklzeFB5c2loVF9NNmVlMDRka0Nlc0NHSFp1RkNIWU9tR0VibDVGLTEwR213a2ljQmE0a1prdy04NUE5X1dvY1ctTXF0MnVCQi1Lb2Z2REFFMnVmNlVkVzlUMFY1UDd2dGJqWmN6SDNqSExlWjRHVzVXaGx3MjRZNUREeVRHME52SzZFM05jZGFmMkxQMlYxcVhV?oc=5",
+     "fonte": "Deolhonailha",
+     "data": "2026-11-12T20:38:24+00:00"
+    },
+    {
+     "titulo": "Celesc anuncia novo gerente para a Agência Regional de Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaDE4YVdjdW16cThJQTNtbTczUjZycDcxM1RvT0V3ZGloemtEUHRYd2hqMTBFV2pCUVVLZjNfUEp5RjM3TDJqenBEMFFwd084MC00RkFjNzVCZVk5VldhcWNjS0xsbWJ5UHBRSmFuN2txV2RNQU1qTlhicXY2aF9tV1NuTlRBb0l0RE1fUmt3bjBZRVZ4T0lqTC1EaUVFbmFNbGlDTU1n?oc=5",
+     "fonte": "AJ Notícias",
+     "data": "2026-11-12T20:33:16+00:00"
+    },
+    {
+     "titulo": "Novembro Roxo: Florianópolis e Blumenau terão caminhadas em alerta aos cuidados com prematuros",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcVRENENnOFFTZ0lQRElITWJNOHZMaEM2S3hYTUQ4TnA2V1hKNlhPOHdoTTFXejBlN3JPdmwzWGZtZ205c2ROLVBEZFBBMWlHV09TQ1BZQjlpV3NSdmh3V1RvT0tJTDJqeE1ydDVkb0wxYXNyb1YwdUdQejB0YTFuOTFmeFhVV2NpXzFDSTUyaE93dE9qQzRncVpPelpmTTN4aVNDWVlzcDhhdlh2dWRIM2Z5clpDV0NvR3NuWFdOY2FDTVozVDN2RjFodw?oc=5",
+     "fonte": "SCC10",
+     "data": "2026-11-12T20:17:09+00:00"
+    }
+   ]
+  },
+  {
+   "id": "bc",
+   "nome": "Balneário Camboriú",
+   "noticias": [
+    {
+     "titulo": "Rodeio Crioulo em Itajaí vai de quinta a domingo com entrada gratuita no parque e shows",
+     "resumo": "O 2º Rodeio Crioulo Nacional do CTG Cidade do Porto começa nesta quinta-feira (12) e segue até domingo (15), no Parque do Agricultor Gilmar Graf, em Itajaí.",
+     "link": "https://www.bcnoticias.com.br/rodeio-crioulo-em-itajai-vai-de-quinta-a-domingo-com-entrada-gratuita-no-parque-e-shows/",
+     "fonte": "BC Notícias",
+     "data": "2026-11-12T21:27:15+00:00"
+    },
+    {
+     "titulo": "Homem é encontrado debilitado após ficar 9 dias no Pico da Pedra em Camboriú",
+     "resumo": "Debilitado e com sinais de possível hipotermia, ele precisou de várias paradas durante a descida até o ponto de apoio Leia no Camboriú News",
+     "link": "https://camboriu.news/homem-e-encontrado-debilitado-apos-ficar-9-dias-no-pico-da-pedra-em-camboriu/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-12T22:37:38+00:00"
+    },
+    {
+     "titulo": "Armandinho e Vitor Kley fazem shows em Balneário Camboriú e Floripa",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUThPRVppRS1EVTI4Ni1tdFhKRVdjbnY0am5lSk9Zdzdid2hzbHh5QXZxN2RxcFZlMXNLbWY3SFZXUERLeHBmUjlnQXdnaXRhNUIxTFNrMkNXRWNPOEE5RmI2LWpaam42cEg3Nl9KY1ZzbTZQWUFaY3VnakhBM1JFWTJSeWdCVGxaLWpFUk9xbVl5X0FRbkdOQzB1eHlERGZ3NXM3XzJn?oc=5",
+     "fonte": "DIARINHO",
+     "data": "2026-11-12T22:33:11+00:00"
+    },
+    {
+     "titulo": "Feira de Vinil acontece neste fim de semana no Atlântico Shopping, em Balneário Camboriú",
+     "resumo": "Os apaixonados por discos de vinil terão uma opção de passeio neste fim de semana em Balneário Camboriú. Nos dias 14 e 15 de novembro (sábado e domingo), o Atlântico Shopping recebe a Feira de Vinil, com discos novos e…",
+     "link": "https://www.bcnoticias.com.br/feira-de-vinil-acontece-neste-fim-de-semana-no-atlantico-shopping-em-balneario-camboriu/",
+     "fonte": "BC Notícias",
+     "data": "2026-11-12T20:56:30+00:00"
+    },
+    {
+     "titulo": "Prefeito é acusado de receber celulares e iPad como propina e favorecer empresas em contratos públicos em SC",
+     "resumo": "TJSC recebeu denúncia contra Castilho Silvano Vieira e outras seis pessoas e determinou afastamento do prefeito por 180 dias Leia no Camboriú News",
+     "link": "https://camboriu.news/prefeito-e-acusado-de-receber-celulares-e-ipad-como-propina-e-favorecer-empresas-em-contratos-publicos-em-sc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-12T18:44:59+00:00"
+    },
+    {
+     "titulo": "Balneário Camboriú inicia articulação para receber edição de Bienal Internacional de Curitiba",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNEtqM3g1VUJCQmZGTGxVdWJIbEVyMnItVFFRR3FLSFE2WGF2R09SQXY5em9VY0lJUjZZYThhYk5rWUQ3VlRTY3ViRHdrb0RCQTEzSlNNdjI5SHlqNFR1TER0YkVGQXlSQmtfYlVXY0xJU2p1X3J0NjlHQkJndUl4RjV6NnRoZW9iSzVSZkNoY1paUnZoYkptbXBkUzA1Y3dzTkNmTDJQNXBGcXNIb0EzQnF5aUh6eDljM2xXS0lnSFZMRGM?oc=5",
+     "fonte": "Página 3",
+     "data": "2026-11-12T22:30:00+00:00"
+    },
+    {
+     "titulo": "Balneário Camboriú abre temporada de Natal e realiza primeiro desfile neste sábado",
+     "resumo": "Balneário Camboriú abriu a segunda edição do Viva o Natal BC na noite de quarta-feira (11), com o acendimento das luzes de Natal na Praia Central.",
+     "link": "https://www.bcnoticias.com.br/balneario-camboriu-abre-temporada-de-natal-e-realiza-primeiro-desfile-neste-sabado/",
+     "fonte": "BC Notícias",
+     "data": "2026-11-12T12:23:39+00:00"
+    },
+    {
+     "titulo": "Quadrilha furta cerca de 100 celulares de loja em Palhoça e polícia faz prisões no RS",
+     "resumo": "Prejuízo estimado chegou a R$ 600 mil; três pessoas foram presas e parte dos aparelhos já foi recuperada Leia no Camboriú News",
+     "link": "https://camboriu.news/quadrilha-furta-cerca-de-100-celulares-de-loja-em-palhoca-e-policia-faz-prisoes-no-rs/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-12T18:10:29+00:00"
+    },
+    {
+     "titulo": "Super Drill é bicampeão da Batalha do Silêncio em Balneário Camboriú",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbW52ZmlrejFuYXB1TkJMUF9JLUx1NmNxamVXelZsT2wxdzNDREZXV3NPcmFfUEdXSXJkMlhFOE5FTjBjaDh6TXk1eE5SUDFnY1M4dlZJWTVhX3JONkZrNjZaRHlGU1lxZ3VtZFU1aXY4UVl6clNrZG1PRnhtY0ROc3ozV1JSSlRSVjhkRllvZXNkTUhLd0lUR1hQVDM1VmV0Q1E?oc=5",
+     "fonte": "Página 3",
+     "data": "2026-11-12T21:46:07+00:00"
+    },
+    {
+     "titulo": "Balneário Camboriú divulga lista final de ambulantes autorizados a trabalhar nas praias na temporada 2026/2027",
+     "resumo": "A Prefeitura de Balneário Camboriú divulgou, nesta terça-feira (10), a lista definitiva dos classificados no chamamento público para o comércio ambulante na faixa de areia das praias durante a temporada 2026/2027.",
+     "link": "https://www.bcnoticias.com.br/balneario-camboriu-divulga-lista-final-de-ambulantes-autorizados-a-trabalhar-nas-praias-na-temporada-2026-2027/",
+     "fonte": "BC Notícias",
+     "data": "2026-11-12T00:28:05+00:00"
     }
    ]
   }

@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bom Dia</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='36' r='14' fill='%23e8a317'/%3E%3Cg stroke='%23e8a317' stroke-width='5' stroke-linecap='round'%3E%3Cpath d='M32 6v8M10 36H2M62 36h-8M13 17l6 6M51 17l-6 6'/%3E%3C/g%3E%3Cpath d='M4 56h56' stroke='%2316618f' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#f3efe7; --surface:#fffdf9; --cell:#ebe5d9; --ink:#1d1a16; --muted:#6b6457; --line:#ddd5c6;
+  --sun:#d98a0b; --sun-soft:#f7e2b5; --sea:#16618f; --sea-soft:#cfe3f0; --rain:#3a7fc0; --pop:#b8336a;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",Consolas,ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#13161c; --surface:#1b2029; --cell:#252b37; --ink:#ece8e0; --muted:#a29b8e; --line:#313847;
+  --sun:#f2b441; --sun-soft:#4a3a17; --sea:#6cc0ee; --sea-soft:#1d3a4d; --rain:#79b4ec; --pop:#ee7ba6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#13161c; --surface:#1b2029; --cell:#252b37; --ink:#ece8e0; --muted:#a29b8e; --line:#313847;
+  --sun:#f2b441; --sun-soft:#4a3a17; --sea:#6cc0ee; --sea-soft:#1d3a4d; --rain:#79b4ec; --pop:#ee7ba6; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--body)}
+main{max-width:980px;margin:0 auto;padding:20px 16px 48px}
+h1,h2{font-family:var(--display);font-weight:700;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,6vw,3rem);line-height:1}
+h2{font-size:1.15rem;margin-bottom:12px}
+.topo{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px;margin-bottom:18px}
+.data{color:var(--muted);margin-top:6px;text-transform:capitalize}
+.cidades{display:flex;background:var(--cell);border-radius:999px;padding:4px;gap:4px}
+.cidades button{border:0;background:transparent;color:var(--ink);font:600 .95rem var(--body);padding:8px 16px;border-radius:999px;cursor:pointer}
+.cidades button[aria-pressed="true"]{background:var(--sea);color:var(--surface)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:16px}
+.destaque{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:20px;align-items:center}
+.agora .icone{font-size:3.2rem;line-height:1}
+.agora .temp{font:700 4rem/1 var(--display)}
+.agora .desc{font-weight:600;margin-top:4px}
+.agora .extra{color:var(--muted);font-size:.92rem;margin-top:6px}
+.rotulo{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600}
+.grafico svg{width:100%;height:auto;display:block}
+.grafico text{font-family:var(--mono);font-size:11px;fill:var(--muted)}
+.grafico .vt{fill:var(--ink);font-size:12px;font-weight:600}
+.horas{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 8px;margin-top:14px;scroll-snap-type:x proximity}
+.hora{flex:0 0 68px;scroll-snap-align:start;background:var(--cell);border-radius:12px;padding:8px 4px;text-align:center}
+.hora.atual{background:var(--sun-soft);outline:2px solid var(--sun)}
+.hora .h{font:600 .8rem var(--mono);color:var(--muted)}
+.hora .e{font-size:1.4rem;line-height:1.5}
+.hora .t{font-weight:600}
+.hora .c{font:500 .75rem var(--mono);color:var(--rain);min-height:1.1em}
+.semana{display:grid;gap:6px}
+.dia{display:grid;grid-template-columns:92px 34px 1fr 92px;gap:10px;align-items:center;padding:8px 10px;border-radius:12px;border:0;background:transparent;color:var(--ink);font:inherit;text-align:left;cursor:pointer;width:100%}
+.dia:hover{background:var(--cell)}
+.dia[aria-pressed="true"]{background:var(--sea-soft)}
+.dia .nome{font-weight:600;text-transform:capitalize}
+.dia .e{font-size:1.4rem;text-align:center}
+.dia .chuva{font:500 .85rem var(--mono);color:var(--rain);text-align:right}
+.faixa{display:flex;align-items:center;gap:8px;font:600 .9rem var(--mono)}
+.faixa .min{color:var(--muted);width:30px;text-align:right}
+.faixa .barra{flex:1;height:8px;background:var(--cell);border-radius:8px;position:relative}
+.faixa .barra i{position:absolute;top:0;bottom:0;border-radius:8px;background:linear-gradient(90deg,var(--sea),var(--sun))}
+.duas{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.duas .card{margin-bottom:0}
+.frase{font:500 1.25rem/1.4 var(--display);margin:0}
+.signo .frase{font-size:1.1rem}
+.signo .simbolo{float:right;font-size:2.2rem;line-height:1;margin-left:8px}
+.nota{color:var(--muted);font-size:.8rem;margin-top:10px}
+.noticias{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.noticias li{padding-bottom:14px;border-bottom:1px solid var(--line)}
+.noticias li:last-child{border-bottom:0;padding-bottom:0}
+.noticias a{color:var(--ink);font-weight:600;text-decoration:none}
+.noticias a:hover{text-decoration:underline;color:var(--sea)}
+.noticias p{margin:4px 0 0;color:var(--muted);font-size:.95rem}
+.fonte{font:500 .75rem var(--mono);color:var(--pop);text-transform:uppercase;letter-spacing:.05em}
+.secao{margin-top:28px}
+.erro{color:var(--pop)}
+footer{color:var(--muted);font-size:.8rem;text-align:center;margin-top:32px}
+footer a{color:inherit}
+@media (max-width:700px){
+  .destaque,.duas{grid-template-columns:minmax(0,1fr)}
+  .duas{gap:16px}
+  .dia{grid-template-columns:70px 28px 1fr 46px;gap:6px;padding:8px 4px}
+  .agora .temp{font-size:3.4rem}
+}
+</style>
+</head>
+<body>
+<main>
+  <header class="topo">
+    <div>
+      <h1>Bom Dia ☀️</h1>
+      <div class="data" id="hoje"></div>
+    </div>
+    <div class="cidades" role="group" aria-label="Escolha a cidade">
+      <button data-cidade="blumenau" aria-pressed="true">Blumenau</button>
+      <button data-cidade="bc" aria-pressed="false">Balneário Camboriú</button>
+    </div>
+  </header>
+
+  <section class="card" aria-live="polite">
+    <div class="destaque">
+      <div class="agora" id="agora"><span class="rotulo">Carregando previsão…</span></div>
+      <div class="grafico">
+        <div class="rotulo" id="titulo-grafico">Temperatura ao longo do dia</div>
+        <div id="grafico"></div>
+      </div>
+    </div>
+    <div class="horas" id="horas"></div>
+  </section>
+
+  <section class="card">
+    <h2>Previsão da semana</h2>
+    <div class="semana" id="semana"></div>
+    <div class="nota">Toque num dia para ver as horas dele no quadro de cima.</div>
+  </section>
+
+  <div class="duas secao">
+    <section class="card">
+      <div class="rotulo">Frase do dia</div>
+      <p class="frase" id="frase"></p>
+    </section>
+    <section class="card signo">
+      <span class="simbolo" aria-hidden="true">♋</span>
+      <div class="rotulo">Câncer hoje</div>
+      <p class="frase" id="cancer"></p>
+      <div class="nota">Só por diversão 🙂</div>
+    </section>
+  </div>
+
+  <section class="card secao">
+    <h2>Principais notícias do mundo</h2>
+    <ul class="noticias" id="noticias"><li class="nota">Carregando…</li></ul>
+    <div class="nota" id="noticias-hora"></div>
+  </section>
+
+  <footer>
+    Previsão: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> ·
+    Notícias: BBC Brasil, g1 e DW (resumos dos próprios sites, com link para a matéria).
+  </footer>
+</main>
+
+<script src="frases.js"></script>
+<script>
+const TZ = "America/Sao_Paulo";
+const CIDADES = {
+  blumenau: {nome: "Blumenau", lat: -26.9194, lon: -49.0661},
+  bc: {nome: "Balneário Camboriú", lat: -26.9906, lon: -48.6348},
+};
+// Codigos de tempo da Open-Meteo (WMO)
+const TEMPO = {
+  0:["Céu limpo","☀️","🌙"],1:["Quase limpo","🌤️","🌙"],2:["Parcialmente nublado","⛅","☁️"],3:["Nublado","☁️","☁️"],
+  45:["Neblina","🌫️"],48:["Neblina","🌫️"],51:["Garoa fraca","🌦️"],53:["Garoa","🌦️"],55:["Garoa forte","🌧️"],
+  56:["Garoa gelada","🌧️"],57:["Garoa gelada","🌧️"],61:["Chuva fraca","🌦️"],63:["Chuva","🌧️"],65:["Chuva forte","🌧️"],
+  66:["Chuva gelada","🌧️"],67:["Chuva gelada","🌧️"],71:["Neve fraca","🌨️"],73:["Neve","🌨️"],75:["Neve forte","❄️"],77:["Granizo fino","🌨️"],
+  80:["Pancadas de chuva","🌦️"],81:["Pancadas de chuva","🌧️"],82:["Temporal","⛈️"],85:["Neve","🌨️"],86:["Neve forte","❄️"],
+  95:["Trovoadas","⛈️"],96:["Trovoadas com granizo","⛈️"],99:["Trovoadas com granizo","⛈️"],
+};
+const tempo = (c, noite) => { const t = TEMPO[c] || ["—","🌡️"]; return {txt:t[0], ico:(noite && t[2]) || t[1]}; };
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const r0 = n => Math.round(n);
+
+// Data de hoje no horario de Brasilia
+const partes = Object.fromEntries(new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",hourCycle:"h23"})
+  .formatToParts(new Date()).map(p => [p.type, p.value]));
+const HOJE = `${partes.year}-${partes.month}-${partes.day}`;
+const HORA_AGORA = +partes.hour;
+const nomeDia = (iso, opt) => new Date(iso + "T12:00:00").toLocaleDateString("pt-BR", opt);
+$("hoje").textContent = nomeDia(HOJE, {weekday:"long", day:"numeric", month:"long", year:"numeric"});
+
+// Frases: a mesma o dia todo, troca a cada dia
+const numDia = Math.floor(Date.parse(HOJE + "T00:00:00Z") / 86400000);
+const escolher = (lista, salto) => lista[(numDia * salto) % lista.length];
+$("frase").textContent = escolher(window.FRASES_MOTIVACIONAIS || ["Bom dia!"], 7);
+$("cancer").textContent = escolher(window.FRASES_CANCER || ["Dia de cuidar de quem você ama."], 11);
+
+// ---------- Previsao ----------
+let dados = null, diaSel = HOJE, cidade = "blumenau";
+try { cidade = localStorage.getItem("cidade") || cidade; } catch(e) {}
+if (!CIDADES[cidade]) cidade = "blumenau";
+
+async function carregar() {
+  document.querySelectorAll(".cidades button").forEach(b => b.setAttribute("aria-pressed", b.dataset.cidade === cidade));
+  const c = CIDADES[cidade];
+  const url = "https://api.open-meteo.com/v1/forecast?latitude=" + c.lat + "&longitude=" + c.lon +
+    "&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,is_day" +
+    "&hourly=temperature_2m,precipitation_probability,weather_code,is_day" +
+    "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,sunrise,sunset" +
+    "&timezone=" + encodeURIComponent(TZ) + "&forecast_days=7";
+  $("agora").innerHTML = '<span class="rotulo">Carregando previsão…</span>';
+  try {
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(r.status);
+    dados = await r.json();
+    desenharSemana();
+    desenharDia();
+  } catch (e) {
+    $("agora").innerHTML = '<span class="erro">Não consegui buscar a previsão agora. Tente recarregar a página.</span>';
+  }
+}
+
+function horasDoDia(dia) {
+  const h = dados.hourly, out = [];
+  h.time.forEach((t, i) => { if (t.startsWith(dia)) out.push({h:+t.slice(11,13), temp:h.temperature_2m[i], chuva:h.precipitation_probability[i], cod:h.weather_code[i], noite:!h.is_day[i]}); });
+  return out;
+}
+
+function desenharDia() {
+  const d = dados.daily, i = d.time.indexOf(diaSel), ehHoje = diaSel === HOJE;
+  const horas = horasDoDia(diaSel);
+  const hm = s => s ? s.slice(11,16) : "--";
+  const nascer = `🌅 ${hm(d.sunrise[i])} · 🌇 ${hm(d.sunset[i])}`;
+  if (ehHoje) {
+    const c = dados.current, t = tempo(c.weather_code, !c.is_day);
+    $("agora").innerHTML = `<div class="rotulo">Agora em ${esc(CIDADES[cidade].nome)}</div>
+      <div class="icone">${t.ico}</div><div class="temp">${r0(c.temperature_2m)}°</div>
+      <div class="desc">${t.txt}</div>
+      <div class="extra">Sensação ${r0(c.apparent_temperature)}° · Umidade ${c.relative_humidity_2m}% · Vento ${r0(c.wind_speed_10m)} km/h</div>
+      <div class="extra">Hoje: mín ${r0(d.temperature_2m_min[i])}° · máx ${r0(d.temperature_2m_max[i])}° · chuva ${d.precipitation_probability_max[i] ?? 0}%</div>
+      <div class="extra">${nascer}</div>`;
+  } else {
+    const t = tempo(d.weather_code[i]);
+    $("agora").innerHTML = `<div class="rotulo" style="text-transform:capitalize">${nomeDia(diaSel,{weekday:"long",day:"numeric",month:"short"})} · ${esc(CIDADES[cidade].nome)}</div>
+      <div class="icone">${t.ico}</div><div class="temp">${r0(d.temperature_2m_max[i])}°</div>
+      <div class="desc">${t.txt}</div>
+      <div class="extra">Mínima ${r0(d.temperature_2m_min[i])}° · chuva ${d.precipitation_probability_max[i] ?? 0}% (${(d.precipitation_sum[i] ?? 0).toFixed(1)} mm)</div>
+      <div class="extra">${nascer}</div>`;
+  }
+  $("titulo-grafico").textContent = "Temperatura ao longo do dia" + (ehHoje ? " (hoje)" : "");
+  $("grafico").innerHTML = grafico(horas, ehHoje ? HORA_AGORA : -1);
+  $("horas").innerHTML = horas.map(x => {
+    const t = tempo(x.cod, x.noite), atual = ehHoje && x.h === HORA_AGORA;
+    return `<div class="hora${atual ? " atual" : ""}" title="${t.txt}"><div class="h">${atual ? "agora" : String(x.h).padStart(2,"0") + "h"}</div>
+      <div class="e">${t.ico}</div><div class="t">${r0(x.temp)}°</div><div class="c">${x.chuva >= 10 ? "💧" + x.chuva + "%" : ""}</div></div>`;
+  }).join("");
+  const atual = $("horas").querySelector(".atual");
+  if (atual) $("horas").scrollLeft = atual.offsetLeft - $("horas").offsetLeft - 8;
+  else $("horas").scrollLeft = 0;
+}
+
+function grafico(horas, agora) {
+  if (!horas.length) return "";
+  const W = 640, H = 220, pe = 28, pd = 12, top = 24, base = 150, chTop = 168, chBase = 200;
+  const ts = horas.map(x => x.temp), mn = Math.floor(Math.min(...ts)) - 1, mx = Math.ceil(Math.max(...ts)) + 1;
+  const X = h => pe + (h / 23) * (W - pe - pd);
+  const Y = t => top + (1 - (t - mn) / (mx - mn)) * (base - top);
+  const pts = horas.map(x => [X(x.h), Y(x.temp)]);
+  const linha = pts.map((p, i) => (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1)).join(" ");
+  const area = linha + ` L${pts[pts.length-1][0].toFixed(1)} ${base} L${pts[0][0].toFixed(1)} ${base} Z`;
+  const iMax = ts.indexOf(Math.max(...ts)), iMin = ts.indexOf(Math.min(...ts));
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Gráfico da temperatura e chance de chuva por hora">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--sun)" stop-opacity=".35"/><stop offset="1" stop-color="var(--sun)" stop-opacity="0"/></linearGradient></defs>`;
+  for (let h = 0; h <= 21; h += 3) s += `<line x1="${X(h)}" x2="${X(h)}" y1="${top}" y2="${chBase}" stroke="var(--line)" stroke-dasharray="2 4"/><text x="${X(h)}" y="${H-4}" text-anchor="middle">${String(h).padStart(2,"0")}h</text>`;
+  s += `<line x1="${pe}" x2="${W-pd}" y1="${base}" y2="${base}" stroke="var(--line)"/>`;
+  // barras de chance de chuva
+  const bw = (W - pe - pd) / 24 * .6;
+  horas.forEach(x => { const hgt = (x.chuva || 0) / 100 * (chBase - chTop); if (hgt > 0) s += `<rect x="${X(x.h) - bw/2}" y="${chBase - hgt}" width="${bw}" height="${hgt}" rx="2" fill="var(--rain)" opacity=".75"/>`; });
+  s += `<text x="${pe - 4}" y="${chBase}" text-anchor="end">💧</text>`;
+  if (agora >= 0) s += `<line x1="${X(agora)}" x2="${X(agora)}" y1="${top - 8}" y2="${chBase}" stroke="var(--pop)" stroke-width="1.5"/><text x="${X(agora)}" y="${top - 12}" text-anchor="middle" style="fill:var(--pop)">agora</text>`;
+  s += `<path d="${area}" fill="url(#g)"/><path d="${linha}" fill="none" stroke="var(--sun)" stroke-width="2.5" stroke-linejoin="round"/>`;
+  for (let i = 0; i < horas.length; i += 3) s += `<circle cx="${pts[i][0]}" cy="${pts[i][1]}" r="3" fill="var(--surface)" stroke="var(--sun)" stroke-width="2"/><text class="vt" x="${pts[i][0]}" y="${pts[i][1] - 8}" text-anchor="middle">${r0(horas[i].temp)}°</text>`;
+  [[iMax, "máx"], [iMin, "mín"]].forEach(([i, n]) => { if (i % 3) s += `<circle cx="${pts[i][0]}" cy="${pts[i][1]}" r="3.5" fill="var(--sun)"/><text class="vt" x="${pts[i][0]}" y="${pts[i][1] + (n === "mín" ? 16 : -8)}" text-anchor="middle">${r0(horas[i].temp)}°</text>`; });
+  return s + "</svg>";
+}
+
+function desenharSemana() {
+  const d = dados.daily;
+  const mn = Math.min(...d.temperature_2m_min), mx = Math.max(...d.temperature_2m_max), faixa = (mx - mn) || 1;
+  $("semana").innerHTML = d.time.map((dia, i) => {
+    const t = tempo(d.weather_code[i]);
+    const nome = dia === HOJE ? "Hoje" : nomeDia(dia, {weekday:"short", day:"numeric"}).replace(".", "");
+    const esq = (d.temperature_2m_min[i] - mn) / faixa * 100, larg = (d.temperature_2m_max[i] - d.temperature_2m_min[i]) / faixa * 100;
+    return `<button class="dia" data-dia="${dia}" aria-pressed="${dia === diaSel}" title="${t.txt}">
+      <span class="nome">${nome}</span><span class="e">${t.ico}</span>
+      <span class="faixa"><span class="min">${r0(d.temperature_2m_min[i])}°</span><span class="barra"><i style="left:${esq}%;width:${Math.max(larg, 4)}%"></i></span><span>${r0(d.temperature_2m_max[i])}°</span></span>
+      <span class="chuva">💧${d.precipitation_probability_max[i] ?? 0}%</span></button>`;
+  }).join("");
+}
+
+$("semana").addEventListener("click", e => {
+  const b = e.target.closest(".dia"); if (!b) return;
+  diaSel = b.dataset.dia;
+  document.querySelectorAll(".dia").forEach(x => x.setAttribute("aria-pressed", x === b));
+  desenharDia();
+  window.scrollTo({top: 0, behavior: "smooth"});
+});
+document.querySelectorAll(".cidades button").forEach(b => b.addEventListener("click", () => {
+  cidade = b.dataset.cidade; diaSel = HOJE;
+  try { localStorage.setItem("cidade", cidade); } catch(e) {}
+  carregar();
+}));
+carregar();
+
+// ---------- Noticias (arquivo atualizado pelo GitHub a cada 3 horas) ----------
+fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(j => {
+  $("noticias").innerHTML = j.noticias.map(n => `<li><div class="fonte">${esc(n.fonte)}</div>
+    <a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a>${n.resumo ? `<p>${esc(n.resumo)}</p>` : ""}</li>`).join("");
+  const at = new Date(j.atualizado).toLocaleString("pt-BR", {timeZone: TZ, day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"});
+  $("noticias-hora").textContent = "Atualizado em " + at + " (horário de Brasília).";
+}).catch(() => { $("noticias").innerHTML = '<li class="erro">Não consegui carregar as notícias agora.</li>'; });
+</script>
+</body>
+</html>

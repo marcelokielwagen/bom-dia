@@ -107,7 +107,30 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 
 /* Semana em cartoes */
 .titulo{font:600 1.5rem var(--serif);margin:28px 4px 12px;color:var(--head-ink)}
-.semana{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
+.semana{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
+.dia.fim{background:linear-gradient(180deg,var(--card),color-mix(in srgb,var(--warm) 14%,var(--card)))}
+/* Feriados */
+.feriados{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.feriados li{display:grid;grid-template-columns:62px minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--grid)}
+.feriados li:first-child{border-top:0}
+.feriados .data-f{text-align:center;background:var(--chip);border-radius:12px;padding:4px 0;line-height:1.1}
+.feriados .data-f b{display:block;font:600 1.4rem var(--serif)}
+.feriados .data-f span{font-size:.7rem;font-weight:700;text-transform:uppercase;color:var(--soft)}
+.feriados .nome-f{font-weight:700}
+.feriados .sem-f{font-size:.85rem;color:var(--soft);text-transform:capitalize}
+.feriados .falta{font-size:.78rem;font-weight:700;text-align:right;white-space:nowrap}
+.feriados .selo{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;font-size:.7rem;font-weight:800;text-transform:none;background:color-mix(in srgb,var(--warm) 25%,transparent);color:var(--ink)}
+/* Aviso do fim de semana */
+.fds{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px;
+  background:linear-gradient(120deg,color-mix(in srgb,var(--warm) 22%,var(--card)),var(--card) 60%);border-left:5px solid var(--warm)}
+.fds h3{margin:4px 0 6px;font:600 clamp(1.25rem,3.2vw,1.6rem)/1.2 var(--serif)}
+.fds p{margin:0;font-size:.95rem;color:var(--soft)}
+.fds .mini{display:flex;gap:8px}
+.fds .mini div{background:var(--chip);border-radius:14px;padding:8px 14px;text-align:center;min-width:86px}
+.fds .mini b{display:block;font-size:.78rem;text-transform:capitalize}
+.fds .mini .e{font-size:1.6rem;line-height:1.3}
+.fds .mini .t{font:600 1rem var(--serif)}
+.fds .mini .c{font-size:.72rem;font-weight:700;color:var(--rain)}
 .dia{border:1px solid var(--card-line);background:var(--card);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--ink);
   border-radius:18px;padding:12px 6px;text-align:center;cursor:pointer;font:inherit;transition:transform .15s}
 .dia:hover{transform:translateY(-2px)}
@@ -153,8 +176,9 @@ footer a{color:inherit}
   .hero,.frases,.noticias{grid-template-columns:minmax(0,1fr)}
   .grande .temp{font-size:5rem}
   .semana{grid-template-columns:minmax(0,1fr)}
-  .dia{display:grid;grid-template-columns:62px 34px 1fr 44px 52px;align-items:center;text-align:left;padding:8px 14px;border-radius:14px;gap:6px}
-  .dia .num{display:none}
+  .dia{display:grid;grid-template-columns:44px 52px 30px 1fr 38px 50px;align-items:center;text-align:left;padding:8px 12px;border-radius:14px;gap:6px}
+  .fds{grid-template-columns:minmax(0,1fr)}
+  .fds .mini div{flex:1}
   .dia .e{font-size:1.3rem;margin:0}
   .dia .max{font-size:1.1rem;text-align:right}
   .dia .min{text-align:right;order:5}
@@ -192,6 +216,8 @@ footer a{color:inherit}
     </section>
   </div>
 
+  <section class="vidro fds" id="fds" hidden></section>
+
   <section class="vidro" aria-live="polite">
     <div class="hero">
       <div id="agora"><span class="etiqueta">Carregando previsão…</span></div>
@@ -203,9 +229,15 @@ footer a{color:inherit}
     <div class="horas" id="horas"></div>
   </section>
 
-  <h2 class="titulo">A semana</h2>
+  <h2 class="titulo">Próximos 15 dias</h2>
   <div class="semana" id="semana"></div>
   <div class="dica">Toque num dia para ver as horas dele lá em cima.</div>
+
+  <h2 class="titulo">Próximos feriados</h2>
+  <section class="vidro">
+    <ul class="feriados" id="feriados"></ul>
+    <div class="atualizado">Feriados nacionais e o aniversário da cidade escolhida. ⭐ = ponto facultativo.</div>
+  </section>
 
   <h2 class="titulo">Notícias</h2>
   <section class="vidro">
@@ -331,14 +363,16 @@ async function carregar() {
     "&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,is_day" +
     "&hourly=temperature_2m,precipitation_probability,weather_code,is_day" +
     "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,sunrise,sunset" +
-    "&timezone=" + encodeURIComponent(TZ) + "&forecast_days=7";
+    "&timezone=" + encodeURIComponent(TZ) + "&forecast_days=15";
   $("agora").innerHTML = '<span class="etiqueta">Carregando previsão…</span>';
+  desenharFeriados();
   try {
     const r = await fetch(url);
     if (!r.ok) throw new Error(r.status);
     dados = await r.json();
     aplicarCeu(dados.current.weather_code);
     desenharSemana();
+    desenharFimDeSemana();
     desenharDia();
   } catch (e) {
     $("agora").innerHTML = '<span class="erro">Não consegui buscar a previsão agora. Tente recarregar a página.</span>';
@@ -425,10 +459,85 @@ function desenharSemana() {
   $("semana").innerHTML = d.time.map((dia, i) => {
     const t = tempo(d.weather_code[i]);
     const nome = dia === HOJE ? "Hoje" : nomeDia(dia, {weekday:"short"}).replace(".", "");
-    return `<button class="dia" data-dia="${dia}" aria-pressed="${dia === diaSel}" title="${t.txt}">
+    const fim = [0, 6].includes(new Date(dia + "T12:00:00").getDay());
+    return `<button class="dia${fim ? " fim" : ""}" data-dia="${dia}" aria-pressed="${dia === diaSel}" title="${t.txt}">
       <div class="nome">${nome}</div><div class="num">${nomeDia(dia,{day:"numeric",month:"short"}).replace(".", "")}</div>
       <div class="e">${t.ico}</div><div class="max">${r0(d.temperature_2m_max[i])}°</div>
       <div class="min">${r0(d.temperature_2m_min[i])}°</div><div class="ch">💧${d.precipitation_probability_max[i] ?? 0}%</div></button>`;
+  }).join("");
+}
+
+// Aviso do proximo fim de semana: sol ou chuva, com uma mensagem positiva
+function desenharFimDeSemana() {
+  const d = dados.daily, sem = new Date(HOJE + "T12:00:00").getDay();
+  const somar = n => { const x = new Date(HOJE + "T12:00:00"); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); };
+  const dias = sem === 0 ? [HOJE] : sem === 6 ? [HOJE, somar(1)] : [somar(6 - sem), somar(7 - sem)];
+  const info = dias.map(dia => {
+    const i = d.time.indexOf(dia); if (i < 0) return null;
+    const prob = d.precipitation_probability_max[i] ?? 0, cod = d.weather_code[i];
+    const estado = prob >= 60 || (cod >= 61 && prob >= 40) ? "chuva" : cod <= 2 && prob < 35 ? "sol" : "nublado";
+    const nome = dia === HOJE ? "hoje" : nomeDia(dia, {weekday: "long"}).replace("-feira", "");
+    return {dia, i, prob, cod, estado, nome};
+  }).filter(Boolean);
+  if (!info.length) { $("fds").hidden = true; return; }
+  const praia = cidade === "bc";
+  const est = info.map(x => x.estado), quando = sem === 0 || sem === 6 ? "Neste fim de semana" : "No fim de semana";
+  const bom = info.find(x => x.estado !== "chuva"), ruim = info.find(x => x.estado === "chuva");
+  let titulo, msg;
+  if (est.every(e => e === "sol")) {
+    titulo = `☀️ ${quando}, sol em ${CIDADES[cidade].nome}!`;
+    msg = praia ? "Dia perfeito para a praia, uma caminhada na orla e um sorvete. Não esqueça o protetor solar!"
+                : "Ótimo para um passeio no parque, uma trilha ou um almoço ao ar livre. Aproveite cada raio de sol!";
+  } else if (est.every(e => e === "chuva")) {
+    titulo = `🌧️ ${quando}, chuva em ${CIDADES[cidade].nome}`;
+    msg = "Hora de desacelerar: um filme, uma comida caseira e tempo com quem você ama. Descansar também é cuidar de si!";
+  } else if (ruim && bom) {
+    titulo = `⛅ ${cap(bom.nome)} sem chuva, ${ruim.nome} com chuva`;
+    msg = `Aproveite ${bom.nome === "hoje" ? "hoje" : "o " + bom.nome} ao ar livre${praia ? " (praia liberada!)" : ""} e guarde ${ruim.nome === "hoje" ? "hoje" : "o " + ruim.nome} para descansar e recarregar as energias.`;
+  } else if (est.includes("sol")) {
+    titulo = `🌤️ ${quando}, tempo firme com sol entre nuvens`;
+    msg = praia ? "Sem chuva forte prevista: dá para curtir a praia com tranquilidade. Bom descanso!"
+                : "Sem chuva forte prevista: bom para sair, passear e aproveitar a cidade. Bom descanso!";
+  } else {
+    titulo = `☁️ ${quando}, nublado mas sem chuva forte`;
+    msg = "Tempo agradável para passear sem sol forte. Leve um casaquinho e aproveite!";
+  }
+  $("fds").innerHTML = `<div><div class="etiqueta">Fim de semana</div><h3>${titulo}</h3><p>${msg}</p></div>
+    <div class="mini">${info.map(x => { const t = tempo(x.cod);
+      return `<div title="${t.txt}"><b>${x.nome}</b><div class="e">${t.ico}</div><div class="t">${r0(d.temperature_2m_max[x.i])}° · ${r0(d.temperature_2m_min[x.i])}°</div><div class="c">💧${x.prob}%</div></div>`; }).join("")}</div>`;
+  $("fds").hidden = false;
+}
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+// ---------- Feriados (calculados aqui, sem depender de site) ----------
+function pascoa(ano) { // calculo da Pascoa (algoritmo de Meeus)
+  const a = ano % 19, b = Math.floor(ano / 100), c = ano % 100, d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25),
+    g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30, i = Math.floor(c / 4), k = c % 4,
+    l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451), mes = Math.floor((h + l - 7 * m + 114) / 31);
+  return Date.UTC(ano, mes - 1, ((h + l - 7 * m + 114) % 31) + 1);
+}
+function feriadosDoAno(ano) {
+  const fx = (m, d) => Date.UTC(ano, m - 1, d), p = pascoa(ano), dia = 86400000;
+  const lista = [
+    [fx(1, 1), "Confraternização Universal"], [p - 48 * dia, "Carnaval (segunda)", 1], [p - 47 * dia, "Carnaval (terça)", 1],
+    [p - 2 * dia, "Sexta-feira Santa"], [fx(4, 21), "Tiradentes"], [fx(5, 1), "Dia do Trabalho"], [p + 60 * dia, "Corpus Christi", 1],
+    [fx(9, 7), "Independência do Brasil"], [fx(10, 12), "Nossa Senhora Aparecida"], [fx(11, 2), "Finados"],
+    [fx(11, 15), "Proclamação da República"], [fx(11, 20), "Dia da Consciência Negra"], [fx(12, 25), "Natal"],
+  ];
+  if (cidade === "bc") lista.push([fx(7, 20), "Aniversário de Balneário Camboriú"]);
+  else lista.push([fx(9, 2), "Aniversário de Blumenau"]);
+  return lista;
+}
+function desenharFeriados() {
+  const hoje = Date.parse(HOJE + "T00:00:00Z"), ano = +HOJE.slice(0, 4);
+  const prox = [...feriadosDoAno(ano), ...feriadosDoAno(ano + 1)].filter(f => f[0] >= hoje).sort((a, b) => a[0] - b[0]).slice(0, 6);
+  const fmt = (t, o) => new Date(t + 12 * 3600000).toLocaleDateString("pt-BR", {timeZone: "UTC", ...o});
+  $("feriados").innerHTML = prox.map(([t, nome, facult]) => {
+    const dias = Math.round((t - hoje) / 86400000), sem = new Date(t).getUTCDay();
+    const selo = nome.includes("(terça)") ? "" : sem === 1 || sem === 5 ? "🎉 feriadão" : sem === 2 || sem === 4 ? "🌉 dá ponte" : sem === 0 || sem === 6 ? "cai no fim de semana" : "";
+    return `<li><div class="data-f"><b>${fmt(t, {day: "2-digit"})}</b><span>${fmt(t, {month: "short"}).replace(".", "")}</span></div>
+      <div><div class="nome-f">${nome}${facult ? " ⭐" : ""}</div><div class="sem-f">${fmt(t, {weekday: "long"})}${selo ? `<span class="selo">${selo}</span>` : ""}</div></div>
+      <div class="falta">${dias === 0 ? "É hoje!" : dias === 1 ? "Amanhã" : "Faltam " + dias + " dias"}</div></li>`;
   }).join("");
 }
 

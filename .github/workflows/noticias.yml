@@ -1,0 +1,25 @@
+name: Atualizar noticias
+
+on:
+  schedule:
+    - cron: "15 */3 * * *"   # a cada 3 horas
+  workflow_dispatch:          # botao "Run workflow" para rodar na hora
+
+permissions:
+  contents: write
+
+jobs:
+  noticias:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -I scripts/noticias.py noticias.json
+      - name: Salvar se mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add noticias.json
+          git diff --cached --quiet || (git commit -m "Atualiza noticias" && git push)

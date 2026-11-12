@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T22:30:21.939250+00:00",
+ "atualizado": "2026-11-12T22:33:18.545212+00:00",
  "ibovespa": {
   "pontos": 171324,
   "variacao": -0.43,
@@ -73,11 +73,11 @@
    "nome": "Política",
    "noticias": [
     {
-     "titulo": "ASSISTA: Senado inicia discussão do projeto de ajuste fiscal",
+     "titulo": "ASSISTA: Senado aprova urgência para votar ajuste fiscal ainda hoje",
      "resumo": "",
      "link": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-12T21:44:39+00:00"
+     "data": "2026-11-12T22:24:48+00:00"
     },
     {
      "titulo": "Braga mantém proteções a gastos em relatório do ajuste fiscal de Lula",
@@ -135,13 +135,6 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Anatel exige validação biométrica facial para linhas móveis a partir de 2027",
-     "resumo": "A Agência Nacional de Telecomunicações (Anatel) aprovou a Norma Técnica GT-SEG.2026.11, que obriga as prestadoras do Serviço Móvel Pessoal (SMP) a verificar a identidade dos usuários por meio de reconhecimento facial…",
-     "link": "https://www.cisoadvisor.com.br/anatel-exige-validacao-biometrica-facial-para-linhas-moveis-a-partir-de-2027/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T19:56:42+00:00"
-    },
-    {
      "titulo": "Silent Hill: Townfall e mais games de PS5 e PS4 com até 90% OFF",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/voxel/silent-hill-townfall-e-mais-games-de-ps5-e-ps4-com-ate-90-off/",
@@ -161,13 +154,6 @@
      "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/ceo-nvidia-caso.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-12T19:34:08+00:00"
-    },
-    {
-     "titulo": "Caixa Vida e Previdência confirma incidente com cópia de dados",
-     "resumo": "A Caixa Vida e Previdência, uma empresa subsidiária da Caixa Econômica Federal, subordinada à Caixa Seguridade, confirmou ao CISO Advisor que foi vítima de um ataque cibernético que resultou no acesso não autorizado e…",
-     "link": "https://www.cisoadvisor.com.br/caixa-vida-e-previdencia-confirma-incidente-com-copia-de-dados/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T17:57:50+00:00"
     },
     {
      "titulo": "Jensen Huang aceita ir ao Congresso dos EUA esclarecer relação com suposta espiã chinesa",
@@ -191,18 +177,32 @@
      "data": "2026-11-12T19:15:13+00:00"
     },
     {
-     "titulo": "900 domínios em ataques usando o nome gov.br",
-     "resumo": "A Lumu Technologies identificou uma campanha de golpes que se passa pelo gov.br, pelo Banco Central e por alguns dos principais bancos digitais, para cobrar taxas falsas via Pix.",
-     "link": "https://www.cisoadvisor.com.br/900-dominios-em-ataques-usando-o-nome-gov-br/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T14:20:29+00:00"
-    },
-    {
      "titulo": "Vivo Satélite: como verificar a compatibilidade do celular e usar a internet da Starlink?",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/big-techs/vivo-satelite-como-verificar-a-compatibilidade-do-celular-e-usar-a-internet-da-starlink/",
      "fonte": "TecMundo",
      "data": "2026-11-07T13:00:00+00:00"
+    },
+    {
+     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
+     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
+     "fonte": "The Hack",
+     "data": "2022-05-04T12:00:00+00:00"
+    },
+    {
+     "titulo": "Outlook fora do ar? Serviço de e-mail e IA da Microsoft apresentam instabilidade nesta quinta",
+     "resumo": "Usuários relataram dificuldades para acessar alguns serviços da Microsoft, como o Outlook, na tarde desta quinta-feira (12).",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/outlook-fora-do-ar.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-12T18:40:04+00:00"
+    },
+    {
+     "titulo": "Golpes por convites de calendário roubam sessões do Google e furam autenticação",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/golpes-por-convites-de-calendario-roubam-sessoes-do-google-e-furam-autenticacao/",
+     "fonte": "TecMundo",
+     "data": "2026-11-05T13:00:00+00:00"
     }
    ]
   },
@@ -225,11 +225,11 @@
      "data": "2026-11-12T22:21:04+00:00"
     },
     {
-     "titulo": "“O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem deixar a qualidade do crédito para trás",
-     "resumo": "Ao Seu Dinheiro, Santiago Stel explica como a instituição tenta acelerar a expansão sem comprometer a qualidade dos empréstimos The post “O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem…",
-     "link": "https://www.seudinheiro.com/2026/empresas/o-que-nao-fizermos-outro-fara-o-dilema-do-inter-inbr34-para-crescer-sem-deixar-a-qualidade-do-credito-para-tras-miql/",
+     "titulo": "Nova CEO da Nvidia, Colette Kress está há 13 anos na companhia e já passou pela Microsoft",
+     "resumo": "Colette Kres assumiu interinamente o cargo de CEO da Nvidia; norte-americana foi nomeada como 32ª mulher self-made mais rica dos EUA em 2026 pela Forbes The post Nova CEO da Nvidia, Colette Kress está há 13 anos na…",
+     "link": "https://www.seudinheiro.com/2026/economia/nova-ceo-da-nvidia-colette-kress-esta-ha-13-anos-na-companhia-e-ja-passou-pela-microsoft/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-12T21:44:45+00:00"
+     "data": "2026-11-12T22:32:00+00:00"
     },
     {
      "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
@@ -253,11 +253,11 @@
      "data": "2026-11-12T22:21:04+00:00"
     },
     {
-     "titulo": "Como a Motiva quer lucrar com publicidade e até imóveis — e fazer novos negócios valerem 10% da companhia",
-     "resumo": "Com plataforma recém-criada, concessionária quer transformar terrenos, estações, fluxo de veículos e infraestrutura em novas fontes de receita The post Como a Motiva quer lucrar com publicidade e até imóveis — e fazer…",
-     "link": "https://www.seudinheiro.com/2026/empresas/como-a-motiva-quer-lucrar-com-publicidade-e-ate-imoveis-e-fazer-novos-negocios-valerem-10-da-companhia/",
+     "titulo": "“O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem deixar a qualidade do crédito para trás",
+     "resumo": "Ao Seu Dinheiro, Santiago Stel explica como a instituição tenta acelerar a expansão sem comprometer a qualidade dos empréstimos The post “O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem…",
+     "link": "https://www.seudinheiro.com/2026/empresas/o-que-nao-fizermos-outro-fara-o-dilema-do-inter-inbr34-para-crescer-sem-deixar-a-qualidade-do-credito-para-tras-miql/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-12T21:24:00+00:00"
+     "data": "2026-11-12T21:44:45+00:00"
     },
     {
      "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",

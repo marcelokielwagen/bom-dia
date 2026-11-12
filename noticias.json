@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T22:52:20.850021+00:00",
+ "atualizado": "2026-11-12T22:53:59.457922+00:00",
  "ibovespa": {
   "pontos": 171324,
   "variacao": -0.43,
@@ -77,14 +77,14 @@
      "resumo": "",
      "link": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-12T22:41:45+00:00"
+     "data": "2026-11-12T22:51:18+00:00"
     },
     {
-     "titulo": "Kassab elogia “pré-disposição” de Lula para fazer ajuste fiscal",
-     "resumo": "Presidente do PSD não respondeu diretamente se aceitaria assumir um ministério; disse que participação em cargos é secundária",
-     "link": "https://www.poder360.com.br/poder-economia/kassab-elogia-pre-disposicao-de-lula-para-fazer-ajuste-fiscal/",
+     "titulo": "Justiça torna Milton Leite réu por promover o PCC no transporte de SP",
+     "resumo": "Ex-presidente da Câmara da capital paulista e mais 13 pessoas vão responder por organização criminosa ligada à facção; juiz manda prender todos",
+     "link": "https://www.poder360.com.br/poder-seguranca-publica/justica-torna-milton-leite-reu-por-promover-o-pcc-no-transporte-de-sp/",
      "fonte": "Poder360",
-     "data": "2026-11-12T22:39:40+00:00"
+     "data": "2026-11-12T22:52:34+00:00"
     },
     {
      "titulo": "STF decide que norma que absolve crime patrimonial contra mulher é incompatível com a Constituição",
@@ -94,11 +94,11 @@
      "data": "2026-11-12T19:53:22+00:00"
     },
     {
-     "titulo": "Braga mantém proteções a gastos em relatório do ajuste fiscal de Lula",
-     "resumo": "Parecer tem impacto de até R$ 56,1 bilhões em 2027 e impede remanejamento de economias de outros Poderes",
-     "link": "https://www.poder360.com.br/poder-congresso/braga-mantem-protecoes-a-gastos-em-relatorio-do-ajuste-fiscal-de-lula/",
+     "titulo": "Kassab elogia “pré-disposição” de Lula para fazer ajuste fiscal",
+     "resumo": "Presidente do PSD não respondeu diretamente se aceitaria assumir um ministério; disse que participação em cargos é secundária",
+     "link": "https://www.poder360.com.br/poder-economia/kassab-elogia-pre-disposicao-de-lula-para-fazer-ajuste-fiscal/",
      "fonte": "Poder360",
-     "data": "2026-11-12T22:14:23+00:00"
+     "data": "2026-11-12T22:39:40+00:00"
     },
     {
      "titulo": "Lula embarca para Filipinas para participar de cúpula e ampliar mercado brasileiro na Ásia",
@@ -108,11 +108,11 @@
      "data": "2026-11-12T18:37:20+00:00"
     },
     {
-     "titulo": "Ações do Banco do Brasil fecham em queda de 8,35% após balanço",
-     "resumo": "O resultado financeiro do 3º tri foi considerado muito negativo pelos analistas; lucro caiu 66,5% na comparação anual",
-     "link": "https://www.poder360.com.br/poder-economia/acoes-do-banco-do-brasil-fecham-em-queda-de-835-apos-balanco/",
+     "titulo": "Braga mantém proteções a gastos em relatório do ajuste fiscal de Lula",
+     "resumo": "Parecer tem impacto de até R$ 56,1 bilhões em 2027 e impede remanejamento de economias de outros Poderes",
+     "link": "https://www.poder360.com.br/poder-congresso/braga-mantem-protecoes-a-gastos-em-relatorio-do-ajuste-fiscal-de-lula/",
      "fonte": "Poder360",
-     "data": "2026-11-12T22:02:24+00:00"
+     "data": "2026-11-12T22:14:23+00:00"
     },
     {
      "titulo": "STF mantém afastamento de Marco Buzzi do STJ após acusação de assédio, mas mantém salário",
@@ -122,11 +122,11 @@
      "data": "2026-11-12T18:35:37+00:00"
     },
     {
-     "titulo": "Pará decreta emergência ambiental e climática por 120 dias",
-     "resumo": "Medida suspende autorizações para uso do fogo e restringe queimadas em 31 municípios",
-     "link": "https://www.poder360.com.br/poder-brasil/para-decreta-emergencia-ambiental-e-climatica-por-120-dias/",
+     "titulo": "Ações do Banco do Brasil fecham em queda de 8,35% após balanço",
+     "resumo": "O resultado financeiro do 3º tri foi considerado muito negativo pelos analistas; lucro caiu 66,5% na comparação anual",
+     "link": "https://www.poder360.com.br/poder-economia/acoes-do-banco-do-brasil-fecham-em-queda-de-835-apos-balanco/",
      "fonte": "Poder360",
-     "data": "2026-11-12T21:54:53+00:00"
+     "data": "2026-11-12T22:02:24+00:00"
     }
    ]
   },
@@ -134,13 +134,6 @@
    "id": "ti",
    "nome": "TI e Segurança",
    "noticias": [
-    {
-     "titulo": "Apache corrige falha crítica de execução remota no HTTP/2",
-     "resumo": "A Apache Software Foundation corrigiu uma vulnerabilidade crítica no módulo HTTP/2 do Apache HTTP Server que pode ser explorada por um atacante não autenticado para obter execução remota de código (RCE).",
-     "link": "https://www.cisoadvisor.com.br/apache-corrige-falha-critica-de-execucao-remota-no-http-2/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T22:50:15+00:00"
-    },
     {
      "titulo": "Fraudes judiciais usam emails falsos para roubar dados na América Latina",
      "resumo": "",
@@ -161,13 +154,6 @@
      "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/ceo-nvidia-caso.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-12T19:34:08+00:00"
-    },
-    {
-     "titulo": "Zero-day no N-able N-central é explorada e instala mineradores",
-     "resumo": "Atacantes exploram uma nova zero-day no N-able N-central, apelidada “4EverAble2Shell”, para comprometer servidores e instalar mineradores de criptomoedas.",
-     "link": "https://www.cisoadvisor.com.br/zero-day-no-n-able-n-central-e-explorada-e-instala-mineradores/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T22:46:07+00:00"
     },
     {
      "titulo": "Silent Hill: Townfall e mais games de PS5 e PS4 com até 90% OFF",
@@ -191,18 +177,32 @@
      "data": "2026-11-12T19:15:13+00:00"
     },
     {
-     "titulo": "Anatel exige validação biométrica facial para linhas móveis a partir de 2027",
-     "resumo": "A Agência Nacional de Telecomunicações (Anatel) aprovou a Norma Técnica GT-SEG.2026.11, que obriga as prestadoras do Serviço Móvel Pessoal (SMP) a verificar a identidade dos usuários por meio de reconhecimento facial…",
-     "link": "https://www.cisoadvisor.com.br/anatel-exige-validacao-biometrica-facial-para-linhas-moveis-a-partir-de-2027/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T19:56:42+00:00"
-    },
-    {
      "titulo": "Jensen Huang aceita ir ao Congresso dos EUA esclarecer relação com suposta espiã chinesa",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/big-techs/jensen-huang-vai-ao-congresso-dos-eua-esclarecer-relacao-com-suposta-espia-chinesa/",
      "fonte": "TecMundo",
      "data": "2026-11-12T22:00:00+00:00"
+    },
+    {
+     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
+     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
+     "fonte": "The Hack",
+     "data": "2022-05-04T12:00:00+00:00"
+    },
+    {
+     "titulo": "Outlook fora do ar? Serviço de e-mail e IA da Microsoft apresentam instabilidade nesta quinta",
+     "resumo": "Usuários relataram dificuldades para acessar alguns serviços da Microsoft, como o Outlook, na tarde desta quinta-feira (12).",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/outlook-fora-do-ar.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-12T18:40:04+00:00"
+    },
+    {
+     "titulo": "Vivo Satélite: como verificar a compatibilidade do celular e usar a internet da Starlink?",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/vivo-satelite-como-verificar-a-compatibilidade-do-celular-e-usar-a-internet-da-starlink/",
+     "fonte": "TecMundo",
+     "data": "2026-11-07T13:00:00+00:00"
     }
    ]
   },
@@ -211,18 +211,18 @@
    "nome": "Ações e Mercado",
    "noticias": [
     {
-     "titulo": "Bolsas de Nova York fecham em queda com crise da Nvidia e ataques ao Irã",
-     "resumo": "As bolsas de Nova York encerraram a sessão desta quinta-feira (12) em queda, após a renúncia de Jensen Huang do comando da Nvidia reacender os temores em torno do setor de tecnologia.",
-     "link": "https://www.moneytimes.com.br/bolsas-de-nova-york-fecham-em-queda-com-crise-da-nvidia-e-ataques-ao-ira-davs/",
+     "titulo": "Natura (NATU3) reverte prejuízo bilionário no 3T26; veja números",
+     "resumo": "A Natura (NATU3) divulgou os seus resultados financeiros para o terceiro trimestre de 2026, reportando uma reversão significativa em relação ao mesmo período do ano anterior.",
+     "link": "https://www.moneytimes.com.br/natura-natu3-reverte-prejuizo-bilionario-no-3t26-veja-numeros/",
      "fonte": "Money Times",
-     "data": "2026-11-12T22:09:44+00:00"
+     "data": "2026-11-12T22:53:00+00:00"
     },
     {
-     "titulo": "Track&Field tem lucro de R$35 mi no 3º tri, alta de 17%",
+     "titulo": "SAIBA MAIS-Tim Cook como CEO da Nvidia? Trump e o mundo se perguntam quem será o escolhido",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/trackfield-tem-lucro-de-r35-mi-no-3o-tri-alta-de-17-2125853",
+     "link": "https://br.investing.com/news/stock-market-news/saiba-maistim-cook-como-ceo-da-nvidia-trump-e-o-mundo-se-perguntam-quem-sera-o-escolhido-2125889",
      "fonte": "Investing.com",
-     "data": "2026-11-12T22:21:04+00:00"
+     "data": "2026-11-12T22:42:21+00:00"
     },
     {
      "titulo": "Nova CEO da Nvidia, Colette Kress está há 13 anos na companhia e já passou pela Microsoft",
@@ -239,18 +239,18 @@
      "data": "2026-05-27T21:59:36+00:00"
     },
     {
-     "titulo": "MBRF (MBRF3) tem lucro de R$ 210 milhões no 3T26, alta de 123,5% em um ano",
-     "resumo": "A MBRF (MBRF3) registrou lucro líquido de R$ 210 milhões no terceiro trimestre de 2026, crescimento de 123,5% na comparação com o mesmo período do ano passado.",
-     "link": "https://www.moneytimes.com.br/mbrf-mbrf3-tem-lucro-de-r-210-milhoes-no-3t26-alta-de-1235-em-um-ano-pads/",
+     "titulo": "Bolsas de Nova York fecham em queda com crise da Nvidia e ataques ao Irã",
+     "resumo": "As bolsas de Nova York encerraram a sessão desta quinta-feira (12) em queda, após a renúncia de Jensen Huang do comando da Nvidia reacender os temores em torno do setor de tecnologia.",
+     "link": "https://www.moneytimes.com.br/bolsas-de-nova-york-fecham-em-queda-com-crise-da-nvidia-e-ataques-ao-ira-davs/",
      "fonte": "Money Times",
-     "data": "2026-11-12T22:01:26+00:00"
+     "data": "2026-11-12T22:09:44+00:00"
     },
     {
-     "titulo": "Petz Cobasi tem alta de 31% no lucro no 3º trimestre",
+     "titulo": "Natura reverte prejuízo com lucro de R$49 mi no 3° tri",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/petz-cobasi-tem-alta-de-31-no-lucro-no-3o-trimestre-2125854",
+     "link": "https://br.investing.com/news/stock-market-news/natura-reverte-prejuizo-com-lucro-de-r49-mi-no-3-tri-2125887",
      "fonte": "Investing.com",
-     "data": "2026-11-12T22:21:04+00:00"
+     "data": "2026-11-12T22:42:06+00:00"
     },
     {
      "titulo": "“O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem deixar a qualidade do crédito para trás",
@@ -267,18 +267,18 @@
      "data": "2026-05-27T21:47:03+00:00"
     },
     {
-     "titulo": "Ibovespa fecha no vermelho em meio a preocupações com o ajuste fiscal e à temporada de balanços",
-     "resumo": "O ajuste fiscal anunciado pelo governo do presidente Luiz Inácio Lula da Silva (PT) não convenceu o mercado, e quem sofreu foi o Ibovespa (IBOV).",
-     "link": "https://www.moneytimes.com.br/ibovespa-12-11-2026-davs/",
+     "titulo": "MBRF (MBRF3) tem lucro de R$ 210 milhões no 3T26, alta de 123,5% em um ano",
+     "resumo": "A MBRF (MBRF3) registrou lucro líquido de R$ 210 milhões no terceiro trimestre de 2026, crescimento de 123,5% na comparação com o mesmo período do ano passado.",
+     "link": "https://www.moneytimes.com.br/mbrf-mbrf3-tem-lucro-de-r-210-milhoes-no-3t26-alta-de-1235-em-um-ano-pads/",
      "fonte": "Money Times",
-     "data": "2026-11-12T21:51:34+00:00"
+     "data": "2026-11-12T22:01:26+00:00"
     },
     {
-     "titulo": "CPFL tem queda do lucro no 3º tri com efeito contábil de renovação de concessões",
+     "titulo": "Lucro da B3 fica dentro do esperado no 3º tri, a R$1,4 bi",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/cpfl-tem-queda-do-lucro-no-3o-tri-com-efeito-contabil-de-renovacao-de-concessoes-2125852",
+     "link": "https://br.investing.com/news/stock-market-news/lucro-da-b3-fica-dentro-do-esperado-no-3o-tri-a-r14-bi-2125888",
      "fonte": "Investing.com",
-     "data": "2026-11-12T22:21:03+00:00"
+     "data": "2026-11-12T22:42:06+00:00"
     }
    ]
   },
@@ -349,39 +349,11 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
-     "titulo": "Rodeio Crioulo em Itajaí vai de quinta a domingo com entrada gratuita no parque e shows",
-     "resumo": "O 2º Rodeio Crioulo Nacional do CTG Cidade do Porto começa nesta quinta-feira (12) e segue até domingo (15), no Parque do Agricultor Gilmar Graf, em Itajaí.",
-     "link": "https://www.bcnoticias.com.br/rodeio-crioulo-em-itajai-vai-de-quinta-a-domingo-com-entrada-gratuita-no-parque-e-shows/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T21:27:15+00:00"
-    },
-    {
      "titulo": "Homem é encontrado debilitado após ficar 9 dias no Pico da Pedra em Camboriú",
      "resumo": "Debilitado e com sinais de possível hipotermia, ele precisou de várias paradas durante a descida até o ponto de apoio Leia no Camboriú News",
      "link": "https://camboriu.news/homem-e-encontrado-debilitado-apos-ficar-9-dias-no-pico-da-pedra-em-camboriu/",
      "fonte": "Camboriú News",
      "data": "2026-11-12T22:37:38+00:00"
-    },
-    {
-     "titulo": "Armandinho e Vitor Kley fazem shows em Balneário Camboriú e Floripa",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUThPRVppRS1EVTI4Ni1tdFhKRVdjbnY0am5lSk9Zdzdid2hzbHh5QXZxN2RxcFZlMXNLbWY3SFZXUERLeHBmUjlnQXdnaXRhNUIxTFNrMkNXRWNPOEE5RmI2LWpaam42cEg3Nl9KY1ZzbTZQWUFaY3VnakhBM1JFWTJSeWdCVGxaLWpFUk9xbVl5X0FRbkdOQzB1eHlERGZ3NXM3XzJn?oc=5",
-     "fonte": "DIARINHO",
-     "data": "2026-11-12T22:33:11+00:00"
-    },
-    {
-     "titulo": "Feira de Vinil acontece neste fim de semana no Atlântico Shopping, em Balneário Camboriú",
-     "resumo": "Os apaixonados por discos de vinil terão uma opção de passeio neste fim de semana em Balneário Camboriú. Nos dias 14 e 15 de novembro (sábado e domingo), o Atlântico Shopping recebe a Feira de Vinil, com discos novos e…",
-     "link": "https://www.bcnoticias.com.br/feira-de-vinil-acontece-neste-fim-de-semana-no-atlantico-shopping-em-balneario-camboriu/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T20:56:30+00:00"
-    },
-    {
-     "titulo": "Prefeito é acusado de receber celulares e iPad como propina e favorecer empresas em contratos públicos em SC",
-     "resumo": "TJSC recebeu denúncia contra Castilho Silvano Vieira e outras seis pessoas e determinou afastamento do prefeito por 180 dias Leia no Camboriú News",
-     "link": "https://camboriu.news/prefeito-e-acusado-de-receber-celulares-e-ipad-como-propina-e-favorecer-empresas-em-contratos-publicos-em-sc/",
-     "fonte": "Camboriú News",
-     "data": "2026-11-12T18:44:59+00:00"
     },
     {
      "titulo": "Balneário Camboriú inicia articulação para receber edição de Bienal Internacional de Curitiba",
@@ -391,18 +363,11 @@
      "data": "2026-11-12T22:30:00+00:00"
     },
     {
-     "titulo": "Balneário Camboriú abre temporada de Natal e realiza primeiro desfile neste sábado",
-     "resumo": "Balneário Camboriú abriu a segunda edição do Viva o Natal BC na noite de quarta-feira (11), com o acendimento das luzes de Natal na Praia Central.",
-     "link": "https://www.bcnoticias.com.br/balneario-camboriu-abre-temporada-de-natal-e-realiza-primeiro-desfile-neste-sabado/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T12:23:39+00:00"
-    },
-    {
-     "titulo": "Quadrilha furta cerca de 100 celulares de loja em Palhoça e polícia faz prisões no RS",
-     "resumo": "Prejuízo estimado chegou a R$ 600 mil; três pessoas foram presas e parte dos aparelhos já foi recuperada Leia no Camboriú News",
-     "link": "https://camboriu.news/quadrilha-furta-cerca-de-100-celulares-de-loja-em-palhoca-e-policia-faz-prisoes-no-rs/",
+     "titulo": "Prefeito é acusado de receber celulares e iPad como propina e favorecer empresas em contratos públicos em SC",
+     "resumo": "TJSC recebeu denúncia contra Castilho Silvano Vieira e outras seis pessoas e determinou afastamento do prefeito por 180 dias Leia no Camboriú News",
+     "link": "https://camboriu.news/prefeito-e-acusado-de-receber-celulares-e-ipad-como-propina-e-favorecer-empresas-em-contratos-publicos-em-sc/",
      "fonte": "Camboriú News",
-     "data": "2026-11-12T18:10:29+00:00"
+     "data": "2026-11-12T18:44:59+00:00"
     },
     {
      "titulo": "Super Drill é bicampeão da Batalha do Silêncio em Balneário Camboriú",
@@ -412,11 +377,46 @@
      "data": "2026-11-12T21:46:07+00:00"
     },
     {
-     "titulo": "Balneário Camboriú divulga lista final de ambulantes autorizados a trabalhar nas praias na temporada 2026/2027",
-     "resumo": "A Prefeitura de Balneário Camboriú divulgou, nesta terça-feira (10), a lista definitiva dos classificados no chamamento público para o comércio ambulante na faixa de areia das praias durante a temporada 2026/2027.",
-     "link": "https://www.bcnoticias.com.br/balneario-camboriu-divulga-lista-final-de-ambulantes-autorizados-a-trabalhar-nas-praias-na-temporada-2026-2027/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T00:28:05+00:00"
+     "titulo": "Quadrilha furta cerca de 100 celulares de loja em Palhoça e polícia faz prisões no RS",
+     "resumo": "Prejuízo estimado chegou a R$ 600 mil; três pessoas foram presas e parte dos aparelhos já foi recuperada Leia no Camboriú News",
+     "link": "https://camboriu.news/quadrilha-furta-cerca-de-100-celulares-de-loja-em-palhoca-e-policia-faz-prisoes-no-rs/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-12T18:10:29+00:00"
+    },
+    {
+     "titulo": "Nova forma de consumir manga conquista o público em Balneário Camboriú",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSjVqTWtCMTFhYk4tNXZzZmtxZWo0dVB5Zm9tYVBtSUJOamlpeDRhVUJ3ajBtcV9TNVJLZDQ3Y3EyMXdvMVhQV3RVYlhRSWVaQVRsZjFtOWFiaGh4bExTRThqYWxyMm5HczNmdVBWemhGTkc2RW8zdHNmMkwxMnk2NHl2Q2JqbklCb0pHMHFSUThSOHRzMzA1WVZCMEFpcEVt?oc=5",
+     "fonte": "ND Mais",
+     "data": "2026-11-12T21:33:52+00:00"
+    },
+    {
+     "titulo": "Ex-prefeita do PL é acusada de receber R$ 15 mil em propina e vira ré em SC",
+     "resumo": "Ministério Público aponta suposto esquema para acelerar recursos e aditivos em contratos da Prefeitura de Vargem Leia no Camboriú News",
+     "link": "https://camboriu.news/ex-prefeita-do-pl-e-acusada-de-receber-r-15-mil-em-propina-e-vira-re-em-sc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-12T03:33:15+00:00"
+    },
+    {
+     "titulo": "Auri Pavoni vai assumir o Planejamento de Balneário Camboriú em janeiro",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUXVnRGd0MlZySGRyYjJlV1h5Y25QQ2xrajFmZzFXRHNybU92YUYzWkVWYXBvX1d2ZDZ4MzRzdWp2NElCbEE0ZDVBM1hobEo2enZfMS0yNHI3T3F2RmRjS3pvd2NsZFUzOHJUOTJDLUhrVi0yVm1tVFMzX0p3a21SVzN0bF92NE9BYUt1b2JrUjQ4X2dXbHBmWEk4OWY3YWRhbkpUeDBmTVlJTkFLZEpVcA?oc=5",
+     "fonte": "TopElegance",
+     "data": "2026-11-12T20:53:33+00:00"
+    },
+    {
+     "titulo": "Reurbanização da Avenida Brasil em Balneário Camboriú terá projeto de R$ 300 milhões",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV2U5clJjZ1lGd2VUb1l3bVNWUzQyTl9nNTh5MzNhUHhFTWh1ZnJISVZaYWR3TDNUYlFEZ2UtRTEydk9PSC1LMlV0UVAyTEVkLWUzMUdWRmpQaGowU2RyQXc0NUU3OWtXQ0E2VHlyR2pYSDQwTlgxbXVESUN4OVJsM2dfWkJYZlRrZkRkalE1ZERXQWJuNVdadHVmTlB6SlFwX1YwZW5zVW1CNkJWdG1Fa1hvUzRKd3dncWlfRTFnR2c?oc=5",
+     "fonte": "Gazeta do Povo",
+     "data": "2026-11-12T20:50:00+00:00"
+    },
+    {
+     "titulo": "Desfiles do Viva o Natal BC começam neste sábado na Avenida Atlântica",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVFprbXpDUVVYb0F1b2E5bGM2elozSTZjYjBiNjdGN1FEQnk0NXlxTWlKRzNjWVJGWDQyd2tRdi1md2plY0hITnh3dnpMSVdORERGcndCZGdoY19UUWlBWGpuQ3hmY0VoQkM4R1p3QUQ5X0F5R19TNmtRRlFnOWRKUGhocmVVSkY1OGZxb0lRWkhJUmR2X1NLYVBWWU04N25yckJCalh5UEVhQQ?oc=5",
+     "fonte": "No Ponto SC",
+     "data": "2026-11-12T20:41:42+00:00"
     }
    ]
   }

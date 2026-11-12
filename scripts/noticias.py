@@ -36,12 +36,6 @@ CATEGORIAS = [
         ("The Hack", "https://thehack.com.br/feed/", None),
         ("g1 Tecnologia", "https://g1.globo.com/rss/g1/tecnologia/", "!" + PROMO),
     ]),
-    ("promocoes", "Promoções", 8, [
-        ("Promobit", "https://www.promobit.com.br/blog/feed/", None),
-        ("Olhar Digital", "https://olhardigital.com.br/feed/", PROMO),
-        ("Tecnoblog", "https://tecnoblog.net/feed/", PROMO),
-        ("TecMundo", "https://rss.tecmundo.com.br/feed", PROMO),
-    ]),
 ]
 POR_FONTE = 4
 TAM_RESUMO = 220

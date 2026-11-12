@@ -128,3 +128,12 @@ window.FRASES_CANCER = [
   "Confie no tempo: o que é seu está a caminho.",
   "Hoje, sua empatia cria pontes onde havia muros."
 ];
+
+// Cores do dia para Cancer: [nome, cor]. Uma por dia.
+window.CORES_CANCER = [
+  ["Prata", "#b8bec8"], ["Branco pérola", "#efe9dd"], ["Azul-claro", "#8cc4e8"], ["Verde-água", "#6fd1c0"],
+  ["Lilás", "#b9a2e0"], ["Creme", "#f1e2b8"], ["Azul-marinho", "#1f3b73"], ["Rosa-claro", "#f2b6c6"],
+  ["Lavanda", "#c7b8ea"], ["Verde-menta", "#9fe0b8"], ["Cinza-perolado", "#c9ccd3"], ["Azul-turquesa", "#2fb5c4"],
+  ["Pêssego", "#f6be9a"], ["Branco", "#f7f7f5"], ["Verde-oliva", "#7d8a4a"], ["Coral", "#f27a63"],
+  ["Azul-celeste", "#6fb6f0"], ["Dourado-claro", "#e6c56b"], ["Rosa-antigo", "#c98a96"], ["Areia", "#d9c39b"]
+];

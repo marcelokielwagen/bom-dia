@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-12T21:47:58.158578+00:00",
+ "atualizado": "2026-11-12T22:15:47.188356+00:00",
  "categorias": [
   {
    "id": "mundo",
@@ -72,14 +72,14 @@
      "resumo": "",
      "link": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-12T21:01:56+00:00"
+     "data": "2026-11-12T21:44:39+00:00"
     },
     {
-     "titulo": "No Peru, papa prega contra machismo e pede que Igreja enfrente abusos",
-     "resumo": "Declarações foram feitas durante compromissos do pontífice em Lima; Peru é o 3º país de sua viagem pela América Latina",
-     "link": "https://www.poder360.com.br/poder-internacional/no-peru-papa-prega-contra-machismo-e-pede-que-igreja-enfrente-abusos/",
+     "titulo": "Braga mantém proteções a gastos em relatório do ajuste fiscal de Lula",
+     "resumo": "Parecer tem impacto de até R$ 56,1 bilhões em 2027 e impede remanejamento de economias de outros Poderes",
+     "link": "https://www.poder360.com.br/poder-congresso/braga-mantem-protecoes-a-gastos-em-relatorio-do-ajuste-fiscal-de-lula/",
      "fonte": "Poder360",
-     "data": "2026-11-12T21:44:02+00:00"
+     "data": "2026-11-12T22:14:23+00:00"
     },
     {
      "titulo": "STF decide que norma que absolve crime patrimonial contra mulher é incompatível com a Constituição",
@@ -89,11 +89,11 @@
      "data": "2026-11-12T19:53:22+00:00"
     },
     {
-     "titulo": "União Brasil negocia ter 2 ministérios no 4º governo de Lula",
-     "resumo": "Já há um entendimento de que o partido comandará duas pastas, mas ainda não está definido quais serão; MDB também deve continuar com dois ministérios na próxima gestão",
-     "link": "https://www.poder360.com.br/poder-governo/uniao-brasil-negocia-ter-2-ministerios-no-4o-governo-de-lula/",
+     "titulo": "Ações do Banco do Brasil fecham em queda de 8,35% após balanço",
+     "resumo": "O resultado financeiro do 3º tri foi considerado muito negativo pelos analistas; lucro caiu 66,5% na comparação anual",
+     "link": "https://www.poder360.com.br/poder-economia/acoes-do-banco-do-brasil-fecham-em-queda-de-835-apos-balanco/",
      "fonte": "Poder360",
-     "data": "2026-11-12T21:43:36+00:00"
+     "data": "2026-11-12T22:02:24+00:00"
     },
     {
      "titulo": "Lula embarca para Filipinas para participar de cúpula e ampliar mercado brasileiro na Ásia",
@@ -103,11 +103,11 @@
      "data": "2026-11-12T18:37:20+00:00"
     },
     {
-     "titulo": "Dólar sobe 1,62% e fecha em R$ 5,652 e Ibovespa cai 0,47%",
-     "resumo": "O mercado está de olho no plano de ajuste fiscal de Lula; pacote pode ter impacto de até R$ 60 bilhões em 2027",
-     "link": "https://www.poder360.com.br/poder-economia/dolar-sobe-162-e-fecha-em-r-5652-e-ibovespa-cai-047/",
+     "titulo": "Pará decreta emergência ambiental e climática por 120 dias",
+     "resumo": "Medida suspende autorizações para uso do fogo e restringe queimadas em 31 municípios",
+     "link": "https://www.poder360.com.br/poder-brasil/para-decreta-emergencia-ambiental-e-climatica-por-120-dias/",
      "fonte": "Poder360",
-     "data": "2026-11-12T21:26:25+00:00"
+     "data": "2026-11-12T21:54:53+00:00"
     },
     {
      "titulo": "STF mantém afastamento de Marco Buzzi do STJ após acusação de assédio, mas mantém salário",
@@ -117,11 +117,11 @@
      "data": "2026-11-12T18:35:37+00:00"
     },
     {
-     "titulo": "STF derruba isenção de pena em crime patrimonial contra mulher",
-     "resumo": "Por unanimidade, ministros invalidam artigos 181 e 182 do Código Penal; julgamento foi suspenso para definir a modulação dos efeitos",
-     "link": "https://www.poder360.com.br/poder-justica/stf-derruba-isencao-de-pena-em-crime-patrimonial-contra-mulher/",
+     "titulo": "Lucro líquido do Nubank sobe 39,5% no 3º trimestre e bate recorde",
+     "resumo": "Instituição registrou ganhos de US$ 1,09 bilhão de julho a setembro; valor foi de US$ 782,70 milhões no mesmo período de 2025",
+     "link": "https://www.poder360.com.br/poder-economia/lucro-liquido-do-nubank-sobe-395-no-3o-trimestre-e-bate-recorde/",
      "fonte": "Poder360",
-     "data": "2026-11-12T21:15:17+00:00"
+     "data": "2026-11-12T21:52:30+00:00"
     }
    ]
   },
@@ -130,11 +130,18 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Golpes por convites de calendário roubam sessões do Google e furam autenticação",
+     "titulo": "Anatel exige validação biométrica facial para linhas móveis a partir de 2027",
+     "resumo": "A Agência Nacional de Telecomunicações (Anatel) aprovou a Norma Técnica GT-SEG.2026.11, que obriga as prestadoras do Serviço Móvel Pessoal (SMP) a verificar a identidade dos usuários por meio de reconhecimento facial…",
+     "link": "https://www.cisoadvisor.com.br/anatel-exige-validacao-biometrica-facial-para-linhas-moveis-a-partir-de-2027/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T19:56:42+00:00"
+    },
+    {
+     "titulo": "Jensen Huang aceita ir ao Congresso dos EUA esclarecer relação com suposta espiã chinesa",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/golpes-por-convites-de-calendario-roubam-sessoes-do-google-e-furam-autenticacao/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/jensen-huang-vai-ao-congresso-dos-eua-esclarecer-relacao-com-suposta-espia-chinesa/",
      "fonte": "TecMundo",
-     "data": "2026-11-05T13:00:00+00:00"
+     "data": "2026-11-12T22:00:00+00:00"
     },
     {
      "titulo": "Programa gratuito quer capacitar novos talentos em cibersegurança",
@@ -151,11 +158,18 @@
      "data": "2026-11-12T19:34:08+00:00"
     },
     {
-     "titulo": "Microsoft Teams caiu? Outlook, 365 e outros serviços Microsoft instáveis nesta quinta (12)",
+     "titulo": "Caixa Vida e Previdência confirma incidente com cópia de dados",
+     "resumo": "A Caixa Vida e Previdência, uma empresa subsidiária da Caixa Econômica Federal, subordinada à Caixa Seguridade, confirmou ao CISO Advisor que foi vítima de um ataque cibernético que resultou no acesso não autorizado e…",
+     "link": "https://www.cisoadvisor.com.br/caixa-vida-e-previdencia-confirma-incidente-com-copia-de-dados/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T17:57:50+00:00"
+    },
+    {
+     "titulo": "Vivo Satélite: como verificar a compatibilidade do celular e usar a internet da Starlink?",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/big-techs/microsoft-teams-caiu-outlook-365-e-outros-servicos-microsoft-instaveis-nesta-quinta-12/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/vivo-satelite-como-verificar-a-compatibilidade-do-celular-e-usar-a-internet-da-starlink/",
      "fonte": "TecMundo",
-     "data": "2026-11-12T19:05:00+00:00"
+     "data": "2026-11-07T13:00:00+00:00"
     },
     {
      "titulo": "Fim das senhas: autenticação passwordless já é realidade",
@@ -166,100 +180,24 @@
     },
     {
      "titulo": "O que são os chips H200, no centro da polêmica que levou à renúncia do CEO da Nvidia",
-     "resumo": "Os desafios de suceder Huang na Nvidia A polêmica que levou à renúncia do CEO da Nvidia, Jensen Huang, nesta quinta-feira (12) envolve um pequeno componente: o chip H200, um dos mais avançados da empresa americana e que…",
+     "resumo": "Os desafios de suceder Huang na Nvidia A polêmica que levou à renúncia do CEO da Nvidia, Jensen Huang, nesta quinta-feira (12) envolve um pequeno componente: o chip H200, um dos mais avançados da empresa americana e…",
      "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/chips-h200-nvidia.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-12T19:15:13+00:00"
     },
     {
-     "titulo": "Zoom corrige falhas críticas que permitiam invasão remota no Windows",
+     "titulo": "900 domínios em ataques usando o nome gov.br",
+     "resumo": "A Lumu Technologies identificou uma campanha de golpes que se passa pelo gov.br, pelo Banco Central e por alguns dos principais bancos digitais, para cobrar taxas falsas via Pix.",
+     "link": "https://www.cisoadvisor.com.br/900-dominios-em-ataques-usando-o-nome-gov-br/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T14:20:29+00:00"
+    },
+    {
+     "titulo": "Golpes por convites de calendário roubam sessões do Google e furam autenticação",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/zoom-corrige-falhas-criticas-que-permitiam-invasao-remota-no-windows/",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/golpes-por-convites-de-calendario-roubam-sessoes-do-google-e-furam-autenticacao/",
      "fonte": "TecMundo",
-     "data": "2026-11-12T21:30:00+00:00"
-    },
-    {
-     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
-     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
-     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
-     "fonte": "The Hack",
-     "data": "2022-05-04T12:00:00+00:00"
-    },
-    {
-     "titulo": "Outlook fora do ar? Serviço de e-mail e IA da Microsoft apresentam instabilidade nesta quinta",
-     "resumo": "Usuários enfrentam dificuldades para acessar alguns serviços da Microsoft no início da tarde desta quinta-feira (12), como o Outlook.",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/outlook-fora-do-ar.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-12T18:40:04+00:00"
-    },
-    {
-     "titulo": "United Airlines proíbe agentes de IA de reservar voos em contas de clientes",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/inteligencia-artificial/united-airlines-proibe-agentes-de-ia-de-reservar-voos-em-contas-de-clientes/",
-     "fonte": "TecMundo",
-     "data": "2026-11-12T20:35:00+00:00"
-    }
-   ]
-  },
-  {
-   "id": "promocoes",
-   "nome": "Promoções",
-   "noticias": [
-    {
-     "titulo": "Celular Samsung na Magalu na Black Friday 2026: quais Galaxy valem a pena",
-     "resumo": "Qual celular Samsung comprar na Magalu na Black Friday? Veja 7 Galaxy com as menores ofertas postadas no Promobit e quais já estão mais baratos que em 2025.",
-     "link": "https://www.promobit.com.br/blog/celular-samsung-magalu-black-friday/",
-     "fonte": "Promobit",
-     "data": "2026-11-12T16:17:31+00:00"
-    },
-    {
-     "titulo": "GTA VI, Street Fighter 6 e mais: seleção de jogos PS5 em promoção na Amazon",
-     "resumo": "O catálogo do PlayStation 5 está recheado de títulos incríveis, e a Amazon reuniu uma seleção de jogos que vale muito a pena conferir.",
-     "link": "https://olhardigital.com.br/2026/11/12/reviews/gta-vi-street-fighter-6-e-mais-selecao-de-jogos-ps5-em-promocao-na-amazon-2/",
-     "fonte": "Olhar Digital",
-     "data": "2026-11-12T21:20:18+00:00"
-    },
-    {
-     "titulo": "Huawei Watch GT 7 Pro sai pelo menor preço em oferta Black antecipada",
-     "resumo": "Smartwatch premium com corpo em titânio possui mais de 110 modos de treino, mede VFC, ECG e detecta arritmias. Oferta no Mercado Livre concede 45% OFF Huawei Watch GT 7 Pro sai pelo menor preço em oferta Black antecipada",
-     "link": "https://tecnoblog.net/achados/huawei-watch-gt-7-pro-sai-pelo-menor-preco-em-oferta-black-antecipada/",
-     "fonte": "Tecnoblog",
-     "data": "2026-11-12T21:03:05+00:00"
-    },
-    {
-     "titulo": "Samsung Galaxy A57: até quanto vale a pena pagar na Black Friday?",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/produto-e-review/samsung-galaxy-a57-ate-quanto-vale-a-pena-pagar-na-black-friday/",
-     "fonte": "TecMundo",
-     "data": "2026-11-12T21:00:00+00:00"
-    },
-    {
-     "titulo": "Cupom de primeira compra Amazon: R$ 30 OFF no app com o código 30PROMOBIT",
-     "resumo": "Use o cupom 30PROMOBIT e ganhe R$ 30 OFF na primeira compra no app da Amazon, em pedidos acima de R$ 100. Veja regras, passo a passo e 7 produtos.",
-     "link": "https://www.promobit.com.br/blog/cupom-primeira-compra-amazon/",
-     "fonte": "Promobit",
-     "data": "2026-11-11T14:44:02+00:00"
-    },
-    {
-     "titulo": "Hora de renovar o escritório: impressoras em promoção na Amazon",
-     "resumo": "Se você está pensando em trocar a impressora ou adquirir uma pela primeira vez, este é o momento certo. Reunimos três boas opções de impressoras multifuncionais em oferta na Amazon, com modelos para diferentes perfis de…",
-     "link": "https://olhardigital.com.br/2026/11/12/reviews/hora-de-renovar-o-escritorio-impressoras-em-promocao-na-amazon-6/",
-     "fonte": "Olhar Digital",
-     "data": "2026-11-12T21:00:18+00:00"
-    },
-    {
-     "titulo": "TV Samsung OLED 55″ para jogos tem R$ 3.000 OFF com cupom da Black November",
-     "resumo": "Smart TV 4K OLED Samsung S85H oferece jogabilidade fluida e responsiva com painel de 120 Hz; oferta no mês da Black Friday reduz preço em 37% TV Samsung OLED 55″ para jogos tem R$ 3.000 OFF com cupom da Black November",
-     "link": "https://tecnoblog.net/achados/tv-samsung-oled-55-para-jogos-tem-r-3-000-off-com-cupom-da-black-november/",
-     "fonte": "Tecnoblog",
-     "data": "2026-11-12T20:44:30+00:00"
-    },
-    {
-     "titulo": "Lava-louças Electrolux com 8 serviços com um ótimo desconto",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/guia-de-compras/lava-loucas-electrolux-com-8-servicos-com-um-otimo-desconto/",
-     "fonte": "TecMundo",
-     "data": "2026-11-12T18:20:00+00:00"
+     "data": "2026-11-05T13:00:00+00:00"
     }
    ]
   }

@@ -98,6 +98,9 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .signo{display:flex;gap:14px;align-items:flex-start}
 .signo .sim{flex:0 0 54px;height:54px;border-radius:16px;display:grid;place-items:center;font-size:1.7rem;background:var(--chip)}
 .signo p{margin:6px 0 0;font:400 1.08rem/1.4 var(--serif)}
+.cor-dia{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:.85rem;font-weight:600}
+.cor-dia i{width:22px;height:22px;border-radius:50%;border:2px solid var(--card-line);box-shadow:0 0 0 1px var(--grid)}
+.cor-dia b{font-weight:800}
 .signo small{display:block;margin-top:8px;color:var(--soft);font-size:.72rem}
 
 /* Noticias estilo jornal, com abas de categoria */
@@ -153,6 +156,7 @@ footer a{color:inherit}
       <div>
         <div class="etiqueta">Câncer hoje</div>
         <p id="cancer"></p>
+        <div class="cor-dia" id="cor-dia"></div>
         <small>Só por diversão 🙂</small>
       </div>
     </section>
@@ -182,7 +186,7 @@ footer a{color:inherit}
 
   <footer>
     Previsão: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> ·
-    Notícias: BBC Brasil, DW, g1, Poder360, CISO Advisor, TecMundo, The Hack, Promobit, Olhar Digital e Tecnoblog (resumos dos próprios sites, com link para a matéria)
+    Notícias: BBC Brasil, DW, g1, Poder360, CISO Advisor, TecMundo e The Hack (resumos dos próprios sites, com link para a matéria)
   </footer>
 </main>
 
@@ -233,6 +237,8 @@ const numDia = Math.floor(Date.parse(HOJE + "T00:00:00Z") / 86400000);
 const escolher = (lista, salto) => lista[(numDia * salto) % lista.length];
 $("frase").textContent = escolher(window.FRASES_MOTIVACIONAIS || ["Bom dia!"], 7);
 $("cancer").textContent = escolher(window.FRASES_CANCER || ["Dia de cuidar de quem você ama."], 11);
+if (window.CORES_CANCER) { const [nomeCor, cor] = escolher(window.CORES_CANCER, 3);
+  $("cor-dia").innerHTML = `<i style="background:${cor}"></i><span>Cor do dia: <b>${nomeCor}</b></span>`; }
 
 // ---------- Previsao ----------
 let dados = null, diaSel = HOJE, cidade = "blumenau";
@@ -364,7 +370,7 @@ document.querySelectorAll(".cidades button").forEach(b => b.addEventListener("cl
 carregar();
 
 // ---------- Noticias (arquivo atualizado pelo GitHub a cada 3 horas) ----------
-const ICONE_CAT = {mundo: "🌍", politica: "🏛️", ti: "💻", promocoes: "🏷️"};
+const ICONE_CAT = {mundo: "🌍", politica: "🏛️", ti: "💻"};
 fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(j => {
   const cats = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
   let atual = cats[0].id;

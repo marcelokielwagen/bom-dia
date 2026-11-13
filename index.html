@@ -115,6 +115,16 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .titulo{font:600 1.5rem var(--serif);margin:28px 4px 12px;color:var(--head-ink)}
 .semana{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
 .dia.fim{background:linear-gradient(180deg,var(--card),color-mix(in srgb,var(--warm) 14%,var(--card)))}
+/* Musica do dia */
+.musica{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px}
+.musica .disco{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:1.8rem;
+  background:conic-gradient(from 20deg,var(--accent),var(--warm),var(--accent));box-shadow:0 6px 18px -8px rgba(0,0,0,.5)}
+.musica h3{margin:4px 0 0;font:600 clamp(1.15rem,3vw,1.45rem)/1.2 var(--serif)}
+.musica .artista{margin:0 0 4px;font-weight:700;font-size:.9rem}
+.musica p{margin:0;font-size:.9rem;color:var(--soft)}
+.spotify{background:#1db954;color:#06210f;font:800 .9rem var(--sans);padding:11px 18px;border-radius:999px;text-decoration:none;white-space:nowrap}
+.spotify:hover{filter:brightness(1.08)}
+@media (max-width:760px){.musica{grid-template-columns:auto minmax(0,1fr)}.spotify{grid-column:1/-1;text-align:center}}
 /* Novela */
 .novela{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;margin-bottom:12px}
 .novela h3{margin:4px 0 4px;font:600 clamp(1.15rem,3vw,1.45rem)/1.2 var(--serif)}
@@ -250,6 +260,8 @@ footer a{color:inherit}
       </div>
     </section>
   </div>
+
+  <section class="vidro musica" id="musica"></section>
 
   <section class="vidro fds" id="fds" hidden></section>
 
@@ -400,6 +412,18 @@ $("frase").textContent = escolher(window.FRASES_MOTIVACIONAIS || ["Bom dia!"], 7
 $("cancer").textContent = escolher(window.FRASES_CANCER || ["Dia de cuidar de quem você ama."], 11);
 if (window.CORES_CANCER) { const [nomeCor, cor] = escolher(window.CORES_CANCER, 3);
   $("cor-dia").innerHTML = `<i style="background:${cor}"></i><span>Cor do dia: <b>${nomeCor}</b></span>`; }
+
+// ---------- Musica do dia: uma por dia, na ordem da lista (a de 13/11/2026 e a primeira) ----------
+(function () {
+  const lista = window.MUSICAS || [];
+  if (!lista.length) { $("musica").hidden = true; return; }
+  const ancora = Math.floor(Date.UTC(2026, 10, 13) / 86400000);
+  const [titulo, artista, tema, frase] = lista[(((numDia - ancora) % lista.length) + lista.length) % lista.length];
+  const link = "https://open.spotify.com/search/" + encodeURIComponent(titulo + " " + artista);
+  $("musica").innerHTML = `<div class="disco" aria-hidden="true">🎵</div>
+    <div><div class="etiqueta">Música do dia · ${esc(tema)}</div><h3>${esc(titulo)}</h3><p class="artista">${esc(artista)}</p><p>${esc(frase)}</p></div>
+    <a class="spotify" href="${link}" target="_blank" rel="noopener">▶ Ouvir no Spotify</a>`;
+})();
 
 // ---------- Previsao ----------
 let mar = null, dados = null, diaSel = HOJE, cidade = "blumenau";

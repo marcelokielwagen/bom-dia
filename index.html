@@ -109,6 +109,17 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .titulo{font:600 1.5rem var(--serif);margin:28px 4px 12px;color:var(--head-ink)}
 .semana{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
 .dia.fim{background:linear-gradient(180deg,var(--card),color-mix(in srgb,var(--warm) 14%,var(--card)))}
+/* Novela */
+.novela{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;margin-bottom:12px}
+.novela h3{margin:4px 0 4px;font:600 clamp(1.15rem,3vw,1.45rem)/1.2 var(--serif)}
+.novela p{margin:0;font-size:.9rem;color:var(--soft)}
+.novela .chips{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.novela .chips div{background:var(--chip);border-radius:12px;padding:6px 10px;text-align:center;min-width:64px}
+.novela .chips b{display:block;font-size:.72rem;text-transform:capitalize}
+.novela .chips span{font:600 .95rem var(--serif)}
+.novela .chips .hoje{outline:2px solid var(--accent)}
+.novela .chips .dif span{color:var(--warm)}
+@media (max-width:760px){.novela{grid-template-columns:minmax(0,1fr)}.novela .chips{justify-content:flex-start}}
 /* Feriados */
 .feriados{list-style:none;margin:0;padding:0;display:grid;gap:2px}
 .feriados li{display:grid;grid-template-columns:62px minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--grid)}
@@ -227,6 +238,8 @@ footer a{color:inherit}
 
   <section class="vidro fds" id="fds" hidden></section>
 
+  <section class="vidro novela" id="novela" hidden></section>
+
   <section class="vidro" aria-live="polite">
     <div class="hero">
       <div id="agora"><span class="etiqueta">Carregando previsão…</span></div>
@@ -272,6 +285,10 @@ footer a{color:inherit}
 
 <script src="frases.js"></script>
 <script>
+// Ao atualizar (ou voltar para a pagina), sempre comeca la em cima
+try { history.scrollRestoration = "manual"; } catch (e) {}
+window.scrollTo(0, 0);
+window.addEventListener("pageshow", () => window.scrollTo(0, 0));
 const TZ = "America/Sao_Paulo";
 const CIDADES = {
   blumenau: {nome: "Blumenau", lat: -26.9194, lon: -49.0661},
@@ -292,7 +309,7 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt
 const r0 = n => Math.round(n);
 
 // Data e hora de agora no horario de Brasilia
-const partes = Object.fromEntries(new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",hourCycle:"h23"})
+const partes = Object.fromEntries(new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"})
   .formatToParts(new Date()).map(p => [p.type, p.value]));
 const HOJE = `${partes.year}-${partes.month}-${partes.day}`;
 const HORA_AGORA = +partes.hour;
@@ -613,6 +630,35 @@ carregar();
 
 // ---------- Noticias (arquivo atualizado pelo GitHub a cada 3 horas) ----------
 const ICONE_CAT = {mundo: "🌍", politica: "🏛️", ti: "💻", acoes: "📈", blumenau: "📍", bc: "📍"};
+// ---------- Novela (horarios vem da grade da Globo, via robo) ----------
+function desenharNovela(n) {
+  const ex = (n.exibicoes || []).filter(x => x.data >= HOJE);
+  if (!ex.length) { $("novela").hidden = true; return; }
+  const hm = s => s.replace(":", "h");
+  const agoraMin = HORA_AGORA * 60 + +partes.minute;
+  const ini = s => +s.slice(0, 2) * 60 + +s.slice(3);
+  const hoje = ex.find(x => x.data === HOJE);
+  const acabou = hoje && agoraMin > ini(hoje.inicio) + hoje.duracao;
+  const prox = ex.find(x => x.data > HOJE);
+  const dia = x => nomeDia(x.data, {weekday: "long"}).replace("-feira", "");
+  let titulo, sub;
+  if (hoje && !acabou) {
+    const emBreve = ini(hoje.inicio) - agoraMin;
+    titulo = `Hoje às ${hm(hoje.inicio)}`;
+    sub = emBreve > 0 ? `Começa em ${emBreve >= 60 ? Math.floor(emBreve / 60) + "h" + String(emBreve % 60).padStart(2, "0") : emBreve + " min"}` : "No ar agora!";
+  } else if (prox) {
+    titulo = `Próximo capítulo: ${dia(prox)} às ${hm(prox.inicio)}`;
+    sub = hoje ? "O capítulo de hoje já passou." : "Hoje não tem capítulo.";
+  } else { titulo = "Sem horário informado"; sub = ""; }
+  // horario mais comum; os diferentes ganham destaque (jogo, programa especial)
+  const cont = {}; ex.forEach(x => cont[x.inicio] = (cont[x.inicio] || 0) + 1);
+  const comum = Object.keys(cont).sort((a, b) => cont[b] - cont[a])[0];
+  $("novela").innerHTML = `<div><div class="etiqueta">📺 ${esc(n.nome)} · ${esc(n.canal || "TV Globo")}</div><h3>${titulo}</h3><p>${sub}</p></div>
+    <div class="chips">${ex.slice(0, 6).map(x => `<div class="${x.data === HOJE ? "hoje" : ""}${x.inicio !== comum ? " dif" : ""}" title="${x.inicio !== comum ? "Horário diferente do normal" : ""}">
+      <b>${x.data === HOJE ? "hoje" : nomeDia(x.data, {weekday: "short"}).replace(".", "")}</b><span>${hm(x.inicio)}</span></div>`).join("")}</div>`;
+  $("novela").hidden = false;
+}
+
 // ---------- Mercado: dolar, euro e bitcoin ao vivo; Ibovespa vem do robo ----------
 const brl = (n, dec = 2) => n.toLocaleString("pt-BR", {minimumFractionDigits: dec, maximumFractionDigits: dec});
 function pintarVar(id, pct) {
@@ -631,6 +677,7 @@ fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL").th
 fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(j => {
   if (j.ibovespa) { $("m-ibov").textContent = brl(j.ibovespa.pontos, 0) + " pts"; pintarVar("v-ibov", j.ibovespa.variacao); }
   else $("m-ibov").textContent = "—";
+  if (j.novela) desenharNovela(j.novela);
   const todas = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
   let cats = [], atual = "mundo";
   try { atual = localStorage.getItem("categoria") || atual; } catch(e) {}

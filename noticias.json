@@ -1,9 +1,60 @@
 {
- "atualizado": "2026-11-12T22:52:20.850021+00:00",
+ "atualizado": "2026-11-13T01:56:18.397278+00:00",
  "ibovespa": {
   "pontos": 171324,
   "variacao": -0.43,
-  "hora": "2026-11-12T21:19:00+00:00"
+  "hora": "2026-11-13T01:32:14+00:00"
+ },
+ "novela": {
+  "nome": "Quem Ama Cuida",
+  "canal": "TV Globo",
+  "exibicoes": [
+   {
+    "data": "2026-11-10",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-11-11",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-11-12",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-11-13",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-11-14",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-11-16",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-11-17",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-11-18",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-11-19",
+    "inicio": "20:35",
+    "duracao": 45
+   }
+  ]
  },
  "categorias": [
   {
@@ -15,14 +66,14 @@
      "resumo": "Novela 'Lá na Minha Terra' tem sido criticada por associar Nordeste ao sertão seco e pobre. Autor diz que o folhetim reforça estereótipos e argumenta que os efeitos dessa representação são práticos na vida dos…",
      "link": "https://www.bbc.com/portuguese/articles/c6grey09e9n1o?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-12T19:35:47+00:00"
+     "data": "2026-11-12T23:45:42+00:00"
     },
     {
-     "titulo": "Trump diz que quer 'resolver a questão de Cuba' antes de deixar cargo",
-     "resumo": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta quinta-feira (12) que considera usar força contra Cuba.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/12/trump-diz-que-quer-resolver-a-questao-de-cuba-antes-de-deixar-cargo.ghtml",
+     "titulo": "VÍDEO: Soldado dá bronca em secretário de Guerra dos EUA por risadas e recebe medalha",
+     "resumo": "Soldado dá bronca no secretário de Guerra dos EUA Um soldado do Exército dos Estados Unidos deu uma bronca no secretário de Guerra, Pete Hegseth, e em integrantes da comitiva dele após ouvir risadas durante uma visita…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/12/video-soldado-da-bronca-em-secretario-de-guerra-dos-eua-por-risadas-e-recebe-medalha.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-12T21:09:24+00:00"
+     "data": "2026-11-13T01:17:13+00:00"
     },
     {
      "titulo": "Assédio sexual no Exército alemão é mais disseminado do que indicam registros",
@@ -36,14 +87,14 @@
      "resumo": "Empresa informou que registra falhas em seus servidores, após relatos de perda de conexão com serviços como Outlook, Microsoft 365 e Teams em nível mundial.",
      "link": "https://www.bbc.com/portuguese/articles/c6wy49w32epwo?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-12T21:11:32+00:00"
+     "data": "2026-11-13T01:17:57+00:00"
     },
     {
-     "titulo": "VÍDEO: Condenado por terrorismo, italiano de 74 anos escala prédio e foge de prisão domiciliar na Argentina",
-     "resumo": "Italiano condenado por terrorismo escala prédio e foge da prisão domiciliar na Argentina Um italiano de 74 anos condenado por crimes de terrorismo escapou da prisão domiciliar em Buenos Aires, na Argentina, depois de…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/12/video-condenado-por-terrorismo-italiano-de-74-anos-escala-predio-e-foge-de-prisao-domiciliar-na-argentina.ghtml",
+     "titulo": "Nove dias após votação, democrata é declarada vencedora da eleição para governo do Kansas",
+     "resumo": "A democrata Cindy Holscher foi declarada vencedora da eleição para o governo do Kansas, nos Estados Unidos, nove dias depois da votação. A Associated Press confirmou o resultado nesta quinta-feira (12).",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/12/nove-dias-apos-votacao-democrata-e-declarada-vencedora-da-eleicao-para-governo-do-kansas.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-12T21:08:26+00:00"
+     "data": "2026-11-12T23:35:18+00:00"
     },
     {
      "titulo": "Escândalo de traição com suposta espiã chinesa leva a renúncia de Jensen Huang como CEO da Nvidia",
@@ -60,11 +111,11 @@
      "data": "2026-11-12T21:18:29+00:00"
     },
     {
-     "titulo": "É #FAKE que vídeo de trânsito no Paraguai mostre 'êxodo' bolsonarista; cena é de congestionamento do feriado de 12 de outubro",
-     "resumo": "Vídeo não mostra saídade bolsonaristas do Paraguia de volta ao Brasil g1 Circula nas redes sociais uma publicação que afirma que um vídeo de carros enfileirados em um trânsito intenso representa um 'êxodo' de…",
-     "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/12/e-fake-que-video-de-transito-no-paraguai-mostre-exodo-bolsonarista-cena-mostra-congestionamento-do-feriado-de-12-de-outubro.ghtml",
+     "titulo": "Trump diz que quer 'resolver a questão de Cuba' antes de deixar cargo",
+     "resumo": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta quinta-feira (12) que considera usar força contra Cuba.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/12/trump-diz-que-quer-resolver-a-questao-de-cuba-antes-de-deixar-cargo.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-12T20:11:23+00:00"
+     "data": "2026-11-12T21:09:24+00:00"
     }
    ]
   },
@@ -73,60 +124,60 @@
    "nome": "Política",
    "noticias": [
     {
-     "titulo": "ASSISTA: Senado discute o projeto de ajuste fiscal; texto pode ser votado ainda hoje",
+     "titulo": "Senado aprova texto-base do projeto de ajuste fiscal",
      "resumo": "",
      "link": "https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-12T22:41:45+00:00"
+     "data": "2026-11-13T00:35:23+00:00"
     },
     {
-     "titulo": "Kassab elogia “pré-disposição” de Lula para fazer ajuste fiscal",
-     "resumo": "Presidente do PSD não respondeu diretamente se aceitaria assumir um ministério; disse que participação em cargos é secundária",
-     "link": "https://www.poder360.com.br/poder-economia/kassab-elogia-pre-disposicao-de-lula-para-fazer-ajuste-fiscal/",
+     "titulo": "Marinho propõe ajuste de R$ 75 bilhões sem elevar impostos",
+     "resumo": "Líder da oposição apresentará emenda na 3ª feira (17.nov) para conter despesas e evitar adiamento de repasses aos Estados",
+     "link": "https://www.poder360.com.br/poder-congresso/marinho-propoe-ajuste-de-r-75-bilhoes-sem-elevar-impostos/",
      "fonte": "Poder360",
-     "data": "2026-11-12T22:39:40+00:00"
+     "data": "2026-11-13T01:54:49+00:00"
     },
     {
-     "titulo": "STF decide que norma que absolve crime patrimonial contra mulher é incompatível com a Constituição",
-     "resumo": "O Supremo Tribunal Federal (STF) decidiu nesta quarta-feira (11), por unanimidade, que é incompatível com a Constituição dispositivo do Código Penal que isentava de pena quem cometia crime patrimonial contra a mulher em…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/12/stf-decide-que-norma-que-absolve-crime-patrimonial-contra-mulher-e-incompativel-com-a-constituicao.ghtml",
+     "titulo": "Senado Federal aprova texto-base de projeto que prevê ajuste fiscal: como votaram os senadores e partidos",
+     "resumo": "",
+     "link": "https://g1.globo.com/politica/votacoes-no-congresso/noticia/2026/11/12/senado-federal-aprova-texto-base-projeto-ajuste-fiscal-como-votaram-senadores-partidos.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-12T19:53:22+00:00"
+     "data": "2026-11-13T00:16:01+00:00"
     },
     {
-     "titulo": "Braga mantém proteções a gastos em relatório do ajuste fiscal de Lula",
-     "resumo": "Parecer tem impacto de até R$ 56,1 bilhões em 2027 e impede remanejamento de economias de outros Poderes",
-     "link": "https://www.poder360.com.br/poder-congresso/braga-mantem-protecoes-a-gastos-em-relatorio-do-ajuste-fiscal-de-lula/",
+     "titulo": "Marinho diz que governo deu “calote” em Estados com ajuste fiscal",
+     "resumo": "Líder da Oposição critica adiamento de repasses e exclusão de R$ 10,5 bilhões em subsídios ao diesel da meta fiscal",
+     "link": "https://www.poder360.com.br/poder-congresso/marinho-diz-que-governo-deu-calote-em-estados-com-ajuste-fiscal/",
      "fonte": "Poder360",
-     "data": "2026-11-12T22:14:23+00:00"
+     "data": "2026-11-13T01:47:41+00:00"
     },
     {
-     "titulo": "Lula embarca para Filipinas para participar de cúpula e ampliar mercado brasileiro na Ásia",
-     "resumo": "COP 31: Lula fica de fora do segundo dia da cúpula de lideranças mundiais O presidente Luiz Inácio Lula da Silva (PT) embarcou nesta quinta-feira (12) para as Filipinas para participar da cúpula da Associação de Nações…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/12/lula-embarca-para-filipinas-para-participar-de-cupula-e-ampliar-mercado-brasileiro-na-asia.ghtml",
+     "titulo": "Senado Federal aprova texto-base de projeto que prevê ajuste fiscal de até R$ 60 bilhões",
+     "resumo": "",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/12/senado-federal-aprova-ajuste-fiscal-de-ate-r-60-bilhoes.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-12T18:37:20+00:00"
+     "data": "2026-11-13T00:05:04+00:00"
     },
     {
-     "titulo": "Ações do Banco do Brasil fecham em queda de 8,35% após balanço",
-     "resumo": "O resultado financeiro do 3º tri foi considerado muito negativo pelos analistas; lucro caiu 66,5% na comparação anual",
-     "link": "https://www.poder360.com.br/poder-economia/acoes-do-banco-do-brasil-fecham-em-queda-de-835-apos-balanco/",
+     "titulo": "PGR se manifesta contra a anulação da condenação de Bolsonaro",
+     "resumo": "Paulo Gonet afirmou que defesa não apresentou elementos que justifiquem a revisão criminal",
+     "link": "https://www.poder360.com.br/poder-justica/pgr-se-manifesta-contra-a-anulacao-da-condenacao-de-bolsonaro/",
      "fonte": "Poder360",
-     "data": "2026-11-12T22:02:24+00:00"
+     "data": "2026-11-13T01:27:23+00:00"
     },
     {
-     "titulo": "STF mantém afastamento de Marco Buzzi do STJ após acusação de assédio, mas mantém salário",
-     "resumo": "O ministro Nunes Marques, do Supremo Tribunal Federal (STF), manteve o afastamento do ministro Marco Buzzi determinado pelo Superior Tribunal de Justiça (STJ), mas negou a suspensão do pagamento do salário.",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/12/stf-mantem-afastamento-de-marco-buzzi-do-stj-apos-acusacao-de-assedio-mas-mantem-salario.ghtml",
+     "titulo": "Senado aprova inclusão de vacina contra herpes-zóster no SUS; projeto segue para a Câmara",
+     "resumo": "A Comissão de Assuntos Sociais (CAS) do Senado confirmou, na quarta-feira (11), a aprovação de um projeto de lei que prevê a inclusão da vacina contra herpes-zóster, doença popularmente conhecida como cobreiro, no…",
+     "link": "https://g1.globo.com/saude/noticia/2026/11/12/senado-aprova-inclusao-de-vacina-contra-herpes-zoster-no-sus-projeto-segue-para-a-camara.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-12T18:35:37+00:00"
+     "data": "2026-11-12T23:07:42+00:00"
     },
     {
-     "titulo": "Pará decreta emergência ambiental e climática por 120 dias",
-     "resumo": "Medida suspende autorizações para uso do fogo e restringe queimadas em 31 municípios",
-     "link": "https://www.poder360.com.br/poder-brasil/para-decreta-emergencia-ambiental-e-climatica-por-120-dias/",
+     "titulo": "Saiba como cada senador votou no pacote de ajuste fiscal de Lula",
+     "resumo": "Projeto recebeu 45 votos favoráveis e 31 contrários; 5 senadores não registraram voto na proposta",
+     "link": "https://www.poder360.com.br/poder-congresso/saiba-como-cada-senador-votou-no-pacote-de-ajuste-fiscal-de-lula/",
      "fonte": "Poder360",
-     "data": "2026-11-12T21:54:53+00:00"
+     "data": "2026-11-13T01:02:59+00:00"
     }
    ]
   },
@@ -135,18 +186,18 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Apache corrige falha crítica de execução remota no HTTP/2",
-     "resumo": "A Apache Software Foundation corrigiu uma vulnerabilidade crítica no módulo HTTP/2 do Apache HTTP Server que pode ser explorada por um atacante não autenticado para obter execução remota de código (RCE).",
-     "link": "https://www.cisoadvisor.com.br/apache-corrige-falha-critica-de-execucao-remota-no-http-2/",
+     "titulo": "Ataques ao ScreenConnect comprometem MSPs e clientes",
+     "resumo": "A ConnectWise investiga uma campanha de malware contra provedores de serviços gerenciados (MSPs) que usa ambientes ScreenConnect comprometidos para instalar clientes de acesso remoto não autorizados em dispositivos de…",
+     "link": "https://www.cisoadvisor.com.br/ataques-ao-screenconnect-comprometem-msps-e-clientes/",
      "fonte": "CISO Advisor",
-     "data": "2026-11-12T22:50:15+00:00"
+     "data": "2026-11-12T22:55:48+00:00"
     },
     {
-     "titulo": "Fraudes judiciais usam emails falsos para roubar dados na América Latina",
+     "titulo": "Caso Nvidia: Singapura proíbe suposta espiã chinesa de entrar no país",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/fraudes-judiciais-usam-emails-falsos-para-roubar-dados-na-america-latina/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/caso-nvidia-singapura-proibe-suposta-espia-chinesa-de-entrar-no-pais/",
      "fonte": "TecMundo",
-     "data": "2026-11-12T22:30:00+00:00"
+     "data": "2026-11-13T00:00:00+00:00"
     },
     {
      "titulo": "Programa gratuito quer capacitar novos talentos em cibersegurança",
@@ -154,6 +205,34 @@
      "link": "https://www.thehack.com.br/programa-gratuito-quer-capacitar-novos-talentos-em-ciberseguranca/",
      "fonte": "The Hack",
      "data": "2022-05-16T12:00:00+00:00"
+    },
+    {
+     "titulo": "Ataque hacker ao Tesouro Nacional expõe dados de 30 mil cadastros e 4 mil chaves PIX",
+     "resumo": "Um ataque hacker identificado pelo Tesouro Nacional atingiu cerca de 30 mil cadastros de usuários do portal e-Serviços e 4 mil chaves PIX de beneficiários de pagamentos do governo federal, informou o órgão nesta…",
+     "link": "https://g1.globo.com/economia/noticia/2026/11/12/tesouro-nacional-incidente-seguranca.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-12T23:13:57+00:00"
+    },
+    {
+     "titulo": "Apache corrige falha crítica de execução remota no HTTP/2",
+     "resumo": "A Apache Software Foundation corrigiu uma vulnerabilidade crítica no módulo HTTP/2 do Apache HTTP Server que pode ser explorada por um atacante não autenticado para obter execução remota de código (RCE).",
+     "link": "https://www.cisoadvisor.com.br/apache-corrige-falha-critica-de-execucao-remota-no-http-2/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T22:50:15+00:00"
+    },
+    {
+     "titulo": "GTA 6 teria ultrapassado a marca de US$ 1 bilhão em pré-vendas, segundo relatório",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-teria-ultrapassado-a-marca-de-us-1-bilhao-em-pre-vendas-segundo-relatorio/",
+     "fonte": "TecMundo",
+     "data": "2026-11-12T23:12:00+00:00"
+    },
+    {
+     "titulo": "Fim das senhas: autenticação passwordless já é realidade",
+     "resumo": "Plataforma Secure Access by Duo, da Cisco, passa a suportar login sem o uso das velhas palavras-passe.",
+     "link": "https://www.thehack.com.br/fim-das-senhas-autenticacao-passwordless-ja-e-realidade/",
+     "fonte": "The Hack",
+     "data": "2022-05-09T12:00:00+00:00"
     },
     {
      "titulo": "Ex-CEO da Nvidia teve relacionamento extraconjugal com uma terceira mulher, diz agência",
@@ -170,39 +249,11 @@
      "data": "2026-11-12T22:46:07+00:00"
     },
     {
-     "titulo": "Silent Hill: Townfall e mais games de PS5 e PS4 com até 90% OFF",
+     "titulo": "Falha no PHP mobiliza ação internacional de cibersegurança, mas sem sucesso",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/silent-hill-townfall-e-mais-games-de-ps5-e-ps4-com-ate-90-off/",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/falha-no-php-mobiliza-acao-internacional-de-cibercriminosos-mas-sem-sucesso/",
      "fonte": "TecMundo",
-     "data": "2026-11-12T22:15:00+00:00"
-    },
-    {
-     "titulo": "Fim das senhas: autenticação passwordless já é realidade",
-     "resumo": "Plataforma Secure Access by Duo, da Cisco, passa a suportar login sem o uso das velhas palavras-passe.",
-     "link": "https://www.thehack.com.br/fim-das-senhas-autenticacao-passwordless-ja-e-realidade/",
-     "fonte": "The Hack",
-     "data": "2022-05-09T12:00:00+00:00"
-    },
-    {
-     "titulo": "O que são os chips H200, no centro da polêmica que levou à renúncia do CEO da Nvidia",
-     "resumo": "Os desafios de suceder Huang na Nvidia A polêmica que levou à renúncia do CEO da Nvidia, Jensen Huang, nesta quinta-feira (12) envolve um pequeno componente: o chip H200, um dos mais avançados da empresa americana e…",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/chips-h200-nvidia.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-12T19:15:13+00:00"
-    },
-    {
-     "titulo": "Anatel exige validação biométrica facial para linhas móveis a partir de 2027",
-     "resumo": "A Agência Nacional de Telecomunicações (Anatel) aprovou a Norma Técnica GT-SEG.2026.11, que obriga as prestadoras do Serviço Móvel Pessoal (SMP) a verificar a identidade dos usuários por meio de reconhecimento facial…",
-     "link": "https://www.cisoadvisor.com.br/anatel-exige-validacao-biometrica-facial-para-linhas-moveis-a-partir-de-2027/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T19:56:42+00:00"
-    },
-    {
-     "titulo": "Jensen Huang aceita ir ao Congresso dos EUA esclarecer relação com suposta espiã chinesa",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/big-techs/jensen-huang-vai-ao-congresso-dos-eua-esclarecer-relacao-com-suposta-espia-chinesa/",
-     "fonte": "TecMundo",
-     "data": "2026-11-12T22:00:00+00:00"
+     "data": "2026-10-23T21:30:00+00:00"
     }
    ]
   },
@@ -211,18 +262,18 @@
    "nome": "Ações e Mercado",
    "noticias": [
     {
-     "titulo": "Bolsas de Nova York fecham em queda com crise da Nvidia e ataques ao Irã",
-     "resumo": "As bolsas de Nova York encerraram a sessão desta quinta-feira (12) em queda, após a renúncia de Jensen Huang do comando da Nvidia reacender os temores em torno do setor de tecnologia.",
-     "link": "https://www.moneytimes.com.br/bolsas-de-nova-york-fecham-em-queda-com-crise-da-nvidia-e-ataques-ao-ira-davs/",
+     "titulo": "Senado aprova texto-base de projeto fiscal com impacto de até R$ 60 bi em 2027",
+     "resumo": "O Senado aprovou nesta quinta-feira (12) o texto-principal de projeto de lei complementar que prevê a adoção de uma série de medidas fiscais com impacto previsto de até R$ 60 bilhões em 2027 para garantir as metas de…",
+     "link": "https://www.moneytimes.com.br/senado-aprova-texto-base-de-projeto-fiscal-com-impacto-de-ate-r60-bi-em-2027-gaep/",
      "fonte": "Money Times",
-     "data": "2026-11-12T22:09:44+00:00"
+     "data": "2026-11-13T01:23:07+00:00"
     },
     {
-     "titulo": "Track&Field tem lucro de R$35 mi no 3º tri, alta de 17%",
+     "titulo": "ByteDance planeja recompra de US$ 6 bilhões com avaliação de US$ 400 bilhões",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/trackfield-tem-lucro-de-r35-mi-no-3o-tri-alta-de-17-2125853",
+     "link": "https://br.investing.com/news/stock-market-news/bytedance-planeja-recompra-de-us-6-bilhoes-com-avaliacao-de-us-400-bilhoes-93CH-2126013",
      "fonte": "Investing.com",
-     "data": "2026-11-12T22:21:04+00:00"
+     "data": "2026-11-13T01:44:38+00:00"
     },
     {
      "titulo": "Nova CEO da Nvidia, Colette Kress está há 13 anos na companhia e já passou pela Microsoft",
@@ -239,18 +290,18 @@
      "data": "2026-05-27T21:59:36+00:00"
     },
     {
-     "titulo": "MBRF (MBRF3) tem lucro de R$ 210 milhões no 3T26, alta de 123,5% em um ano",
-     "resumo": "A MBRF (MBRF3) registrou lucro líquido de R$ 210 milhões no terceiro trimestre de 2026, crescimento de 123,5% na comparação com o mesmo período do ano passado.",
-     "link": "https://www.moneytimes.com.br/mbrf-mbrf3-tem-lucro-de-r-210-milhoes-no-3t26-alta-de-1235-em-um-ano-pads/",
+     "titulo": "Lucro da B3 (B3SA3) fica dentro do esperado no 3º tri, a R$ 1,4 bi",
+     "resumo": "A operadora da bolsa de valores de São Paulo, B3 (B3SA3), divulgou nesta quinta-feira resultado de terceiro trimestre em linha com expectativas de analistas, com avanço na receita líquida e no desempenho operacional.",
+     "link": "https://www.moneytimes.com.br/lucro-da-b3-b3sa3-fica-dentro-do-esperado-no-3o-tri-a-r-14-bi/",
      "fonte": "Money Times",
-     "data": "2026-11-12T22:01:26+00:00"
+     "data": "2026-11-12T23:09:00+00:00"
     },
     {
-     "titulo": "Petz Cobasi tem alta de 31% no lucro no 3º trimestre",
+     "titulo": "Por que as ações da Samsung Electronics estão subindo hoje?",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/petz-cobasi-tem-alta-de-31-no-lucro-no-3o-trimestre-2125854",
+     "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-samsung-electronics-estao-subindo-hoje-93CH-2125991",
      "fonte": "Investing.com",
-     "data": "2026-11-12T22:21:04+00:00"
+     "data": "2026-11-13T00:41:12+00:00"
     },
     {
      "titulo": "“O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem deixar a qualidade do crédito para trás",
@@ -267,18 +318,18 @@
      "data": "2026-05-27T21:47:03+00:00"
     },
     {
-     "titulo": "Ibovespa fecha no vermelho em meio a preocupações com o ajuste fiscal e à temporada de balanços",
-     "resumo": "O ajuste fiscal anunciado pelo governo do presidente Luiz Inácio Lula da Silva (PT) não convenceu o mercado, e quem sofreu foi o Ibovespa (IBOV).",
-     "link": "https://www.moneytimes.com.br/ibovespa-12-11-2026-davs/",
+     "titulo": "Natura (NATU3) reverte prejuízo bilionário no 3T26; veja números",
+     "resumo": "A Natura (NATU3) divulgou os seus resultados financeiros para o terceiro trimestre de 2026, reportando uma reversão significativa em relação ao mesmo período do ano anterior.",
+     "link": "https://www.moneytimes.com.br/natura-natu3-reverte-prejuizo-bilionario-no-3t26-veja-numeros/",
      "fonte": "Money Times",
-     "data": "2026-11-12T21:51:34+00:00"
+     "data": "2026-11-12T22:53:00+00:00"
     },
     {
-     "titulo": "CPFL tem queda do lucro no 3º tri com efeito contábil de renovação de concessões",
+     "titulo": "Ações da Modine Manufacturing disparam após rumor de aquisição pela Samsung",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/cpfl-tem-queda-do-lucro-no-3o-tri-com-efeito-contabil-de-renovacao-de-concessoes-2125852",
+     "link": "https://br.investing.com/news/stock-market-news/acoes-da-modine-manufacturing-disparam-apos-rumor-de-aquisicao-pela-samsung-93CH-2125990",
      "fonte": "Investing.com",
-     "data": "2026-11-12T22:21:03+00:00"
+     "data": "2026-11-13T00:41:08+00:00"
     }
    ]
   },
@@ -286,6 +337,13 @@
    "id": "blumenau",
    "nome": "Blumenau",
    "noticias": [
+    {
+     "titulo": "Advogado de Blumenau passa em sabatina da OAB/SC e está entre os 12 candidatos ao Quinto Constitucional",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOVFaaGtvQlQwYTkxTjZZS0IwLWRZOC1tbFlxaWpOT3cwcDZnU2xhUGVKWmNLdzV2Nm0zckt6eE40SmxpanNxSThiNFN4NUw2TURvWFA5cE9vUnNLVVRXR2FOUWJ0SVIyelhkZWNNc1daM2VvTVhfMmNiQ2JlVDNmb24yQnhPb0pzSW9RMG01cmFHTmFtckh3SmtWYXhXbWN6WllUMzg0cHUzZEtHdm5BQzQxeEN5a1dLY21qWnloWEJtQjlJbXM2U2N2TThER21PVkE?oc=5",
+     "fonte": "Informe Blumenau",
+     "data": "2026-11-12T23:14:02+00:00"
+    },
     {
      "titulo": "Natal em Blumenau terá programação diária com atrações culturais e atividades para toda a família - Top Society",
      "resumo": "",
@@ -308,6 +366,13 @@
      "data": "2026-11-12T21:35:17+00:00"
     },
     {
+     "titulo": "Operação contra fraude tributária aponta R$ 15,5 milhões em compensações irregulares em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM3pSaFF6czB2OTYzWHhYS0gzWlp6WVd2bk93R285SlVUMDQ0Q1Jva3lBNUJtU29SQnpBSmNDUWRoUTlyeElsRTdEdmlhWU82Y2NpYy16c1RnUkhoNmwzUHFuek5Ub1pQc2lSOG9TdW1QcTl2UTYzNnlFMkpKZ2RhVUZEdC1mNGVxbFpuRGtKOTh5VU1vN0hqX3J4Q2dtMWlfRzZsdFh6RnE1RDYzc25lSVBLU19kbjFCekM0TllTOHZrNDVDM0R0YmhwdWVBLS1U?oc=5",
+     "fonte": "AJ Notícias",
+     "data": "2026-11-12T21:02:28+00:00"
+    },
+    {
      "titulo": "Professora de Blumenau vence “Oscar da Educação” com projeto sobre ciclo da água",
      "resumo": "",
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamxfTDR2Sm1zYVp1bE1LQTgzUEZ2Um5wUnFRZHZ4eFFnckwyWi1YR2EzUzd0ZWVtbm1JVzZudU53VDVWVHNrVlZVc2Y4dWR0UV9VdzVHOFpXVVNucXVLbnlUc0RuNWdTT1IyaFg5V1hPRHRTTC1JeXphb2JTeVpoN3NiT1ZnUlV1TVNHTmhzZG1CZlFjeDFSQnZaN2dVWmhXb2REcmxnN0tFcFY4WXF3SU1EbDV1dw?oc=5",
@@ -315,25 +380,11 @@
      "data": "2026-11-12T20:42:44+00:00"
     },
     {
-     "titulo": "Proposta que altera convocação de suplentes de vereadores é aprovada em segundo turno",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZS13YnVvNHpOLVBNUUNsa0pMVnY0bVgtUF9uSDUyUU5QWHZZc1VhMXhhMld4UnRLVjVJT2tWanJiYWREOGM5UGNndlpsMUJ3RXB0TEtET3pYQjZPV0pNcWQzMUZ2V3k1ZlV1bmZ0LUVOS2NCOFhXeUtlLUw4VjhRcWZpNUtuR1FOdUt0RjNGZkNRSGFDS0NiMG9ubEZiYkxEc2ZqVjl3VnlzN3pvZG5HYWpSUjQyb0RVbUE?oc=5",
-     "fonte": "Informe Blumenau",
-     "data": "2026-11-12T20:39:40+00:00"
-    },
-    {
      "titulo": "Professora da rede estadual de Blumenau vence o Prêmio Educador Nota 10 na categoria Inovação e Tecnologia",
      "resumo": "",
      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTnEyS2xIU2szZjk2VUktMGJ4bTgtSlhpcjlIQ21vTzA4UklzeFB5c2loVF9NNmVlMDRka0Nlc0NHSFp1RkNIWU9tR0VibDVGLTEwR213a2ljQmE0a1prdy04NUE5X1dvY1ctTXF0MnVCQi1Lb2Z2REFFMnVmNlVkVzlUMFY1UDd2dGJqWmN6SDNqSExlWjRHVzVXaGx3MjRZNUREeVRHME52SzZFM05jZGFmMkxQMlYxcVhV?oc=5",
      "fonte": "Deolhonailha",
      "data": "2026-11-12T20:38:24+00:00"
-    },
-    {
-     "titulo": "Celesc anuncia novo gerente para a Agência Regional de Blumenau",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaDE4YVdjdW16cThJQTNtbTczUjZycDcxM1RvT0V3ZGloemtEUHRYd2hqMTBFV2pCUVVLZjNfUEp5RjM3TDJqenBEMFFwd084MC00RkFjNzVCZVk5VldhcWNjS0xsbWJ5UHBRSmFuN2txV2RNQU1qTlhicXY2aF9tV1NuTlRBb0l0RE1fUmt3bjBZRVZ4T0lqTC1EaUVFbmFNbGlDTU1n?oc=5",
-     "fonte": "AJ Notícias",
-     "data": "2026-11-12T20:33:16+00:00"
     },
     {
      "titulo": "Novembro Roxo: Florianópolis e Blumenau terão caminhadas em alerta aos cuidados com prematuros",
@@ -356,11 +407,11 @@
      "data": "2026-11-12T21:27:15+00:00"
     },
     {
-     "titulo": "Homem é encontrado debilitado após ficar 9 dias no Pico da Pedra em Camboriú",
-     "resumo": "Debilitado e com sinais de possível hipotermia, ele precisou de várias paradas durante a descida até o ponto de apoio Leia no Camboriú News",
-     "link": "https://camboriu.news/homem-e-encontrado-debilitado-apos-ficar-9-dias-no-pico-da-pedra-em-camboriu/",
+     "titulo": "Preso ataca companheiro de cela com lâmina de barbear e é condenado por tentativa de homicídio em SC",
+     "resumo": "Vítima foi atingida no rosto, pescoço, nuca e mãos dentro do presídio de Florianópolis Leia no Camboriú News",
+     "link": "https://camboriu.news/preso-ataca-companheiro-de-cela-com-lamina-de-barbear-e-e-condenado-por-tentativa-de-homicidio-em-sc/",
      "fonte": "Camboriú News",
-     "data": "2026-11-12T22:37:38+00:00"
+     "data": "2026-11-13T01:55:11+00:00"
     },
     {
      "titulo": "Armandinho e Vitor Kley fazem shows em Balneário Camboriú e Floripa",
@@ -377,11 +428,11 @@
      "data": "2026-11-12T20:56:30+00:00"
     },
     {
-     "titulo": "Prefeito é acusado de receber celulares e iPad como propina e favorecer empresas em contratos públicos em SC",
-     "resumo": "TJSC recebeu denúncia contra Castilho Silvano Vieira e outras seis pessoas e determinou afastamento do prefeito por 180 dias Leia no Camboriú News",
-     "link": "https://camboriu.news/prefeito-e-acusado-de-receber-celulares-e-ipad-como-propina-e-favorecer-empresas-em-contratos-publicos-em-sc/",
+     "titulo": "Mandados de prisão teriam sido apagados ou alterados por até R$ 10 mil em esquema investigado pelo Gaeco em SC",
+     "resumo": "Operação Blindagem Digital cumpre dez mandados em SC e no Paraná e apura manipulação de registros para beneficiar investigados Leia no Camboriú News",
+     "link": "https://camboriu.news/mandados-de-prisao-teriam-sido-apagados-ou-alterados-por-ate-r-10-mil-em-esquema-investigado-pelo-gaeco-em-sc/",
      "fonte": "Camboriú News",
-     "data": "2026-11-12T18:44:59+00:00"
+     "data": "2026-11-12T23:25:55+00:00"
     },
     {
      "titulo": "Balneário Camboriú inicia articulação para receber edição de Bienal Internacional de Curitiba",
@@ -398,18 +449,18 @@
      "data": "2026-11-12T12:23:39+00:00"
     },
     {
-     "titulo": "Quadrilha furta cerca de 100 celulares de loja em Palhoça e polícia faz prisões no RS",
-     "resumo": "Prejuízo estimado chegou a R$ 600 mil; três pessoas foram presas e parte dos aparelhos já foi recuperada Leia no Camboriú News",
-     "link": "https://camboriu.news/quadrilha-furta-cerca-de-100-celulares-de-loja-em-palhoca-e-policia-faz-prisoes-no-rs/",
+     "titulo": "Homem é encontrado debilitado após ficar 9 dias no Pico da Pedra em Camboriú",
+     "resumo": "Debilitado e com sinais de possível hipotermia, ele precisou de várias paradas durante a descida até o ponto de apoio Leia no Camboriú News",
+     "link": "https://camboriu.news/homem-e-encontrado-debilitado-apos-ficar-9-dias-no-pico-da-pedra-em-camboriu/",
      "fonte": "Camboriú News",
-     "data": "2026-11-12T18:10:29+00:00"
+     "data": "2026-11-12T22:37:38+00:00"
     },
     {
-     "titulo": "Super Drill é bicampeão da Batalha do Silêncio em Balneário Camboriú",
+     "titulo": "Guarda Municipal de Balneário Camboriú compra drone de R$ 147 mil para reforçar segurança no verão",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbW52ZmlrejFuYXB1TkJMUF9JLUx1NmNxamVXelZsT2wxdzNDREZXV3NPcmFfUEdXSXJkMlhFOE5FTjBjaDh6TXk1eE5SUDFnY1M4dlZJWTVhX3JONkZrNjZaRHlGU1lxZ3VtZFU1aXY4UVl6clNrZG1PRnhtY0ROc3ozV1JSSlRSVjhkRllvZXNkTUhLd0lUR1hQVDM1VmV0Q1E?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-12T21:46:07+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOemdOMGZ4LVRlTnVCS1dpTTIwekE5TDRHUHJ2V1I4bHRNTmhMeUEtQ1dVTVR0c0ZDanUyNXg0R3kwYUJuOHItOVlUTklBeDd0S3lVYnIydzhsYjZiWkdLcXgtUlV2MlllZ0FSbDY1SkdIMUFDYk13cXowWEZXcndsRjBUMmc3LU5Pck5ROXNTSWFEdDZjNUhmNXVTQWtPNjJlbW9fSEVyaU1vSXlIN2lSTGRHUlBzZ2ZSaTF6c0l1NGFNUVZWUkItRkNueXVmaXhnZklvbGZob1pzRXVkSFNJTTVPR0tSZ3R4NXIzUjVrS2hqMkRiSXlXU2JuOER5Nkk?oc=5",
+     "fonte": "Click Camboriú",
+     "data": "2026-11-12T22:26:21+00:00"
     },
     {
      "titulo": "Balneário Camboriú divulga lista final de ambulantes autorizados a trabalhar nas praias na temporada 2026/2027",

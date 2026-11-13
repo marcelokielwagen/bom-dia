@@ -6,6 +6,7 @@ Página do dia para **Blumenau** e **Balneário Camboriú**:
 |---|---|
 | Previsão de hoje hora a hora, gráfico da temperatura e a semana | [Open-Meteo](https://open-meteo.com/), buscada ao abrir a página (sempre atual) |
 | Cotações (dólar, euro, bitcoin) ao vivo; Ibovespa pelo robô | AwesomeAPI e Yahoo Finance |
+| Horário da novela Quem Ama Cuida | Grade da Globo (NSC TV), pelo robô |
 | Frase motivacional, frase e cor do dia de Câncer | `frases.js` — troca sozinha a cada dia |
 | Notícias em 4 abas: Mundo, Política, TI e Segurança, Ações e Mercado | Vários sites (lista em `scripts/noticias.py`); o GitHub roda `scripts/noticias.py` a cada 3 horas e grava `noticias.json` |
 

@@ -219,6 +219,27 @@ def ibovespa():
         return None
 
 
+NOVELA = "Quem Ama Cuida"
+GRADE_GLOBO = "https://redeglobo.globo.com/sc/nsctv/programacao/"  # NSC TV, a Globo de Santa Catarina
+
+
+def novela():
+    """Horarios dos proximos dias da novela na grade da Globo em SC. A pagina da grade traz os
+    dados dentro do proprio HTML. Se falhar, devolve None (e o programa mantem o valor antigo)."""
+    try:
+        pagina = html.unescape(baixar(GRADE_GLOBO).decode("utf-8", "replace"))
+        achados = re.findall(r'"contentType":"[^"]*","duration":"(\d+):(\d+):\d+"[^{}]*?"name":"' + re.escape(NOVELA) +
+                             r'".*?"scheduledDate":"(\d{4}-\d\d-\d\d)T(\d\d:\d\d)', pagina)
+        exibicoes = sorted({(d, ini, int(h) * 60 + int(m)) for h, m, d, ini in achados})
+        if not exibicoes:
+            return None
+        return {"nome": NOVELA, "canal": "TV Globo",
+                "exibicoes": [{"data": d, "inicio": ini, "duracao": dur} for d, ini, dur in exibicoes]}
+    except Exception as e:
+        print(f"Falhou novela: {e}", file=sys.stderr)
+        return None
+
+
 def main(destino):
     usados, categorias = set(), []
     for cid, nome, total, fontes in CATEGORIAS:
@@ -228,9 +249,16 @@ def main(destino):
     if not any(c["noticias"] for c in categorias):
         print("Nenhuma noticia baixada; mantendo o arquivo anterior.", file=sys.stderr)
         return 1
+    nov = novela()
+    if nov is None:  # mantem o horario antigo se a Globo estiver fora do ar
+        try:
+            with open(destino, encoding="utf-8") as f:
+                nov = json.load(f).get("novela")
+        except (OSError, ValueError):
+            pass
     with open(destino, "w", encoding="utf-8") as f:
-        json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "ibovespa": ibovespa(), "categorias": categorias},
-                  f, ensure_ascii=False, indent=1)
+        json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "ibovespa": ibovespa(), "novela": nov,
+                   "categorias": categorias}, f, ensure_ascii=False, indent=1)
     print(f"Gravado em {destino}")
     return 0
 

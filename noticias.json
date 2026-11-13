@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-13T17:59:40.120254+00:00",
+ "atualizado": "2026-11-13T18:02:26.465480+00:00",
  "ibovespa": {
-  "pontos": 172345,
-  "variacao": 0.6,
-  "hora": "2026-11-13T17:44:30+00:00"
+  "pontos": 172269,
+  "variacao": 0.55,
+  "hora": "2026-11-13T17:47:00+00:00"
  },
  "novela": {
   "nome": "Quem Ama Cuida",
@@ -62,24 +62,24 @@
    "nome": "S&P 500",
    "grupo": "indices",
    "simbolo": "^GSPC",
-   "preco": 7539.22,
-   "variacao": -0.7
+   "preco": 7534.85,
+   "variacao": -0.76
   },
   {
    "id": "nasdaq",
    "nome": "Nasdaq",
    "grupo": "indices",
    "simbolo": "^IXIC",
-   "preco": 25064.15,
-   "variacao": -1.19
+   "preco": 25044.05,
+   "variacao": -1.27
   },
   {
    "id": "dow",
    "nome": "Dow Jones",
    "grupo": "indices",
    "simbolo": "^DJI",
-   "preco": 52242.37,
-   "variacao": -0.1
+   "preco": 52214.07,
+   "variacao": -0.16
   },
   {
    "id": "nikkei",
@@ -102,24 +102,24 @@
    "nome": "Itaú",
    "grupo": "bancos",
    "simbolo": "ITUB4.SA",
-   "preco": 42.32,
-   "variacao": 1.54
+   "preco": 42.28,
+   "variacao": 1.44
   },
   {
    "id": "bbdc",
    "nome": "Bradesco",
    "grupo": "bancos",
    "simbolo": "BBDC4.SA",
-   "preco": 14.45,
-   "variacao": 0.91
+   "preco": 14.43,
+   "variacao": 0.77
   },
   {
    "id": "bbas",
    "nome": "Banco do Brasil",
    "grupo": "bancos",
    "simbolo": "BBAS3.SA",
-   "preco": 15.05,
-   "variacao": -2.78
+   "preco": 15.07,
+   "variacao": -2.65
   }
  ],
  "alertas": {
@@ -191,13 +191,6 @@
    "data": "2026-11-13T16:00:00+00:00"
   },
   {
-   "titulo": "Pane da Microsoft afeta IA, governos e empresas",
-   "resumo": "A interrupção global dos serviços do Microsoft 365, que entrou no segundo dia nesta sexta-feira, está causando impactos que vão além do e-mail corporativo.",
-   "link": "https://www.cisoadvisor.com.br/pane-da-microsoft-afeta-ia-governos-e-empresas/",
-   "fonte": "CISO Advisor",
-   "data": "2026-11-13T15:31:36+00:00"
-  },
-  {
    "titulo": "Nova falha no Windows transforma recurso de segurança em acesso total ao sistema",
    "resumo": "",
    "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/nova-falha-no-windows-transforma-recurso-de-seguranca-em-acesso-total-ao-sistema/",
@@ -217,6 +210,13 @@
    "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/como-funcionam-os-golpes-com-ia-veja-como-se-proteger/",
    "fonte": "TecMundo",
    "data": "2026-11-13T12:15:00+00:00"
+  },
+  {
+   "titulo": "24% dos brasileiros já caíram em golpes durante compras online, aponta Norton",
+   "resumo": "Pesquisa da Norton revela que vítimas perderam, em média, R$ 1.060 em golpes de compras online através de anúncios falsos e ofertas tentadoras",
+   "link": "https://www.oficinadanet.com.br/noticias/74050-brasileiros-vitimas-golpes-compras-online-norton",
+   "fonte": "Oficina da Net",
+   "data": "2026-11-10T21:08:00+00:00"
   }
  ],
  "ataques": {
@@ -939,11 +939,11 @@
      "data": "2026-11-13T15:27:36+00:00"
     },
     {
-     "titulo": "Paraguai: promotoria acusa ex-presidente Santiago Peña de associação criminosa",
-     "resumo": "O Ministério Público do Paraguai acrescentou às acusações contra o ex-presidente do Paraguai Santiago Peña o crime de associação criminosa. Esta reportagem está em atualização.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/ministerio-publico-do-paraguai-acusa-ex-presidente-santiago-pena-de-associacao-criminosa.ghtml",
+     "titulo": "VÍDEO: 'Escola de Papais Noéis' treina novos recrutas antes de Natal em Londres",
+     "resumo": "Natal está chegando: \"Escola de Papais Noéis\" treina novos recrutas em Londres A \"escola de Papais Noéis\" estava a todo vapor quando os futuros Papais Noéis se reuniram em Londres na última quinta-feira (12) para…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/video-escola-de-papais-noeis-treina-novos-recrutas-antes-de-natal-em-londres.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-13T17:43:02+00:00"
+     "data": "2026-11-13T17:47:01+00:00"
     },
     {
      "titulo": "Sombra do impeachment volta à cena nos EUA após derrota eleitoral de Trump",
@@ -960,11 +960,11 @@
      "data": "2026-11-13T15:18:41+00:00"
     },
     {
-     "titulo": "VÍDEO: Na Alemanha, alpacas 'invadem' casa de repouso e alegram idosos",
-     "resumo": "Alpacas 'invadem' casa de repouso e alegram o dia de idosos na Alemanha Em Berlim, na Alemanha, um lar de idosos possui residentes muito especiais.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/alpacas-alemanha-idosos.ghtml",
+     "titulo": "Paraguai: promotoria acusa ex-presidente Santiago Peña de associação criminosa",
+     "resumo": "O Ministério Público do Paraguai acrescentou a acusação de associação criminosa contra o ex-presidente do Paraguai Santiago Peña, segundo comunicado divulgado nesta sexta-feira (13).",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/ministerio-publico-do-paraguai-acusa-ex-presidente-santiago-pena-de-associacao-criminosa.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-13T17:06:41+00:00"
+     "data": "2026-11-13T17:43:02+00:00"
     },
     {
      "titulo": "Volkswagen lucra apenas R$ 75 por veículo vendido, aponta estudo",
@@ -981,11 +981,11 @@
      "data": "2026-11-13T09:31:58+00:00"
     },
     {
-     "titulo": "Terremoto atinge a costa do Peru durante visita do papa Leão XIV",
-     "resumo": "Um terremoto de magnitude 5,6 atingiu nesta sexta-feira (13) a costa do Peru. O tremor ocorreu no mar, perto da província de Nazca, no sul do país, a cerca de 79 km da cidade de Changuillo.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/terremoto-atinge-a-costa-do-peru-durante-visita-do-papa-leao-xiv.ghtml",
+     "titulo": "VÍDEO: Na Alemanha, alpacas 'invadem' casa de repouso e alegram idosos",
+     "resumo": "Alpacas 'invadem' casa de repouso e alegram o dia de idosos na Alemanha Em Berlim, na Alemanha, um lar de idosos possui residentes muito especiais.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/alpacas-alemanha-idosos.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-13T16:56:45+00:00"
+     "data": "2026-11-13T17:06:41+00:00"
     }
    ]
   },
@@ -1056,13 +1056,6 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Pane da Microsoft afeta IA, governos e empresas",
-     "resumo": "A interrupção global dos serviços do Microsoft 365, que entrou no segundo dia nesta sexta-feira, está causando impactos que vão além do e-mail corporativo.",
-     "link": "https://www.cisoadvisor.com.br/pane-da-microsoft-afeta-ia-governos-e-empresas/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-13T15:31:36+00:00"
-    },
-    {
      "titulo": "Office 365 voltou? Usuários relatam retorno do Outlook e outros serviços da Microsoft",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/big-techs/office-365-voltou-usuarios-relatam-retorno-do-outlook-e-outros-servicos-da-microsoft/",
@@ -1082,13 +1075,6 @@
      "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/binance-criptomoeda-roubo.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-13T16:31:56+00:00"
-    },
-    {
-     "titulo": "Microsoft segue com problemas em 74 países",
-     "resumo": "O que a Microsoft iniformou: Usuários de vários países enfrentam indisponibilidade nos serviços do Microsoft 365 desde a tarde de ontem, segundo a página de status da Microsoft.",
-     "link": "https://www.cisoadvisor.com.br/microsoft-segue-com-problemas-em-74-paises/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-13T10:29:45+00:00"
     },
     {
      "titulo": "Ford abre inscrições para curso gratuito de capacitação tecnológica; confira como se inscrever",
@@ -1112,18 +1098,32 @@
      "data": "2026-11-13T15:57:18+00:00"
     },
     {
-     "titulo": "Tesouro confirma vazamento de 30 mil cadastros e chaves Pix",
-     "resumo": "A Secretaria do Tesouro Nacional identificou um acesso não autorizado a dados pessoais em seu ambiente tecnológico, com exposição de informações de aproximadamente 30 mil cadastros e de cerca de 4 mil chaves Pix de…",
-     "link": "https://www.cisoadvisor.com.br/tesouro-confirma-vazamento-de-30-mil-cadastros-e-chaves-pix/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-13T04:15:09+00:00"
-    },
-    {
      "titulo": "Samsung lança óculos inteligentes com Gemini, câmera de 12 MP e autonomia de 9 horas",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/produto-e-review/samsung-lanca-oculos-inteligentes-com-gemini-camera-de-12-mp-e-autonomia-de-9-horas/",
      "fonte": "TecMundo",
      "data": "2026-11-13T17:00:00+00:00"
+    },
+    {
+     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
+     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
+     "fonte": "The Hack",
+     "data": "2022-05-04T12:00:00+00:00"
+    },
+    {
+     "titulo": "Faxes, celulares e Bluetooth: queda da Microsoft força empresas a recorrer a soluções antigas",
+     "resumo": "Microsoft descarta ataque hacker após falha em 70 países A queda mundial dos serviços da Microsoft obrigou empresas de diferentes setores a recorrer a tecnologias tradicionais, como fax, telefone e Bluetooth, para…",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/faxes-celulares-e-bluetooth-queda-da-microsoft.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-13T15:03:08+00:00"
+    },
+    {
+     "titulo": "Hammerhead V3 Chroma: fone da Razer para mobile traz RGB e ANC",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/hammerhead-v3-chroma-fone-da-razer-para-mobile-traz-rgb-e-anc/",
+     "fonte": "TecMundo",
+     "data": "2026-11-13T16:45:00+00:00"
     }
    ]
   },
@@ -1132,11 +1132,11 @@
    "nome": "Ações e Mercado",
    "noticias": [
     {
-     "titulo": "Galípolo critica gestores que perdem para o CDI: ‘o papel não é gostar do Banco Central’",
-     "resumo": "O presidente do Banco Central (BC), Gabriel Galípolo, criticou nesta sexta-feira (13) gestores de investimentos que não conseguem superar o CDI, mas utilizam recursos dos clientes para promover encontros e criticar a…",
-     "link": "https://www.moneytimes.com.br/galipolo-critica-gestores-que-perdem-para-o-cdi-o-papel-nao-e-gostar-do-banco-central/",
+     "titulo": "Natura (NATU3) lida com uma recuperação mais lenta do que a esperada, admite CEO; ações caem 4%",
+     "resumo": "A Natura (NATU3) reconhece que a recuperação da companhia será mais gradual do que o esperado inicialmente, especialmente em relação à normalização dos níveis de serviço e abastecimento, afirmou o CEO Alessandro…",
+     "link": "https://www.moneytimes.com.br/natura-natu3-lida-com-uma-recuperacao-mais-lenta-do-que-a-esperada-admite-ceo-acoes-caem-4-lmrs/",
      "fonte": "Money Times",
-     "data": "2026-11-13T17:50:36+00:00"
+     "data": "2026-11-13T18:00:18+00:00"
     },
     {
      "titulo": "Morgan Stanley MUFG atualiza lista de foco no Japão com IA e seguros",
@@ -1146,25 +1146,18 @@
      "data": "2026-11-13T17:49:48+00:00"
     },
     {
-     "titulo": "Nubank (NU) vence mais uma batalha, mas não a guerra: por que o mercado ignorou a piora do crédito e fez a ação disparar 10%",
-     "resumo": "Com lucro bilionário, rentabilidade acima dos bancões e sem depender do Desenrola, roxinho convence analistas de que ainda tem espaço para crescer The post Nubank (NU) vence mais uma batalha, mas não a guerra: por que o…",
-     "link": "https://www.seudinheiro.com/2026/empresas/nubank-nu-vence-mais-uma-batalha-mas-nao-a-guerra-por-que-o-mercado-ignorou-a-piora-do-credito-e-fez-a-acao-disparar-10/",
+     "titulo": "São Paulo vai ter bondinho! Veja como será o veículo elétrico de R$ 2,8 bilhões e onde ele vai circular",
+     "resumo": "Batizado de Bonde São Paulo, o novo modal terá duas linhas, 37 estações e capacidade para transportar mais de 120 mil pessoas por dia; veja quando fica pronto The post São Paulo vai ter bondinho! Veja como será o…",
+     "link": "https://www.seudinheiro.com/2026/lifestyle/sao-paulo-vai-ter-bondinho-veja-como-sera-o-veiculo-eletrico-de-r-28-bilhoes-e-onde-ele-vai-circular-sama/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-13T17:47:42+00:00"
+     "data": "2026-11-13T17:59:19+00:00"
     },
     {
-     "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
-     "resumo": "A operadora de data centers Ascenty anunciou investimentos de US$ 1,2 bilhão para a construção de quatro novos data centers no Estado de São Paulo. Os contratos somam 150 megawatts (MW) de capacidade de processamento,",
-     "link": "https://einvestidor.estadao.com.br/investimentos/ascenty-investimento-12-bilhao-primeiro-data-center-inteligencia-artificial-ia-america-latina/",
-     "fonte": "E-Investidor",
-     "data": "2026-05-27T21:59:36+00:00"
-    },
-    {
-     "titulo": "Bolsas da Europa fecham em leve alta com indicadores da Zona do Euro e crise da Nvidia",
-     "resumo": "As bolsas europeias fecharam em leve alta nesta sexta-feira (13) em meio a uma sessão marcada pela volatilidade, com os principais índices da região oscilando perto da estabilidade.",
-     "link": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-leve-alta-com-indicadores-da-zona-do-euro-e-crise-da-nvidia-davs/",
+     "titulo": "Galípolo critica gestores que perdem para o CDI: ‘o papel não é gostar do Banco Central’",
+     "resumo": "O presidente do Banco Central (BC), Gabriel Galípolo, criticou nesta sexta-feira (13) gestores de investimentos que não conseguem superar o CDI, mas utilizam recursos dos clientes para promover encontros e criticar a…",
+     "link": "https://www.moneytimes.com.br/galipolo-critica-gestores-que-perdem-para-o-cdi-o-papel-nao-e-gostar-do-banco-central/",
      "fonte": "Money Times",
-     "data": "2026-11-13T17:37:22+00:00"
+     "data": "2026-11-13T17:50:36+00:00"
     },
     {
      "titulo": "Barclays deve cortar cerca de 200 vagas no banco de investimentos em Nova York e Londres",
@@ -1174,25 +1167,18 @@
      "data": "2026-11-13T17:37:54+00:00"
     },
     {
-     "titulo": "Inventário travado e conta bloqueada: como a previdência privada pode ser a solução para o planejamento sucessório",
-     "resumo": "A modalidade pode garantir liquidez aos beneficiários em caso de morte do titular, além de ajudar a organizar a sucessão e proteger o patrimônio The post Inventário travado e conta bloqueada: como a previdência privada…",
-     "link": "https://www.seudinheiro.com/2026/financas-pessoais/inventario-travado-e-conta-bloqueada-como-a-previdencia-privada-pode-ser-a-solucao-para-o-planejamento-sucessorio-mlim/",
+     "titulo": "Nubank (NU) vence mais uma batalha, mas não a guerra: por que o mercado ignorou a piora do crédito e fez a ação disparar 10%",
+     "resumo": "Com lucro bilionário, rentabilidade acima dos bancões e sem depender do Desenrola, roxinho convence analistas de que ainda tem espaço para crescer The post Nubank (NU) vence mais uma batalha, mas não a guerra: por que o…",
+     "link": "https://www.seudinheiro.com/2026/empresas/nubank-nu-vence-mais-uma-batalha-mas-nao-a-guerra-por-que-o-mercado-ignorou-a-piora-do-credito-e-fez-a-acao-disparar-10/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-13T17:28:00+00:00"
+     "data": "2026-11-13T17:47:42+00:00"
     },
     {
-     "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
-     "resumo": "O Ibovespa hoje fechou em queda, em movimento contrário ao dos índices de Nova York, que encerraram em alta. Nesta quarta-feira (27), a principal referência da B3 cedeu 0,48% aos 175.744,37 pontos, com volume negociado",
-     "link": "https://einvestidor.estadao.com.br/mercado/ibovespa-hoje-usiminas-usim5-lidera-altas-cosan-csan3-cai/",
-     "fonte": "E-Investidor",
-     "data": "2026-05-27T21:47:03+00:00"
-    },
-    {
-     "titulo": "‘Motivo pesa mais do que a saída em si’: a avaliação da XP sobre o caso do ex-CEO da Nvidia, Jensen Huang",
-     "resumo": "A renúncia de Jensen Huang ao cargo de CEO da Nvidia, causada por um relacionamento extraconjugal com uma suposta espiã chinesa, provocou uma forte reação do mercado e colocou em dúvida o futuro da fabricante de chips.",
-     "link": "https://www.moneytimes.com.br/motivo-pesa-mais-do-que-a-saida-em-si-a-avaliacao-da-xp-sobre-o-caso-do-ex-ceo-da-nvidia-jensen-huang-mlem/",
+     "titulo": "Bolsas da Europa fecham em leve alta com indicadores da Zona do Euro e crise da Nvidia",
+     "resumo": "As bolsas europeias fecharam em leve alta nesta sexta-feira (13) em meio a uma sessão marcada pela volatilidade, com os principais índices da região oscilando perto da estabilidade.",
+     "link": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-leve-alta-com-indicadores-da-zona-do-euro-e-crise-da-nvidia-davs/",
      "fonte": "Money Times",
-     "data": "2026-11-13T17:20:45+00:00"
+     "data": "2026-11-13T17:37:22+00:00"
     },
     {
      "titulo": "Ações da Arm caem com busca por sucessor na Nvidia",
@@ -1200,6 +1186,20 @@
      "link": "https://br.investing.com/news/stock-market-news/acoes-da-arm-caem-com-busca-por-sucessor-na-nvidia-2126942",
      "fonte": "Investing.com",
      "data": "2026-11-13T17:37:41+00:00"
+    },
+    {
+     "titulo": "Inventário travado e conta bloqueada: como a previdência privada pode ser a solução para o planejamento sucessório",
+     "resumo": "A modalidade pode garantir liquidez aos beneficiários em caso de morte do titular, além de ajudar a organizar a sucessão e proteger o patrimônio The post Inventário travado e conta bloqueada: como a previdência privada…",
+     "link": "https://www.seudinheiro.com/2026/financas-pessoais/inventario-travado-e-conta-bloqueada-como-a-previdencia-privada-pode-ser-a-solucao-para-o-planejamento-sucessorio-mlim/",
+     "fonte": "Seu Dinheiro",
+     "data": "2026-11-13T17:28:00+00:00"
+    },
+    {
+     "titulo": "‘Motivo pesa mais do que a saída em si’: a avaliação da XP sobre o caso do ex-CEO da Nvidia, Jensen Huang",
+     "resumo": "A renúncia de Jensen Huang ao cargo de CEO da Nvidia, causada por um relacionamento extraconjugal com uma suposta espiã chinesa, provocou uma forte reação do mercado e colocou em dúvida o futuro da fabricante de chips.",
+     "link": "https://www.moneytimes.com.br/motivo-pesa-mais-do-que-a-saida-em-si-a-avaliacao-da-xp-sobre-o-caso-do-ex-ceo-da-nvidia-jensen-huang-mlem/",
+     "fonte": "Money Times",
+     "data": "2026-11-13T17:20:45+00:00"
     }
    ]
   },
@@ -1270,13 +1270,6 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
-     "titulo": "18 coisas para fazer em Balneário Camboriú e região neste final de semana",
-     "resumo": "1. Rodeio Crioulo Nacional do CTG Cidade do Porto O 2º Rodeio Crioulo Nacional do CTG Cidade do Porto começou nesta quinta-feira (12) e segue até domingo (15), no Parque do Agricultor Gilmar Graf, em Itajaí.",
-     "link": "https://www.bcnoticias.com.br/18-coisas-para-fazer-em-balneario-camboriu-e-regiao-neste-final-de-semana-25/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-13T14:54:31+00:00"
-    },
-    {
      "titulo": "Dores frequentes fazem mãe levar filha ao médico, e menina revela que era abusada pelo avô afetivo em SC",
      "resumo": "Menina tinha entre oito e 12 anos e só conseguiu revelar o verdadeiro autor após ser levada ao médico por dores constantes Leia no Camboriú News",
      "link": "https://camboriu.news/dores-frequentes-fazem-mae-levar-filha-ao-medico-e-menina-revela-que-era-abusada-pelo-avo-afetivo-em-sc/",
@@ -1289,13 +1282,6 @@
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdFVkRHdIOC12bVZrdVFzaHlkck5hTW1fQzdqTWdWLVVkVjR0TjRVbmNGWTU2UFNKSkFGZDd3cmJMdFFIN0ptaVY1THpQRjJ4MXVNdm5PX2QxLVl6cnN2YnY0dU13ZVpzdFlwSlNLMjhmQ0hTRlFNYms3RW5GZjAxNXhWMHFDMTIxbGQxS3ZWR2FfVnU1TEJTS2VpUzI4MWlqNzF3TTk5ZHgwbm5aYlJ1XzljcEtSZXpXRUE?oc=5",
      "fonte": "Notícia Já",
      "data": "2026-11-13T17:50:00+00:00"
-    },
-    {
-     "titulo": "Balneário Camboriú terá fim de semana de calor, com temperaturas de até 30°C",
-     "resumo": "De acordo com o LabClima (Laboratório de Climatologia da Univali), o fim de semana em Balneário Camboriú deve ter temperaturas elevadas, períodos de sol e possibilidade de chuva, principalmente entre a noite de sábado…",
-     "link": "https://www.bcnoticias.com.br/balneario-camboriu-tera-fim-de-semana-de-calor-com-temperaturas-de-ate-30c/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-13T14:35:38+00:00"
     },
     {
      "titulo": "Preso ataca companheiro de cela com lâmina de barbear e é condenado por tentativa de homicídio em SC",
@@ -1312,13 +1298,6 @@
      "data": "2026-11-13T17:35:00+00:00"
     },
     {
-     "titulo": "Rodeio Crioulo em Itajaí vai de quinta a domingo com entrada gratuita no parque e shows",
-     "resumo": "O 2º Rodeio Crioulo Nacional do CTG Cidade do Porto começa nesta quinta-feira (12) e segue até domingo (15), no Parque do Agricultor Gilmar Graf, em Itajaí.",
-     "link": "https://www.bcnoticias.com.br/rodeio-crioulo-em-itajai-vai-de-quinta-a-domingo-com-entrada-gratuita-no-parque-e-shows/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T21:27:15+00:00"
-    },
-    {
      "titulo": "Mandados de prisão teriam sido apagados ou alterados por até R$ 10 mil em esquema investigado pelo Gaeco em SC",
      "resumo": "Operação Blindagem Digital cumpre dez mandados em SC e no Paraná e apura manipulação de registros para beneficiar investigados Leia no Camboriú News",
      "link": "https://camboriu.news/mandados-de-prisao-teriam-sido-apagados-ou-alterados-por-ate-r-10-mil-em-esquema-investigado-pelo-gaeco-em-sc/",
@@ -1333,11 +1312,32 @@
      "data": "2026-11-13T17:30:00+00:00"
     },
     {
-     "titulo": "Feira de Vinil acontece neste fim de semana no Atlântico Shopping, em Balneário Camboriú",
-     "resumo": "Os apaixonados por discos de vinil terão uma opção de passeio neste fim de semana em Balneário Camboriú. Nos dias 14 e 15 de novembro (sábado e domingo), o Atlântico Shopping recebe a Feira de Vinil, com discos novos e…",
-     "link": "https://www.bcnoticias.com.br/feira-de-vinil-acontece-neste-fim-de-semana-no-atlantico-shopping-em-balneario-camboriu/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T20:56:30+00:00"
+     "titulo": "Homem é encontrado debilitado após ficar 9 dias no Pico da Pedra em Camboriú",
+     "resumo": "Debilitado e com sinais de possível hipotermia, ele precisou de várias paradas durante a descida até o ponto de apoio Leia no Camboriú News",
+     "link": "https://camboriu.news/homem-e-encontrado-debilitado-apos-ficar-9-dias-no-pico-da-pedra-em-camboriu/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-12T22:37:38+00:00"
+    },
+    {
+     "titulo": "Operação em Balneário Camboriú tem homem levado à delegacia, comércio interditado e quatro veículos removidos",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQd2llNkxIT01Iei01bHFtQ1liNjZ3VWFsMXhsbnp0ajdadm1QWS1ZYTZOOTFvMC1qTDRlc1N4ODI3R0E4ZWF0ZDIyZ3hMaFFnTHRQN2I0TURGLTFESTRWVDVzc1VQLTlYMGp3TlNWM25PSi1zSGluU0kxRG01dUplc29kV3h2VWliM0tHX2N5aE9uZlVOUTVFd1Y2YTl0MUJ0aGg0eGt4enc0aTVUbUpaZ2RnYVlDbklfMHdDTnU0emxJQ05rNmhSU1VRMm5uSUtacXc1TlowMA?oc=5",
+     "fonte": "Página 3",
+     "data": "2026-11-13T17:12:44+00:00"
+    },
+    {
+     "titulo": "Patrícia Poeta comanda edição especial do Encontro em Balneário Camboriú",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUQtZHlkS2hlZGVGR1YyYzN6ZDdmdndVN1NGQzZZQWdKZEVPZy16S3RScDdtaDJtS1hNU3NHYjQ3RkJnc2JPUzVqbUlmNXZDMWozWm1tcW42YVp6d2V1TU4tSl91a2xyOTZFZEVwU05ueURXUU9jazI2UzVabVA1TkdqMk1kOFUza2VIaERZSW45c2RqeTZMczdzRzQtbXFqalJB?oc=5",
+     "fonte": "Portal Menina",
+     "data": "2026-11-13T17:03:50+00:00"
+    },
+    {
+     "titulo": "Receita apreende 2,5 kg de droga sintética em Itajaí que seguiria para Balneário Camboriú",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaEVKcVRNMVpzVnJYeWFaV2ZvUy1ZaWx5T0hGZDBQbExiVmZPYWJfMzlNQmxHU3BvVno4aTRqZkdaZDJvYTB5MF9KT2Rud3VIeHBfYUNUTkV0NkNPSW5WNGR6anB1RkxLV3RpSnVXanJxZVBKTVZaLTltWUZnU2hJaE81cTNUUVhlWFVvTkxIUjdNWDY1SUZzX1dCTHViVHV4Ql9fU3FsTnV6WnJqNC14c1B5ZE9lU1huUTFhY1hmcHh2MjhPcGRBU2lB?oc=5",
+     "fonte": "TopElegance",
+     "data": "2026-11-13T16:33:37+00:00"
     }
    ]
   }

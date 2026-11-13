@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="icons/icone-180.png">
 <link rel="manifest" href="manifest.webmanifest">
 <script>/* Confere se existe versao mais nova do site; se existir, recarrega ignorando a copia guardada (atualizada por scripts/nova_versao.py) */
-(function(){var B="20261113144359";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
+(function(){var B="20261113150034";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
 <title>Bom Dia</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff9a6b'/%3E%3Cstop offset='1' stop-color='%234b3f8a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23a)'/%3E%3Ccircle cx='32' cy='38' r='13' fill='%23ffd66b'/%3E%3Crect x='6' y='44' width='52' height='4' rx='2' fill='%23fff' opacity='.85'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -206,9 +206,6 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .hora.atual.sel{background:var(--ink)}
 .grafico svg{cursor:pointer}
 .voltar-dia{border:1px solid var(--card-line);background:var(--chip);color:var(--ink);font:700 .75rem var(--sans);padding:4px 12px;border-radius:999px;cursor:pointer}
-/* Logos dos cartoes */
-.logo-cartao{height:20px;width:20px;vertical-align:-5px;margin-right:4px}
-.logo-cartao.ailos{width:40px;margin-right:0}
 /* Ranking de paises mais atacados */
 .vidro.ataques{padding:14px 14px 12px;margin-bottom:12px;border-left:5px solid #d9453b;
   background:linear-gradient(140deg,color-mix(in srgb,#d9453b 16%,var(--card)),var(--card) 55%)}
@@ -227,6 +224,11 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .mov.desce-atq{color:var(--sobe)}
 .mov.igual{color:var(--soft)}
 .ataques .fonte{font-size:.66rem;color:var(--soft);margin-top:8px}
+/* Ranking de ataques: linha do Brasil e abas */
+.atq-br{margin-top:8px;padding:7px 12px;border-radius:10px;background:var(--chip);font-size:.82rem}
+.mov.novo{font-size:.62rem;color:var(--warm)}
+.ataques .abas{margin:8px 0 6px}
+.abas button[data-per="w"]{margin-left:8px}
 /* Musica do dia */
 .musica{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px}
 .musica .disco{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:1.8rem;
@@ -451,7 +453,7 @@ footer a{color:inherit}
     <div class="gm-leitura" id="gm-leitura"></div>
   </div>
 </div>
-<script src="frases.js?v=20261113144359"></script>
+<script src="frases.js?v=20261113150034"></script>
 <script>
 // Ao atualizar (ou voltar para a pagina), sempre comeca la em cima
 try { history.scrollRestoration = "manual"; } catch (e) {}
@@ -836,13 +838,19 @@ function desenharFeriados() {
   }).join("");
 }
 
+// Leva a tela ate o quadro de hora em hora (painel, grafico e horas), nao para o aviso de tempestade
+function irParaHoras() {
+  const topo = document.querySelector(".hero").getBoundingClientRect().top + window.scrollY - 14;
+  const fundo = $("horas").getBoundingClientRect().bottom + window.scrollY + 10;
+  window.scrollTo({top: Math.max(0, Math.max(topo, fundo - window.innerHeight)), behavior: "smooth"});
+}
 $("semana").addEventListener("click", e => {
   const b = e.target.closest(".cal-dia"); if (!b) return;
   diaSel = b.dataset.dia; horaSel = null;
   document.querySelectorAll(".cal-dia").forEach(x => x.setAttribute("aria-pressed", x === b));
   aplicarCeu(diaSel === HOJE ? dados.current.weather_code : dados.daily.weather_code[dados.daily.time.indexOf(diaSel)]);
   desenharDia();
-  $("agora").scrollIntoView({behavior: "smooth", block: "center"});
+  irParaHoras();
 });
 $("horas").addEventListener("click", e => {
   const b = e.target.closest(".hora"); if (!b) return;
@@ -958,29 +966,51 @@ function desenharSeguranca(lista) {
   $("seguranca").hidden = false;
 }
 
-// Ranking dos paises mais atacados (dados em frases.js, ranking semestral)
+// Ranking diario dos paises mais atacados (o robo le o mapa de ameacas da Kaspersky todo dia)
+const ATQ_TIPOS = {
+  oas: ["Computador", "usuários com ameaça detectada no computador"], wav: ["Navegação", "usuários atacados ao navegar na web"],
+  mav: ["E-mail", "usuários atacados por e-mail"], ids: ["Rede", "usuários com ataque de rede bloqueado"], rmw: ["Ransomware", "usuários atacados por ransomware"]};
+let atqTipo = "oas", atqPer = "w", nomesPaises = null;
+const bandeira = iso => String.fromCodePoint(...[...iso.toUpperCase()].map(c => 0x1F1E6 + c.charCodeAt(0) - 65));
+const nomePais = iso => { try { nomesPaises = nomesPaises || new Intl.DisplayNames(["pt-BR"], {type: "region"}); return nomesPaises.of(iso) || iso; } catch (e) { return iso; } };
 function desenharAtaques() {
-  const d = window.PAISES_ATACADOS;
-  if (!d || !d.itens || !d.itens.length) { $("ataques").hidden = true; return; }
-  const max = Math.max(...d.itens.map(x => x.pct));
+  const a = dadosRobo && dadosRobo.ataques, dados = a && a.tipos && a.tipos[atqTipo] && a.tipos[atqTipo][atqPer];
+  if (!dados) { $("ataques").hidden = true; return; }
+  const top = dados.top.slice(0, 10), max = top[0][1] || 1;
+  const ont = a.ontem && a.ontem.tipos && a.ontem.tipos[atqTipo] && a.ontem.tipos[atqTipo][atqPer];
+  const antes = ont ? ont.top.map(x => x[0]) : null;
+  const dec = v => (v < 1 ? v.toFixed(2) : v.toFixed(1)).replace(".", ",");
+  const dataFmt = a.data ? a.data.slice(8) + "/" + a.data.slice(5, 7) : "";
+  const linhas = top.map(([iso, v], i) => {
+    let seta = "";
+    if (antes) {
+      const k = antes.indexOf(iso), mov = k - i;
+      seta = k < 0 ? '<span class="mov novo" title="Não estava entre os 15 primeiros ontem">novo</span>'
+        : mov > 0 ? `<span class="mov sobe-atq" title="Subiu ${mov} posição(ões) desde ontem">▲${mov}</span>`
+        : mov < 0 ? `<span class="mov desce-atq" title="Caiu ${-mov} posição(ões) desde ontem">▼${-mov}</span>`
+        : '<span class="mov igual" title="Mesma posição de ontem">＝</span>';
+    }
+    return `<li class="${i < 3 ? "atq-top" : ""}" style="--w:${(Math.sqrt(v / max) * 100).toFixed(1)}%"><span class="pos">${i + 1}</span><span class="band">${bandeira(iso)}</span>
+      <span class="pais">${esc(nomePais(iso))}</span><b class="pct">${dec(v)}%</b>${seta}</li>`;
+  }).join("");
+  const br = dados.br;
   $("ataques").innerHTML = `<div class="etiqueta">🌍 Ataques hackers · top 10 países mais atacados</div>
-    <p class="atq-sub">Parcela dos clientes da Microsoft atingidos por ameaças · ${esc(d.periodo)}</p>
-    <ol class="atq-lista">${d.itens.map((x, i) => {
-      const mov = x.antes - (i + 1);
-      const seta = mov > 0 ? `<span class="mov sobe-atq" title="Subiu ${mov} posição(ões) desde ${esc(d.anterior)}">▲${mov}</span>`
-        : mov < 0 ? `<span class="mov desce-atq" title="Caiu ${-mov} posição(ões) desde ${esc(d.anterior)}">▼${-mov}</span>` : `<span class="mov igual" title="Mesma posição de ${esc(d.anterior)}">＝</span>`;
-      return `<li class="${i < 3 ? "atq-top" : ""}" style="--w:${(Math.sqrt(x.pct / max) * 100).toFixed(1)}%"><span class="pos">${i + 1}</span><span class="band">${x.bandeira}</span>
-        <span class="pais">${esc(x.pais)}</span><b class="pct">${x.pct.toFixed(1).replace(".", ",")}%</b>${seta}</li>`;
-    }).join("")}</ol>
-    <div class="fonte">Fonte: ${esc(d.fonte)} — ranking semestral, não é ao vivo. ▲▼ = posições em relação a ${esc(d.anterior)}. ${esc(d.nota || "")}</div>`;
+    <div class="abas">${Object.entries(ATQ_TIPOS).map(([k, [nome]]) => `<button type="button" data-tipo="${k}" aria-selected="${k === atqTipo}">${nome}</button>`).join("")}
+      <button type="button" data-per="w" aria-selected="${atqPer === "w"}">Semana</button><button type="button" data-per="m" aria-selected="${atqPer === "m"}">Mês</button></div>
+    <p class="atq-sub">% dos ${ATQ_TIPOS[atqTipo][1]} · ${atqPer === "w" ? "última semana" : "último mês"}${dataFmt ? " · dados de " + dataFmt : ""}</p>
+    <ol class="atq-lista">${linhas}</ol>
+    ${br ? `<div class="atq-br">🇧🇷 Brasil: <b>${br.pos}º de ${br.de} países</b> · ${dec(br.pct)}%</div>` : ""}
+    <div class="fonte">Fonte: ${esc(a.fonte)}, atualizado todo dia. Mede a % de usuários atacados em cada país, não o número de ataques.${antes ? " ▲▼ = posições desde o dia anterior." : " As setas de subida e descida aparecem a partir do próximo dia."}</div>`;
   $("ataques").hidden = false;
 }
+$("ataques").addEventListener("click", e => {
+  const t = e.target.closest("[data-tipo]"), per = e.target.closest("[data-per]");
+  if (t) atqTipo = t.dataset.tipo; else if (per) atqPer = per.dataset.per; else return;
+  desenharAtaques();
+});
 
 // Faturas dos cartoes: fecha 10 dias antes do vencimento (o proximo fechamento e o proximo vencimento)
-// Logos desenhadas aqui (parecidas com as das marcas, nao sao as originais)
-const LOGO_AMAZON = '<svg class="logo-cartao" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#131A22"/><text x="16" y="20.5" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="21" fill="#fff">a</text><path d="M6.5 24.2Q16 29.6 25.4 24" fill="none" stroke="#FF9900" stroke-width="2.2" stroke-linecap="round"/><path d="M22.4 22.4L25.6 24.1L23.6 27" fill="none" stroke="#FF9900" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-const LOGO_AILOS = '<svg class="logo-cartao ailos" viewBox="0 0 56 28" aria-hidden="true"><rect width="56" height="28" rx="8" fill="#165C7D"/><text x="27" y="19" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="15.5" letter-spacing="-.4" fill="#fff">ailos</text><circle cx="47.5" cy="7" r="3" fill="#FFA300"/></svg>';
-const CARTOES = [{nome: "Amazon", vence: 1, logo: LOGO_AMAZON}, {nome: "Ailos", vence: 3, logo: LOGO_AILOS, semNome: true}];
+const CARTOES = [{nome: "Cartão Amazon", vence: 1}, {nome: "Cartão Ailos", vence: 3}];
 const DIAS_FECHAMENTO = 10;
 function desenharFaturas() {
   const hoje = new Date(HOJE + "T12:00:00");
@@ -992,11 +1022,10 @@ function desenharFaturas() {
     const venc = [0, 1, 2, 3].map(m => new Date(hoje.getFullYear(), hoje.getMonth() + m, c.vence, 12)).filter(d => d >= hoje);
     const proxVenc = venc[0], fech = venc.map(d => soma(d, -DIAS_FECHAMENTO)).find(d => d >= hoje);
     const nf = dias(fech), nv = dias(proxVenc);
-    return `<div class="fat"><b title="${c.nome}">${c.logo}${c.semNome ? "" : c.nome}</b><span class="${nf <= 3 ? "perto" : ""}">fecha ${fmt(fech)} (${quando(nf)})</span><span class="${nv <= 3 ? "perto" : ""}">vence ${fmt(proxVenc)} (${quando(nv)})</span></div>`;
+    return `<div class="fat"><b>${c.nome}</b><span class="${nf <= 3 ? "perto" : ""}">fecha ${fmt(fech)} (${quando(nf)})</span><span class="${nv <= 3 ? "perto" : ""}">vence ${fmt(proxVenc)} (${quando(nv)})</span></div>`;
   }).join("");
 }
 desenharFaturas();
-desenharAtaques();
 
 // ---------- Bolsas do mundo, bancos e acoes famosas (vem do robo, a cada 3 horas) ----------
 function desenharBolsas(lista) {
@@ -1108,7 +1137,7 @@ fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).
   else $("m-ibov").textContent = "—";
   if (j.novela) desenharNovela(j.novela);
   if (j.bolsas) desenharBolsas(j.bolsas);
-  dadosRobo = j; desenharAlertas(); desenharRio(); desenharSeguranca(j.seguranca);
+  dadosRobo = j; desenharAlertas(); desenharRio(); desenharSeguranca(j.seguranca); desenharAtaques();
   const todas = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
   let cats = [], atual = "mundo";
   try { atual = localStorage.getItem("categoria") || atual; } catch(e) {}

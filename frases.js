@@ -233,24 +233,3 @@ window.MUSICAS = [
   ["Believer", "Imagine Dragons", "Transformação", "A dor também pode virar combustível."]
 ];
 
-// Paises mais atacados (ranking semestral, NAO e ao vivo). Fonte: Microsoft Digital Defense Report 2026 -
-// parcela dos clientes da Microsoft atingidos por ameacas em jan-jun/2026. "antes" = posicao em jan-jun/2025.
-// Quando sair o proximo relatorio, e so atualizar os numeros abaixo.
-window.PAISES_ATACADOS = {
-  fonte: "Microsoft Digital Defense Report 2026",
-  periodo: "jan–jun/2026",
-  anterior: "jan–jun/2025",
-  nota: "O Brasil não aparece no top 10 deste ranking.",
-  itens: [
-    {pais: "Estados Unidos", bandeira: "🇺🇸", pct: 25.5, antes: 1},
-    {pais: "Israel", bandeira: "🇮🇱", pct: 7.6, antes: 3},
-    {pais: "Ucrânia", bandeira: "🇺🇦", pct: 4.8, antes: 5},
-    {pais: "Taiwan", bandeira: "🇹🇼", pct: 3.9, antes: 10},
-    {pais: "Reino Unido", bandeira: "🇬🇧", pct: 3.8, antes: 2},
-    {pais: "Emirados Árabes", bandeira: "🇦🇪", pct: 2.8, antes: 9},
-    {pais: "Índia", bandeira: "🇮🇳", pct: 2.5, antes: 8},
-    {pais: "Japão", bandeira: "🇯🇵", pct: 2.5, antes: 7},
-    {pais: "Canadá", bandeira: "🇨🇦", pct: 1.8, antes: 6},
-    {pais: "Alemanha", bandeira: "🇩🇪", pct: 1.7, antes: 4}
-  ]
-};

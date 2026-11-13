@@ -426,6 +426,53 @@ def graficos():
     return series or None
 
 
+KASPERSKY_PAGINA = "https://cybermap.kaspersky.com/stats"
+KASPERSKY_DADOS = "https://sm-cybermap-mediaprod.smweb.tech/data/securelist/"
+# oas = ameacas no computador, wav = navegacao na web, mav = e-mail, ids = ataques de rede, rmw = ransomware
+TIPOS_ATAQUE = ("oas", "wav", "mav", "ids", "rmw")
+
+
+def _abrir(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 Safari/537.36"})
+    return urllib.request.urlopen(req, timeout=30)
+
+
+def ataques_kaspersky(antigo):
+    """Ranking diario dos paises mais atacados, do mapa de ameacas da Kaspersky (% dos usuarios atacados em cada pais,
+    por tipo de ameaca, na ultima semana e no ultimo mes). Guarda tambem o ranking do dia anterior para mostrar quem
+    subiu ou desceu. Se a fonte falhar, devolve None (e o programa mantem o valor antigo)."""
+    try:
+        pagina = _abrir(KASPERSKY_PAGINA).read().decode("utf-8", "replace")
+        achou = re.search(r"window\.countriesObjs\s*=\s*(\[.*?\]);", pagina, re.S)
+        paises = {str(x["id"]): x["iso2"] for x in json.loads(achou.group(1)) if x.get("iso2")}
+        tipos, data = {}, None
+        for tipo in TIPOS_ATAQUE:
+            tipos[tipo] = {}
+            for periodo in ("w", "m"):
+                with _abrir(f"{KASPERSKY_DADOS}country_{tipo}_{periodo}.json") as r:
+                    dados = json.loads(r.read())
+                    if data is None and r.headers.get("Last-Modified"):
+                        data = parsedate_to_datetime(r.headers["Last-Modified"]).astimezone(timezone.utc).strftime("%Y-%m-%d")
+                ranking = sorted(((float(v), paises[k]) for k, v in dados.items() if k in paises), reverse=True)
+                br = next((i for i, (_, iso) in enumerate(ranking) if iso == "BR"), None)
+                tipos[tipo][periodo] = {
+                    "top": [[iso, v] for v, iso in ranking[:15]],
+                    "br": {"pos": br + 1, "de": len(ranking), "pct": ranking[br][0]} if br is not None else None}
+        data = data or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        anterior = antigo.get("ataques") or {}
+        if anterior.get("data") == data:  # mesmo dia da fonte: o "ontem" ja guardado continua valendo
+            ontem = anterior.get("ontem")
+        elif anterior.get("tipos"):  # a fonte atualizou: o ranking que estava vira o "ontem"
+            ontem = {"data": anterior.get("data"),
+                     "tipos": {t: {pe: {"top": v["top"]} for pe, v in d.items()} for t, d in anterior["tipos"].items()}}
+        else:
+            ontem = None
+        return {"fonte": "Kaspersky Cyberthreat Map", "data": data, "tipos": tipos, "ontem": ontem}
+    except Exception as e:
+        print(f"Falhou ranking de ataques: {e}", file=sys.stderr)
+        return None
+
+
 def main(destino):
     usados, categorias = set(), []
     for cid, nome, total, fontes in CATEGORIAS:
@@ -446,9 +493,10 @@ def main(destino):
     alertas = alertas_inmet() or antigo.get("alertas")
     rio = rio_blumenau() or antigo.get("rio")
     seg = seguranca() or antigo.get("seguranca")
+    atq = ataques_kaspersky(antigo) or antigo.get("ataques")
     with open(destino, "w", encoding="utf-8") as f:
         json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "ibovespa": ibovespa(), "novela": nov,
-                   "bolsas": bol, "alertas": alertas, "rio": rio, "seguranca": seg, "categorias": categorias},
+                   "bolsas": bol, "alertas": alertas, "rio": rio, "seguranca": seg, "ataques": atq, "categorias": categorias},
                   f, ensure_ascii=False, indent=1)
     gr = graficos()
     if gr:  # se o Yahoo falhar, o graficos.json anterior continua valendo

@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="icons/icone-180.png">
 <link rel="manifest" href="manifest.webmanifest">
 <script>/* Confere se existe versao mais nova do site; se existir, recarrega ignorando a copia guardada (atualizada por scripts/nova_versao.py) */
-(function(){var B="20261113104844";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
+(function(){var B="20261113105827";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
 <title>Bom Dia</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff9a6b'/%3E%3Cstop offset='1' stop-color='%234b3f8a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23a)'/%3E%3Ccircle cx='32' cy='38' r='13' fill='%23ffd66b'/%3E%3Crect x='6' y='44' width='52' height='4' rx='2' fill='%23fff' opacity='.85'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -88,6 +88,33 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .atualizar:disabled{opacity:.7;cursor:wait}
 .atualizar.girando .ico-a{display:inline-block;animation:girar .8s linear infinite}
 .sub-prev{margin:20px 0 10px}
+.cal-mes{font:600 1rem var(--serif);text-transform:capitalize;margin:0 2px 8px}
+.cal-grade{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.cal-sem{text-align:center;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--soft)}
+.cal-sem.fds-col{color:var(--warm)}
+.cal-dia,.cal-vazio{min-height:100px;border-radius:14px;padding:6px 4px;display:flex;flex-direction:column;align-items:center;gap:1px;min-width:0}
+.cal-vazio{border:1px dashed var(--grid);color:var(--soft);opacity:.55;font-size:.75rem;font-weight:700;align-items:flex-start;padding:6px 8px}
+.cal-dia{border:1px solid var(--card-line);background:var(--chip);color:var(--ink);font:inherit;cursor:pointer}
+.cal-dia.fim{background:color-mix(in srgb,var(--warm) 16%,var(--chip))}
+.cal-dia.hoje{outline:2px solid var(--accent);outline-offset:-2px}
+.cal-dia[aria-pressed="true"]{background:var(--ink);color:var(--on-ink)}
+.cal-dia[aria-pressed="true"] .mn,.cal-dia[aria-pressed="true"] .ch{color:var(--on-ink)}
+.cal-dia .n{align-self:flex-start;font-size:.72rem;font-weight:800;padding-left:4px;white-space:nowrap}
+.cal-dia .e{font-size:1.5rem;line-height:1.25}
+.cal-dia .mx{font:600 1.1rem var(--serif)}
+.cal-dia .mn{font-size:.78rem;color:var(--soft);font-weight:600}
+.cal-dia .ch{font-size:.7rem;font-weight:800;color:var(--rain)}
+@media (max-width:760px){
+  .cal-grade{gap:3px}
+  .cal-dia,.cal-vazio{min-height:86px;padding:4px 1px;border-radius:10px}
+  .cal-vazio{padding:4px 5px;font-size:.65rem}
+  .cal-dia .n{font-size:.62rem;padding-left:3px}
+  .cal-dia .e{font-size:1.1rem}
+  .cal-dia .mx{font-size:.92rem}
+  .cal-dia .mn{font-size:.66rem}
+  .cal-dia .ch{font-size:.6rem}
+  .cal-sem{font-size:.58rem;letter-spacing:0}
+}
 .vidro>.dica{color:var(--soft);opacity:1}
 .vidro{background:var(--card);border:1px solid var(--card-line);border-radius:24px;padding:20px;backdrop-filter:blur(18px) saturate(1.2);-webkit-backdrop-filter:blur(18px) saturate(1.2);
   box-shadow:0 10px 30px -18px rgba(0,0,0,.35)}
@@ -136,7 +163,12 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .rio .escala i:first-child{border-radius:10px 0 0 10px}
 .rio .escala i:last-child{border-radius:0 10px 10px 0}
 .rio .marca{position:absolute;top:-6px;width:4px;height:22px;margin-left:-2px;border-radius:3px;background:var(--ink);box-shadow:0 0 0 2px var(--card)}
-.rio .rotulos{display:flex;font-size:.66rem;color:var(--soft);font-weight:700}
+.rio .rotulos{position:relative;height:14px;font-size:.66rem;color:var(--soft);font-weight:700}
+.rio .rotulos span{position:absolute;top:0;transform:translateX(-50%);white-space:nowrap}
+.rio .rotulos span:first-child{transform:none}
+.rio .legenda-rio{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:8px;font-size:.72rem;color:var(--soft);font-weight:600}
+.rio .legenda-rio i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.rio .legenda-rio .atual{color:var(--ink);font-weight:800}
 .rio svg{width:100%;height:64px;display:block;margin-top:10px;overflow:visible}
 .rio .fonte,.seguranca .fonte{font-size:.75rem;color:var(--soft);margin-top:8px}
 .rio .fonte a,.seguranca .fonte a{color:inherit}
@@ -309,7 +341,7 @@ footer a{color:inherit}
     </div>
     <div class="horas" id="horas"></div>
     <div class="etiqueta sub-prev">Próximos 15 dias</div>
-    <div class="semana" id="semana"></div>
+    <div class="calendario" id="semana"></div>
     <div class="dica">Toque num dia para ver as horas dele aqui em cima.</div>
   </section>
 
@@ -348,7 +380,7 @@ footer a{color:inherit}
   </footer>
 </main>
 
-<script src="frases.js?v=20261113104844"></script>
+<script src="frases.js?v=20261113105827"></script>
 <script>
 // Ao atualizar (ou voltar para a pagina), sempre comeca la em cima
 try { history.scrollRestoration = "manual"; } catch (e) {}
@@ -615,16 +647,27 @@ function grafico(horas, agora) {
 }
 
 function desenharSemana() {
-  const d = dados.daily;
-  $("semana").innerHTML = d.time.map((dia, i) => {
-    const t = tempo(d.weather_code[i]);
-    const nome = dia === HOJE ? "Hoje" : nomeDia(dia, {weekday:"short"}).replace(".", "");
-    const fim = [0, 6].includes(new Date(dia + "T12:00:00").getDay());
-    return `<button class="dia${fim ? " fim" : ""}" data-dia="${dia}" aria-pressed="${dia === diaSel}" title="${t.txt}">
-      <div class="nome">${nome}</div><div class="num">${nomeDia(dia,{day:"numeric",month:"short"}).replace(".", "")}</div>
-      <div class="e">${t.ico}</div><div class="max">${r0(d.temperature_2m_max[i])}°</div>
-      <div class="min">${r0(d.temperature_2m_min[i])}°</div><div class="ch">💧${d.precipitation_probability_max[i] ?? 0}%</div></button>`;
-  }).join("");
+  // Calendario de domingo a sabado: os dias sem previsao (antes de hoje e depois do 15o) aparecem apagados
+  const d = dados.daily, nomesSem = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
+  const data = iso => new Date(iso + "T12:00:00");
+  const somar = (iso, n) => { const x = data(iso); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); };
+  const primeiro = d.time[0], ultimo = d.time[d.time.length - 1];
+  const ini = somar(primeiro, -data(primeiro).getDay()), fim = somar(ultimo, 6 - data(ultimo).getDay());
+  const mesCurto = iso => data(iso).toLocaleDateString("pt-BR", {month: "short"}).replace(".", "");
+  const meses = [...new Set([primeiro, ultimo].map(x => data(x).toLocaleDateString("pt-BR", {month: "long"})))].join(" – ");
+  let html = `<div class="cal-mes">${meses}</div><div class="cal-grade">` +
+    nomesSem.map((n, i) => `<div class="cal-sem${i === 0 || i === 6 ? " fds-col" : ""}">${n}</div>`).join("");
+  for (let dia = ini; dia <= fim; dia = somar(dia, 1)) {
+    const i = d.time.indexOf(dia), num = +dia.slice(8), rot = num === 1 ? `1/${mesCurto(dia)}` : num;
+    if (i < 0) { html += `<div class="cal-vazio">${rot}</div>`; continue; }
+    const t = tempo(d.weather_code[i]), chuva = d.precipitation_probability_max[i] ?? 0, sem = data(dia).getDay();
+    html += `<button class="cal-dia${dia === HOJE ? " hoje" : ""}${sem === 0 || sem === 6 ? " fim" : ""}" data-dia="${dia}" aria-pressed="${dia === diaSel}"
+      title="${nomeDia(dia, {weekday: "long", day: "numeric", month: "long"})}: ${t.txt}, chuva ${chuva}%">
+      <span class="n">${dia === HOJE ? "hoje" : rot}</span><span class="e">${t.ico}</span>
+      <span class="mx">${r0(d.temperature_2m_max[i])}°</span><span class="mn">${r0(d.temperature_2m_min[i])}°</span>
+      <span class="ch">${chuva}%</span></button>`;
+  }
+  $("semana").innerHTML = html + "</div>";
 }
 
 // Aviso do proximo fim de semana: sol ou chuva, com uma mensagem positiva
@@ -702,9 +745,9 @@ function desenharFeriados() {
 }
 
 $("semana").addEventListener("click", e => {
-  const b = e.target.closest(".dia"); if (!b) return;
+  const b = e.target.closest(".cal-dia"); if (!b) return;
   diaSel = b.dataset.dia;
-  document.querySelectorAll(".dia").forEach(x => x.setAttribute("aria-pressed", x === b));
+  document.querySelectorAll(".cal-dia").forEach(x => x.setAttribute("aria-pressed", x === b));
   aplicarCeu(diaSel === HOJE ? dados.current.weather_code : dados.daily.weather_code[dados.daily.time.indexOf(diaSel)]);
   desenharDia();
   $("agora").scrollIntoView({behavior: "smooth", block: "center"});
@@ -789,7 +832,9 @@ function desenharRio() {
       <span class="estagio" style="background:${cor[r.estagio]};color:${r.estagio === "Observação" ? "#2a2205" : "#fff"}">${esc(r.estagio)}</span>
       <span class="tend">${seta} (${vtxt})</span></div>
     <div class="escala">${faixas.map((f, i) => `<i style="width:${f[1]}%;background:${cores[i]}"></i>`).join("")}<b class="marca" style="left:${Math.min(r.nivel, 10) * 10}%"></b></div>
-    <div class="rotulos">${faixas.map(f => `<span style="width:${f[1]}%">${f[0]}</span>`).join("")}</div>
+    <div class="rotulos">${[["0", 0], ["3 m", 30], ["4 m", 40], ["6 m", 60], ["8 m", 80]].map(([t, x]) => `<span style="left:${x}%">${t}</span>`).join("")}</div>
+    <div class="legenda-rio">${[["Normalidade", "até 3 m"], ["Observação", "3 a 4 m"], ["Atenção", "4 a 6 m"], ["Alerta", "6 a 8 m"], ["Alerta máximo", "acima de 8 m"]]
+      .map(([nome, faixa], i) => `<span class="${nome === r.estagio ? "atual" : ""}"><i style="background:${cores[i]}"></i>${nome} (${faixa})</span>`).join("")}</div>
     <svg viewBox="0 0 240 60" preserveAspectRatio="none" role="img" aria-label="Nível do rio nas últimas 24 horas"><polyline points="${pts.join(" ")}" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg>
     <div class="fonte">Últimas 24 horas · leitura das ${r.leitura.slice(11, 13)}h${r.leitura.slice(14)} de ${r.leitura.slice(8, 10)}/${r.leitura.slice(5, 7)}${horas > 6 ? " ⚠️ leitura antiga, confira ao vivo" : ""} ·
       Fonte: <a href="${esc(r.link)}" target="_blank" rel="noopener">AlertaBlu (Defesa Civil de Blumenau) ↗</a>. Atualizado a cada 3 horas; em dia de chuva forte, veja ao vivo no AlertaBlu.</div>`;

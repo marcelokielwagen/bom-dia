@@ -6,6 +6,8 @@
 <meta name="theme-color" content="#8ec5ff">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Bom Dia">
+<script>/* Confere se existe versao mais nova do site; se existir, recarrega ignorando a copia guardada (atualizada por scripts/nova_versao.py) */
+(function(){var B="20261113103946";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
 <title>Bom Dia</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff9a6b'/%3E%3Cstop offset='1' stop-color='%234b3f8a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23a)'/%3E%3Ccircle cx='32' cy='38' r='13' fill='%23ffd66b'/%3E%3Crect x='6' y='44' width='52' height='4' rx='2' fill='%23fff' opacity='.85'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -83,7 +85,8 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
   font:700 .85rem var(--sans);padding:9px 13px;border-radius:12px;cursor:pointer;white-space:nowrap}
 .atualizar:disabled{opacity:.7;cursor:wait}
 .atualizar.girando .ico-a{display:inline-block;animation:girar .8s linear infinite}
-@media (max-width:760px){.atualizar .txt{display:none}}
+.sub-prev{margin:20px 0 10px}
+.vidro>.dica{color:var(--soft);opacity:1}
 .vidro{background:var(--card);border:1px solid var(--card-line);border-radius:24px;padding:20px;backdrop-filter:blur(18px) saturate(1.2);-webkit-backdrop-filter:blur(18px) saturate(1.2);
   box-shadow:0 10px 30px -18px rgba(0,0,0,.35)}
 .etiqueta{font:800 .7rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
@@ -265,8 +268,6 @@ footer a{color:inherit}
 
   <section class="vidro fds" id="fds" hidden></section>
 
-  <section class="vidro novela" id="novela" hidden></section>
-
   <section class="vidro">
     <div class="cidades" role="group" aria-label="Escolha a cidade">
       <button data-cidade="blumenau" aria-pressed="true">Blumenau</button>
@@ -280,11 +281,10 @@ footer a{color:inherit}
       </div>
     </div>
     <div class="horas" id="horas"></div>
+    <div class="etiqueta sub-prev">Próximos 15 dias</div>
+    <div class="semana" id="semana"></div>
+    <div class="dica">Toque num dia para ver as horas dele aqui em cima.</div>
   </section>
-
-  <h2 class="titulo">Próximos 15 dias</h2>
-  <div class="semana" id="semana"></div>
-  <div class="dica">Toque num dia para ver as horas dele lá em cima.</div>
 
   <h2 class="titulo">Próximos feriados</h2>
   <section class="vidro">
@@ -302,6 +302,8 @@ footer a{color:inherit}
   <div class="dica" id="mercado-hora"></div>
   <div id="bolsas"></div>
 
+  <section class="vidro novela" id="novela" hidden></section>
+
   <h2 class="titulo">Notícias</h2>
   <section class="vidro">
     <div class="abas" id="abas" role="tablist" aria-label="Categorias de notícias"></div>
@@ -315,12 +317,17 @@ footer a{color:inherit}
   </footer>
 </main>
 
-<script src="frases.js"></script>
+<script src="frases.js?v=20261113103946"></script>
 <script>
 // Ao atualizar (ou voltar para a pagina), sempre comeca la em cima
 try { history.scrollRestoration = "manual"; } catch (e) {}
 window.scrollTo(0, 0);
-window.addEventListener("pageshow", () => window.scrollTo(0, 0));
+const CARREGADO_EM = Date.now();
+window.addEventListener("pageshow", e => { window.scrollTo(0, 0); if (e.persisted) location.reload(); });
+// No atalho do celular a pagina fica "congelada" em segundo plano: ao voltar depois de um tempo, recarrega sozinha
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible" && Date.now() - CARREGADO_EM > 15 * 60 * 1000) location.reload();
+});
 const TZ = "America/Sao_Paulo";
 const CIDADES = {
   blumenau: {nome: "Blumenau", lat: -26.9194, lon: -49.0661},
@@ -669,7 +676,7 @@ $("semana").addEventListener("click", e => {
   document.querySelectorAll(".dia").forEach(x => x.setAttribute("aria-pressed", x === b));
   aplicarCeu(diaSel === HOJE ? dados.current.weather_code : dados.daily.weather_code[dados.daily.time.indexOf(diaSel)]);
   desenharDia();
-  window.scrollTo({top: 0, behavior: "smooth"});
+  $("agora").scrollIntoView({behavior: "smooth", block: "center"});
 });
 document.querySelectorAll(".cidades button").forEach(b => b.addEventListener("click", () => {
   cidade = b.dataset.cidade; diaSel = HOJE;
@@ -685,7 +692,8 @@ const ICONE_CAT = {mundo: "🌍", politica: "🏛️", ti: "💻", acoes: "📈"
 $("atualizar").addEventListener("click", async () => {
   const b = $("atualizar"); b.classList.add("girando"); b.disabled = true;
   try {
-    await Promise.all(["./", "frases.js", "noticias.json"].map(u => fetch(u, {cache: "reload"})));
+    const frases = document.querySelector('script[src^="frases.js"]').getAttribute("src");
+    await Promise.all(["./", frases, "noticias.json", "versao.json"].map(u => fetch(u, {cache: "reload"})));
     if (window.caches) { const ks = await caches.keys(); await Promise.all(ks.map(k => caches.delete(k))); }
   } catch (e) {}
   location.reload();

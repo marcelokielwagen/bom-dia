@@ -363,27 +363,66 @@ def seguranca():
 PERIODOS = (("1d", "5m"), ("5d", "30m"), ("1mo", "1d"), ("1y", "1wk"))  # dia, semana, mes, ano
 
 
+def serie_yahoo(simbolo, periodo, intervalo):
+    """Serie de precos [[momento, preco], ...] e fechamento anterior de um simbolo do Yahoo Finance."""
+    req = urllib.request.Request(
+        "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(simbolo) +
+        f"?range={periodo}&interval={intervalo}", headers={"User-Agent": "Mozilla/5.0"})
+    r = json.loads(urllib.request.urlopen(req, timeout=20).read())["chart"]["result"][0]
+    pontos = [[t, c] for t, c in zip(r["timestamp"], r["indicators"]["quote"][0]["close"]) if c is not None]
+    return pontos, r["meta"].get("chartPreviousClose")
+
+
+def multiplicar(a, b):
+    """Multiplica duas series: para cada ponto de a, usa o ultimo valor de b ate aquele momento."""
+    saida, j, ultimo = [], 0, (b[0][1] if b else None)
+    for t, v in a:
+        while j < len(b) and b[j][0] <= t:
+            ultimo = b[j][1]
+            j += 1
+        if ultimo is not None:
+            saida.append([t, v * ultimo])
+    return saida
+
+
+# (simbolo no Yahoo, nome, casas decimais). O Bitcoin em reais e calculado: Bitcoin em dolar x dolar.
+SERIES_EXTRAS = [("USDBRL=X", "Dólar", 3), ("EURBRL=X", "Euro", 3)]
+
+
 def graficos():
-    """Series de preco (dia, semana, mes e ano) do Ibovespa, dos indices e dos bancos, para os graficos da pagina.
-    O navegador nao consegue pedir isso direto ao Yahoo, entao o robo grava tudo em graficos.json."""
-    simbolos = [("^BVSP", "Ibovespa")] + [(simb, nome) for _, nome, _, simb in BOLSAS]
-    series = {}
-    for simbolo, nome in simbolos:
-        item = {"nome": nome}
+    """Series de preco (dia, semana, mes e ano) do Ibovespa, dos indices, dos bancos, do dolar, do euro e do Bitcoin,
+    para os graficos da pagina. O navegador nao consegue pedir isso direto ao Yahoo, entao o robo grava em graficos.json."""
+    pedidos = [("^BVSP", "Ibovespa", 2)] + [(simb, nome, 2) for _, nome, _, simb in BOLSAS] + SERIES_EXTRAS + \
+              [("BTC-USD", "Bitcoin (dólar)", 2)]
+    bruto = {}
+    for simbolo, nome, _ in pedidos:
+        bruto[simbolo] = {}
         for periodo, intervalo in PERIODOS:
             try:
-                req = urllib.request.Request(
-                    "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(simbolo) +
-                    f"?range={periodo}&interval={intervalo}", headers={"User-Agent": "Mozilla/5.0"})
-                r = json.loads(urllib.request.urlopen(req, timeout=20).read())["chart"]["result"][0]
-                item[periodo] = [[t, round(c, 2)] for t, c in zip(r["timestamp"], r["indicators"]["quote"][0]["close"])
-                                 if c is not None]
-                if periodo == "1d":
-                    item["anterior"] = r["meta"].get("chartPreviousClose")
+                bruto[simbolo][periodo] = serie_yahoo(simbolo, periodo, intervalo)
             except Exception as e:
                 print(f"Falhou grafico {nome} {periodo}: {e}", file=sys.stderr)
+    series = {}
+    for simbolo, nome, casas in pedidos:
+        if simbolo == "BTC-USD":
+            continue
+        item = {"nome": nome}
+        for periodo, (pontos, anterior) in bruto[simbolo].items():
+            item[periodo] = [[t, round(v, casas)] for t, v in pontos]
+            if periodo == "1d":
+                item["anterior"] = anterior
         if any(per in item for per, _ in PERIODOS):
             series[simbolo] = item
+    # Bitcoin em reais
+    btc, dolar = bruto.get("BTC-USD", {}), bruto.get("USDBRL=X", {})
+    item = {"nome": "Bitcoin"}
+    for periodo, _ in PERIODOS:
+        if periodo in btc and periodo in dolar:
+            item[periodo] = [[t, round(v)] for t, v in multiplicar(btc[periodo][0], dolar[periodo][0])]
+            if periodo == "1d" and btc[periodo][1] and dolar[periodo][1]:
+                item["anterior"] = round(btc[periodo][1] * dolar[periodo][1])
+    if any(per in item for per, _ in PERIODOS):
+        series["BTC-BRL"] = item
     return series or None
 
 

@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="icons/icone-180.png">
 <link rel="manifest" href="manifest.webmanifest">
 <script>/* Confere se existe versao mais nova do site; se existir, recarrega ignorando a copia guardada (atualizada por scripts/nova_versao.py) */
-(function(){var B="20261113140649";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
+(function(){var B="20261113144359";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
 <title>Bom Dia</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff9a6b'/%3E%3Cstop offset='1' stop-color='%234b3f8a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23a)'/%3E%3Ccircle cx='32' cy='38' r='13' fill='%23ffd66b'/%3E%3Crect x='6' y='44' width='52' height='4' rx='2' fill='%23fff' opacity='.85'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -135,7 +135,7 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 
 /* Horas: fichinhas pequenas */
 .horas{display:flex;gap:4px;overflow-x:auto;margin-top:16px;padding:2px 0 6px;scrollbar-width:thin}
-.hora{flex:0 0 44px;text-align:center;border-radius:10px;padding:5px 0 6px;background:var(--chip)}
+.hora{flex:0 0 44px;text-align:center;border-radius:10px;padding:5px 0 6px;background:var(--chip);border:0;font:inherit;color:inherit;cursor:pointer}
 .hora.atual{background:var(--ink);color:var(--on-ink)}
 .hora .h{font-size:.66rem;font-weight:700;opacity:.75}
 .hora .e{font-size:.95rem;line-height:1.35}
@@ -170,7 +170,7 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .rio .fonte a{color:inherit}
 /* Faturas dos cartoes */
 .vidro.faturas{padding:10px 16px;margin-bottom:12px;display:grid;gap:6px}
-.faturas .fat{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;font-size:.78rem}
+.faturas .fat{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;font-size:.74rem}
 .faturas .fat b{font-weight:800}
 .faturas .fat span{color:var(--soft);font-weight:600}
 .faturas .fat .perto{color:var(--cai);font-weight:800}
@@ -201,6 +201,32 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 #gm-svg text{font:600 9px var(--sans);fill:var(--soft)}
 .gm-leitura{min-height:1.4em;font-size:.82rem;color:var(--soft);margin-top:6px}
 .gm-leitura b{color:var(--ink)}
+/* Hora selecionada no quadro do tempo */
+.hora.sel{outline:2px solid var(--accent);outline-offset:-2px;background:color-mix(in srgb,var(--accent) 24%,var(--chip))}
+.hora.atual.sel{background:var(--ink)}
+.grafico svg{cursor:pointer}
+.voltar-dia{border:1px solid var(--card-line);background:var(--chip);color:var(--ink);font:700 .75rem var(--sans);padding:4px 12px;border-radius:999px;cursor:pointer}
+/* Logos dos cartoes */
+.logo-cartao{height:20px;width:20px;vertical-align:-5px;margin-right:4px}
+.logo-cartao.ailos{width:40px;margin-right:0}
+/* Ranking de paises mais atacados */
+.vidro.ataques{padding:14px 14px 12px;margin-bottom:12px;border-left:5px solid #d9453b;
+  background:linear-gradient(140deg,color-mix(in srgb,#d9453b 16%,var(--card)),var(--card) 55%)}
+.atq-sub{margin:2px 0 8px;font-size:.78rem;color:var(--soft)}
+.atq-lista{list-style:none;margin:0;padding:0;display:grid;gap:3px}
+.atq-lista li{position:relative;display:grid;grid-template-columns:22px 24px minmax(0,1fr) auto auto;gap:8px;align-items:center;padding:5px 8px;border-radius:9px;overflow:hidden;background:var(--chip)}
+.atq-lista li::before{content:"";position:absolute;top:0;bottom:0;left:0;width:var(--w);background:linear-gradient(90deg,rgba(255,163,0,.34),rgba(217,69,59,.5));border-radius:9px 0 0 9px}
+.atq-lista li>*{position:relative}
+.atq-lista .pos{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:.68rem;font-weight:800;background:var(--chip);color:var(--ink)}
+.atq-lista .atq-top .pos{background:#d9453b;color:#fff}
+.atq-lista .band{font-size:1.15rem;line-height:1}
+.atq-lista .pais{font-weight:700;font-size:.85rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.atq-lista .pct{font:600 .95rem var(--serif)}
+.atq-lista .mov{font-size:.68rem;font-weight:800;min-width:26px;text-align:right}
+.mov.sobe-atq{color:var(--cai)}
+.mov.desce-atq{color:var(--sobe)}
+.mov.igual{color:var(--soft)}
+.ataques .fonte{font-size:.66rem;color:var(--soft);margin-top:8px}
 /* Musica do dia */
 .musica{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px}
 .musica .disco{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:1.8rem;
@@ -367,7 +393,7 @@ footer a{color:inherit}
     <div class="horas" id="horas"></div>
     <div class="etiqueta sub-prev">Próximos 15 dias</div>
     <div class="calendario" id="semana"></div>
-    <div class="dica">Toque num dia para ver as horas dele aqui em cima.</div>
+    <div class="dica">Toque numa hora ou num dia para ver os detalhes aqui em cima.</div>
   </section>
 
   <section class="vidro rio" id="rio" hidden></section>
@@ -382,15 +408,17 @@ footer a{color:inherit}
 
   <h2 class="titulo">Mercado</h2>
   <div class="mercado">
-    <div class="vidro"><div class="etiqueta">💵 Dólar</div><div class="valor" id="m-usd">…</div><div class="var" id="v-usd"></div></div>
-    <div class="vidro"><div class="etiqueta">💶 Euro</div><div class="valor" id="m-eur">…</div><div class="var" id="v-eur"></div></div>
-    <div class="vidro"><div class="etiqueta">₿ Bitcoin</div><div class="valor" id="m-btc">…</div><div class="var" id="v-btc"></div></div>
+    <button type="button" class="vidro cartao-bolsa" data-simbolo="USDBRL=X" data-nome="Dólar" data-moeda="R$" data-dec="3"><div class="etiqueta">💵 Dólar</div><div class="valor" id="m-usd">…</div><div class="var" id="v-usd"></div></button>
+    <button type="button" class="vidro cartao-bolsa" data-simbolo="EURBRL=X" data-nome="Euro" data-moeda="R$" data-dec="3"><div class="etiqueta">💶 Euro</div><div class="valor" id="m-eur">…</div><div class="var" id="v-eur"></div></button>
+    <button type="button" class="vidro cartao-bolsa" data-simbolo="BTC-BRL" data-nome="Bitcoin" data-moeda="R$" data-dec="0"><div class="etiqueta">₿ Bitcoin</div><div class="valor" id="m-btc">…</div><div class="var" id="v-btc"></div></button>
     <button type="button" class="vidro cartao-bolsa" data-simbolo="^BVSP" data-nome="Ibovespa" data-moeda="pts"><div class="etiqueta">📊 Ibovespa</div><div class="valor" id="m-ibov">…</div><div class="var" id="v-ibov"></div></button>
   </div>
   <div class="dica" id="mercado-hora"></div>
   <div id="bolsas"></div>
 
   <section class="vidro novela" id="novela" hidden></section>
+
+  <section class="vidro ataques" id="ataques" hidden></section>
 
   <section class="vidro seguranca" id="seguranca" hidden></section>
 
@@ -423,7 +451,7 @@ footer a{color:inherit}
     <div class="gm-leitura" id="gm-leitura"></div>
   </div>
 </div>
-<script src="frases.js?v=20261113140649"></script>
+<script src="frases.js?v=20261113144359"></script>
 <script>
 // Ao atualizar (ou voltar para a pagina), sempre comeca la em cima
 try { history.scrollRestoration = "manual"; } catch (e) {}
@@ -550,7 +578,7 @@ if (window.CORES_CANCER) { const [nomeCor, cor] = escolher(window.CORES_CANCER, 
 })();
 
 // ---------- Previsao ----------
-let mar = null, dados = null, diaSel = HOJE, cidade = "blumenau";
+let horaSel = null, mar = null, dados = null, diaSel = HOJE, cidade = "blumenau";
 try { cidade = localStorage.getItem("cidade") || cidade; } catch(e) {}
 if (!CIDADES[cidade]) cidade = "blumenau";
 aplicarCeu(0);
@@ -607,7 +635,8 @@ function horasDoDia(dia) {
   return out;
 }
 
-function desenharDia() {
+function desenharDia(manter) {
+  const rolagemAntes = $("horas").scrollLeft;
   const d = dados.daily, i = d.time.indexOf(diaSel), ehHoje = diaSel === HOJE;
   const horas = horasDoDia(diaSel);
   const hm = s => s ? s.slice(11,16) : "--";
@@ -622,7 +651,21 @@ function desenharDia() {
     else if (mi >= 0) marTxt = `<span>🌊 Ondas até <b>${mar.daily.wave_height_max[mi].toFixed(1).replace(".", ",")} m</b></span>`;
   }
   const aviso = avisoChuva(horas, ehHoje);
-  if (ehHoje) {
+  const sel = horaSel != null ? horas.find(x => x.h === horaSel) : null;
+  if (sel) {
+    const t = tempo(sel.cod, sel.noite), hh = String(sel.h).padStart(2, "0") + "h";
+    const quando = ehHoje ? (sel.h === HORA_AGORA ? "agora" : "hoje · " + hh) : nomeDia(diaSel, {weekday: "long", day: "numeric", month: "short"}) + " · " + hh;
+    $("agora").innerHTML = `<div class="etiqueta" style="text-transform:capitalize">${quando} · ${esc(CIDADES[cidade].nome)}</div>
+      <div class="grande"><span class="temp">${r0(sel.temp)}°</span><span class="ico">${t.ico}</span></div>
+      <div class="cond">${t.txt}</div>
+      <div class="aviso-chuva">💧 Chance de chuva às ${hh}: ${sel.chuva ?? 0}%</div>
+      <div class="fichas">
+        <span>Mín <b>${r0(d.temperature_2m_min[i])}°</b> · Máx <b>${r0(d.temperature_2m_max[i])}°</b></span>
+        ${uvTxt}${marTxt}
+        ${sol}
+        <button type="button" class="voltar-dia" id="voltar-dia">↩ Resumo do dia</button>
+      </div>`;
+  } else if (ehHoje) {
     const c = dados.current, t = tempo(c.weather_code, !c.is_day);
     $("agora").innerHTML = `<div class="etiqueta">Agora em ${esc(CIDADES[cidade].nome)}</div>
       <div class="grande"><span class="temp">${r0(c.temperature_2m)}°</span><span class="ico">${t.ico}</span></div>
@@ -648,19 +691,21 @@ function desenharDia() {
         ${sol}
       </div>`;
   }
-  $("titulo-grafico").textContent = "Temperatura ao longo do dia" + (ehHoje ? " · hoje" : "");
-  $("grafico").innerHTML = grafico(horas, ehHoje ? HORA_AGORA : -1);
+  const marca = horaSel != null ? horaSel : (ehHoje ? HORA_AGORA : -1);
+  const rotulo = horaSel != null && !(ehHoje && horaSel === HORA_AGORA) ? String(horaSel).padStart(2, "0") + "h" : "agora";
+  $("titulo-grafico").textContent = "Temperatura por hora · " + (ehHoje ? "hoje" : nomeDia(diaSel, {weekday: "long", day: "numeric", month: "numeric"}));
+  $("grafico").innerHTML = grafico(horas, marca, rotulo, horaSel != null);
   $("horas").innerHTML = horas.map(x => {
     const t = tempo(x.cod, x.noite), atual = ehHoje && x.h === HORA_AGORA;
-    return `<div class="hora${atual ? " atual" : ""}" title="${String(x.h).padStart(2,"0")}h · ${t.txt} · chuva ${x.chuva ?? 0}%">
+    return `<button type="button" class="hora${atual ? " atual" : ""}${horaSel === x.h ? " sel" : ""}" data-h="${x.h}" aria-pressed="${horaSel === x.h}" title="${String(x.h).padStart(2,"0")}h · ${t.txt} · chuva ${x.chuva ?? 0}%">
       <div class="h">${atual ? "agora" : String(x.h).padStart(2,"0") + "h"}</div><div class="e">${t.ico}</div>
-      <div class="t">${r0(x.temp)}°</div><div class="c"><i style="width:${x.chuva ?? 0}%"></i></div></div>`;
+      <div class="t">${r0(x.temp)}°</div><div class="c"><i style="width:${x.chuva ?? 0}%"></i></div></button>`;
   }).join("");
-  const atual = $("horas").querySelector(".atual");
-  $("horas").scrollLeft = atual ? atual.offsetLeft - $("horas").offsetLeft - 4 : 0;
+  if (manter) $("horas").scrollLeft = rolagemAntes;
+  else { const atual = $("horas").querySelector(".atual"); $("horas").scrollLeft = atual ? atual.offsetLeft - $("horas").offsetLeft - 4 : 0; }
 }
 
-function grafico(horas, agora) {
+function grafico(horas, agora, rotulo, destaque) {
   if (!horas.length) return "";
   const W = 640, H = 200, pe = 24, pd = 10, top = 26, base = 140, chTop = 154, chBase = 180;
   const ts = horas.map(x => x.temp), mn = Math.floor(Math.min(...ts)) - 1, mx = Math.ceil(Math.max(...ts)) + 1;
@@ -680,12 +725,16 @@ function grafico(horas, agora) {
   horas.forEach(x => { const hgt = (x.chuva || 0) / 100 * (chBase - chTop); s += `<rect x="${X(x.h) - bw/2}" y="${chTop}" width="${bw}" height="${chBase - chTop}" rx="2" fill="var(--grid)" opacity=".5"/>`;
     if (hgt > 0) s += `<rect x="${X(x.h) - bw/2}" y="${chBase - hgt}" width="${bw}" height="${hgt}" rx="2" fill="var(--rain)"/>`; });
   s += `<text x="${pe - 6}" y="${chBase - 4}" text-anchor="end">💧</text>`;
-  if (agora >= 0) s += `<line x1="${X(agora)}" x2="${X(agora)}" y1="${top - 6}" y2="${chBase}" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 3"/><text x="${X(agora)}" y="${top - 10}" text-anchor="middle" style="fill:var(--accent)">agora</text>`;
+  if (agora >= 0) s += `<line x1="${X(agora)}" x2="${X(agora)}" y1="${top - 6}" y2="${chBase}" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="3 3"/><text x="${X(agora)}" y="${top - 10}" text-anchor="middle" style="fill:var(--accent)">${rotulo || "agora"}</text>`;
   s += `<path d="${area}" fill="url(#g)"/><path d="${linha}" fill="none" stroke="var(--warm)" stroke-width="3" stroke-linecap="round"/>`;
   const marcar = new Set([0, 3, 6, 9, 12, 15, 18, 21, iMax, iMin].filter(i => i < horas.length));
   marcar.forEach(i => { const ext = i === iMax || i === iMin;
     s += `<circle cx="${pts[i][0]}" cy="${pts[i][1]}" r="${ext ? 4.5 : 3}" fill="${ext ? "var(--warm)" : "var(--sky3)"}" stroke="var(--warm)" stroke-width="2"/>`;
     s += `<text class="vt" x="${pts[i][0]}" y="${pts[i][1] + (i === iMin ? 18 : -9)}" text-anchor="middle">${r0(horas[i].temp)}°</text>`; });
+  if (destaque && agora >= 0) {
+    const k = horas.findIndex(x => x.h === agora);
+    if (k >= 0) s += `<circle cx="${pts[k][0]}" cy="${pts[k][1]}" r="6.5" fill="var(--accent)" stroke="#fff" stroke-width="2.5"/><text class="vt" x="${pts[k][0]}" y="${pts[k][1] - 12}" text-anchor="middle" style="fill:var(--accent)">${r0(horas[k].temp)}°</text>`;
+  }
   return s + "</svg>";
 }
 
@@ -789,14 +838,26 @@ function desenharFeriados() {
 
 $("semana").addEventListener("click", e => {
   const b = e.target.closest(".cal-dia"); if (!b) return;
-  diaSel = b.dataset.dia;
+  diaSel = b.dataset.dia; horaSel = null;
   document.querySelectorAll(".cal-dia").forEach(x => x.setAttribute("aria-pressed", x === b));
   aplicarCeu(diaSel === HOJE ? dados.current.weather_code : dados.daily.weather_code[dados.daily.time.indexOf(diaSel)]);
   desenharDia();
   $("agora").scrollIntoView({behavior: "smooth", block: "center"});
 });
+$("horas").addEventListener("click", e => {
+  const b = e.target.closest(".hora"); if (!b) return;
+  const h = +b.dataset.h; horaSel = horaSel === h ? null : h;
+  desenharDia(true);
+  document.querySelector(".hero").scrollIntoView({behavior: "smooth", block: "nearest"});
+});
+$("agora").addEventListener("click", e => { if (e.target.closest("#voltar-dia")) { horaSel = null; desenharDia(true); } });
+$("grafico").addEventListener("click", e => {
+  const svg = $("grafico").querySelector("svg"); if (!svg) return;
+  const r = svg.getBoundingClientRect(), h = Math.round(((e.clientX - r.left) / r.width * 640 - 24) / (640 - 24 - 10) * 23);
+  if (h >= 0 && h <= 23 && horasDoDia(diaSel).some(x => x.h === h)) { horaSel = h; desenharDia(true); }
+});
 document.querySelectorAll(".cidades button").forEach(b => b.addEventListener("click", () => {
-  cidade = b.dataset.cidade; diaSel = HOJE;
+  cidade = b.dataset.cidade; diaSel = HOJE; horaSel = null;
   try { localStorage.setItem("cidade", cidade); } catch(e) {}
   carregar();
   if (window.reajustarNoticias) window.reajustarNoticias();
@@ -897,8 +958,29 @@ function desenharSeguranca(lista) {
   $("seguranca").hidden = false;
 }
 
+// Ranking dos paises mais atacados (dados em frases.js, ranking semestral)
+function desenharAtaques() {
+  const d = window.PAISES_ATACADOS;
+  if (!d || !d.itens || !d.itens.length) { $("ataques").hidden = true; return; }
+  const max = Math.max(...d.itens.map(x => x.pct));
+  $("ataques").innerHTML = `<div class="etiqueta">🌍 Ataques hackers · top 10 países mais atacados</div>
+    <p class="atq-sub">Parcela dos clientes da Microsoft atingidos por ameaças · ${esc(d.periodo)}</p>
+    <ol class="atq-lista">${d.itens.map((x, i) => {
+      const mov = x.antes - (i + 1);
+      const seta = mov > 0 ? `<span class="mov sobe-atq" title="Subiu ${mov} posição(ões) desde ${esc(d.anterior)}">▲${mov}</span>`
+        : mov < 0 ? `<span class="mov desce-atq" title="Caiu ${-mov} posição(ões) desde ${esc(d.anterior)}">▼${-mov}</span>` : `<span class="mov igual" title="Mesma posição de ${esc(d.anterior)}">＝</span>`;
+      return `<li class="${i < 3 ? "atq-top" : ""}" style="--w:${(Math.sqrt(x.pct / max) * 100).toFixed(1)}%"><span class="pos">${i + 1}</span><span class="band">${x.bandeira}</span>
+        <span class="pais">${esc(x.pais)}</span><b class="pct">${x.pct.toFixed(1).replace(".", ",")}%</b>${seta}</li>`;
+    }).join("")}</ol>
+    <div class="fonte">Fonte: ${esc(d.fonte)} — ranking semestral, não é ao vivo. ▲▼ = posições em relação a ${esc(d.anterior)}. ${esc(d.nota || "")}</div>`;
+  $("ataques").hidden = false;
+}
+
 // Faturas dos cartoes: fecha 10 dias antes do vencimento (o proximo fechamento e o proximo vencimento)
-const CARTOES = [{nome: "Amazon", vence: 1}, {nome: "Ailos", vence: 3}];
+// Logos desenhadas aqui (parecidas com as das marcas, nao sao as originais)
+const LOGO_AMAZON = '<svg class="logo-cartao" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#131A22"/><text x="16" y="20.5" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="21" fill="#fff">a</text><path d="M6.5 24.2Q16 29.6 25.4 24" fill="none" stroke="#FF9900" stroke-width="2.2" stroke-linecap="round"/><path d="M22.4 22.4L25.6 24.1L23.6 27" fill="none" stroke="#FF9900" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const LOGO_AILOS = '<svg class="logo-cartao ailos" viewBox="0 0 56 28" aria-hidden="true"><rect width="56" height="28" rx="8" fill="#165C7D"/><text x="27" y="19" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="15.5" letter-spacing="-.4" fill="#fff">ailos</text><circle cx="47.5" cy="7" r="3" fill="#FFA300"/></svg>';
+const CARTOES = [{nome: "Amazon", vence: 1, logo: LOGO_AMAZON}, {nome: "Ailos", vence: 3, logo: LOGO_AILOS, semNome: true}];
 const DIAS_FECHAMENTO = 10;
 function desenharFaturas() {
   const hoje = new Date(HOJE + "T12:00:00");
@@ -910,10 +992,11 @@ function desenharFaturas() {
     const venc = [0, 1, 2, 3].map(m => new Date(hoje.getFullYear(), hoje.getMonth() + m, c.vence, 12)).filter(d => d >= hoje);
     const proxVenc = venc[0], fech = venc.map(d => soma(d, -DIAS_FECHAMENTO)).find(d => d >= hoje);
     const nf = dias(fech), nv = dias(proxVenc);
-    return `<div class="fat"><b>💳 ${c.nome}</b><span class="${nf <= 3 ? "perto" : ""}">fecha ${fmt(fech)} (${quando(nf)})</span><span class="${nv <= 3 ? "perto" : ""}">vence ${fmt(proxVenc)} (${quando(nv)})</span></div>`;
+    return `<div class="fat"><b title="${c.nome}">${c.logo}${c.semNome ? "" : c.nome}</b><span class="${nf <= 3 ? "perto" : ""}">fecha ${fmt(fech)} (${quando(nf)})</span><span class="${nv <= 3 ? "perto" : ""}">vence ${fmt(proxVenc)} (${quando(nv)})</span></div>`;
   }).join("");
 }
 desenharFaturas();
+desenharAtaques();
 
 // ---------- Bolsas do mundo, bancos e acoes famosas (vem do robo, a cada 3 horas) ----------
 function desenharBolsas(lista) {
@@ -933,7 +1016,7 @@ function desenharBolsas(lista) {
 // ---------- Grafico ao clicar numa bolsa ou banco (series gravadas pelo robo em graficos.json) ----------
 let SERIES = null;
 const NOME_PERIODO = {"1d": "no dia", "5d": "na semana", "1mo": "no mês", "1y": "no ano"};
-let gm = {simbolo: "", nome: "", moeda: "pts", periodo: "1d"};
+let gm = {simbolo: "", nome: "", moeda: "pts", dec: 0, periodo: "1d"};
 function quando(ts, periodo, curto) {
   const d = new Date(ts * 1000), o = {timeZone: TZ};
   const hora = d.toLocaleTimeString("pt-BR", {...o, hour: "2-digit", minute: "2-digit"});
@@ -950,7 +1033,7 @@ function desenharGrafico() {
     $("gm-valor").textContent = "—"; $("gm-var").textContent = ""; $("gm-leitura").textContent = "";
     return;
   }
-  const W = 320, H = 170, pe = 6, pd = 46, top = 10, base = 142, dec = gm.moeda === "pts" ? 0 : 2;
+  const W = 320, H = 170, pe = 6, pd = 46, top = 10, base = 142, dec = gm.dec;
   const ref = gm.periodo === "1d" && s.anterior ? s.anterior : pts[0][1];
   const vals = pts.map(p => p[1]).concat(gm.periodo === "1d" && s.anterior ? [s.anterior] : []);
   let mn = Math.min(...vals), mx = Math.max(...vals);
@@ -985,8 +1068,8 @@ function desenharGrafico() {
   };
   svg.onpointerleave = () => { $("gm-cruz").setAttribute("opacity", "0"); $("gm-bola").setAttribute("opacity", "0"); mostrar(pts.length - 1); };
 }
-async function abrirGrafico(simbolo, nome, moeda) {
-  gm = {simbolo, nome, moeda, periodo: "1d"};
+async function abrirGrafico(simbolo, nome, moeda, dec) {
+  gm = {simbolo, nome, moeda, dec, periodo: "1d"};
   $("gm-nome").textContent = "📈 " + nome;
   $("grafico-modal").hidden = false; document.body.style.overflow = "hidden";
   if (!SERIES) {
@@ -998,7 +1081,7 @@ async function abrirGrafico(simbolo, nome, moeda) {
 function fecharGrafico() { $("grafico-modal").hidden = true; document.body.style.overflow = ""; }
 document.addEventListener("click", e => {
   const c = e.target.closest(".cartao-bolsa");
-  if (c && c.dataset.simbolo) abrirGrafico(c.dataset.simbolo, c.dataset.nome, c.dataset.moeda || "R$");
+  if (c && c.dataset.simbolo) abrirGrafico(c.dataset.simbolo, c.dataset.nome, c.dataset.moeda || "R$", c.dataset.dec !== undefined ? +c.dataset.dec : (c.dataset.moeda === "pts" ? 0 : 2));
 });
 $("gm-fechar").addEventListener("click", fecharGrafico);
 $("grafico-modal").addEventListener("click", e => { if (e.target.id === "grafico-modal") fecharGrafico(); });

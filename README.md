@@ -6,7 +6,8 @@ Página do dia para **Blumenau** e **Balneário Camboriú**:
 |---|---|
 | Previsão de hoje hora a hora, gráfico da temperatura e a semana | [Open-Meteo](https://open-meteo.com/), buscada ao abrir a página (sempre atual) |
 | Rio Itajaí-Açu em Blumenau, avisos do INMET e notícias de segurança em português | AlertaBlu, INMET e sites brasileiros, pelo robô |
-| Gráficos da bolsa (dia, semana, mês, ano) ao tocar num índice ou banco | Yahoo Finance, gravado pelo robô em `graficos.json` |
+| Gráficos (dia, semana, mês, ano) ao tocar nos índices, bancos, dólar, euro e Bitcoin | Yahoo Finance, gravado pelo robô em `graficos.json` |
+| Ranking dos 10 países mais atacados (semestral) | `PAISES_ATACADOS` em `frases.js` (Microsoft Digital Defense Report) |
 | Fechamento e vencimento das faturas dos cartões | Calculado na página (lista `CARTOES` em `index.html`) |
 | Cotações (dólar, euro, bitcoin) ao vivo; Ibovespa pelo robô | AwesomeAPI e Yahoo Finance |
 | Horário da novela Quem Ama Cuida | Grade da Globo (NSC TV), pelo robô |

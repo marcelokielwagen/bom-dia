@@ -77,6 +77,12 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
   font:700 .85rem var(--sans);padding:9px 15px;border-radius:12px;cursor:pointer;transition:all .2s}
 .cidades button[aria-pressed="true"]{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
 
+.acoes{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.atualizar{border:1px solid var(--card-line);background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--ink);
+  font:700 .85rem var(--sans);padding:9px 13px;border-radius:12px;cursor:pointer;white-space:nowrap}
+.atualizar:disabled{opacity:.7;cursor:wait}
+.atualizar.girando .ico-a{display:inline-block;animation:girar .8s linear infinite}
+@media (max-width:760px){.atualizar .txt{display:none}}
 .vidro{background:var(--card);border:1px solid var(--card-line);border-radius:24px;padding:20px;backdrop-filter:blur(18px) saturate(1.2);-webkit-backdrop-filter:blur(18px) saturate(1.2);
   box-shadow:0 10px 30px -18px rgba(0,0,0,.35)}
 .etiqueta{font:800 .7rem var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--soft)}
@@ -220,9 +226,12 @@ footer a{color:inherit}
       <h1 class="saudacao" id="saudacao">Bom <em>dia</em></h1>
       <div class="data" id="hoje"></div>
     </div>
+    <div class="acoes">
     <div class="cidades" role="group" aria-label="Escolha a cidade">
       <button data-cidade="blumenau" aria-pressed="true">Blumenau</button>
       <button data-cidade="bc" aria-pressed="false">Balneário Camboriú</button>
+    </div>
+    <button type="button" id="atualizar" class="atualizar" title="Baixar tudo de novo (limpa a versão guardada no aparelho)" aria-label="Atualizar"><span class="ico-a">🔄</span><span class="txt"> Atualizar</span></button>
     </div>
   </header>
 
@@ -637,6 +646,16 @@ carregar();
 
 // ---------- Noticias (arquivo atualizado pelo GitHub a cada 3 horas) ----------
 const ICONE_CAT = {mundo: "🌍", politica: "🏛️", ti: "💻", acoes: "📈", blumenau: "📍", bc: "📍"};
+// Botao Atualizar: baixa a pagina, as frases e as noticias de novo (ignorando a copia guardada no aparelho) e recarrega
+$("atualizar").addEventListener("click", async () => {
+  const b = $("atualizar"); b.classList.add("girando"); b.disabled = true;
+  try {
+    await Promise.all(["./", "frases.js", "noticias.json"].map(u => fetch(u, {cache: "reload"})));
+    if (window.caches) { const ks = await caches.keys(); await Promise.all(ks.map(k => caches.delete(k))); }
+  } catch (e) {}
+  location.reload();
+});
+
 // ---------- Novela (horarios vem da grade da Globo, via robo) ----------
 function desenharNovela(n) {
   const ex = (n.exibicoes || []).filter(x => x.data >= HOJE);

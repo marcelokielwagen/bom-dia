@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-13T13:48:43.315387+00:00",
+ "atualizado": "2026-11-13T13:50:16.788523+00:00",
  "ibovespa": {
-  "pontos": 172119,
-  "variacao": 0.46,
-  "hora": "2026-11-13T13:33:30+00:00"
+  "pontos": 172174,
+  "variacao": 0.5,
+  "hora": "2026-11-13T13:35:00+00:00"
  },
  "novela": {
   "nome": "Quem Ama Cuida",
@@ -89,15 +89,15 @@
    "id": "dax",
    "nome": "DAX (Alemanha)",
    "grupo": "indices",
-   "preco": 26823.89,
+   "preco": 26821.93,
    "variacao": 0.19
   },
   {
    "id": "itub",
    "nome": "Itaú",
    "grupo": "bancos",
-   "preco": 42.1,
-   "variacao": 1.01
+   "preco": 42.13,
+   "variacao": 1.08
   },
   {
    "id": "bbdc",
@@ -110,8 +110,8 @@
    "id": "bbas",
    "nome": "Banco do Brasil",
    "grupo": "bancos",
-   "preco": 15.27,
-   "variacao": -1.36
+   "preco": 15.21,
+   "variacao": -1.74
   }
  ],
  "alertas": {
@@ -333,13 +333,6 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Microsoft segue com problemas em 74 países",
-     "resumo": "O que a Microsoft iniformou: Usuários de vários países enfrentam indisponibilidade nos serviços do Microsoft 365 desde a tarde de ontem, segundo a página de status da Microsoft.",
-     "link": "https://www.cisoadvisor.com.br/microsoft-segue-com-problemas-em-74-paises/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-13T10:29:45+00:00"
-    },
-    {
      "titulo": "Ford abre inscrições para curso gratuito de capacitação tecnológica; confira como se inscrever",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/big-techs/ford-abre-inscricoes-para-curso-gratuito-de-capacitacao-tecnologica-confira-como-se-inscrever/",
@@ -354,18 +347,11 @@
      "data": "2022-05-16T12:00:00+00:00"
     },
     {
-     "titulo": "Microsoft diz que Outlook, Teams e Copilot estão sendo 'gradualmente restaurados'",
-     "resumo": "Serviços Microsoft caem em 70 países; empresa faz reparos A Microsoft informou nesta sexta-feira (13) que Outlook, Teams e Copilot estão sendo \"gradualmente restaurados\" após a falha que afeta seus serviços desde a…",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/servicos-da-microsoft-sofrem-instabilidade-quinta-e-sexta.ghtml",
+     "titulo": "Hackers norte-coreanos roubaram US$ 400 milhões com videochamadas manipuladas por IA, diz FBI",
+     "resumo": "Ataque hacker ao Tesouro Nacional expõe dados de 30 mil cadastros e 4 mil chaves PIX Hackers apoiados pela Coreia do Norte roubaram mais de US$ 400 milhões, o equivalente a R$ 2,24 bilhões, recentemente, por meio de um…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/hackers-norte-coreanos-roubaram-us-400-milhoes-com-videochamadas-manipuladas-por-ia-diz-fbi.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-13T13:28:08+00:00"
-    },
-    {
-     "titulo": "Tesouro confirma vazamento de 30 mil cadastros e chaves Pix",
-     "resumo": "A Secretaria do Tesouro Nacional identificou um acesso não autorizado a dados pessoais em seu ambiente tecnológico, com exposição de informações de aproximadamente 30 mil cadastros e de cerca de 4 mil chaves Pix de…",
-     "link": "https://www.cisoadvisor.com.br/tesouro-confirma-vazamento-de-30-mil-cadastros-e-chaves-pix/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-13T04:15:09+00:00"
+     "data": "2026-11-13T13:46:18+00:00"
     },
     {
      "titulo": "Golpes com IA: entenda como funcionam e como se proteger",
@@ -382,18 +368,11 @@
      "data": "2022-05-09T12:00:00+00:00"
     },
     {
-     "titulo": "Falha da Microsoft afeta serviços de emergência, empresas e governos em dezenas de países",
-     "resumo": "Serviços Microsoft caem em 70 países; empresa faz reparos Uma falha global nos serviços da Microsoft afeta empresas, governos e serviços de emergência em dezenas de países.",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/microsoft-falha-paises.ghtml",
+     "titulo": "Microsoft diz que Outlook, Teams e Copilot estão sendo 'gradualmente restaurados'",
+     "resumo": "Serviços Microsoft caem em 70 países; empresa faz reparos A Microsoft informou nesta sexta-feira (13) que Outlook, Teams e Copilot estão sendo \"gradualmente restaurados\" após a falha que afeta seus serviços desde a…",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/servicos-da-microsoft-sofrem-instabilidade-quinta-e-sexta.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-13T13:04:42+00:00"
-    },
-    {
-     "titulo": "Ataques ao ScreenConnect comprometem MSPs e clientes",
-     "resumo": "A ConnectWise investiga uma campanha de malware contra provedores de serviços gerenciados (MSPs) que usa ambientes ScreenConnect comprometidos para instalar clientes de acesso remoto não autorizados em dispositivos de…",
-     "link": "https://www.cisoadvisor.com.br/ataques-ao-screenconnect-comprometem-msps-e-clientes/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T22:55:48+00:00"
+     "data": "2026-11-13T13:28:08+00:00"
     },
     {
      "titulo": "5 jogos grátis para curtir o fim de semana no PC e consoles! (17)",
@@ -401,6 +380,27 @@
      "link": "https://www.estadao.com.br/tecmundo/voxel/5-jogos-gratis-para-curtir-o-fim-de-semana-no-pc-e-consoles-17/",
      "fonte": "TecMundo",
      "data": "2026-10-17T11:15:00+00:00"
+    },
+    {
+     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
+     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
+     "fonte": "The Hack",
+     "data": "2022-05-04T12:00:00+00:00"
+    },
+    {
+     "titulo": "Falha da Microsoft afeta serviços de emergência, empresas e governos em dezenas de países",
+     "resumo": "Serviços Microsoft caem em 70 países; empresa faz reparos Uma falha global nos serviços da Microsoft afeta empresas, governos e serviços de emergência em dezenas de países.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/microsoft-falha-paises.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-13T13:04:42+00:00"
+    },
+    {
+     "titulo": "Hoje no TecMundo (12): Jensen Huang deixa a Nvidia, Caixa sofre ataque hacker e mais",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/hoje-no-tecmundo-12-jensen-huang-deixa-a-nvidia-caixa-sofre-ataque-hacker-e-mais/",
+     "fonte": "TecMundo",
+     "data": "2026-11-13T12:12:00+00:00"
     }
    ]
   },
@@ -547,13 +547,6 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
-     "titulo": "Rodeio Crioulo em Itajaí vai de quinta a domingo com entrada gratuita no parque e shows",
-     "resumo": "O 2º Rodeio Crioulo Nacional do CTG Cidade do Porto começa nesta quinta-feira (12) e segue até domingo (15), no Parque do Agricultor Gilmar Graf, em Itajaí.",
-     "link": "https://www.bcnoticias.com.br/rodeio-crioulo-em-itajai-vai-de-quinta-a-domingo-com-entrada-gratuita-no-parque-e-shows/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T21:27:15+00:00"
-    },
-    {
      "titulo": "Dores frequentes fazem mãe levar filha ao médico, e menina revela que era abusada pelo avô afetivo em SC",
      "resumo": "Menina tinha entre oito e 12 anos e só conseguiu revelar o verdadeiro autor após ser levada ao médico por dores constantes Leia no Camboriú News",
      "link": "https://camboriu.news/dores-frequentes-fazem-mae-levar-filha-ao-medico-e-menina-revela-que-era-abusada-pelo-avo-afetivo-em-sc/",
@@ -566,13 +559,6 @@
      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZXhoVTUwRFhvblVQTHI4Wm54UThOY0M0eUc1OFZrTmg2SlM1dkwxVEh1TTQ2dVZUY0o1UTZfSmtkQVB4RWd3Sm84OWZYZGhsYjI0d2trUFRTTTh6eU5PRHBTbnVFbGNCM2VTZURJQlFXYkNrRFU0VTNmNWtfWGhFXzl0bzZ3dW1JV3M4TklEaXlXUHZMQTZxTF9JMDlWUmlHbWJHMHZBWVJ1MmpGcWtJanJlVzk5YVJSc0FxR0lTNkt4UWg3RndDTnByajF2bE5SR0R4UEJjRjhKOUdRNWJiNV9OTVNGRTdQMG5VZUdKQzA0ZTVGYno1NFVpZw?oc=5",
      "fonte": "Jornal Linha Popular",
      "data": "2026-11-13T13:27:00+00:00"
-    },
-    {
-     "titulo": "Feira de Vinil acontece neste fim de semana no Atlântico Shopping, em Balneário Camboriú",
-     "resumo": "Os apaixonados por discos de vinil terão uma opção de passeio neste fim de semana em Balneário Camboriú. Nos dias 14 e 15 de novembro (sábado e domingo), o Atlântico Shopping recebe a Feira de Vinil, com discos novos e…",
-     "link": "https://www.bcnoticias.com.br/feira-de-vinil-acontece-neste-fim-de-semana-no-atlantico-shopping-em-balneario-camboriu/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T20:56:30+00:00"
     },
     {
      "titulo": "Preso ataca companheiro de cela com lâmina de barbear e é condenado por tentativa de homicídio em SC",
@@ -589,13 +575,6 @@
      "data": "2026-11-13T11:55:13+00:00"
     },
     {
-     "titulo": "Balneário Camboriú abre temporada de Natal e realiza primeiro desfile neste sábado",
-     "resumo": "Balneário Camboriú abriu a segunda edição do Viva o Natal BC na noite de quarta-feira (11), com o acendimento das luzes de Natal na Praia Central.",
-     "link": "https://www.bcnoticias.com.br/balneario-camboriu-abre-temporada-de-natal-e-realiza-primeiro-desfile-neste-sabado/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T12:23:39+00:00"
-    },
-    {
      "titulo": "Mandados de prisão teriam sido apagados ou alterados por até R$ 10 mil em esquema investigado pelo Gaeco em SC",
      "resumo": "Operação Blindagem Digital cumpre dez mandados em SC e no Paraná e apura manipulação de registros para beneficiar investigados Leia no Camboriú News",
      "link": "https://camboriu.news/mandados-de-prisao-teriam-sido-apagados-ou-alterados-por-ate-r-10-mil-em-esquema-investigado-pelo-gaeco-em-sc/",
@@ -610,11 +589,32 @@
      "data": "2026-11-13T11:55:00+00:00"
     },
     {
-     "titulo": "Balneário Camboriú divulga lista final de ambulantes autorizados a trabalhar nas praias na temporada 2026/2027",
-     "resumo": "A Prefeitura de Balneário Camboriú divulgou, nesta terça-feira (10), a lista definitiva dos classificados no chamamento público para o comércio ambulante na faixa de areia das praias durante a temporada 2026/2027.",
-     "link": "https://www.bcnoticias.com.br/balneario-camboriu-divulga-lista-final-de-ambulantes-autorizados-a-trabalhar-nas-praias-na-temporada-2026-2027/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T00:28:05+00:00"
+     "titulo": "Homem é encontrado debilitado após ficar 9 dias no Pico da Pedra em Camboriú",
+     "resumo": "Debilitado e com sinais de possível hipotermia, ele precisou de várias paradas durante a descida até o ponto de apoio Leia no Camboriú News",
+     "link": "https://camboriu.news/homem-e-encontrado-debilitado-apos-ficar-9-dias-no-pico-da-pedra-em-camboriu/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-12T22:37:38+00:00"
+    },
+    {
+     "titulo": "Empresa de passeios em supercarros fecha em Balneário Camboriú",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN01DYk1ERWFJTnFpS0tWcHAxcWswLVhTOGdicmVmYm5zdzMxZmVrYUZZUDY5c2IyZ081Q25qaTlZZHZzakVOX0JiQjJndDFwT0FYdkx5Z2l2SGYwYXBHVGxXRWx2YllhMjg0al9zWW1wakJGeW04R1dRbzEwRmJYeFQ5X21sX0FVS0FLNXVWU2JlSlU0Wi0waFZiaHNIaXBSWWwzR2hDLU0?oc=5",
+     "fonte": "Diário do Centro do Mundo",
+     "data": "2026-11-13T11:47:39+00:00"
+    },
+    {
+     "titulo": "Desfiles de Natal começam neste sábado em Balneário Camboriú com 12 apresentações pela Avenida Atlântica",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNmFERk1SNDZUUG1FeWFJSTdMN2pRUlprTzhWcEx1clVHUks4MjVBc3BuUm1KeFRyQUtYZm11RHFZSVZQVVI3VHpPS1ZLOUZ6RzNPZlJhbkl4OTl0NmxoeGVaYkV0ZkxyT3BpZUpSQWJnc3pQemdSd1IwYVItT0hEdVk3YWZxX1hVZmlqb3ZQcjJJOG1kTlNabUE5ZmZYc1BITTIxLUttWE5PYmdnT1UySHRkV0dTRjlyMm9Hczl4N3QxR0lpMEFVQ2RHQWZ0UmxhV1AySGZ0SnRMbF9XZHc?oc=5",
+     "fonte": "Jornal Linha Popular",
+     "data": "2026-11-13T11:34:00+00:00"
+    },
+    {
+     "titulo": "Cão é achado acorrentado e com a boca amordaçada para não latir à noite em Brusque",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd3JzaW5nX3QzUGRsUllhR1VnRFA3aWxMOV9QblBhRTJLdzFPSXdBY09mRjA2bFB1eDQxd1NGU0ZnaDhLMkpFUUNNaDA3a3pLOFNkanlpZDFLdDgycmxEU0JKLWw1STU0dW5vSXBVOHdVWDFwY2xod3JlVjNXQ0I5a0dzbXZkYWZScXFMOWxmMzR2MWlsR2dDYk0zbEhOZHNfY0JNNXppcVRkQXlaaHRSWlo4LTdIVVh3WjFJaDBick8?oc=5",
+     "fonte": "TopElegance",
+     "data": "2026-11-13T10:10:46+00:00"
     }
    ]
   }

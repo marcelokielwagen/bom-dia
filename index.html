@@ -140,6 +140,12 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .mercado .valor{font:600 1.35rem var(--serif);margin-top:2px;white-space:nowrap}
 .mercado .var{font-size:.8rem;font-weight:800}
 .mercado .sobe{color:var(--sobe)} .mercado .cai{color:var(--cai)}
+.grupo-t{margin:16px 4px 8px;color:var(--head-ink)}
+.bolsas{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.bolsas .vidro{padding:12px 14px;border-radius:16px}
+.bolsas .valor{font:600 1.15rem var(--serif);margin-top:2px;white-space:nowrap}
+.bolsas .var{font-size:.78rem;font-weight:800}
+.bolsas .sobe{color:var(--sobe)} .bolsas .cai{color:var(--cai)}
 .fds{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px;
   background:linear-gradient(120deg,color-mix(in srgb,var(--warm) 22%,var(--card)),var(--card) 60%);border-left:5px solid var(--warm)}
 .fds h3{margin:4px 0 6px;font:600 clamp(1.25rem,3.2vw,1.6rem)/1.2 var(--serif)}
@@ -269,6 +275,7 @@ footer a{color:inherit}
     <div class="vidro"><div class="etiqueta">📊 Ibovespa</div><div class="valor" id="m-ibov">…</div><div class="var" id="v-ibov"></div></div>
   </div>
   <div class="dica" id="mercado-hora"></div>
+  <div id="bolsas"></div>
 
   <h2 class="titulo">Notícias</h2>
   <section class="vidro">
@@ -659,6 +666,21 @@ function desenharNovela(n) {
   $("novela").hidden = false;
 }
 
+// ---------- Bolsas do mundo, bancos e acoes famosas (vem do robo, a cada 3 horas) ----------
+function desenharBolsas(lista) {
+  const grupos = [["indices", "🌎 Bolsas do mundo"], ["bancos", "🏦 Bancos"], ["famosas", "⭐ Ações famosas"]];
+  $("bolsas").innerHTML = grupos.map(([g, titulo]) => {
+    const itens = lista.filter(x => x.grupo === g);
+    if (!itens.length) return "";
+    return `<div class="etiqueta grupo-t">${titulo}</div><div class="bolsas">${itens.map(x => {
+      const ind = g === "indices", sobe = x.variacao >= 0;
+      return `<div class="vidro"><div class="etiqueta">${esc(x.nome)}</div>
+        <div class="valor">${ind ? brl(x.preco, 0) + " pts" : "R$ " + brl(x.preco)}</div>
+        <div class="var ${sobe ? "sobe" : "cai"}">${sobe ? "▲ " : "▼ "}${brl(Math.abs(x.variacao))}%</div></div>`;
+    }).join("")}</div>`;
+  }).join("");
+}
+
 // ---------- Mercado: dolar, euro e bitcoin ao vivo; Ibovespa vem do robo ----------
 const brl = (n, dec = 2) => n.toLocaleString("pt-BR", {minimumFractionDigits: dec, maximumFractionDigits: dec});
 function pintarVar(id, pct) {
@@ -671,13 +693,14 @@ fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,BTC-BRL").th
   $("m-eur").textContent = "R$ " + brl(+m.EURBRL.bid); pintarVar("v-eur", +m.EURBRL.pctChange);
   $("m-btc").textContent = "R$ " + brl(+m.BTCBRL.bid, 0); pintarVar("v-btc", +m.BTCBRL.pctChange);
   const at = new Date(+m.USDBRL.timestamp * 1000).toLocaleString("pt-BR", {timeZone: TZ, hour: "2-digit", minute: "2-digit"});
-  $("mercado-hora").textContent = `Cotações das ${at}. Ibovespa atualizado a cada 3 horas (fechamento quando a bolsa está fechada).`;
+  $("mercado-hora").textContent = `Cotações das ${at}. Bolsas e ações atualizadas a cada 3 horas; com a bolsa fechada, mostram o último fechamento.`;
 }).catch(() => { ["m-usd", "m-eur", "m-btc"].forEach(id => $(id).textContent = "—"); });
 
 fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(j => {
   if (j.ibovespa) { $("m-ibov").textContent = brl(j.ibovespa.pontos, 0) + " pts"; pintarVar("v-ibov", j.ibovespa.variacao); }
   else $("m-ibov").textContent = "—";
   if (j.novela) desenharNovela(j.novela);
+  if (j.bolsas) desenharBolsas(j.bolsas);
   const todas = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
   let cats = [], atual = "mundo";
   try { atual = localStorage.getItem("categoria") || atual; } catch(e) {}

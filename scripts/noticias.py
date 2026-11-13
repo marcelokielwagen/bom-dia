@@ -219,6 +219,39 @@ def ibovespa():
         return None
 
 
+# Bolsas e acoes que aparecem na pagina: (id, nome, grupo, simbolo no Yahoo Finance).
+# Para trocar um banco ou acrescentar uma acao, e so mexer nesta lista.
+BOLSAS = [
+    ("sp500", "S&P 500", "indices", "^GSPC"),
+    ("nasdaq", "Nasdaq", "indices", "^IXIC"),
+    ("dow", "Dow Jones", "indices", "^DJI"),
+    ("nikkei", "Nikkei 225", "indices", "^N225"),
+    ("dax", "DAX (Alemanha)", "indices", "^GDAXI"),
+    ("itub", "Itaú", "bancos", "ITUB4.SA"),
+    ("bbdc", "Bradesco", "bancos", "BBDC4.SA"),
+    ("bbas", "Banco do Brasil", "bancos", "BBAS3.SA"),
+    ("petr", "Petrobras", "famosas", "PETR4.SA"),
+    ("vale", "Vale", "famosas", "VALE3.SA"),
+]
+
+
+def bolsas():
+    """Preco e variacao do dia de cada item de BOLSAS. O que falhar fica de fora."""
+    saida = []
+    for cid, nome, grupo, simbolo in BOLSAS:
+        try:
+            req = urllib.request.Request(
+                "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(simbolo) + "?range=1d&interval=1d",
+                headers={"User-Agent": "Mozilla/5.0"})
+            meta = json.loads(urllib.request.urlopen(req, timeout=20).read())["chart"]["result"][0]["meta"]
+            atual, anterior = meta["regularMarketPrice"], meta["chartPreviousClose"]
+            saida.append({"id": cid, "nome": nome, "grupo": grupo, "preco": round(atual, 2),
+                          "variacao": round((atual / anterior - 1) * 100, 2)})
+        except Exception as e:
+            print(f"Falhou {nome}: {e}", file=sys.stderr)
+    return saida
+
+
 NOVELA = "Quem Ama Cuida"
 GRADE_GLOBO = "https://redeglobo.globo.com/sc/nsctv/programacao/"  # NSC TV, a Globo de Santa Catarina
 
@@ -249,16 +282,17 @@ def main(destino):
     if not any(c["noticias"] for c in categorias):
         print("Nenhuma noticia baixada; mantendo o arquivo anterior.", file=sys.stderr)
         return 1
-    nov = novela()
-    if nov is None:  # mantem o horario antigo se a Globo estiver fora do ar
-        try:
-            with open(destino, encoding="utf-8") as f:
-                nov = json.load(f).get("novela")
-        except (OSError, ValueError):
-            pass
+    antigo = {}  # se alguma fonte cair, mantem o que ja estava no arquivo
+    try:
+        with open(destino, encoding="utf-8") as f:
+            antigo = json.load(f)
+    except (OSError, ValueError):
+        pass
+    nov = novela() or antigo.get("novela")
+    bol = bolsas() or antigo.get("bolsas")
     with open(destino, "w", encoding="utf-8") as f:
         json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "ibovespa": ibovespa(), "novela": nov,
-                   "categorias": categorias}, f, ensure_ascii=False, indent=1)
+                   "bolsas": bol, "categorias": categorias}, f, ensure_ascii=False, indent=1)
     print(f"Gravado em {destino}")
     return 0
 

@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-13T01:56:18.397278+00:00",
+ "atualizado": "2026-11-13T01:59:12.450162+00:00",
  "ibovespa": {
   "pontos": 171324,
   "variacao": -0.43,
@@ -186,13 +186,6 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Ataques ao ScreenConnect comprometem MSPs e clientes",
-     "resumo": "A ConnectWise investiga uma campanha de malware contra provedores de serviços gerenciados (MSPs) que usa ambientes ScreenConnect comprometidos para instalar clientes de acesso remoto não autorizados em dispositivos de…",
-     "link": "https://www.cisoadvisor.com.br/ataques-ao-screenconnect-comprometem-msps-e-clientes/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T22:55:48+00:00"
-    },
-    {
      "titulo": "Caso Nvidia: Singapura proíbe suposta espiã chinesa de entrar no país",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/big-techs/caso-nvidia-singapura-proibe-suposta-espia-chinesa-de-entrar-no-pais/",
@@ -212,13 +205,6 @@
      "link": "https://g1.globo.com/economia/noticia/2026/11/12/tesouro-nacional-incidente-seguranca.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-12T23:13:57+00:00"
-    },
-    {
-     "titulo": "Apache corrige falha crítica de execução remota no HTTP/2",
-     "resumo": "A Apache Software Foundation corrigiu uma vulnerabilidade crítica no módulo HTTP/2 do Apache HTTP Server que pode ser explorada por um atacante não autenticado para obter execução remota de código (RCE).",
-     "link": "https://www.cisoadvisor.com.br/apache-corrige-falha-critica-de-execucao-remota-no-http-2/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T22:50:15+00:00"
     },
     {
      "titulo": "GTA 6 teria ultrapassado a marca de US$ 1 bilhão em pré-vendas, segundo relatório",
@@ -242,18 +228,32 @@
      "data": "2026-11-12T19:34:08+00:00"
     },
     {
-     "titulo": "Zero-day no N-able N-central é explorada e instala mineradores",
-     "resumo": "Atacantes exploram uma nova zero-day no N-able N-central, apelidada “4EverAble2Shell”, para comprometer servidores e instalar mineradores de criptomoedas.",
-     "link": "https://www.cisoadvisor.com.br/zero-day-no-n-able-n-central-e-explorada-e-instala-mineradores/",
-     "fonte": "CISO Advisor",
-     "data": "2026-11-12T22:46:07+00:00"
-    },
-    {
      "titulo": "Falha no PHP mobiliza ação internacional de cibersegurança, mas sem sucesso",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/falha-no-php-mobiliza-acao-internacional-de-cibercriminosos-mas-sem-sucesso/",
      "fonte": "TecMundo",
      "data": "2026-10-23T21:30:00+00:00"
+    },
+    {
+     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
+     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
+     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
+     "fonte": "The Hack",
+     "data": "2022-05-04T12:00:00+00:00"
+    },
+    {
+     "titulo": "O que são os chips H200, no centro da polêmica que levou à renúncia do CEO da Nvidia",
+     "resumo": "Os desafios de suceder Huang na Nvidia A polêmica que levou à renúncia do CEO da Nvidia, Jensen Huang, nesta quinta-feira (12) envolve um pequeno componente: o chip H200, um dos mais avançados da empresa americana e…",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/12/chips-h200-nvidia.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-12T19:15:13+00:00"
+    },
+    {
+     "titulo": "Fraudes judiciais usam emails falsos para roubar dados na América Latina",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/fraudes-judiciais-usam-emails-falsos-para-roubar-dados-na-america-latina/",
+     "fonte": "TecMundo",
+     "data": "2026-11-12T22:30:00+00:00"
     }
    ]
   },
@@ -400,13 +400,6 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
-     "titulo": "Rodeio Crioulo em Itajaí vai de quinta a domingo com entrada gratuita no parque e shows",
-     "resumo": "O 2º Rodeio Crioulo Nacional do CTG Cidade do Porto começa nesta quinta-feira (12) e segue até domingo (15), no Parque do Agricultor Gilmar Graf, em Itajaí.",
-     "link": "https://www.bcnoticias.com.br/rodeio-crioulo-em-itajai-vai-de-quinta-a-domingo-com-entrada-gratuita-no-parque-e-shows/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T21:27:15+00:00"
-    },
-    {
      "titulo": "Preso ataca companheiro de cela com lâmina de barbear e é condenado por tentativa de homicídio em SC",
      "resumo": "Vítima foi atingida no rosto, pescoço, nuca e mãos dentro do presídio de Florianópolis Leia no Camboriú News",
      "link": "https://camboriu.news/preso-ataca-companheiro-de-cela-com-lamina-de-barbear-e-e-condenado-por-tentativa-de-homicidio-em-sc/",
@@ -419,13 +412,6 @@
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUThPRVppRS1EVTI4Ni1tdFhKRVdjbnY0am5lSk9Zdzdid2hzbHh5QXZxN2RxcFZlMXNLbWY3SFZXUERLeHBmUjlnQXdnaXRhNUIxTFNrMkNXRWNPOEE5RmI2LWpaam42cEg3Nl9KY1ZzbTZQWUFaY3VnakhBM1JFWTJSeWdCVGxaLWpFUk9xbVl5X0FRbkdOQzB1eHlERGZ3NXM3XzJn?oc=5",
      "fonte": "DIARINHO",
      "data": "2026-11-12T22:33:11+00:00"
-    },
-    {
-     "titulo": "Feira de Vinil acontece neste fim de semana no Atlântico Shopping, em Balneário Camboriú",
-     "resumo": "Os apaixonados por discos de vinil terão uma opção de passeio neste fim de semana em Balneário Camboriú. Nos dias 14 e 15 de novembro (sábado e domingo), o Atlântico Shopping recebe a Feira de Vinil, com discos novos e…",
-     "link": "https://www.bcnoticias.com.br/feira-de-vinil-acontece-neste-fim-de-semana-no-atlantico-shopping-em-balneario-camboriu/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T20:56:30+00:00"
     },
     {
      "titulo": "Mandados de prisão teriam sido apagados ou alterados por até R$ 10 mil em esquema investigado pelo Gaeco em SC",
@@ -442,13 +428,6 @@
      "data": "2026-11-12T22:30:00+00:00"
     },
     {
-     "titulo": "Balneário Camboriú abre temporada de Natal e realiza primeiro desfile neste sábado",
-     "resumo": "Balneário Camboriú abriu a segunda edição do Viva o Natal BC na noite de quarta-feira (11), com o acendimento das luzes de Natal na Praia Central.",
-     "link": "https://www.bcnoticias.com.br/balneario-camboriu-abre-temporada-de-natal-e-realiza-primeiro-desfile-neste-sabado/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T12:23:39+00:00"
-    },
-    {
      "titulo": "Homem é encontrado debilitado após ficar 9 dias no Pico da Pedra em Camboriú",
      "resumo": "Debilitado e com sinais de possível hipotermia, ele precisou de várias paradas durante a descida até o ponto de apoio Leia no Camboriú News",
      "link": "https://camboriu.news/homem-e-encontrado-debilitado-apos-ficar-9-dias-no-pico-da-pedra-em-camboriu/",
@@ -463,11 +442,32 @@
      "data": "2026-11-12T22:26:21+00:00"
     },
     {
-     "titulo": "Balneário Camboriú divulga lista final de ambulantes autorizados a trabalhar nas praias na temporada 2026/2027",
-     "resumo": "A Prefeitura de Balneário Camboriú divulgou, nesta terça-feira (10), a lista definitiva dos classificados no chamamento público para o comércio ambulante na faixa de areia das praias durante a temporada 2026/2027.",
-     "link": "https://www.bcnoticias.com.br/balneario-camboriu-divulga-lista-final-de-ambulantes-autorizados-a-trabalhar-nas-praias-na-temporada-2026-2027/",
-     "fonte": "BC Notícias",
-     "data": "2026-11-12T00:28:05+00:00"
+     "titulo": "Prefeito é acusado de receber celulares e iPad como propina e favorecer empresas em contratos públicos em SC",
+     "resumo": "TJSC recebeu denúncia contra Castilho Silvano Vieira e outras seis pessoas e determinou afastamento do prefeito por 180 dias Leia no Camboriú News",
+     "link": "https://camboriu.news/prefeito-e-acusado-de-receber-celulares-e-ipad-como-propina-e-favorecer-empresas-em-contratos-publicos-em-sc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-12T18:44:59+00:00"
+    },
+    {
+     "titulo": "Super Drill é bicampeão da Batalha do Silêncio em Balneário Camboriú",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbW52ZmlrejFuYXB1TkJMUF9JLUx1NmNxamVXelZsT2wxdzNDREZXV3NPcmFfUEdXSXJkMlhFOE5FTjBjaDh6TXk1eE5SUDFnY1M4dlZJWTVhX3JONkZrNjZaRHlGU1lxZ3VtZFU1aXY4UVl6clNrZG1PRnhtY0ROc3ozV1JSSlRSVjhkRllvZXNkTUhLd0lUR1hQVDM1VmV0Q1E?oc=5",
+     "fonte": "Página 3",
+     "data": "2026-11-12T21:46:07+00:00"
+    },
+    {
+     "titulo": "Auri Pavoni vai assumir o Planejamento de Balneário Camboriú em janeiro",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUXVnRGd0MlZySGRyYjJlV1h5Y25QQ2xrajFmZzFXRHNybU92YUYzWkVWYXBvX1d2ZDZ4MzRzdWp2NElCbEE0ZDVBM1hobEo2enZfMS0yNHI3T3F2RmRjS3pvd2NsZFUzOHJUOTJDLUhrVi0yVm1tVFMzX0p3a21SVzN0bF92NE9BYUt1b2JrUjQ4X2dXbHBmWEk4OWY3YWRhbkpUeDBmTVlJTkFLZEpVcA?oc=5",
+     "fonte": "TopElegance",
+     "data": "2026-11-12T20:53:33+00:00"
+    },
+    {
+     "titulo": "Reurbanização da Avenida Brasil em Balneário Camboriú terá projeto de R$ 300 milhões",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV2U5clJjZ1lGd2VUb1l3bVNWUzQyTl9nNTh5MzNhUHhFTWh1ZnJISVZaYWR3TDNUYlFEZ2UtRTEydk9PSC1LMlV0UVAyTEVkLWUzMUdWRmpQaGowU2RyQXc0NUU3OWtXQ0E2VHlyR2pYSDQwTlgxbXVESUN4OVJsM2dfWkJYZlRrZkRkalE1ZERXQWJuNVdadHVmTlB6SlFwX1YwZW5zVW1CNkJWdG1Fa1hvUzRKd3dncWlfRTFnR2c?oc=5",
+     "fonte": "Gazeta do Povo",
+     "data": "2026-11-12T20:50:00+00:00"
     }
    ]
   }

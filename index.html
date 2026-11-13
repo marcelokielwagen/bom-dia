@@ -6,8 +6,10 @@
 <meta name="theme-color" content="#8ec5ff">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Bom Dia">
+<link rel="apple-touch-icon" href="icons/icone-180.png">
+<link rel="manifest" href="manifest.webmanifest">
 <script>/* Confere se existe versao mais nova do site; se existir, recarrega ignorando a copia guardada (atualizada por scripts/nova_versao.py) */
-(function(){var B="20261113103946";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
+(function(){var B="20261113104844";try{fetch("versao.json?t="+Date.now(),{cache:"no-store"}).then(function(r){return r.json()}).then(function(v){if(v&&v.build&&v.build!==B){var k="bomdiaRecarregou";if(sessionStorage.getItem(k)===v.build)return;sessionStorage.setItem(k,v.build);location.replace(location.pathname+"?v="+v.build+location.hash)}}).catch(function(){})}catch(e){}})()</script>
 <title>Bom Dia</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff9a6b'/%3E%3Cstop offset='1' stop-color='%234b3f8a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23a)'/%3E%3Ccircle cx='32' cy='38' r='13' fill='%23ffd66b'/%3E%3Crect x='6' y='44' width='52' height='4' rx='2' fill='%23fff' opacity='.85'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -119,6 +121,35 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .titulo{font:600 1.5rem var(--serif);margin:28px 4px 12px;color:var(--head-ink)}
 .semana{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
 .dia.fim{background:linear-gradient(180deg,var(--card),color-mix(in srgb,var(--warm) 14%,var(--card)))}
+/* Alertas do INMET, rio de Blumenau e seguranca */
+.alerta{display:grid;gap:4px;margin-bottom:12px;border-left:6px solid var(--cor-alerta,#e8b400)}
+.alerta h3{margin:2px 0;font:600 1.15rem/1.25 var(--serif)}
+.alerta p{margin:0;font-size:.88rem;color:var(--soft)}
+.alerta a{color:var(--accent);font-weight:700;font-size:.82rem}
+.rio{margin-bottom:12px}
+.rio .topo-rio{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:4px 0 4px}
+.rio .nivel{font:400 3rem/1 var(--serif)}
+.rio .estagio{font-weight:800;font-size:.8rem;padding:3px 12px;border-radius:999px}
+.rio .tend{font-weight:700;font-size:.9rem}
+.rio .escala{position:relative;height:10px;display:flex;margin:18px 0 6px}
+.rio .escala i{display:block;height:100%}
+.rio .escala i:first-child{border-radius:10px 0 0 10px}
+.rio .escala i:last-child{border-radius:0 10px 10px 0}
+.rio .marca{position:absolute;top:-6px;width:4px;height:22px;margin-left:-2px;border-radius:3px;background:var(--ink);box-shadow:0 0 0 2px var(--card)}
+.rio .rotulos{display:flex;font-size:.66rem;color:var(--soft);font-weight:700}
+.rio svg{width:100%;height:64px;display:block;margin-top:10px;overflow:visible}
+.rio .fonte,.seguranca .fonte{font-size:.75rem;color:var(--soft);margin-top:8px}
+.rio .fonte a,.seguranca .fonte a{color:inherit}
+.seguranca{margin-bottom:12px}
+.seguranca ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:12px}
+.seguranca li{border-top:1px solid var(--grid);padding-top:10px}
+.seguranca li:first-child{border-top:0;padding-top:0}
+.seguranca .nome{font:600 1.02rem/1.3 var(--serif)}
+.seguranca .desc{font-size:.85rem;color:var(--soft)}
+.seguranca .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.seguranca .tags>*{background:var(--chip);border-radius:999px;padding:2px 10px;font-size:.72rem;font-weight:700;text-decoration:none;color:var(--ink)}
+.seguranca .tags a{color:var(--accent)}
+.seguranca .tags .ransom{background:color-mix(in srgb,var(--cai) 24%,transparent)}
 /* Musica do dia */
 .musica{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px}
 .musica .disco{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:1.8rem;
@@ -133,16 +164,10 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .outra{border:1px solid var(--card-line);background:var(--chip);color:var(--ink);font:700 .85rem var(--sans);padding:9px 16px;border-radius:999px;cursor:pointer;white-space:nowrap}
 @media (max-width:760px){.musica{grid-template-columns:auto minmax(0,1fr)}.acoes-m{grid-column:1/-1;flex-direction:row}.acoes-m>*{flex:1}}
 /* Novela */
-.novela{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;margin-bottom:12px}
-.novela h3{margin:4px 0 4px;font:600 clamp(1.15rem,3vw,1.45rem)/1.2 var(--serif)}
-.novela p{margin:0;font-size:.9rem;color:var(--soft)}
-.novela .chips{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
-.novela .chips div{background:var(--chip);border-radius:12px;padding:6px 10px;text-align:center;min-width:64px}
-.novela .chips b{display:block;font-size:.72rem;text-transform:capitalize}
-.novela .chips span{font:600 .95rem var(--serif)}
-.novela .chips .hoje{outline:2px solid var(--accent)}
-.novela .chips .dif span{color:var(--warm)}
-@media (max-width:760px){.novela{grid-template-columns:minmax(0,1fr)}.novela .chips{justify-content:flex-start}}
+.vidro.novela{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px;padding:11px 18px;margin-bottom:12px}
+.novela b{font:600 1.05rem var(--serif)}
+.novela .sub{font-size:.82rem;color:var(--soft)}
+#bolsas{margin-bottom:14px}
 /* Feriados */
 .feriados{list-style:none;margin:0;padding:0;display:grid;gap:2px}
 .feriados li{display:grid;grid-template-columns:62px minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--grid)}
@@ -268,6 +293,8 @@ footer a{color:inherit}
 
   <section class="vidro fds" id="fds" hidden></section>
 
+  <div id="alertas"></div>
+
   <section class="vidro">
     <div class="cidades" role="group" aria-label="Escolha a cidade">
       <button data-cidade="blumenau" aria-pressed="true">Blumenau</button>
@@ -285,6 +312,8 @@ footer a{color:inherit}
     <div class="semana" id="semana"></div>
     <div class="dica">Toque num dia para ver as horas dele aqui em cima.</div>
   </section>
+
+  <section class="vidro rio" id="rio" hidden></section>
 
   <h2 class="titulo">Próximos feriados</h2>
   <section class="vidro">
@@ -304,6 +333,8 @@ footer a{color:inherit}
 
   <section class="vidro novela" id="novela" hidden></section>
 
+  <section class="vidro seguranca" id="seguranca" hidden></section>
+
   <h2 class="titulo">Notícias</h2>
   <section class="vidro">
     <div class="abas" id="abas" role="tablist" aria-label="Categorias de notícias"></div>
@@ -317,7 +348,7 @@ footer a{color:inherit}
   </footer>
 </main>
 
-<script src="frases.js?v=20261113103946"></script>
+<script src="frases.js?v=20261113104844"></script>
 <script>
 // Ao atualizar (ou voltar para a pagina), sempre comeca la em cima
 try { history.scrollRestoration = "manual"; } catch (e) {}
@@ -683,6 +714,7 @@ document.querySelectorAll(".cidades button").forEach(b => b.addEventListener("cl
   try { localStorage.setItem("cidade", cidade); } catch(e) {}
   carregar();
   if (window.reajustarNoticias) window.reajustarNoticias();
+  desenharAlertas(); desenharRio();
 }));
 carregar();
 
@@ -709,28 +741,74 @@ function desenharNovela(n) {
   const hoje = ex.find(x => x.data === HOJE);
   const acabou = hoje && agoraMin > ini(hoje.inicio) + hoje.duracao;
   const prox = ex.find(x => x.data > HOJE);
-  const dia = x => nomeDia(x.data, {weekday: "long"}).replace("-feira", "");
-  let titulo, sub;
-  if (hoje && !acabou) {
-    const emBreve = ini(hoje.inicio) - agoraMin;
-    titulo = `Hoje às ${hm(hoje.inicio)}`;
-    sub = emBreve > 0 ? `Começa em ${emBreve >= 60 ? Math.floor(emBreve / 60) + "h" + String(emBreve % 60).padStart(2, "0") : emBreve + " min"}` : "No ar agora!";
-  } else if (prox) {
-    titulo = `Próximo capítulo: ${dia(prox)} às ${hm(prox.inicio)}`;
-    sub = hoje ? "O capítulo de hoje já passou." : "Hoje não tem capítulo.";
-  } else { titulo = "Sem horário informado"; sub = ""; }
-  // horario mais comum; os diferentes ganham destaque (jogo, programa especial)
   const cont = {}; ex.forEach(x => cont[x.inicio] = (cont[x.inicio] || 0) + 1);
   const comum = Object.keys(cont).sort((a, b) => cont[b] - cont[a])[0];
-  $("novela").innerHTML = `<div><div class="etiqueta">📺 ${esc(n.nome)} · ${esc(n.canal || "TV Globo")}</div><h3>${titulo}</h3><p>${sub}</p></div>
-    <div class="chips">${ex.slice(0, 6).map(x => `<div class="${x.data === HOJE ? "hoje" : ""}${x.inicio !== comum ? " dif" : ""}" title="${x.inicio !== comum ? "Horário diferente do normal" : ""}">
-      <b>${x.data === HOJE ? "hoje" : nomeDia(x.data, {weekday: "short"}).replace(".", "")}</b><span>${hm(x.inicio)}</span></div>`).join("")}</div>`;
+  let dia, sub = "";
+  if (hoje && !acabou) {
+    dia = hoje; const faltam = ini(hoje.inicio) - agoraMin;
+    sub = faltam > 0 ? "começa em " + (faltam >= 60 ? Math.floor(faltam / 60) + "h" + String(faltam % 60).padStart(2, "0") : faltam + " min") : "no ar agora!";
+  } else if (prox) dia = prox;
+  else { $("novela").hidden = true; return; }
+  if (dia.inicio !== comum) sub = [sub, "horário diferente do normal"].filter(Boolean).join(" · ");
+  const quando = dia.data === HOJE ? "Hoje" : "Próximo capítulo: " + nomeDia(dia.data, {weekday: "long"}).replace("-feira", "");
+  $("novela").innerHTML = `<span class="etiqueta">📺 ${esc(n.nome)}</span><b>${quando} às ${hm(dia.inicio)}</b>${sub ? `<span class="sub">${sub}</span>` : ""}`;
   $("novela").hidden = false;
+}
+
+// ---------- Alertas do INMET, rio de Blumenau e seguranca (vem do robo, a cada 3 horas) ----------
+let dadosRobo = null;
+const fmtQuando = s => { // "2026-11-14 23:59" -> "sáb 14/11 23h59"
+  const [d, h] = s.split(" ");
+  return nomeDia(d, {weekday: "short"}).replace(".", "") + " " + d.slice(8) + "/" + d.slice(5, 7) + " " + h.slice(0, 2) + "h" + (h.slice(3) === "00" ? "" : h.slice(3));
+};
+function desenharAlertas() {
+  const lista = dadosRobo && dadosRobo.alertas ? (dadosRobo.alertas[cidade] || []) : [];
+  $("alertas").innerHTML = lista.map(a => {
+    const r = (a.riscos && a.riscos[0]) || "";
+    const curto = r.length > 170 ? r.slice(0, r.lastIndexOf(" ", 170)) + "…" : r;
+    return `<section class="vidro alerta" style="--cor-alerta:${esc(a.cor || "#e8b400")}">
+      <div class="etiqueta">⚠️ Aviso oficial do INMET</div>
+      <h3>${esc(a.tipo)} · ${esc(a.severidade)}</h3>
+      <p>De ${fmtQuando(a.inicio)} até ${fmtQuando(a.fim)}</p>${curto ? `<p>${esc(curto)}</p>` : ""}
+      <a href="https://alertas2.inmet.gov.br/" target="_blank" rel="noopener">Ver o aviso completo ↗</a></section>`;
+  }).join("");
+}
+function desenharRio() {
+  const r = dadosRobo && dadosRobo.rio;
+  if (cidade !== "blumenau" || !r) { $("rio").hidden = true; return; }
+  const cor = {"Normalidade": "#2fa66a", "Observação": "#d4a90f", "Atenção": "#ee8a1e", "Alerta": "#d9453b", "Alerta máximo": "#8e1b2c"};
+  const faixas = [["Normalidade", 30], ["Observação", 10], ["Atenção", 20], ["Alerta", 20], ["Máximo", 20]];
+  const cores = ["#2fa66a", "#e6c229", "#ee8a1e", "#d9453b", "#8e1b2c"];
+  const seta = r.tendencia === "subindo" ? "↗ subindo" : r.tendencia === "descendo" ? "↘ descendo" : "→ estável";
+  const v = r.variacao3h, vtxt = (v > 0 ? "+" : "") + brl(v) + " m em 3 h";
+  const horas = (Date.now() - Date.parse(r.leitura.replace(" ", "T") + ":00-03:00")) / 36e5;
+  const h = r.historico, mn = Math.min(...h) - 0.1, mx = Math.max(...h) + 0.1;
+  const pts = h.map((n, i) => (i / (h.length - 1) * 240).toFixed(1) + "," + (56 - (n - mn) / (mx - mn) * 52).toFixed(1));
+  $("rio").innerHTML = `<div class="etiqueta">🌊 Rio Itajaí-Açu em Blumenau</div>
+    <div class="topo-rio"><span class="nivel">${brl(r.nivel)} m</span>
+      <span class="estagio" style="background:${cor[r.estagio]};color:${r.estagio === "Observação" ? "#2a2205" : "#fff"}">${esc(r.estagio)}</span>
+      <span class="tend">${seta} (${vtxt})</span></div>
+    <div class="escala">${faixas.map((f, i) => `<i style="width:${f[1]}%;background:${cores[i]}"></i>`).join("")}<b class="marca" style="left:${Math.min(r.nivel, 10) * 10}%"></b></div>
+    <div class="rotulos">${faixas.map(f => `<span style="width:${f[1]}%">${f[0]}</span>`).join("")}</div>
+    <svg viewBox="0 0 240 60" preserveAspectRatio="none" role="img" aria-label="Nível do rio nas últimas 24 horas"><polyline points="${pts.join(" ")}" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg>
+    <div class="fonte">Últimas 24 horas · leitura das ${r.leitura.slice(11, 13)}h${r.leitura.slice(14)} de ${r.leitura.slice(8, 10)}/${r.leitura.slice(5, 7)}${horas > 6 ? " ⚠️ leitura antiga, confira ao vivo" : ""} ·
+      Fonte: <a href="${esc(r.link)}" target="_blank" rel="noopener">AlertaBlu (Defesa Civil de Blumenau) ↗</a>. Atualizado a cada 3 horas; em dia de chuva forte, veja ao vivo no AlertaBlu.</div>`;
+  $("rio").hidden = false;
+}
+function desenharSeguranca(lista) {
+  if (!lista || !lista.length) { $("seguranca").hidden = true; return; }
+  const dm = s => s.slice(8) + "/" + s.slice(5, 7);
+  $("seguranca").innerHTML = `<div class="etiqueta">🛡️ Alerta de segurança · falhas que já estão sendo exploradas</div><ul>${lista.map(v => `<li>
+    <div class="nome">${esc(v.fabricante)} · ${esc(v.produto)}</div><div class="desc">${esc(v.nome)}</div>
+    <div class="tags"><a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(v.cve)}" target="_blank" rel="noopener">${esc(v.cve)} ↗</a>
+      <span>adicionada em ${dm(v.adicionada)}</span><span>corrigir até ${dm(v.prazo)}</span>${v.ransomware ? '<span class="ransom">usada em ransomware</span>' : ""}</div></li>`).join("")}</ul>
+    <div class="fonte">Catálogo da CISA (EUA) de falhas com exploração confirmada. O prazo é o das agências americanas, mas serve de urgência para você atualizar também.</div>`;
+  $("seguranca").hidden = false;
 }
 
 // ---------- Bolsas do mundo, bancos e acoes famosas (vem do robo, a cada 3 horas) ----------
 function desenharBolsas(lista) {
-  const grupos = [["indices", "🌎 Bolsas do mundo"], ["bancos", "🏦 Bancos"], ["famosas", "⭐ Ações famosas"]];
+  const grupos = [["indices", "🌎 Bolsas do mundo"], ["bancos", "🏦 Bancos"]];
   $("bolsas").innerHTML = grupos.map(([g, titulo]) => {
     const itens = lista.filter(x => x.grupo === g);
     if (!itens.length) return "";
@@ -763,6 +841,7 @@ fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).
   else $("m-ibov").textContent = "—";
   if (j.novela) desenharNovela(j.novela);
   if (j.bolsas) desenharBolsas(j.bolsas);
+  dadosRobo = j; desenharAlertas(); desenharRio(); desenharSeguranca(j.seguranca);
   const todas = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
   let cats = [], atual = "mundo";
   try { atual = localStorage.getItem("categoria") || atual; } catch(e) {}

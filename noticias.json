@@ -1,19 +1,14 @@
 {
- "atualizado": "2026-11-13T06:43:36.772723+00:00",
+ "atualizado": "2026-11-13T13:48:43.315387+00:00",
  "ibovespa": {
-  "pontos": 171324,
-  "variacao": -0.43,
-  "hora": "2026-11-12T21:19:00+00:00"
+  "pontos": 172119,
+  "variacao": 0.46,
+  "hora": "2026-11-13T13:33:30+00:00"
  },
  "novela": {
   "nome": "Quem Ama Cuida",
   "canal": "TV Globo",
   "exibicoes": [
-   {
-    "data": "2026-11-10",
-    "inicio": "21:30",
-    "duracao": 70
-   },
    {
     "data": "2026-11-11",
     "inicio": "21:30",
@@ -53,6 +48,11 @@
     "data": "2026-11-19",
     "inicio": "20:35",
     "duracao": 45
+   },
+   {
+    "data": "2026-11-20",
+    "inicio": "21:30",
+    "duracao": 70
    }
   ]
  },
@@ -82,50 +82,125 @@
    "id": "nikkei",
    "nome": "Nikkei 225",
    "grupo": "indices",
-   "preco": 61156.09,
-   "variacao": 0.55
+   "preco": 61142.35,
+   "variacao": 0.53
   },
   {
    "id": "dax",
    "nome": "DAX (Alemanha)",
    "grupo": "indices",
-   "preco": 26771.88,
-   "variacao": 0.41
+   "preco": 26823.89,
+   "variacao": 0.19
   },
   {
    "id": "itub",
    "nome": "Itaú",
    "grupo": "bancos",
-   "preco": 41.68,
-   "variacao": -0.1
+   "preco": 42.1,
+   "variacao": 1.01
   },
   {
    "id": "bbdc",
    "nome": "Bradesco",
    "grupo": "bancos",
-   "preco": 14.32,
-   "variacao": -0.07
+   "preco": 14.42,
+   "variacao": 0.7
   },
   {
    "id": "bbas",
    "nome": "Banco do Brasil",
    "grupo": "bancos",
-   "preco": 15.48,
-   "variacao": -8.35
+   "preco": 15.27,
+   "variacao": -1.36
+  }
+ ],
+ "alertas": {
+  "blumenau": [
+   {
+    "tipo": "Tempestade",
+    "severidade": "Perigo Potencial",
+    "cor": "#FFFE00",
+    "inicio": "2026-11-14 00:00",
+    "fim": "2026-11-15 23:59",
+    "riscos": [
+     "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos."
+    ]
+   }
+  ],
+  "bc": [
+   {
+    "tipo": "Tempestade",
+    "severidade": "Perigo Potencial",
+    "cor": "#FFFE00",
+    "inicio": "2026-11-14 00:00",
+    "fim": "2026-11-15 23:59",
+    "riscos": [
+     "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos."
+    ]
+   }
+  ]
+ },
+ "rio": {
+  "nivel": 3.69,
+  "leitura": "2026-11-13 10:00",
+  "estagio": "Observação",
+  "tendencia": "subindo",
+  "variacao3h": 0.05,
+  "historico": [
+   3.57,
+   3.55,
+   3.53,
+   3.5,
+   3.47,
+   3.48,
+   3.51,
+   3.55,
+   3.55,
+   3.57,
+   3.58,
+   3.6,
+   3.59,
+   3.56,
+   3.53,
+   3.52,
+   3.51,
+   3.52,
+   3.54,
+   3.59,
+   3.64,
+   3.67,
+   3.69,
+   3.69
+  ],
+  "link": "https://alertablu.blumenau.sc.gov.br/"
+ },
+ "seguranca": [
+  {
+   "cve": "CVE-2026-124194",
+   "fabricante": "Microsoft",
+   "produto": "Office",
+   "nome": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+   "adicionada": "2026-11-10",
+   "prazo": "2026-11-24",
+   "ransomware": false
   },
   {
-   "id": "petr",
-   "nome": "Petrobras",
-   "grupo": "famosas",
-   "preco": 44.7,
-   "variacao": 2.64
+   "cve": "CVE-2026-111793",
+   "fabricante": "Openwave Messaging Limited",
+   "produto": "Webtop Media Transcoder",
+   "nome": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+   "adicionada": "2026-11-10",
+   "prazo": "2026-11-24",
+   "ransomware": false
   },
   {
-   "id": "vale",
-   "nome": "Vale",
-   "grupo": "famosas",
-   "preco": 63.95,
-   "variacao": -0.74
+   "cve": "CVE-2026-20320",
+   "fabricante": "Cisco",
+   "produto": "BroadWorks",
+   "nome": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+   "adicionada": "2026-11-10",
+   "prazo": "2026-11-24",
+   "ransomware": false
   }
  ],
  "categorias": [
@@ -134,60 +209,60 @@
    "nome": "Mundo",
    "noticias": [
     {
-     "titulo": "Mostrar na novela um Nordeste do atraso e a Faria Lima pulsante é vender que só um Brasil 'dá certo', diz pesquisador",
-     "resumo": "Novela 'Lá na Minha Terra' tem sido criticada por associar Nordeste ao sertão seco e pobre. Autor diz que o folhetim reforça estereótipos e argumenta que os efeitos dessa representação são práticos na vida dos…",
-     "link": "https://www.bbc.com/portuguese/articles/c6grey09e9n1o?at_medium=RSS&at_campaign=rss",
-     "fonte": "BBC Brasil",
-     "data": "2026-11-12T23:45:42+00:00"
-    },
-    {
-     "titulo": "Irã diz ter atacado radar dos EUA no Bahrein",
-     "resumo": "A Guarda Revolucionária do Irã afirmou nesta sexta-feira (13) ter atacado um radar de alerta antecipado dos Estados Unidos no Bahrein.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/ira-diz-ter-atacado-radar-dos-eua-no-bahrein.ghtml",
-     "fonte": "g1 Mundo",
-     "data": "2026-11-13T05:37:24+00:00"
-    },
-    {
-     "titulo": "Assédio sexual no Exército alemão é mais disseminado do que indicam registros",
-     "resumo": "Levantamento indica que problema é muito maior do que indicavam os registros oficiais. Mulheres jovens são as principais vítimas, e apenas uma parcela dos casos chega a ser denunciada.",
-     "link": "https://www.dw.com/pt-br/assédio-sexual-no-exército-alemão-é-mais-disseminado-do-que-indicam-registros/a-79928530?maca=bra-rss-br-all-1030-rdf",
-     "fonte": "DW Brasil",
-     "data": "2026-11-12T20:02:00+00:00"
-    },
-    {
-     "titulo": "O que se sabe de falha na Microsoft que deixou fora do ar Outlook e afetou Teams, Microsoft 365 e outras plataformas",
-     "resumo": "Empresa informou que registra falhas em seus servidores, após relatos de perda de conexão com serviços como Outlook, Microsoft 365 e Teams em nível mundial.",
+     "titulo": "Falha da Microsoft afeta Outlook e outros serviços em 70 países; o que se sabe",
+     "resumo": "Problema começou ainda na quinta-feira e afeta serviços como o sistema de mensagens Teams, o Microsoft 365 e a ferramenta de inteligência artificial Copilot.",
      "link": "https://www.bbc.com/portuguese/articles/c6wy49w32epwo?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-13T02:12:59+00:00"
+     "data": "2026-11-13T12:17:03+00:00"
     },
     {
-     "titulo": "SpaceX faz novo teste da Starship e tentará manobra inédita para recuperar nave e propulsor",
-     "resumo": "SpaceX lança Starship em missão que coloca nave em órbita da Terra pela 1ª vez A SpaceX prepara para esta sexta-feira (13) um novo lançamento da Starship.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/spacex-faz-novo-teste-da-starship-e-tentara-manobra-inedita-para-recuperar-nave-e-propulsor.ghtml",
+     "titulo": "As acusações de 'propina sexual' que levaram à investigação do ex-presidente colombiano Gustavo Petro",
+     "resumo": "O ex-presidente da Colômbia, Gustavo Petro, que goverou entre 2022 e 2026, está no olho de um furacão político devido às acusações de uma mulher que afirma ter conseguido contratos do Estado em troca de relações sexuais…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/as-acusacoes-de-propina-sexual-que-levaram-a-investigacao-do-ex-presidente-colombiano-gustavo-petro.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-13T03:00:00+00:00"
+     "data": "2026-11-13T13:12:22+00:00"
     },
     {
-     "titulo": "Escândalo de traição com suposta espiã chinesa leva a renúncia de Jensen Huang como CEO da Nvidia",
-     "resumo": "Jensen Huang renunciou à chefia da gigante tecnológica depois de relato sobre caso amoroso com suposta espiã chinesa e notícia de um outro romance extraconjugal, desta vez com uma subordinada.",
-     "link": "https://www.dw.com/pt-br/escândalo-de-traição-com-suposta-espiã-chinesa-leva-a-renúncia-de-jensen-huang-como-ceo-da-nvidia/a-79928053?maca=bra-rss-br-all-1030-rdf",
+     "titulo": "O que se sabe sobre a pane mundial que atinge o Outlook e Teams",
+     "resumo": "Falha global de grande escala nos serviços da Microsoft afeta empresas, órgãos governamentais e usuários, causando várias horas de interrupção. Companhia descarta ciberataque.",
+     "link": "https://www.dw.com/pt-br/o-que-se-sabe-sobre-a-pane-mundial-que-atinge-o-outlook-e-teams/a-79938706?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-12T19:56:00+00:00"
+     "data": "2026-11-13T11:18:00+00:00"
     },
     {
-     "titulo": "Meta exibe mais de 700 anúncios de bets proibidas, revela levantamento da BBC",
-     "resumo": "Relatório interno do governo obtido pela reportagem já apontava publicidade irregular nas plataformas da empresa; BBC identificou novas peças após a proibição.",
-     "link": "https://www.bbc.com/portuguese/articles/cw4gnvzzdjr7o?at_medium=RSS&at_campaign=rss",
+     "titulo": "Amazônia queimando afeta a saúde e o bolso do Brasil inteiro, diz bióloga dedicada a combater o fogo na floresta",
+     "resumo": "Pesquisadora das universidades de Oxford e de Lancaster, a bióloga carioca Erika Berenguer fala da 'tristeza profunda' de ver a floresta amazônica queimando, mas defende continuidade dos esforços para preservação, já…",
+     "link": "https://www.bbc.com/portuguese/articles/cr20v7g9jyy3o?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-12T21:18:29+00:00"
+     "data": "2026-11-13T09:31:58+00:00"
     },
     {
-     "titulo": "VÍDEO: Soldado dá bronca em secretário de Guerra dos EUA por risadas e recebe medalha",
-     "resumo": "Soldado dá bronca no secretário de Guerra dos EUA Um soldado do Exército dos Estados Unidos deu uma bronca no secretário de Guerra, Pete Hegseth, e em integrantes da comitiva dele após ouvir risadas durante uma visita…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/12/video-soldado-da-bronca-em-secretario-de-guerra-dos-eua-por-risadas-e-recebe-medalha.ghtml",
+     "titulo": "Assédio atinge 60% das mulheres nas Forças Armadas da Alemanha",
+     "resumo": "O projeto anunciado pelo governo alemão de expandir as Forças Armadas para enfrentar a ameaça russa esbarra num grave obstáculo: o assédio sexual em suas fileiras.",
+     "link": "https://g1.globo.com/mundo/blog/sandra-cohen/post/2026/11/13/assedio-atinge-60percent-das-mulheres-nas-forcas-armadas-da-alemanha.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-13T01:17:13+00:00"
+     "data": "2026-11-13T13:09:17+00:00"
+    },
+    {
+     "titulo": "Sabre de luz de Darth Vader bate recorde em leilão e é vendido por R$ 27 milhões",
+     "resumo": "Empunhadura criada para um dos maiores vilões do cinema foi utilizada em dois dos duelos da trilogia original de \"Guerra nas estrelas\". Valor supera o recorde batido na venda do sabre do personagem Luke Skywalker.",
+     "link": "https://www.dw.com/pt-br/sabre-de-luz-de-darth-vader-bate-recorde-em-leilão-e-é-vendido-por-r-27-milhões/a-79937537?maca=bra-rss-br-all-1030-rdf",
+     "fonte": "DW Brasil",
+     "data": "2026-11-13T10:46:00+00:00"
+    },
+    {
+     "titulo": "Como Jensen Huang foi de 'visionário da IA' à queda em desgraça por causa de decisões amorosas",
+     "resumo": "Repórter de tecnologia da BBC explica como o homem que construiu a Nvidia do zero perdeu tudo em poucos dias.",
+     "link": "https://www.bbc.com/portuguese/articles/ckwy8vdnwwlyo?at_medium=RSS&at_campaign=rss",
+     "fonte": "BBC Brasil",
+     "data": "2026-11-13T10:32:39+00:00"
+    },
+    {
+     "titulo": "Irã exibe arsenal militar em Teerã: 'EUA acabarão falhando e desistirão'",
+     "resumo": "Irã exibe arsenal militar em exposição em Teerã Uma exposição apresentando mísseis, drones e sistemas de defesa aérea desenvolvidos pelo próprio Irã está sendo realizada em Teerã.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/13/ira-exibe-arsenal-militar-em-teera-eua-acabarao-falhando-e-desistirao.ghtml",
+     "fonte": "g1 Mundo",
+     "data": "2026-11-13T12:30:30+00:00"
     }
    ]
   },
@@ -196,60 +271,60 @@
    "nome": "Política",
    "noticias": [
     {
-     "titulo": "Futuro ministro da Fazenda: veja quem são os cotados e o que está em jogo na escolha de Lula",
-     "resumo": "Vice-presidente, Geraldo Alckmin; ministro da Fazenda, Dario Durigan; governador do Piauí, Rafael Fonteles; e o ministro do Planejamento, Bruno Moretti.",
-     "link": "https://g1.globo.com/economia/noticia/2026/11/13/futuro-ministro-da-fazenda-veja-quem-sao-os-cotados-e-o-que-esta-em-jogo-na-escolha-de-lula.ghtml",
+     "titulo": "'Tropa do Flávio' troca de nome, deputado do PL assume mudança e pede mobilização",
+     "resumo": "Criado durante o 2º turno da campanha presidencial para divulgar conteúdos a favor do candidato Flávio Bolsonaro (PL), o canal \"Tropa do Flávio\", no WhatsApp, mudou de nome nessa terça-feira (10), para \"Direita Já\".",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/13/tropa-do-flavio-troca-de-nome.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-13T05:00:00+00:00"
+     "data": "2026-11-13T12:58:13+00:00"
     },
     {
-     "titulo": "Tesouro Nacional relata vazamento de dados de 30.000 cadastros",
-     "resumo": "Incidente também expôs cerca de 4.000 chaves Pix de beneficiários do governo; órgão diz que não houve impacto financeiro",
-     "link": "https://www.poder360.com.br/poder-brasil/tesouro-nacional-relata-vazamento-de-dados-de-30-000-cadastros/",
+     "titulo": "Banco do Brasil “permanece sólido”, diz presidente da instituição",
+     "resumo": "Tarciana Medeiros declarou que o banco buscará medidas necessárias para preservar seu capital",
+     "link": "https://www.poder360.com.br/poder-economia/banco-do-brasil-permanece-solido-diz-presidente-da-instituicao/",
      "fonte": "Poder360",
-     "data": "2026-11-13T06:26:34+00:00"
+     "data": "2026-11-13T13:26:49+00:00"
     },
     {
-     "titulo": "Rouquidão de Lula: o que pode explicar a voz falha do presidente, dos efeitos do câncer à cirurgia de 2022",
-     "resumo": "O presidente Luiz Inácio Lula da Silva afirmou nesta quinta-feira (12) que está rouco há mais de 15 dias. Na véspera, durante a COP31, a conferência do clima da Organização das Nações Unidas, ele interrompeu um discurso…",
-     "link": "https://g1.globo.com/saude/noticia/2026/11/13/rouquidao-de-lula-o-que-pode-explicar-a-voz-falha-do-presidente-dos-efeitos-do-cancer-a-cirurgia-de-2022.ghtml",
+     "titulo": "Alckmin na Agricultura poderia melhorar a relação do governo Lula com o agro",
+     "resumo": "Com a volta de Carlos Fávaro ao Senado, há quem aposte no nome de Geraldo Alckmin para assumir o Ministério da Agricultura.",
+     "link": "https://g1.globo.com/politica/blog/julia-duailibi/post/2026/11/13/alckmin-agricultura-governo-lula-agro.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-13T05:00:00+00:00"
+     "data": "2026-11-13T11:22:13+00:00"
     },
     {
-     "titulo": "PL pediu mais tempo de votação, mas esperava negativa, diz Flávio",
-     "resumo": "PT solicitou ampliação do horário em todo o país; Partido Liberal restringiu requerimento a 3 Estados",
-     "link": "https://www.poder360.com.br/poder-eleicoes-2026/pl-pediu-mais-tempo-de-votacao-mas-esperava-negativa-diz-flavio/",
+     "titulo": "Governo autoriza conversão de R$ 246 mi em ações da Telebras",
+     "resumo": "Medida transforma recursos já repassados pela União em ações da estatal; operação depende dos acionistas",
+     "link": "https://www.poder360.com.br/poder-governo/governo-autoriza-conversao-de-r-246-mi-em-acoes-da-telebras/",
      "fonte": "Poder360",
-     "data": "2026-11-13T03:48:50+00:00"
+     "data": "2026-11-13T12:55:56+00:00"
     },
     {
-     "titulo": "Meta bate recorde e recebe meio bilhão de reais nas eleições; PL gasta quase o dobro do PT com a empresa",
-     "resumo": "A Meta, dona do Facebook e do Instagram, recebeu ao menos R$ 522,7 milhões das campanhas eleitorais de 2026, segundo levantamento do g1 com dados do Tribunal Superior Eleitoral (TSE).",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/13/meta-bate-recorde-e-recebe-meio-bilhao-de-reais-nas-eleicoes-pl-gasta-quase-o-dobro-do-pt-com-a-empresa.ghtml",
+     "titulo": "Kassab elogia ajuste de Lula aprovado no Senado e sinaliza que PSD quer participar do novo governo",
+     "resumo": "",
+     "link": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/13/kassab-elogia-ajuste-de-lula-aprovado-no-senado-e-sinaliza-que-psd-quer-participar-do-novo-governo.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-13T03:00:01+00:00"
+     "data": "2026-11-13T11:13:33+00:00"
     },
     {
-     "titulo": "Flávio diz que EUA têm “democracia pujante”, ao contrário do Brasil",
-     "resumo": "Senador está nos Estados Unidos desde que fugiu do Brasil, dias depois do 2º turno presidencial",
-     "link": "https://www.poder360.com.br/poder-congresso/flavio-diz-que-eua-tem-democracia-pujante-ao-contrario-do-brasil/",
+     "titulo": "Outlook e outras ferramentas da Microsoft seguem com instabilidade",
+     "resumo": "Empresa diz que não há indícios de ataque cibernético e que trabalha para recuperar o serviço",
+     "link": "https://www.poder360.com.br/poder-tech/outlook-e-outras-ferramentas-da-microsoft-seguem-com-instabilidade/",
      "fonte": "Poder360",
-     "data": "2026-11-13T03:19:05+00:00"
+     "data": "2026-11-13T12:31:33+00:00"
     },
     {
-     "titulo": "Lula, Milei e líderes de mais de 20 países defendem que próximo secretário-geral da ONU seja latino",
-     "resumo": "Os presidentes Luiz Inácio Lula da Silva (PT), Javier Milei (Argentina), Miguel Díaz-Canel (Cuba) e Delcy Rodríguez (Venezuela), além de cerca de outros 20 líderes de países da Comunidade dos Estados Latino-Americanos e…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/13/lula-milei-e-lideres-de-mais-de-20-paises-defendem-que-proximo-secretario-geral-da-onu-seja-latino.ghtml",
+     "titulo": "PF cumpre mandado contra ex-chefe de gabinete de Mário Frias em operação sobre suposto desvio de emendas do 'Dark Horse'",
+     "resumo": "PF faz operação contra suposto desvio de emendas ligadas ao 'Dark Horse' Ainda segundo essas mesmas fontes, a pessoa não exerceria mandato parlamentar, mas seria o ex-chefed do deputado federal Mário Frias (PL-RJ).",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/13/pf-cumpre-mandado-de-busca-e-apreensao-em-operacao-sobre-suposto-desvio-de-emendas-parlamentares.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-13T03:00:00+00:00"
+     "data": "2026-11-13T10:56:54+00:00"
     },
     {
-     "titulo": "Senado votará destaques do ajuste fiscal na 3ª feira, diz Alcolumbre",
-     "resumo": "Presidente da Casa adiou análise de alterações ao texto após negociações; proposta ainda precisa passar pela Câmara depois do fim da tramitação no Senado",
-     "link": "https://www.poder360.com.br/poder-congresso/senado-votara-destaques-do-ajuste-fiscal-na-3a-feira-diz-alcolumbre/",
+     "titulo": "Ataques cibernéticos vazam dados de milhões de pessoas",
+     "resumo": "Empresas e instituições públicas do Brasil e do mundo foram alvo de hackers; CPFs, endereços e telefones foram expostos",
+     "link": "https://www.poder360.com.br/poder-tech/ataques-ciberneticos-vazam-dados-de-milhoes-de-pessoas/",
      "fonte": "Poder360",
-     "data": "2026-11-13T03:15:24+00:00"
+     "data": "2026-11-13T12:24:59+00:00"
     }
    ]
   },
@@ -258,11 +333,18 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Caso Nvidia: Singapura proíbe suposta espiã chinesa de entrar no país",
+     "titulo": "Microsoft segue com problemas em 74 países",
+     "resumo": "O que a Microsoft iniformou: Usuários de vários países enfrentam indisponibilidade nos serviços do Microsoft 365 desde a tarde de ontem, segundo a página de status da Microsoft.",
+     "link": "https://www.cisoadvisor.com.br/microsoft-segue-com-problemas-em-74-paises/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-13T10:29:45+00:00"
+    },
+    {
+     "titulo": "Ford abre inscrições para curso gratuito de capacitação tecnológica; confira como se inscrever",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/big-techs/caso-nvidia-singapura-proibe-suposta-espia-chinesa-de-entrar-no-pais/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/ford-abre-inscricoes-para-curso-gratuito-de-capacitacao-tecnologica-confira-como-se-inscrever/",
      "fonte": "TecMundo",
-     "data": "2026-11-13T00:00:00+00:00"
+     "data": "2026-11-13T13:00:00+00:00"
     },
     {
      "titulo": "Programa gratuito quer capacitar novos talentos em cibersegurança",
@@ -272,18 +354,25 @@
      "data": "2022-05-16T12:00:00+00:00"
     },
     {
-     "titulo": "A epidemia de ataques cibernéticos e os riscos para a segurança global - O Assunto #1845",
-     "resumo": "Na sexta-feira passada (6), o maior complexo portuário da América Latina, o Porto de Santos, foi alvo de um ataque hacker.",
-     "link": "https://g1.globo.com/podcast/o-assunto/noticia/2026/11/13/a-epidemia-de-ataques-ciberneticos-e-os-riscos-para-a-seguranca-global-o-assunto-1845.ghtml",
+     "titulo": "Microsoft diz que Outlook, Teams e Copilot estão sendo 'gradualmente restaurados'",
+     "resumo": "Serviços Microsoft caem em 70 países; empresa faz reparos A Microsoft informou nesta sexta-feira (13) que Outlook, Teams e Copilot estão sendo \"gradualmente restaurados\" após a falha que afeta seus serviços desde a…",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/servicos-da-microsoft-sofrem-instabilidade-quinta-e-sexta.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-13T03:30:01+00:00"
+     "data": "2026-11-13T13:28:08+00:00"
     },
     {
-     "titulo": "GTA 6 teria ultrapassado a marca de US$ 1 bilhão em pré-vendas, segundo relatório",
+     "titulo": "Tesouro confirma vazamento de 30 mil cadastros e chaves Pix",
+     "resumo": "A Secretaria do Tesouro Nacional identificou um acesso não autorizado a dados pessoais em seu ambiente tecnológico, com exposição de informações de aproximadamente 30 mil cadastros e de cerca de 4 mil chaves Pix de…",
+     "link": "https://www.cisoadvisor.com.br/tesouro-confirma-vazamento-de-30-mil-cadastros-e-chaves-pix/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-13T04:15:09+00:00"
+    },
+    {
+     "titulo": "Golpes com IA: entenda como funcionam e como se proteger",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-teria-ultrapassado-a-marca-de-us-1-bilhao-em-pre-vendas-segundo-relatorio/",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/como-funcionam-os-golpes-com-ia-veja-como-se-proteger/",
      "fonte": "TecMundo",
-     "data": "2026-11-12T23:12:00+00:00"
+     "data": "2026-11-13T12:15:00+00:00"
     },
     {
      "titulo": "Fim das senhas: autenticação passwordless já é realidade",
@@ -293,39 +382,25 @@
      "data": "2022-05-09T12:00:00+00:00"
     },
     {
-     "titulo": "Outlook e IA da Microsoft seguem instáveis nesta sexta-feira",
-     "resumo": "Outlook fora do ar: serviços da Microsoft apresentam instabilidade nesta quinta Desde a tarde de quinta-feira (12), usuários relataram dificuldades para acessar alguns serviços da Microsoft, como o Outlook.",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/outlook-e-ia-da-microsoft-seguem-instaveis-nesta-sexta-feira.ghtml",
+     "titulo": "Falha da Microsoft afeta serviços de emergência, empresas e governos em dezenas de países",
+     "resumo": "Serviços Microsoft caem em 70 países; empresa faz reparos Uma falha global nos serviços da Microsoft afeta empresas, governos e serviços de emergência em dezenas de países.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/13/microsoft-falha-paises.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-13T03:00:00+00:00"
+     "data": "2026-11-13T13:04:42+00:00"
     },
     {
-     "titulo": "Falha no PHP mobiliza ação internacional de cibersegurança, mas sem sucesso",
+     "titulo": "Ataques ao ScreenConnect comprometem MSPs e clientes",
+     "resumo": "A ConnectWise investiga uma campanha de malware contra provedores de serviços gerenciados (MSPs) que usa ambientes ScreenConnect comprometidos para instalar clientes de acesso remoto não autorizados em dispositivos de…",
+     "link": "https://www.cisoadvisor.com.br/ataques-ao-screenconnect-comprometem-msps-e-clientes/",
+     "fonte": "CISO Advisor",
+     "data": "2026-11-12T22:55:48+00:00"
+    },
+    {
+     "titulo": "5 jogos grátis para curtir o fim de semana no PC e consoles! (17)",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/falha-no-php-mobiliza-acao-internacional-de-cibercriminosos-mas-sem-sucesso/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/5-jogos-gratis-para-curtir-o-fim-de-semana-no-pc-e-consoles-17/",
      "fonte": "TecMundo",
-     "data": "2026-10-23T21:30:00+00:00"
-    },
-    {
-     "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
-     "resumo": "Para contornar golpes, plataformas de autenticação precisam trabalhar com provas de vida.",
-     "link": "https://www.thehack.com.br/fraudes-em-reconhecimento-facial-sim-elas-ja-existem/",
-     "fonte": "The Hack",
-     "data": "2022-05-04T12:00:00+00:00"
-    },
-    {
-     "titulo": "Ataque hacker ao Tesouro Nacional expõe dados de 30 mil cadastros e 4 mil chaves PIX",
-     "resumo": "Um ataque hacker identificado pelo Tesouro Nacional atingiu cerca de 30 mil cadastros de usuários do portal e-Serviços e 4 mil chaves PIX de beneficiários de pagamentos do governo federal, informou o órgão nesta…",
-     "link": "https://g1.globo.com/economia/noticia/2026/11/12/tesouro-nacional-incidente-seguranca.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-12T23:13:57+00:00"
-    },
-    {
-     "titulo": "Fraudes judiciais usam emails falsos para roubar dados na América Latina",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/fraudes-judiciais-usam-emails-falsos-para-roubar-dados-na-america-latina/",
-     "fonte": "TecMundo",
-     "data": "2026-11-12T22:30:00+00:00"
+     "data": "2026-10-17T11:15:00+00:00"
     }
    ]
   },
@@ -334,25 +409,25 @@
    "nome": "Ações e Mercado",
    "noticias": [
     {
-     "titulo": "Senado aprova texto-base de projeto fiscal com impacto de até R$ 60 bi em 2027",
-     "resumo": "O Senado aprovou nesta quinta-feira (12) o texto-principal de projeto de lei complementar que prevê a adoção de uma série de medidas fiscais com impacto previsto de até R$ 60 bilhões em 2027 para garantir as metas de…",
-     "link": "https://www.moneytimes.com.br/senado-aprova-texto-base-de-projeto-fiscal-com-impacto-de-ate-r60-bi-em-2027-gaep/",
+     "titulo": "Ibovespa sobe com dados do varejo, balanços e ajuste fiscal; 5 coisas para saber antes de investir hoje (13)",
+     "resumo": "O Ibovespa (IBOV) retornou ao campo positivo nesta sexta-feira (13). O principal índice da B3 registra leve alta, após abrir o dia em queda.",
+     "link": "https://www.moneytimes.com.br/ibovespa-sobe-com-dados-do-varejo-balancos-e-ajuste-fiscal-5-coisas-para-saber-antes-de-investir-hoje-13-davs/",
      "fonte": "Money Times",
-     "data": "2026-11-13T01:23:07+00:00"
+     "data": "2026-11-13T13:35:25+00:00"
     },
     {
-     "titulo": "Ações de IA chinesas despencam com temores de novas restrições dos EUA aos chips",
+     "titulo": "Procurador-geral eleito do Texas promete escrutínio rigoroso sobre fusão SpaceX-Tesla",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/acoes-de-ia-chinesas-despencam-com-temores-de-novas-restricoes-dos-eua-aos-chips-2126126",
+     "link": "https://br.investing.com/news/stock-market-news/procuradorgeral-eleito-do-texas-promete-escrutinio-rigoroso-sobre-fusao-spacextesla-2126669",
      "fonte": "Investing.com",
-     "data": "2026-11-13T06:10:35+00:00"
+     "data": "2026-11-13T13:41:44+00:00"
     },
     {
-     "titulo": "Nova CEO da Nvidia, Colette Kress está há 13 anos na companhia e já passou pela Microsoft",
-     "resumo": "Colette Kres assumiu interinamente o cargo de CEO da Nvidia; norte-americana foi nomeada como 32ª mulher self-made mais rica dos EUA em 2026 pela Forbes The post Nova CEO da Nvidia, Colette Kress está há 13 anos na…",
-     "link": "https://www.seudinheiro.com/2026/economia/nova-ceo-da-nvidia-colette-kress-esta-ha-13-anos-na-companhia-e-ja-passou-pela-microsoft/",
+     "titulo": "Após onda de aquisições, fundo imobiliário vende fatia de shopping por R$ 45 milhões; entenda o porquê",
+     "resumo": "Patria Malls (PMLL11) se desfaz de empreendimento no Recife, que apresentava crescimento abaixo da média do portfólio The post Após onda de aquisições, fundo imobiliário vende fatia de shopping por R$ 45 milhões…",
+     "link": "https://www.seudinheiro.com/2026/bolsa-dolar/apos-onda-de-aquisicoes-fundo-imobiliario-vende-fatia-de-shopping-por-r-45-milhoes-igdl/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-12T22:32:00+00:00"
+     "data": "2026-11-13T12:51:00+00:00"
     },
     {
      "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
@@ -362,25 +437,25 @@
      "data": "2026-05-27T21:59:36+00:00"
     },
     {
-     "titulo": "Lucro da B3 (B3SA3) fica dentro do esperado no 3º tri, a R$ 1,4 bi",
-     "resumo": "A operadora da bolsa de valores de São Paulo, B3 (B3SA3), divulgou nesta quinta-feira resultado de terceiro trimestre em linha com expectativas de analistas, com avanço na receita líquida e no desempenho operacional.",
-     "link": "https://www.moneytimes.com.br/lucro-da-b3-b3sa3-fica-dentro-do-esperado-no-3o-tri-a-r-14-bi/",
+     "titulo": "Microsoft cita ‘progressos adicionais’ após mais de 15h de suspensão de serviços; ações caem",
+     "resumo": "A Microsoft informou, em seu boletim mais recente, que “fez progressos adicionais em direção à recuperação dos serviços, com ações de recuperação concluídas em partes da infraestrutura afetada na região da…",
+     "link": "https://www.moneytimes.com.br/microsoft-cita-progressos-adicionais-na-recuperacao-de-servicos-apos-mais-de-15h-de-suspensao/",
      "fonte": "Money Times",
-     "data": "2026-11-12T23:09:00+00:00"
+     "data": "2026-11-13T13:21:26+00:00"
     },
     {
-     "titulo": "Taiwan - Ações fecharam o pregão em alta e o Índice Taiwan Weighted avançou 1,55%",
+     "titulo": "Por que as ações da Milestone Pharmaceuticals estão subindo hoje?",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/taiwan--acoes-fecharam-o-pregao-em-alta-e-o-indice-taiwan-weighted-avancou-155-2126118",
+     "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-milestone-pharmaceuticals-estao-subindo-hoje-93CH-2126653",
      "fonte": "Investing.com",
-     "data": "2026-11-13T06:00:21+00:00"
+     "data": "2026-11-13T13:35:10+00:00"
     },
     {
-     "titulo": "“O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem deixar a qualidade do crédito para trás",
-     "resumo": "Ao Seu Dinheiro, Santiago Stel explica como a instituição tenta acelerar a expansão sem comprometer a qualidade dos empréstimos The post “O que não fizermos outro fará”: o dilema do Inter (INBR34) para crescer sem…",
-     "link": "https://www.seudinheiro.com/2026/empresas/o-que-nao-fizermos-outro-fara-o-dilema-do-inter-inbr34-para-crescer-sem-deixar-a-qualidade-do-credito-para-tras-miql/",
+     "titulo": "Apagão mundial em 17 de novembro? O boato, os alertas para ter kits de emergência e o velho hábito de acreditar nos Simpsons",
+     "resumo": "Um episódio de Os Simpsons, alertas de emergência nos EUA e orientações da Defesa Civil deram origem ao boato de um apagão mundial em 17 de novembro.",
+     "link": "https://www.seudinheiro.com/2026/internacional/apagao-mundial-em-17-de-novembro-o-boato-os-alertas-para-ter-kits-de-emergencia-e-o-velho-habito-de-acreditar-nos-simpsons/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-12T21:44:45+00:00"
+     "data": "2026-11-13T12:12:00+00:00"
     },
     {
      "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
@@ -390,18 +465,18 @@
      "data": "2026-05-27T21:47:03+00:00"
     },
     {
-     "titulo": "Natura (NATU3) reverte prejuízo bilionário no 3T26; veja números",
-     "resumo": "A Natura (NATU3) divulgou os seus resultados financeiros para o terceiro trimestre de 2026, reportando uma reversão significativa em relação ao mesmo período do ano anterior.",
-     "link": "https://www.moneytimes.com.br/natura-natu3-reverte-prejuizo-bilionario-no-3t26-veja-numeros/",
+     "titulo": "BB diz, em nota, que não culpou todo o agro por crise no banco e que 90% dos clientes estão em dia",
+     "resumo": "O Banco do Brasil divulgou nesta quinta-feira, 12, uma nota na qual diz que não procede a interpretação de que a sua diretoria tenha responsabilizado todo o agronegócio pela queda de seus resultados no terceiro…",
+     "link": "https://www.moneytimes.com.br/bb-nao-procede-interpretacao-que-banco-teria-responsabilizado-todo-o-setor-do-agro-pelo-3tri26/",
      "fonte": "Money Times",
-     "data": "2026-11-12T22:53:00+00:00"
+     "data": "2026-11-13T13:18:04+00:00"
     },
     {
-     "titulo": "Microsoft ainda tenta resolver grande falha no Teams e Outlook",
+     "titulo": "Por que a ação da Snail está disparando hoje?",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/microsoft-ainda-tenta-resolver-grande-falha-no-teams-e-outlook-2126114",
+     "link": "https://br.investing.com/news/stock-market-news/por-que-a-acao-da-snail-esta-disparando-hoje-93CH-2126652",
      "fonte": "Investing.com",
-     "data": "2026-11-13T05:41:34+00:00"
+     "data": "2026-11-13T13:34:31+00:00"
     }
    ]
   },
@@ -410,60 +485,60 @@
    "nome": "Blumenau",
    "noticias": [
     {
-     "titulo": "TCE/SC determina que Prefeitura de Blumenau regularize repasses à Previdência dos servidores",
+     "titulo": "Blumenau abre inscrições gratuitas para conferência sobre direitos de crianças e adolescentes; prazo termina dia 19",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX0VQeHBubGxOX1A5RlIyMHVTRFU0Qy1vM291bDlMUmctMGF4VVVaUzVZajRuTUZPTDhsVGh0eDZGc2dzQVVIQnBxdVpJMXZUdkJMT0FiSlhrcUZtdVItYmkyc0FiYUkwUDhDeDhqSWE4WUdPdjV3MEtYQ3VtN2t6SzFFWUU0azVzRkNRMVp0enNGRkNBb1JjYXhETFVrLXZKSXBmOEdjMThXRkk3TXhISnpiNVh4eTdmczhHczBaY3NsTzhKbGFUYjZRbw?oc=5",
-     "fonte": "Acaert",
-     "data": "2026-11-13T03:00:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVUV6Z1ZTYU91T2x4QkgzMF9MX05wbGl0dkhiZk1zam54MkhCSW5IS1pEa2JEUEVuYzNIaHJXanVUeVhHOXg5WXhLU3FTcjRkOVBObDB3OS1aaC1sTjVBNmhBdGJsVzJ6Ukx6M2tDZ2w2RXV0Q0hlWkxwWVFHVHdVUEdB?oc=5",
+     "fonte": "Farol Blumenau",
+     "data": "2026-11-13T13:19:57+00:00"
     },
     {
-     "titulo": "Advogado de Blumenau passa em sabatina da OAB/SC e está entre os 12 candidatos ao Quinto Constitucional",
+     "titulo": "Advogado de Blumenau vence sabatina e concorre a vaga de juiz de alto escalão no TJSC",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOVFaaGtvQlQwYTkxTjZZS0IwLWRZOC1tbFlxaWpOT3cwcDZnU2xhUGVKWmNLdzV2Nm0zckt6eE40SmxpanNxSThiNFN4NUw2TURvWFA5cE9vUnNLVVRXR2FOUWJ0SVIyelhkZWNNc1daM2VvTVhfMmNiQ2JlVDNmb24yQnhPb0pzSW9RMG01cmFHTmFtckh3SmtWYXhXbWN6WllUMzg0cHUzZEtHdm5BQzQxeEN5a1dLY21qWnloWEJtQjlJbXM2U2N2TThER21PVkE?oc=5",
-     "fonte": "Informe Blumenau",
-     "data": "2026-11-12T23:14:02+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV3I4RzJFOGE5dmc0NUlDRmZRX0FFTDNYb1E2R2pybm4wVFlUT3doVkJocVR1OXFsSFktdzV0U2lUa0d3VXNUUnNDblZCbGxaZ0JsUm83Y3FtTDgwZnpubTAwRzFTWjNHZkhyY1RKUzdqUi1kOVVkZ2RUVUhmVkVPaHFvVkRmSkFVMjh0by03UU9UaW1xdjZwZm81QXpGbk1SRnJtcnpSeFhIdXNweFpWNkpwOGdmOGNsdTVZcS1PeHNhUmc?oc=5",
+     "fonte": "www.bra1.com.br",
+     "data": "2026-11-13T13:16:00+00:00"
     },
     {
-     "titulo": "Professora de Blumenau vence prêmio nacional com terrário digital",
+     "titulo": "Adolescente de 16 anos é apreendido por tráfico de drogas no bairro Vila Nova, em Blumenau.",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZFhoaDAzQmRmOFZsaGdsS0g3eHozRFRNUHRvNFNuX05oUjA1Q2lhSXlQNE5IMDE4ZGpNNnFxMWtKdzFfV2MyODlXaEdsbWFONUxzLXZzM1Z6Z3oxUEFYbWFfdDVhWDRXdDhQeDFSUFpEODQyUTRuc3BBV0VhMmlJaGNsbWtyTEJaai1kaTFWT2hmX01XX0szSHpGQlYySGdweEdlQTdYenZMMWZoLW1iXzBpdGZ2NF95QXBaZzJaMTdIMnRCdXhxX2JmbWFLbTFHQnNpVQ?oc=5",
-     "fonte": "Real News",
-     "data": "2026-11-12T22:50:26+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbHI5dS1CdHZOOFlrLWVaMmVkMFE4ZzZFanVRZ28zdHdpdGE3RkFnTy1IRTVTN29DcTI3VlZuMVBidnUwbktWQWkyNXJlZHplcTZVVkdhekhFZzJsdy1aUldvd1ZYOGl6dWV4dmZoWHQ3RE9jMFBHandYb0t0UHZJTldOSHZSdDVveTlucUs2Y3owZV93LTN4d2c2V2Etc3lMTnhlb1pVQ2JWeXliRTdvaERXZVJUbWw1?oc=5",
+     "fonte": "Blog do Jaime",
+     "data": "2026-11-13T13:15:00+00:00"
     },
     {
-     "titulo": "Natal em Blumenau terá programação diária com atrações culturais e atividades para toda a família - Top Society",
+     "titulo": "Polícia apreende mais de 600 cigarros eletrônicos e anabolizantes em Gaspar e Blumenau",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR2hmOEI1Tkd4akkyOWFBYWZQMS14YUliUnJNb0xyRUlVUmlERjRUOWRKbWdUaWpGSmdvdVphc2ZsenFlUnBJYkttWTJlaGp6Z0M0LVJYUXJFbThlYlZNRXJpQ1JqQjhZU3lWdEx1bTZmVjJOVmYyM1RZS1dWZ00wZmkzMDl3blJVWU4wRF82eUM2R0EwbjJoNFRLdWtJNzhZWW5IaXFqRzd5aUFoM1J6OTJGM1Q3aTBRTG9LR29zTTZTUQ?oc=5",
-     "fonte": "Karla Cruz",
-     "data": "2026-11-12T22:29:25+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQktKWk0yYUZubjdlako1VkhjM25nbVBBd3NZNXNYd0ZUUjFSN3hpMmZ6dGVZeW1ZbWFsWnBVTmY2TnUzOTdOQ1ZxcjBtSE9wWU1Ya0VWbnFjamVOcGlFOUhQTlNpS3ZLdmFsSEFQRkl5Y0RSVFNnc1dGYmdvOHRXaGVadHpTRlU3Zmd6bVFKbDd6Q0syYldXT3dwYVJkVGZJYTc3S2pZQXdjeG8zWTVHTjR1TEJ6TUZ5a3RYUHRwT20?oc=5",
+     "fonte": "Jornal de Pomerode",
+     "data": "2026-11-13T13:14:34+00:00"
     },
     {
-     "titulo": "Diplomação dos eleitos em Santa Catarina tem data definida",
+     "titulo": "Blumenau tem feira, exposições e atrações gratuitas neste fim de semana; veja onde ir",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU29SaV8wRERSdWt5YWFxTXJzbU13YlowRDZuU3RZdE9qR2R5akFYa2xJQ2dkN3V4bF9yRnBlZkR2S2VLcTZQdjZMaGQzZndaTWhkbE1MZVFvNHpVNThQbUZqZnVoWTA3YWpiT25kZVlBTGtCVW10TEV5X185Szh5a0N2QmYxMzFwaFhuUExleFFvUk5qa3c?oc=5",
-     "fonte": "Informe Blumenau",
-     "data": "2026-11-12T21:50:09+00:00"
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FUHpNeTVHcVNFUEdDazZMbDI4RjFQNUFOMkw4eU1CdHZzUXd3UjUyamo1bGx5X3hDUDlwN1RDU0xIUXpwTzR3SUVmV0NzSnpacG5WM0h2SXF3b25rbEZhdzBwNF9OQ2RDbXVTaXZLZnBWMlRncV9z?oc=5",
+     "fonte": "Farol Blumenau",
+     "data": "2026-11-13T13:13:55+00:00"
     },
     {
-     "titulo": "Operação contra fraude tributária aponta R$ 15,5 milhões em compensações irregulares em Blumenau",
+     "titulo": "Homem é preso após ameaçar ex-namorada com revólver em Blumenau.",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM3pSaFF6czB2OTYzWHhYS0gzWlp6WVd2bk93R285SlVUMDQ0Q1Jva3lBNUJtU29SQnpBSmNDUWRoUTlyeElsRTdEdmlhWU82Y2NpYy16c1RnUkhoNmwzUHFuek5Ub1pQc2lSOG9TdW1QcTl2UTYzNnlFMkpKZ2RhVUZEdC1mNGVxbFpuRGtKOTh5VU1vN0hqX3J4Q2dtMWlfRzZsdFh6RnE1RDYzc25lSVBLU19kbjFCekM0TllTOHZrNDVDM0R0YmhwdWVBLS1U?oc=5",
-     "fonte": "AJ Notícias",
-     "data": "2026-11-12T21:02:28+00:00"
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON05SNnl3NWhVcXJTcGdsTUNJbmNBTEhlclRpTklKR2ZaX0ZaWU9vT2w4UlpRaDI5ZzA5R3BkMGw4bDNBUWxFNU12UjZlc1QzdmV4MTV2VUxWc0QzMnVFdW9BTHZIczdLZUJJRkNpVGplTDFFX3B6aEh2NktRc19XeURwcEk4a3ZGTUd3TWVxck9uc2dBYXc?oc=5",
+     "fonte": "Blog do Jaime",
+     "data": "2026-11-13T13:00:00+00:00"
     },
     {
-     "titulo": "Professora de Blumenau vence “Oscar da Educação” com projeto sobre ciclo da água",
+     "titulo": "Simulado de assalto a banco é feito em Blumenau nesta sexta-feira (13)",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamxfTDR2Sm1zYVp1bE1LQTgzUEZ2Um5wUnFRZHZ4eFFnckwyWi1YR2EzUzd0ZWVtbm1JVzZudU53VDVWVHNrVlZVc2Y4dWR0UV9VdzVHOFpXVVNucXVLbnlUc0RuNWdTT1IyaFg5V1hPRHRTTC1JeXphb2JTeVpoN3NiT1ZnUlV1TVNHTmhzZG1CZlFjeDFSQnZaN2dVWmhXb2REcmxnN0tFcFY4WXF3SU1EbDV1dw?oc=5",
-     "fonte": "No Ponto SC",
-     "data": "2026-11-12T20:42:44+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOS25SRU1xZEhNLWtBcElpZFlBM2didWtZOUowMVJaSmlXcklYOWJDQnBtMHFOaXljU1BLOXBKMkExNnd3Rlo3cms4cEVGRmxaejhFN3pmYk1lN3czcGxCTjROYzRVUjhmUzhWNHpvdUs1Q1V4anZRMFdsc1JzLWRmZVVxalR1a182S2NtN2RsZ0R0a3YwZHRhN2JEVmxWNFpIVWhZQ0I0dzNSMmZvSGtrN1J4Sm5WYTFPNWNERV9VTTU1VlhWTUVTWVl0QnBIOVA0NWVrT0tmdGdyMzVmT2NSUEcxMGR6dE9LQmhXNURCQdIB_gFBVV95cUxOaE5id3BOTHBxUWI2b0N5aFItMi1aSThPNUZHUTVtLW9WNWJFeUdkLUlLODd4UXY4d0NXN3l3bHl2bnR4bW44X2lVT0ZoM1VMbHRnM0c2YzhCdDJvOVoxRWdKMkt6OVVFZjVTT2xzbV82YXFEX2ZvS3dUSGVpR1luZWh4a3ZsV01ibXNMcWlFRjhDLUVnTU1jZXVmMjljcE10clpkQUlnYm52YnRteXoxX1ozWkFiVnFKZUp5cTJkcS1xdk5RaUQ4VE9IbjJoU2tDNklPVE95cmFnNEh5UFp0QTRDUHpPNWlEc1AyUm9wT0ZjZ1NlYWpYdlF3eFQ1UQ?oc=5",
+     "fonte": "G1",
+     "data": "2026-11-13T12:54:09+00:00"
     },
     {
-     "titulo": "Professora da rede estadual de Blumenau vence o Prêmio Educador Nota 10 na categoria Inovação e Tecnologia",
+     "titulo": "Inscrições para a 12ª Conferência dos Direitos da Criança e do Adolescente de Blumenau terminam dia 19",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTnEyS2xIU2szZjk2VUktMGJ4bTgtSlhpcjlIQ21vTzA4UklzeFB5c2loVF9NNmVlMDRka0Nlc0NHSFp1RkNIWU9tR0VibDVGLTEwR213a2ljQmE0a1prdy04NUE5X1dvY1ctTXF0MnVCQi1Lb2Z2REFFMnVmNlVkVzlUMFY1UDd2dGJqWmN6SDNqSExlWjRHVzVXaGx3MjRZNUREeVRHME52SzZFM05jZGFmMkxQMlYxcVhV?oc=5",
-     "fonte": "Deolhonailha",
-     "data": "2026-11-12T20:38:24+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdnk3bUdXNnBoSG9UcTJyTHI5RGNmR2FxQkNGc192eFJaTGJWa0Zpb1BTQW5mZ1dnZWl3WUtCMW55UEJxWU9GaWRzUnp4N09fakFZYUpwd2pjYVJpOWtlTks1TUJHSnRQT2pNbkRyVUsxZjZtRHBWUE5nOHhEb3lDMkZfQ0JESDY2b3FEcTNXek9INHUxU09NNzVHamRZQUxCc1FaR3RXcVV1aEJ1cDd1N2V0RnFNUFIzV1hUTTNwS2xxYlRoUlliaQ?oc=5",
+     "fonte": "OCP News",
+     "data": "2026-11-13T12:19:12+00:00"
     }
    ]
   },
@@ -472,6 +547,13 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
+     "titulo": "Rodeio Crioulo em Itajaí vai de quinta a domingo com entrada gratuita no parque e shows",
+     "resumo": "O 2º Rodeio Crioulo Nacional do CTG Cidade do Porto começa nesta quinta-feira (12) e segue até domingo (15), no Parque do Agricultor Gilmar Graf, em Itajaí.",
+     "link": "https://www.bcnoticias.com.br/rodeio-crioulo-em-itajai-vai-de-quinta-a-domingo-com-entrada-gratuita-no-parque-e-shows/",
+     "fonte": "BC Notícias",
+     "data": "2026-11-12T21:27:15+00:00"
+    },
+    {
      "titulo": "Dores frequentes fazem mãe levar filha ao médico, e menina revela que era abusada pelo avô afetivo em SC",
      "resumo": "Menina tinha entre oito e 12 anos e só conseguiu revelar o verdadeiro autor após ser levada ao médico por dores constantes Leia no Camboriú News",
      "link": "https://camboriu.news/dores-frequentes-fazem-mae-levar-filha-ao-medico-e-menina-revela-que-era-abusada-pelo-avo-afetivo-em-sc/",
@@ -479,11 +561,18 @@
      "data": "2026-11-13T02:07:15+00:00"
     },
     {
-     "titulo": "Empresa que alugava Porsches e Lamborghinis para 'passeios ostentação' em Balneário Camboriú encerra atividades",
+     "titulo": "Operação investiga compra de apartamentos de luxo em...",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSExOcHJ3TF9zTnc2QXpIVEVnVG51U09TSktudlVKVnpBaDhIUmUwZ21EajFvdlpPbExNVW5qaEN2UWxjdkpab3lmckRNZ3pIRjZGeHJvdlBhNkh2eHFUY05zRERjVUJadktwb1lPc3BtbU83Z05jZHBqVDk2SFJVaENrQlluNkw5ajNCTkd3eThtVTFyVklFdm5CcHVaZVc4djFIMkNNRUJkRnRqdHdNNDVBUmFDMXBVcGstLUtxekVmSWJEclVsX3NfZ0d4MU3SAd4BQVVfeXFMTl9kOVltOTlBOUhmMF9fNE0yQmJva0M0N2xRNHJGTG0zQWp3S0tCeTI2Tm5ybzB4Nmp1NGpNdkFYalBRM3BSN3dtODh4YjdBNnFfejBwcjNiNkxTdHduU0NRNDM4cEZYVXB2T0FFRzJKUksxMmNVaU1hRFJfa2FXSHFFcDVfTUVvc0ZNMEpOclpld2ZwSDQySXZJcDR6Y3h1NzdDN2JJYTJ6UXpFY3RlaEZpcklEYUpPR2tJb3l5emJYWEZlenZGQ2luWnRRcHJfVWRlMy1xZ2pmT3MtREV3?oc=5",
-     "fonte": "G1",
-     "data": "2026-11-13T06:00:01+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZXhoVTUwRFhvblVQTHI4Wm54UThOY0M0eUc1OFZrTmg2SlM1dkwxVEh1TTQ2dVZUY0o1UTZfSmtkQVB4RWd3Sm84OWZYZGhsYjI0d2trUFRTTTh6eU5PRHBTbnVFbGNCM2VTZURJQlFXYkNrRFU0VTNmNWtfWGhFXzl0bzZ3dW1JV3M4TklEaXlXUHZMQTZxTF9JMDlWUmlHbWJHMHZBWVJ1MmpGcWtJanJlVzk5YVJSc0FxR0lTNkt4UWg3RndDTnByajF2bE5SR0R4UEJjRjhKOUdRNWJiNV9OTVNGRTdQMG5VZUdKQzA0ZTVGYno1NFVpZw?oc=5",
+     "fonte": "Jornal Linha Popular",
+     "data": "2026-11-13T13:27:00+00:00"
+    },
+    {
+     "titulo": "Feira de Vinil acontece neste fim de semana no Atlântico Shopping, em Balneário Camboriú",
+     "resumo": "Os apaixonados por discos de vinil terão uma opção de passeio neste fim de semana em Balneário Camboriú. Nos dias 14 e 15 de novembro (sábado e domingo), o Atlântico Shopping recebe a Feira de Vinil, com discos novos e…",
+     "link": "https://www.bcnoticias.com.br/feira-de-vinil-acontece-neste-fim-de-semana-no-atlantico-shopping-em-balneario-camboriu/",
+     "fonte": "BC Notícias",
+     "data": "2026-11-12T20:56:30+00:00"
     },
     {
      "titulo": "Preso ataca companheiro de cela com lâmina de barbear e é condenado por tentativa de homicídio em SC",
@@ -493,11 +582,18 @@
      "data": "2026-11-13T01:55:11+00:00"
     },
     {
-     "titulo": "Natal de Balneário Camboriú terá 12 desfiles na Avenida Atlântica a partir deste sábado",
+     "titulo": "Novo acesso à Balneário Camboriú",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOb1RFRkFIZUwtQUJnNGEyLXhDZGgxYzRIcVlJQVVlZ3hnWS1BcmdEUVkwX1hTM0lKSWFjSnBQMEoxelhvUjdSSWw5N3NkWVZmRkp4djNlQ2VJSG5raHNoM1plRkpsUFNNbTJRS0FCTFM1dC05MFZEOXphQTBualhaQ05TQXpGYjFXX0hmdTlQVzN6U251M2xPeFo3MU9iX3dDUURnNmhKMEJ6bjhwTUY2Z1VpWkdMTkpkU2R5QUVZdXU2d1NMRHRKWklMUU45T3VfcGxxcmNpNDJ6WVdx?oc=5",
-     "fonte": "Click Camboriú",
-     "data": "2026-11-13T01:18:47+00:00"
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbWFQSi1tMVJMR1ZGVTFmb1AzYWNOOEVHMkNZdXFuUlpYUm1FZG5hSklkR2dybTg3ODJNTlhaaGV2VlR1S1pDZkZXRmtGMV9OYXBJNHl4ZlNVanVuVzVPOG56S3FveTNnMGhkY0FwMUVzLVRRMnloWU50UTBXY0dvemNieEtabkxMdFU3ZzZoeC10TG1xazhaNTkxcTVqRHNrSm9rZDhzRGlYam5NTno1OVZyZ1UzWnlFS2g0NHdWYmRjajFRZXVvZV9RbWkxd9IBzgFBVV95cUxQbWFQSi1tMVJMR1ZGVTFmb1AzYWNOOEVHMkNZdXFuUlpYUm1FZG5hSklkR2dybTg3ODJNTlhaaGV2VlR1S1pDZkZXRmtGMV9OYXBJNHl4ZlNVanVuVzVPOG56S3FveTNnMGhkY0FwMUVzLVRRMnloWU50UTBXY0dvemNieEtabkxMdFU3ZzZoeC10TG1xazhaNTkxcTVqRHNrSm9rZDhzRGlYam5NTno1OVZyZ1UzWnlFS2g0NHdWYmRjajFRZXVvZV9RbWkxdw?oc=5",
+     "fonte": "G1",
+     "data": "2026-11-13T11:55:13+00:00"
+    },
+    {
+     "titulo": "Balneário Camboriú abre temporada de Natal e realiza primeiro desfile neste sábado",
+     "resumo": "Balneário Camboriú abriu a segunda edição do Viva o Natal BC na noite de quarta-feira (11), com o acendimento das luzes de Natal na Praia Central.",
+     "link": "https://www.bcnoticias.com.br/balneario-camboriu-abre-temporada-de-natal-e-realiza-primeiro-desfile-neste-sabado/",
+     "fonte": "BC Notícias",
+     "data": "2026-11-12T12:23:39+00:00"
     },
     {
      "titulo": "Mandados de prisão teriam sido apagados ou alterados por até R$ 10 mil em esquema investigado pelo Gaeco em SC",
@@ -507,39 +603,18 @@
      "data": "2026-11-12T23:25:55+00:00"
     },
     {
-     "titulo": "Balneário Camboriú inicia articulação para receber edição de Bienal Internacional de Curitiba",
+     "titulo": "Agentes de Trânsito removem quatro veículos durante operação integrada - Confira as alterações de trânsito nesta sexta-feira",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNEtqM3g1VUJCQmZGTGxVdWJIbEVyMnItVFFRR3FLSFE2WGF2R09SQXY5em9VY0lJUjZZYThhYk5rWUQ3VlRTY3ViRHdrb0RCQTEzSlNNdjI5SHlqNFR1TER0YkVGQXlSQmtfYlVXY0xJU2p1X3J0NjlHQkJndUl4RjV6NnRoZW9iSzVSZkNoY1paUnZoYkptbXBkUzA1Y3dzTkNmTDJQNXBGcXNIb0EzQnF5aUh6eDljM2xXS0lnSFZMRGM?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-12T22:30:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdjc5aWJ4c2FNVjlLWTQyVmw0dWFpazF2SFFERGxUb3JoNHZLREl6VE56bFVVRFZZWTZjcWZwNnBwdHhnUnFQZG9FOVdHb2g4THB0ZDN0NHRGa25Ua2xMZWx3WFUwNXJ4VFhDQUcwaWpNNHZ0MVh6a0tQT2htY3lxLUhBbnhsWmxtSkYxdEdRZHJEVWtGaTBtbmg2VHhvUzJzc3VyWTlXWFAxUFdiZ1A2VDFKTHVsYVpVQjBDV3pQOFBVUjhSaDdsb3VSdFY4aks0TU5RNFc5eXVJUk9ULUVCNXFJUEJCRGkxTFFyNg?oc=5",
+     "fonte": "Notícia Já",
+     "data": "2026-11-13T11:55:00+00:00"
     },
     {
-     "titulo": "Homem é encontrado debilitado após ficar 9 dias no Pico da Pedra em Camboriú",
-     "resumo": "Debilitado e com sinais de possível hipotermia, ele precisou de várias paradas durante a descida até o ponto de apoio Leia no Camboriú News",
-     "link": "https://camboriu.news/homem-e-encontrado-debilitado-apos-ficar-9-dias-no-pico-da-pedra-em-camboriu/",
-     "fonte": "Camboriú News",
-     "data": "2026-11-12T22:37:38+00:00"
-    },
-    {
-     "titulo": "Super Drill é bicampeão da Batalha do Silêncio em Balneário Camboriú",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbW52ZmlrejFuYXB1TkJMUF9JLUx1NmNxamVXelZsT2wxdzNDREZXV3NPcmFfUEdXSXJkMlhFOE5FTjBjaDh6TXk1eE5SUDFnY1M4dlZJWTVhX3JONkZrNjZaRHlGU1lxZ3VtZFU1aXY4UVl6clNrZG1PRnhtY0ROc3ozV1JSSlRSVjhkRllvZXNkTUhLd0lUR1hQVDM1VmV0Q1E?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-12T21:46:07+00:00"
-    },
-    {
-     "titulo": "Auri Pavoni vai assumir o Planejamento de Balneário Camboriú em janeiro",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUXVnRGd0MlZySGRyYjJlV1h5Y25QQ2xrajFmZzFXRHNybU92YUYzWkVWYXBvX1d2ZDZ4MzRzdWp2NElCbEE0ZDVBM1hobEo2enZfMS0yNHI3T3F2RmRjS3pvd2NsZFUzOHJUOTJDLUhrVi0yVm1tVFMzX0p3a21SVzN0bF92NE9BYUt1b2JrUjQ4X2dXbHBmWEk4OWY3YWRhbkpUeDBmTVlJTkFLZEpVcA?oc=5",
-     "fonte": "TopElegance",
-     "data": "2026-11-12T20:53:33+00:00"
-    },
-    {
-     "titulo": "Reurbanização da Avenida Brasil em Balneário Camboriú terá projeto de R$ 300 milhões",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV2U5clJjZ1lGd2VUb1l3bVNWUzQyTl9nNTh5MzNhUHhFTWh1ZnJISVZaYWR3TDNUYlFEZ2UtRTEydk9PSC1LMlV0UVAyTEVkLWUzMUdWRmpQaGowU2RyQXc0NUU3OWtXQ0E2VHlyR2pYSDQwTlgxbXVESUN4OVJsM2dfWkJYZlRrZkRkalE1ZERXQWJuNVdadHVmTlB6SlFwX1YwZW5zVW1CNkJWdG1Fa1hvUzRKd3dncWlfRTFnR2c?oc=5",
-     "fonte": "Gazeta do Povo",
-     "data": "2026-11-12T20:50:00+00:00"
+     "titulo": "Balneário Camboriú divulga lista final de ambulantes autorizados a trabalhar nas praias na temporada 2026/2027",
+     "resumo": "A Prefeitura de Balneário Camboriú divulgou, nesta terça-feira (10), a lista definitiva dos classificados no chamamento público para o comércio ambulante na faixa de areia das praias durante a temporada 2026/2027.",
+     "link": "https://www.bcnoticias.com.br/balneario-camboriu-divulga-lista-final-de-ambulantes-autorizados-a-trabalhar-nas-praias-na-temporada-2026-2027/",
+     "fonte": "BC Notícias",
+     "data": "2026-11-12T00:28:05+00:00"
     }
    ]
   }

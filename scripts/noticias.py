@@ -230,8 +230,6 @@ BOLSAS = [
     ("itub", "Itaú", "bancos", "ITUB4.SA"),
     ("bbdc", "Bradesco", "bancos", "BBDC4.SA"),
     ("bbas", "Banco do Brasil", "bancos", "BBAS3.SA"),
-    ("petr", "Petrobras", "famosas", "PETR4.SA"),
-    ("vale", "Vale", "famosas", "VALE3.SA"),
 ]
 
 
@@ -273,6 +271,78 @@ def novela():
         return None
 
 
+CIDADES_IBGE = {"blumenau": "4202404", "bc": "4202008"}  # codigos do IBGE de cada cidade
+
+
+def alertas_inmet():
+    """Avisos oficiais do INMET (chuva forte, tempestade etc.) que valem para cada cidade.
+    Avisos do mesmo tipo e gravidade em dias seguidos viram um so (do primeiro ao ultimo dia)."""
+    try:
+        dados = json.loads(baixar("https://apiprevmet3.inmet.gov.br/avisos/ativos"))
+        saida = {}
+        for cidade, ibge in CIDADES_IBGE.items():
+            grupos = {}
+            for periodo in ("hoje", "futuro"):
+                for a in dados.get(periodo, []):
+                    if a.get("encerrado") or ibge not in str(a.get("geocodes", "")).split(","):
+                        continue
+                    riscos = a.get("riscos") or []
+                    if isinstance(riscos, str):
+                        riscos = [riscos]
+                    g = grupos.setdefault((a.get("descricao"), a.get("severidade")), {
+                        "tipo": a.get("descricao"), "severidade": a.get("severidade"), "cor": a.get("aviso_cor"),
+                        "inicio": a["inicio"], "fim": a["fim"], "riscos": [limpar(r) for r in riscos][:2]})
+                    g["inicio"], g["fim"] = min(g["inicio"], a["inicio"]), max(g["fim"], a["fim"])
+            saida[cidade] = sorted(grupos.values(), key=lambda g: g["inicio"])
+        return saida
+    except Exception as e:
+        print(f"Falhou alertas do INMET: {e}", file=sys.stderr)
+        return None
+
+
+RIO_URL = "https://alertablu.blumenau.sc.gov.br/d/nivel-do-rio"
+FAIXAS_RIO = [(3, "Normalidade"), (4, "Observação"), (6, "Atenção"), (8, "Alerta")]  # acima de 8 m: Alerta máximo
+
+
+def rio_blumenau():
+    """Nivel do rio Itajai-Acu em Blumenau, lido da pagina do AlertaBlu (Defesa Civil de Blumenau),
+    que lista uma leitura por hora. Se a pagina mudar ou sair do ar, devolve None."""
+    try:
+        pagina = baixar(RIO_URL).decode("utf-8", "replace")
+        texto = re.sub(r"\s+", " ", html.unescape(re.sub(r"<(script|style).*?</\1>|<[^>]+>", " ", pagina, flags=re.S)))
+        vistos, pontos = set(), []  # a pagina lista da leitura mais nova para a mais antiga
+        for d, m, a, hora, nivel in re.findall(r"(\d\d)/(\d\d)/(\d{4}) (\d\d:\d\d) (\d+,\d+) (?:\d+,\d+|-)", texto):
+            quando = f"{a}-{m}-{d} {hora}"
+            if quando not in vistos:
+                vistos.add(quando)
+                pontos.append((quando, float(nivel.replace(",", "."))))
+        if len(pontos) < 4:
+            return None
+        pontos = pontos[:48][::-1]  # agora da mais antiga para a mais nova
+        nivel, antes = pontos[-1][1], pontos[-4][1]
+        dif = round(nivel - antes, 2)
+        return {"nivel": nivel, "leitura": pontos[-1][0],
+                "estagio": next((nome for lim, nome in FAIXAS_RIO if nivel < lim), "Alerta máximo"),
+                "tendencia": "subindo" if dif >= 0.05 else "descendo" if dif <= -0.05 else "estável",
+                "variacao3h": dif, "historico": [n for _, n in pontos[-24:]], "link": "https://alertablu.blumenau.sc.gov.br/"}
+    except Exception as e:
+        print(f"Falhou nivel do rio: {e}", file=sys.stderr)
+        return None
+
+
+def seguranca():
+    """As 3 falhas de seguranca mais recentes que a CISA (EUA) confirmou estarem sendo exploradas por atacantes."""
+    try:
+        vulns = json.loads(baixar("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"))["vulnerabilities"]
+        vulns.sort(key=lambda v: v["dateAdded"], reverse=True)
+        return [{"cve": v["cveID"], "fabricante": v["vendorProject"], "produto": v["product"], "nome": v["vulnerabilityName"],
+                 "adicionada": v["dateAdded"], "prazo": v["dueDate"],
+                 "ransomware": v.get("knownRansomwareCampaignUse") == "Known"} for v in vulns[:3]]
+    except Exception as e:
+        print(f"Falhou alertas de seguranca: {e}", file=sys.stderr)
+        return None
+
+
 def main(destino):
     usados, categorias = set(), []
     for cid, nome, total, fontes in CATEGORIAS:
@@ -290,9 +360,13 @@ def main(destino):
         pass
     nov = novela() or antigo.get("novela")
     bol = bolsas() or antigo.get("bolsas")
+    alertas = alertas_inmet() or antigo.get("alertas")
+    rio = rio_blumenau() or antigo.get("rio")
+    seg = seguranca() or antigo.get("seguranca")
     with open(destino, "w", encoding="utf-8") as f:
         json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "ibovespa": ibovespa(), "novela": nov,
-                   "bolsas": bol, "categorias": categorias}, f, ensure_ascii=False, indent=1)
+                   "bolsas": bol, "alertas": alertas, "rio": rio, "seguranca": seg, "categorias": categorias},
+                  f, ensure_ascii=False, indent=1)
     print(f"Gravado em {destino}")
     return 0
 

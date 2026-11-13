@@ -5,6 +5,7 @@ Página do dia para **Blumenau** e **Balneário Camboriú**:
 | Parte | De onde vem |
 |---|---|
 | Previsão de hoje hora a hora, gráfico da temperatura e a semana | [Open-Meteo](https://open-meteo.com/), buscada ao abrir a página (sempre atual) |
+| Rio Itajaí-Açu em Blumenau, avisos do INMET e alerta de segurança (CISA) | AlertaBlu, INMET e CISA, pelo robô |
 | Cotações (dólar, euro, bitcoin) ao vivo; Ibovespa pelo robô | AwesomeAPI e Yahoo Finance |
 | Horário da novela Quem Ama Cuida | Grade da Globo (NSC TV), pelo robô |
 | Música do dia (50 na lista, uma por dia) com botão do Spotify | `frases.js` |

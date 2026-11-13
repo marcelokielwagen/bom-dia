@@ -18,6 +18,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 
 PROMO = r"promo|oferta|cupom|desconto|menor pre[cç]o|black friday|baixou|barato|pre[cç]o no ch[aã]o"
 
@@ -243,7 +244,7 @@ def bolsas():
                 headers={"User-Agent": "Mozilla/5.0"})
             meta = json.loads(urllib.request.urlopen(req, timeout=20).read())["chart"]["result"][0]["meta"]
             atual, anterior = meta["regularMarketPrice"], meta["chartPreviousClose"]
-            saida.append({"id": cid, "nome": nome, "grupo": grupo, "preco": round(atual, 2),
+            saida.append({"id": cid, "nome": nome, "grupo": grupo, "simbolo": simbolo, "preco": round(atual, 2),
                           "variacao": round((atual / anterior - 1) * 100, 2)})
         except Exception as e:
             print(f"Falhou {nome}: {e}", file=sys.stderr)
@@ -330,17 +331,60 @@ def rio_blumenau():
         return None
 
 
+FILTRO_SEGURANCA = (r"seguran[cç]a|golpe|invas|vazamento|ataque|hacker|ransomware|malware|vulnerab|falha|phishing"
+                    r"|fraude|ciber|senha|privacidade|criptografia")
+FONTES_SEGURANCA = [
+    ("CISO Advisor", "https://www.cisoadvisor.com.br/feed/", None),
+    ("The Hack", "https://thehack.com.br/feed/", None),
+    ("TecMundo", "https://rss.tecmundo.com.br/feed", FILTRO_SEGURANCA),
+    ("Oficina da Net", "https://www.oficinadanet.com.br/rss/seguranca", FILTRO_SEGURANCA),
+]
+INGLES = re.compile(r"\b(the|and|with|how|your|new|is|are|of)\b", re.I)
+
+
 def seguranca():
-    """As 3 falhas de seguranca mais recentes que a CISA (EUA) confirmou estarem sendo exploradas por atacantes."""
-    try:
-        vulns = json.loads(baixar("https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"))["vulnerabilities"]
-        vulns.sort(key=lambda v: v["dateAdded"], reverse=True)
-        return [{"cve": v["cveID"], "fabricante": v["vendorProject"], "produto": v["product"], "nome": v["vulnerabilityName"],
-                 "adicionada": v["dateAdded"], "prazo": v["dueDate"],
-                 "ransomware": v.get("knownRansomwareCampaignUse") == "Known"} for v in vulns[:3]]
-    except Exception as e:
-        print(f"Falhou alertas de seguranca: {e}", file=sys.stderr)
-        return None
+    """Noticias de seguranca digital SO EM PORTUGUES: as mais novas entre varias fontes brasileiras."""
+    itens = []
+    for nome, url, filtro in FONTES_SEGURANCA:
+        try:
+            itens += ler_fonte(nome, url, filtro)
+        except Exception as e:
+            print(f"Falhou {nome} (seguranca): {e}", file=sys.stderr)
+    vistos, saida = set(), []
+    for x in sorted(itens, key=lambda n: n["data"] or "", reverse=True):
+        chave = x["titulo"].lower()[:50]
+        if chave in vistos or INGLES.search(x["titulo"]):
+            continue
+        vistos.add(chave)
+        saida.append(x)
+    return saida[:5] or None
+
+
+PERIODOS = (("1d", "5m"), ("5d", "30m"), ("1mo", "1d"), ("1y", "1wk"))  # dia, semana, mes, ano
+
+
+def graficos():
+    """Series de preco (dia, semana, mes e ano) do Ibovespa, dos indices e dos bancos, para os graficos da pagina.
+    O navegador nao consegue pedir isso direto ao Yahoo, entao o robo grava tudo em graficos.json."""
+    simbolos = [("^BVSP", "Ibovespa")] + [(simb, nome) for _, nome, _, simb in BOLSAS]
+    series = {}
+    for simbolo, nome in simbolos:
+        item = {"nome": nome}
+        for periodo, intervalo in PERIODOS:
+            try:
+                req = urllib.request.Request(
+                    "https://query1.finance.yahoo.com/v8/finance/chart/" + urllib.parse.quote(simbolo) +
+                    f"?range={periodo}&interval={intervalo}", headers={"User-Agent": "Mozilla/5.0"})
+                r = json.loads(urllib.request.urlopen(req, timeout=20).read())["chart"]["result"][0]
+                item[periodo] = [[t, round(c, 2)] for t, c in zip(r["timestamp"], r["indicators"]["quote"][0]["close"])
+                                 if c is not None]
+                if periodo == "1d":
+                    item["anterior"] = r["meta"].get("chartPreviousClose")
+            except Exception as e:
+                print(f"Falhou grafico {nome} {periodo}: {e}", file=sys.stderr)
+        if any(per in item for per, _ in PERIODOS):
+            series[simbolo] = item
+    return series or None
 
 
 def main(destino):
@@ -367,6 +411,11 @@ def main(destino):
         json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "ibovespa": ibovespa(), "novela": nov,
                    "bolsas": bol, "alertas": alertas, "rio": rio, "seguranca": seg, "categorias": categorias},
                   f, ensure_ascii=False, indent=1)
+    gr = graficos()
+    if gr:  # se o Yahoo falhar, o graficos.json anterior continua valendo
+        with open(Path(destino).with_name("graficos.json"), "w", encoding="utf-8") as f:
+            json.dump({"atualizado": datetime.now(timezone.utc).isoformat(), "series": gr}, f, ensure_ascii=False,
+                      separators=(",", ":"))
     print(f"Gravado em {destino}")
     return 0
 

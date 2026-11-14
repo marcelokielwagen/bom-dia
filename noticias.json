@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-14T15:49:16.176979+00:00",
+ "atualizado": "2026-11-14T22:23:31.114473+00:00",
  "ibovespa": {
   "pontos": 172458,
   "variacao": 0.66,
@@ -149,19 +149,12 @@
   ]
  },
  "rio": {
-  "nivel": 3.44,
-  "leitura": "2026-11-14 12:00",
+  "nivel": 3.38,
+  "leitura": "2026-11-14 19:00",
   "estagio": "Observação",
-  "tendencia": "descendo",
-  "variacao3h": -0.06,
+  "tendencia": "estável",
+  "variacao3h": 0.04,
   "historico": [
-   3.62,
-   3.59,
-   3.56,
-   3.53,
-   3.54,
-   3.55,
-   3.57,
    3.58,
    3.61,
    3.62,
@@ -178,7 +171,14 @@
    3.5,
    3.48,
    3.46,
-   3.44
+   3.44,
+   3.38,
+   3.36,
+   3.36,
+   3.34,
+   3.34,
+   3.36,
+   3.38
   ],
   "link": "https://alertablu.blumenau.sc.gov.br/"
  },
@@ -205,18 +205,18 @@
    "data": "2026-11-13T20:30:00+00:00"
   },
   {
-   "titulo": "Microsoft confirma falha na ativação do Windows 11 após atualização de segurança",
-   "resumo": "",
-   "link": "https://www.estadao.com.br/tecmundo/produto-e-review/microsoft-confirma-falha-na-ativacao-do-windows-11-apos-atualizacao-de-seguranca/",
-   "fonte": "TecMundo",
-   "data": "2026-11-13T20:00:00+00:00"
-  },
-  {
    "titulo": "24% dos brasileiros já caíram em golpes durante compras online, aponta Norton",
    "resumo": "Pesquisa da Norton revela que vítimas perderam, em média, R$ 1.060 em golpes de compras online através de anúncios falsos e ofertas tentadoras",
    "link": "https://www.oficinadanet.com.br/noticias/74050-brasileiros-vitimas-golpes-compras-online-norton",
    "fonte": "Oficina da Net",
    "data": "2026-11-10T21:08:00+00:00"
+  },
+  {
+   "titulo": "Polícia Civil de São Paulo sofre suposto ataque hacker que vazou 22 mil credenciais",
+   "resumo": "O suposto ataque hacker contra sistemas da Polícia Civil de SP envolve alegações de roubo de 22 mil credenciais. Veja o que dizem as autoridades.",
+   "link": "https://www.oficinadanet.com.br/seguranca/74032-policia-civil-de-sao-paulo-investiga-ataque-hacker",
+   "fonte": "Oficina da Net",
+   "data": "2026-11-10T12:35:16+00:00"
   }
  ],
  "ataques": {
@@ -1586,60 +1586,60 @@
    "nome": "Mundo",
    "noticias": [
     {
-     "titulo": "Uma nova nação está sendo imaginada com avanço dos evangélicos no Brasil, diz filósofo Paulo Arantes",
-     "resumo": "Em entrevista à BBC News Brasil, professor aponta limites da vitória de Lula e de conquistas recentes da esquerda no Brasil e no mundo.",
-     "link": "https://www.bbc.com/portuguese/articles/cqly4nnregnjo?at_medium=RSS&at_campaign=rss",
+     "titulo": "De onde surgiu a teoria de que haverá um 'apagão mundial' no dia 17 de novembro — e por que ele é improvável",
+     "resumo": "Publicações nas redes associam teste de alertas nos EUA, cena de 'Os Simpsons' e recomendações de emergência a uma suposta interrupção mundial de energia. Não há evidências que sustentem a previsão.",
+     "link": "https://www.bbc.com/portuguese/articles/c57429m97421o?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-14T11:40:45+00:00"
+     "data": "2026-11-14T18:01:00+00:00"
     },
     {
-     "titulo": "Atrasos e cancelamentos de voos devem continuar nos EUA, alerta secretário de Transportes",
-     "resumo": "Após suspensão de decolagens nos EUA, Galeão altera voos para Nova York O secretário de Transportes dos Estados Unidos, Sean Duffy, afirmou neste sábado (14) que as operações aéreas no país estão voltando gradualmente…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/14/caos-aereo-eua-atrasos-cancelamentos-voos.ghtml",
+     "titulo": "Starship, da SpaceX, retorna da órbita e é capturada pelos braços mecânicos da plataforma de lançamento",
+     "resumo": "A Starship, da SpaceX, retornou à Terra neste sábado, capturada no ar por braços mecânicos na mesma plataforma de lançamento de onde havia partido.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/14/starship-da-spacex-retorna-da-orbita-e-e-capturada-pelos-bracos-mecanicos-da-plataforma-de-lancamento.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-14T14:24:52+00:00"
+     "data": "2026-11-14T22:09:07+00:00"
     },
     {
-     "titulo": "AfD lança ex-jogador da Alemanha como candidato à Presidência",
-     "resumo": "Partido de ultradireita apostou em nome \"do centro da sociedade que pode representar todos os alemães\". Cargo provavelmente será ocupado pela primeira vez por uma mulher.",
-     "link": "https://www.dw.com/pt-br/afd-lança-ex-jogador-da-alemanha-como-candidato-à-presidência/a-79948969?maca=bra-rss-br-all-1030-rdf",
+     "titulo": "COP31 ruma a semana decisiva sob pressão por maior ambição climática",
+     "resumo": "Milhares protestaram em Antália, enquanto chefe da ONU para a agenda pediu que países evitem \"atrasos táticos\". Produtores de petróleo estariam bloqueando avanços.",
+     "link": "https://www.dw.com/pt-br/cop31-ruma-a-semana-decisiva-sob-pressão-por-maior-ambição-climática/a-79950292?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-14T15:27:00+00:00"
+     "data": "2026-11-14T22:03:00+00:00"
     },
     {
-     "titulo": "EUA ainda têm 2,5 mil voos cancelados após suspensão por problema de comunicação: o que se sabe após a retomada",
-     "resumo": "Espaço aéreo foi reaberto às 22h15 de sexta-feira no horário de Brasília, mas impactos devem ser sentidos nos próximos dias em 'efeito cascata'.",
-     "link": "https://www.bbc.com/portuguese/articles/c54gnly4kzdpo?at_medium=RSS&at_campaign=rss",
+     "titulo": "A nova onda de drogas sintéticas caseiras que se espalha pelos EUA",
+     "resumo": "A BBC News ouviu usuários, fornecedores, policiais e grupos de reabilitação sobre a luta do país contra uma epidemia de novas drogas mortais: \"Agora, quando você compra, não sabe na verdade o que é.\"",
+     "link": "https://www.bbc.com/portuguese/articles/c65ynevx7g5jo?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-14T13:07:15+00:00"
+     "data": "2026-11-14T20:25:56+00:00"
     },
     {
-     "titulo": "Em retorno à cidade onde foi bispo, papa Leão XIV comanda rito de coroação da Virgem Imaculada no Peru",
-     "resumo": "O papa Leão XIV comandou nesta sexta-feira (14) o rito de coroação da Virgem Imaculada, na Catedral de Santa Maria, no centro de Chiclayo, no norte do Peru.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/14/em-retorno-a-cidade-onde-foi-bispo-papa-leao-xiv-comanda-rito-de-coroacao-da-virgem-imaculada-no-peru.ghtml",
+     "titulo": "Protestos levam mais de 100 mil pessoas às ruas na França; equipe de TV é agredida em Lyon",
+     "resumo": "",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/14/protestos-levam-mais-de-100-mil-pessoas-as-ruas-na-franca-equipe-de-tv-e-agredida-em-lyon.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-14T14:16:59+00:00"
+     "data": "2026-11-14T20:46:52+00:00"
     },
     {
-     "titulo": "Após pane aérea, EUA avisam que normalização dos voos levará tempo",
-     "resumo": "Secretário americano de Transportes alerta para possíveis atrasos e cancelamentos, enquanto aéreas reposicionam o tráfego paulatinamente. Milhares de voos foram cancelados em diversos países, inclusive no Brasil.",
-     "link": "https://www.dw.com/pt-br/após-pane-aérea-eua-avisam-que-normalização-dos-voos-levará-tempo/a-79945256?maca=bra-rss-br-all-1030-rdf",
+     "titulo": "Agropecuária aposta em solo compartilhado com painéis solares",
+     "resumo": "Nova estratégia agrivoltaica pode beneficiar culturas e produção de energia renovável. Mas adoção ainda é lenta e nem sempre funciona.",
+     "link": "https://www.dw.com/pt-br/agropecuária-aposta-em-solo-compartilhado-com-painéis-solares/a-79950021?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-14T15:07:00+00:00"
+     "data": "2026-11-14T20:31:00+00:00"
     },
     {
-     "titulo": "Como canetas emagrecedoras têm 'revolucionado' o tratamento de diabetes",
-     "resumo": "Tratamentos atuais, principalmente quando acionados após diagnóstico precoce, podem ser bem-sucedidos e se aproximar do que os leigos chamam de 'cura'.",
-     "link": "https://www.bbc.com/portuguese/articles/c8g46qzzn3gvo?at_medium=RSS&at_campaign=rss",
+     "titulo": "Como troca de cabos levou ao maior caos aéreo nos EUA desde o 11 de Setembro, segundo o governo Trump",
+     "resumo": "O governo dos Estados Unidos não acredita que a interrupção tenha sido resultado de um ataque cibernético, embora as investigações ainda estejam em andamento.",
+     "link": "https://www.bbc.com/portuguese/articles/ckd71ne91y79o?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-14T14:47:39+00:00"
+     "data": "2026-11-14T18:06:39+00:00"
     },
     {
-     "titulo": "Nas Filipinas, ministro diz estar 'otimista' com negociações e que restrição à carne suína do Brasil 'é medida de 60 dias'",
-     "resumo": "O ministro da Agricultura e Pecuária, André de Paula, afirmou neste sábado (14) que está \"otimista\" com as negociações do governo brasileiro com autoridades das Filipinas em relação à importação pelo país asiático da…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/14/nas-filipinas-ministro-diz-estar-otimista-com-negociacoes-e-que-restricao-a-carne-suina-do-brasil-e-medida-de-60-dias.ghtml",
+     "titulo": "Bandas de rock fazem show improvisado durante paralização de voos nos Estados Unidos",
+     "resumo": "",
+     "link": "https://g1.globo.com/pop-arte/noticia/2026/11/14/bandas-de-rock-fazem-show-improvisado-durante-paralizacao-de-voos-nos-estados-unidos.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-14T13:53:13+00:00"
+     "data": "2026-11-14T20:45:49+00:00"
     }
    ]
   },
@@ -1648,6 +1648,48 @@
    "nome": "Política",
    "noticias": [
     {
+     "titulo": "Fux suspende julgamento sobre escala 5x2 e leva caso para plenário físico do STF",
+     "resumo": "O ministro Luiz Fux fez um destaque no julgamento sobre a transição da escala 6x1 para a 5x2 e levou o processo para o plenário físico do Supremo Tribunal Federal (STF).",
+     "link": "https://g1.globo.com/politica/politico/noticia/2026/11/14/fux-suspende-julgamento-sobre-escala-5x2-e-leva-caso-para-plenario-fisico-do-stf.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-14T19:55:35+00:00"
+    },
+    {
+     "titulo": "Comissão do Senado aprova proibição de obsolescência programada",
+     "resumo": "Projeto veta a redução intencional da vida útil de produtos e regulamenta o direito ao reparo; texto vai à Câmara",
+     "link": "https://www.poder360.com.br/poder-congresso/comissao-do-senado-aprova-proibicao-de-obsolescencia-programada/",
+     "fonte": "Poder360",
+     "data": "2026-11-14T22:15:15+00:00"
+    },
+    {
+     "titulo": "Lula cancela discurso e declaração à imprensa nas Filipinas por causa de rouquidão",
+     "resumo": "Nas Filipinas, Lula vai participar como convidado da Cúpula da Asean (Associação dos Países do Sudeste Asiático) O presidente Luiz Inácio Lula da Silva (PT) cancelou dois compromissos oficiais neste sábado (14) em…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/14/lula-cancela-discurso-e-declaracao-a-imprensa-nas-filipinas-por-causa-de-rouquidao.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-14T17:54:37+00:00"
+    },
+    {
+     "titulo": "Dino defende negociação coletiva na transição para jornada de 5 dias",
+     "resumo": "Relator das ações contra o fim da 6 X 1 cita hospitais e aviação e exige a presença de sindicatos em acordos; julgamento no STF será reiniciado em plenário físico após destaque de Fux",
+     "link": "https://www.poder360.com.br/poder-justica/dino-defende-negociacao-coletiva-na-transicao-para-jornada-de-5-dias/",
+     "fonte": "Poder360",
+     "data": "2026-11-14T22:14:03+00:00"
+    },
+    {
+     "titulo": "Idosos puxam alta do comparecimento no 2º turno e ajudam voto facultativo a atingir maior participação desde 2014",
+     "resumo": "O comparecimento às urnas aumentou do 1º para o 2º turno das eleições de 2026, impulsionado principalmente pelos eleitores que não são obrigados a votar.",
+     "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/11/14/idosos-puxam-alta-do-comparecimento-no-2o-turno-e-ajudam-voto-facultativo-a-atingir-maior-participacao-desde-2014.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-14T15:51:31+00:00"
+    },
+    {
+     "titulo": "Lula cancela discursos nas Filipinas por rouquidão",
+     "resumo": "Presidente suspende declaração à imprensa e fala em fórum empresarial; equipe distribui texto após encontro bilateral",
+     "link": "https://www.poder360.com.br/poder-governo/lula-cancela-discurso-nas-filipinas-por-rouquidao-na-voz/",
+     "fonte": "Poder360",
+     "data": "2026-11-14T21:48:14+00:00"
+    },
+    {
      "titulo": "Ministro diz que é 'muito provável' que Lula e Trump se encontrem durante G20 nos EUA em dezembro",
      "resumo": "O ministro do Desenvolvimento, Indústria e Comércio, Márcio Elias Rosa, afirmou neste sábado (14) que considera \"muito provável\" um encontro entre o presidente Luiz Inácio Lula da Silva (PT) e o presidente dos Estados…",
      "link": "https://g1.globo.com/politica/noticia/2026/11/14/ministro-diz-que-e-muito-provavel-que-lula-e-trump-se-encontrem-durante-g20-nos-eua-em-dezembro.ghtml",
@@ -1655,46 +1697,11 @@
      "data": "2026-11-14T15:24:03+00:00"
     },
     {
-     "titulo": "El Niño está associado a 42.200 mortes de idosos no Brasil, diz estudo",
-     "resumo": "Pesquisa do IEPS e do Instituto Itaúsa aponta maior impacto de doenças circulatórias nas regiões tropicais",
-     "link": "https://www.poder360.com.br/poder-brasil/el-nino-esta-associado-a-42-200-mortes-de-idosos-no-brasil-diz-estudo/",
+     "titulo": "Democratas voltam ao poder no Alasca depois de 28 anos",
+     "resumo": "Jonathan S. Kreiss-Tomkins derrotou 3 candidatos republicanos na disputa pelo governo do Estado",
+     "link": "https://www.poder360.com.br/poder-internacional/democratas-voltam-ao-poder-no-alasca-depois-de-28-anos/",
      "fonte": "Poder360",
-     "data": "2026-11-14T15:25:41+00:00"
-    },
-    {
-     "titulo": "Saiba quais projetos o Congresso deve votar até dezembro de 2026",
-     "resumo": "LDO, CBS, categorias da 6 X 1, marco legal da IA e redução da maioridade penal estão no radar de votação da Câmara e do Senado",
-     "link": "https://www.poder360.com.br/poder-congresso/saiba-quais-projetos-o-congresso-deve-votar-ate-dezembro-de-2026/",
-     "fonte": "Poder360",
-     "data": "2026-11-14T15:00:46+00:00"
-    },
-    {
-     "titulo": "Lula se encontra com presidente das Filipinas e fala em integrar minerais críticos do Brasil com indústria local de semicondutores",
-     "resumo": "O presidente Luiz Inácio Lula da Silva (PT) afirmou neste sábado (14) que o Brasil e as Filipinas têm potencial para integrar cadeias produtivas nas áreas de minerais críticos, semicondutores e microeletrônica.",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/14/lula-se-encontra-com-presidente-das-filipinas-e-fala-em-integrar-minerais-criticos-do-brasil-com-industria-local-de-semicondutores.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-14T12:01:08+00:00"
-    },
-    {
-     "titulo": "El Niño pode causar perdas de US$ 11 trilhões em 5 anos",
-     "resumo": "Estudo divulgado na COP31 mostra que conflitos geopolíticos e variações nos preços de energia ampliam os efeitos climáticos",
-     "link": "https://www.poder360.com.br/poder-sustentavel/el-nino-pode-causar-perdas-de-us-11-trilhoes-em-5-anos/",
-     "fonte": "Poder360",
-     "data": "2026-11-14T14:45:19+00:00"
-    },
-    {
-     "titulo": "Após eleição de Lula, bancada do agro prioriza acesso ao crédito para produtores",
-     "resumo": "Depois de apoiar Flávio Bolsonaro (PL) na disputa à presidência, a Frente Parlamentar da Agropecuária (FPA) recalcula como irá atuar nos próximos quatro anos sob a presidência de Luiz Inácio Lula da Silva (PT).",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/14/apos-eleicao-de-lula-bancada-do-agro-prioriza-acesso-ao-credito-para-produtores.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-14T03:00:00+00:00"
-    },
-    {
-     "titulo": "MP do Paraguai acusa Santiago Peña de associação criminosa",
-     "resumo": "Ex-presidente é indicado como possível líder de organização investigada por colapso do Ueno Bank",
-     "link": "https://www.poder360.com.br/poder-justica/mp-do-paraguai-acusa-santiago-pena-de-associacao-criminosa/",
-     "fonte": "Poder360",
-     "data": "2026-11-14T14:35:32+00:00"
+     "data": "2026-11-14T21:22:14+00:00"
     }
    ]
   },
@@ -1703,11 +1710,11 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Itália anuncia multa de 805 milhões de euros contra Meta por acessar fotos sem consentimento",
+     "titulo": "LoL New Dawn: Riot Games anuncia grande atualização para League of Legends",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/italia-anuncia-multa-de-805-milhoes-de-euros-contra-meta-por-acessar-fotos-sem-consentimento/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/lol-new-dawn-riot-games-anuncia-grande-atualizacao-para-league-of-legends/",
      "fonte": "TecMundo",
-     "data": "2026-11-14T15:36:00+00:00"
+     "data": "2026-11-14T22:01:00+00:00"
     },
     {
      "titulo": "Programa gratuito quer capacitar novos talentos em cibersegurança",
@@ -1717,18 +1724,18 @@
      "data": "2022-05-16T12:00:00+00:00"
     },
     {
-     "titulo": "Microsoft alerta sobre tentativas de golpe após falha no Teams e no Outlook",
-     "resumo": "A Microsoft alertou para uma campanha de golpes por e-mail que aproveita a instabilidade registrada no Microsoft 365 na quinta-feira (12) para tentar roubar dados de usuários.",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/14/golpe-microsoft-alerta-outlook.ghtml",
+     "titulo": "Controle de tráfego aéreo dos EUA ainda opera com disquetes; veja como eles funcionam",
+     "resumo": "O apagão aéreo da última sexta-feira (13) nos Estados Unidos chamou atenção para as ferramentas usadas no país para controlar o tráfego de aviões.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/14/controle-de-trafego-aereo-dos-eua-ainda-opera-com-disquetes-veja-como-eles-funcionam.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-14T13:55:00+00:00"
+     "data": "2026-11-14T17:23:56+00:00"
     },
     {
-     "titulo": "Microsoft afirma que serviços foram totalmente restaurados após interrupção global",
+     "titulo": "Starship retorna à Terra após 22 horas no espaço e é capturada no ar pela SpaceX",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/big-techs/microsoft-afirma-que-servicos-foram-totalmente-restaurados-apos-interrupcao-global/",
+     "link": "https://www.estadao.com.br/tecmundo/starship-retorna-a-terra-apos-22-horas-no-espaco-e-e-capturada-no-ar-pela-spacex/",
      "fonte": "TecMundo",
-     "data": "2026-11-14T15:19:00+00:00"
+     "data": "2026-11-14T22:01:00+00:00"
     },
     {
      "titulo": "Fim das senhas: autenticação passwordless já é realidade",
@@ -1738,18 +1745,18 @@
      "data": "2022-05-09T12:00:00+00:00"
     },
     {
-     "titulo": "Itália multa Meta em R$ 5 bilhões por acessar fotos e vídeos de usuários sem consentimento",
-     "resumo": "A autoridade de proteção de dados da Itália multou a Meta em € 805 milhões (R$ 5 bilhões) neste sábado (14), sob a acusação de que a empresa acessou fotos e vídeos de 20 milhões de usuários do sistema Android sem obter…",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/14/italia-multa-meta.ghtml",
+     "titulo": "Microsoft alerta sobre tentativas de golpe após falha no Teams e no Outlook",
+     "resumo": "A Microsoft alertou para uma campanha de golpes por e-mail que aproveita a instabilidade registrada no Microsoft 365 na quinta-feira (12) para tentar roubar dados de usuários.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/14/golpe-microsoft-alerta-outlook.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-14T12:32:39+00:00"
+     "data": "2026-11-14T13:55:00+00:00"
     },
     {
-     "titulo": "One UI 9.5: confira 6 novidades do sistema encontradas até agora",
+     "titulo": "Falha no PHP mobiliza ação internacional de cibersegurança, mas sem sucesso",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/produto-e-review/one-ui-95-confira-6-novidades-do-sistema-encontradas-ate-agora/",
+     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/falha-no-php-mobiliza-acao-internacional-de-cibercriminosos-mas-sem-sucesso/",
      "fonte": "TecMundo",
-     "data": "2026-11-14T15:00:00+00:00"
+     "data": "2026-10-23T21:30:00+00:00"
     },
     {
      "titulo": "Fraudes em reconhecimento facial? Sim, elas já existem!",
@@ -1759,18 +1766,18 @@
      "data": "2022-05-04T12:00:00+00:00"
     },
     {
-     "titulo": "Microsoft afirma que serviços foram totalmente restabelecidos após falha global",
-     "resumo": "Como a falha da Microsoft afetou serviços e eventos em diversas partes do mundo A Microsoft informou neste sábado (14) que seus serviços foram totalmente restabelecidos após uma falha global que durou várias horas.",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/14/microsoft-afirma-que-servicos-foram-totalmente-restabelecidos-apos-falha-global.ghtml",
+     "titulo": "Itália multa Meta em R$ 5 bilhões por acessar fotos e vídeos de usuários sem consentimento",
+     "resumo": "A autoridade de proteção de dados da Itália multou a Meta em € 805 milhões (R$ 5 bilhões) neste sábado (14), sob a acusação de que a empresa acessou fotos e vídeos de 20 milhões de usuários do sistema Android sem obter…",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/14/italia-multa-meta.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-14T11:13:29+00:00"
+     "data": "2026-11-14T12:32:39+00:00"
     },
     {
-     "titulo": "Xbox quer reconquistar o Brasil após críticas de jogadores sobre o abandono da marca",
+     "titulo": "Big techs: confira lista de vagas de emprego abertas no Brasil",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/xbox-quer-reconquistar-o-brasil-apos-criticas-de-jogadores-sobre-o-abandono-da-marca/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/big-techs-confira-lista-de-vagas-de-emprego-abertas-no-brasil/",
      "fonte": "TecMundo",
-     "data": "2026-11-14T14:45:00+00:00"
+     "data": "2026-11-14T21:00:00+00:00"
     }
    ]
   },
@@ -1786,18 +1793,18 @@
      "data": "2026-11-14T15:00:32+00:00"
     },
     {
-     "titulo": "SpaceX lança 15º voo da Starship com expectativa de realizar primeira viagem de ida e volta",
+     "titulo": "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/spacex-lanca-15o-voo-da-starship-com-expectativa-de-realizar-primeira-viagem-de-ida-e-volta-2127327",
+     "link": "https://br.investing.com/news/stock-market-news/russia--acoes-fecharam-o-pregao-em-queda-e-o-indice-moex-russia-index-terminou-sem-alteracoes-2127380",
      "fonte": "Investing.com",
-     "data": "2026-11-14T15:21:04+00:00"
+     "data": "2026-11-14T21:20:20+00:00"
     },
     {
-     "titulo": "Magazine Luiza (MGLU3) vira foguete, enquanto CSN (CSNA3) despenca; veja o que rolou no Ibovespa na semana",
-     "resumo": "Apesar dos solavancos no cenário doméstico e no exterior, o Ibovespa conseguiu se manter no campo positivo na última semana The post Magazine Luiza (MGLU3) vira foguete, enquanto CSN (CSNA3) despenca; veja o que rolou…",
-     "link": "https://www.seudinheiro.com/2026/economia/magazine-luiza-mglu3-vira-foguete-enquanto-csn-csna3-derrete-veja-o-que-rolou-no-ibovespa-davs/",
+     "titulo": "Banco Central tira instituições do mercado, Banco do Brasil (BBAS3) decepciona no 3T26 e renda fixa volta a brilhar: veja o que bombou na semana",
+     "resumo": "Os investidores acompanharam no Seu Dinheiro a liquidação de instituições pelo Banco Central, a temporada do 3T26, mudanças na Smart Fit e muito mais The post Banco Central tira instituições do mercado, Banco do Brasil…",
+     "link": "https://www.seudinheiro.com/2026/economia/banco-central-tira-instituicoes-do-mercado-banco-do-brasil-bbas3-decepciona-no-3t26-e-renda-fixa-volta-a-brilhar-veja-o-que-bombou-na-semana-davs/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-14T15:43:00+00:00"
+     "data": "2026-11-14T18:16:49+00:00"
     },
     {
      "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
@@ -1814,18 +1821,18 @@
      "data": "2026-11-14T14:50:00+00:00"
     },
     {
-     "titulo": "China e EUA discutem tarifas e comércio agrícola antes de encontro entre Xi e Trump",
+     "titulo": "Milhares de voos nos EUA são cancelados ou atrasados enquanto sistema de transporte aéreo se recupera de paralisação",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/china-e-eua-discutem-tarifas-e-comercio-agricola-antes-de-encontro-entre-xi-e-trump-2127326",
+     "link": "https://br.investing.com/news/stock-market-news/milhares-de-voos-nos-eua-sao-cancelados-ou-atrasados-enquanto-sistema-de-transporte-aereo-se-recupera-da-paralisacao-2127359",
      "fonte": "Investing.com",
-     "data": "2026-11-14T15:14:03+00:00"
+     "data": "2026-11-14T18:56:03+00:00"
     },
     {
-     "titulo": "Era uma vez a educação financeira: como contos clássicos podem ensinar sobre dinheiro às crianças",
-     "resumo": "Da Cigarra e a Formiga à Roupa Nova do Rei, histórias infantis podem render boas conversas sobre educação financeira The post Era uma vez a educação financeira: como contos clássicos podem ensinar sobre dinheiro às…",
-     "link": "https://www.seudinheiro.com/2026/financas-pessoais/era-uma-vez-educacao-financeira-como-contos-classicos-podem-ensinar-sobre-dinheiro-criancas-rsgp/",
+     "titulo": "Magazine Luiza (MGLU3) vira foguete, enquanto CSN (CSNA3) despenca; veja o que rolou no Ibovespa na semana",
+     "resumo": "Apesar dos solavancos no cenário doméstico e no exterior, o Ibovespa conseguiu se manter no campo positivo na última semana The post Magazine Luiza (MGLU3) vira foguete, enquanto CSN (CSNA3) despenca; veja o que rolou…",
+     "link": "https://www.seudinheiro.com/2026/economia/magazine-luiza-mglu3-vira-foguete-enquanto-csn-csna3-derrete-veja-o-que-rolou-no-ibovespa-davs/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-14T14:37:00+00:00"
+     "data": "2026-11-14T15:43:00+00:00"
     },
     {
      "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
@@ -1842,11 +1849,11 @@
      "data": "2026-11-14T14:28:28+00:00"
     },
     {
-     "titulo": "Itália multa Meta Platforms em €805 milhões por acesso a fotos de usuários Android",
+     "titulo": "Brookfield e CPPIB avançam na disputa pela Uniper enquanto Alemanha planeja reduzir participação",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/italia-multa-meta-platforms-em-805-milhoes-por-acesso-a-fotos-de-usuarios-android-2127323",
+     "link": "https://br.investing.com/news/stock-market-news/duffy-investiga-l3harris-por-falha-da-faa-que-paralisou-voos-nos-eua-2127362",
      "fonte": "Investing.com",
-     "data": "2026-11-14T14:59:55+00:00"
+     "data": "2026-11-14T18:18:02+00:00"
     }
    ]
   },
@@ -1855,60 +1862,60 @@
    "nome": "Blumenau",
    "noticias": [
     {
+     "titulo": "Tentativa de feminicídio, agressões, cárcere privado e posse ilegal de munições mobilizam a polícia em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa2xMRTRrSEJFTXpTUk40OW9McERqWDB5WWZELV9FOFNPVVJXYXZHakZCQlAxWU0tM3R4T1dBY3NtbHNFcUR1Q254c0V5LTBXd2ZUdG8xaEl5SDNXOEQtejhxWi02UVRNSFNUWFowTkR1UmozaG03SExQcW5hRnlsVk92dF9yRFJEZUJMRFZIUFhOQXQ3dkV4a2xvRWcwOTVJUU9LR0JMMU9FVE82Qmow?oc=5",
+     "fonte": "Testo Notícias",
+     "data": "2026-11-14T20:18:38+00:00"
+    },
+    {
+     "titulo": "Idosa de 70 anos aponta arma para inquilino que foi buscar roupas e acaba presa em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWmJfV3czYklrOU9waUI2OGM1NXIwR0dlTTdUSHlEcEhrUm1JNElYNjFBcnZGV1ViTHdRdF82LS1xWklGZGxaeE1aVDIwVEpscDRqamY1c20wXzdZNDRQLWotR0hxcU1langxdEFRcGlLXzhHdVhBTWcwV0hmSnJrS0NkRjR0RVE?oc=5",
+     "fonte": "Testo Notícias",
+     "data": "2026-11-14T20:04:27+00:00"
+    },
+    {
+     "titulo": "Caminhada das Lanternas celebra tradição alemã em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWHBCdW82Tmhpa0duR01rcVZPV0NobEExTmZtN19fbmx3bjB6NXk4dGZ4U3VOanFVZDd1NkRaQVlmbmozeGhZdFlZQ1ZrNDg0RGltNGktWWUtUzAtXzJGT2ZGaUQ5WjVZb3NBOEdCTTRpWWE5LTNVcUQxS1ZReDlmS2QzRnVYcmNqcXEtNXgtOEw?oc=5",
+     "fonte": "ND Mais",
+     "data": "2026-11-14T17:50:37+00:00"
+    },
+    {
+     "titulo": "Blumenau participa de evento estadual para captar recursos após decretar situação de emergência.",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY3c3Tkpwd0RiNnRveTg1S3gyemxMcGRfd0xTYWFjZWUxTnUtQnZHd21ZR2VmNWxDVkhaSVpjckJxdVpNSWRWVlhfZ2VmcmVQRGNNWXJuOVVvX1RrMUxBYWI5SGl2Q25YUHRDdU5LRk9sQ0hTZ1B0cU5aS29TQnN2N1Rmb19ncUwwM0h0Z2Z5YkNScUY0Q29iNFpKY0FmZkZfb3ZVc25EWHgySHV1OW9JNHhicVRqUlNTdFdnUF9qRlk?oc=5",
+     "fonte": "Blog do Jaime",
+     "data": "2026-11-14T17:00:00+00:00"
+    },
+    {
+     "titulo": "Show de acrobacias aéreas encanta moradores e visitantes em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUW1HbDEtWHJUdWxUdG16SUtfOTQzMjJYNktnN1Q2bmZ2Q0FPenM3ZE1wR0lLLTFDZXFJRE5fcnF1X05XbUwwM3g5eDJGeXFlSkRwMWprZmt3MW9PQllaSVpyUUp5Q0tLbjRzbUFUaG1jemxadkNjZWt0NmhhQUtCVzJTMUo3QktlZnlBM3RObUpJblR2elRfV1hVRWF5dw?oc=5",
+     "fonte": "ND Mais",
+     "data": "2026-11-14T16:20:44+00:00"
+    },
+    {
+     "titulo": "Prefeitura de Blumenau tira morador das ruas e promove internação involuntária",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd0trejFDTklUVHJ3SFBMekVmbVIxcVVZOHhUNG5WdER5VS1ZSnJzbmw4dS1QMGh2bHc5eHV5SlZDUkY0bVA4OXhrcWdTcHIzdmJTU2N3ZTVrRXRUelk4a2xmeFY4QzZ0UVpxaWlaeUFOQ0NsZjFlczZha295NV9JbU5EMFVadlp0QW9hQ2JMY0hIdG9xQVFjcjlrYmg0Q1ZSYUZWcUwzd1JpUWdVSTJxbTd0by1RamtfM1pCUFZxZkpwa1dCa0MzTXBZSnotXzVFWWfSAdcBQVVfeXFMUERxbW5CNFMwYjNTQU5pZUliVTVrdDRBTnVZTU9QcWZiUXM3U0JhUDZGZUEzMXhjOXhSaDhNdFh3RncxMWp1X3hpTjBiVGVXMmlZOFh4aUptWExCaW5zeTRTUUNtMGdGQWFLbHR6bHdxc24xLU96aVFIY0ttYjlGOWthSnM5QW1va1RKaEJDbld5UkxHb0pyTGp3ZG5CbzdmSUZJSEd0a2trOXlha2RTS296MkJ2enVDOFdVeEdnVko5eWZaT0NRNG1TOGtQVkhmUjEzaml2elE?oc=5",
+     "fonte": "Jornal Metas",
+     "data": "2026-11-14T16:00:00+00:00"
+    },
+    {
+     "titulo": "Ventos de 60 km/h e granizo: Inmet põe Blumenau e mais 1 cidade de SC em alerta amarelo de tempestade",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRTNBYTFsQkVmdmdGQWowOHJ6V0o2czY3Mmt4ZS1zeV9qRURoM2pBRUJ0bl9CREJyRGNlY05GZ2pxamNoX1Vla1NDTEQ0R2NZeURzbGhvcnBmMHJONWJIV0J5Z0xSRUpVTTQxWDMtOHdPYS1ISk51Q0JlUzNDTlBLR1RFUnplZVoxWTVTZE5udThCeTVYT1kxZHc5M09jZURjV0ZLQnpDcTNQdFJlRHFNLUVRa0p0YU1FZlFWU1Y2NTVNZDdsZHVyd1BVV3gzT2w1TzdZVE5MU2o5YTA?oc=5",
+     "fonte": "O Tempo",
+     "data": "2026-11-14T15:34:50+00:00"
+    },
+    {
      "titulo": "Confira a programação de fim de semana do Neumarkt Shopping.",
      "resumo": "",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVEk5bkM2QkFRZGo5NW1HcmdXdjZiQ0NtWHhvX3RVRjJfcDJuYzZ6bFdQaXpzR2NYS1oyNFA1dDZRTHByUi1KX0lqYktRMnQxaWJjdmhlUmVlZTlsYTc3bkZKdUo3R2ZodGRCWWdZZUtvc2JSSWRCSmY4Z003MnFTNXVjNDFBT1kwU3BrRDlPcVNzb28?oc=5",
      "fonte": "Blog do Jaime",
      "data": "2026-11-14T15:15:00+00:00"
-    },
-    {
-     "titulo": "Masterop e Rede Pires de Hotéis fortalecem parceria para realização do WMT, em Blumenau (SC)",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa2lRMUFCU19fVDBjNFU0d3NZRDV1d2xQU3N2Y3FFOEZMZ1BSNGJLeUtDVzlvdUVfVERkb1AydnpyaEFWbjdxSmZjcUctU2I2NDV6UGFNSG9LNjltMTQwbmdSLVJqeTlTbjE4VzV0eDRncXQ2WXNqbzdyZXhHaDlfZ0xpTE5US2FZMERVZHlqenVnZXZTRTU3TzhUV1g3RVdHcmhQOXhpVFF5SkwyUjJySEkyZE5TcUxKZGhmdDROUjlwUF8tTGd0SFZTaDkxZw?oc=5",
-     "fonte": "Turismo em foco",
-     "data": "2026-11-14T14:21:05+00:00"
-    },
-    {
-     "titulo": "Homem é detido com maconha e munições no bairro Badenfurt, em Blumenau.",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTkVjdUJCTHdrWERPbjQ0ckJtS0dla0VzNFBoNE1KOGJmRXIzaTktWHpfUXRhQWtpai16R0xnMjVweVB2ZDdDZGRlZlpEQk5PbjEtUVYzYlhIUTkyWkhoaGxYZHZmMm1yWUUyZHZ3VUk5cUdRLWtDUUhtUktDSTlxU29ReldqempoOEgxV3I3V3lEVEpfMy0zQnVrZjZGZw?oc=5",
-     "fonte": "Blog do Jaime",
-     "data": "2026-11-14T14:15:00+00:00"
-    },
-    {
-     "titulo": "Entrevista | Marcos da Rosa (PL), deputado estadual reeleito",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb0wtZkFUVXc5WFNhbmJHMnNhcGtGSUpOeHMzRGg0OXlaZEx6cThCODlXcWppbXpXWG93OTM4VUlBSmJ0M09TOE1MVnltRzlxUDRlTHdaWlplVTZlT0pCUldyRVBJbmNsUEo5NW5IMVBSeVJqZUdiMHI2ZXQ0YzlMRC1uSzFzYkthZE5DSmN0R0VDZw?oc=5",
-     "fonte": "Informe Blumenau",
-     "data": "2026-11-14T13:10:28+00:00"
-    },
-    {
-     "titulo": "Blumenau recebe inscrições para conferência sobre direitos de crianças e adolescentes",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa0ZQV0tyNmxNaGtGU1V0b0R1NXlDN0luYWMzMWpjcGltTFVNaDMzNDBwcDZRc3ZfNWwtdEJpTDlwZjZtSTNBb2g3QVFfRWxncEUtV1lxMWNybFFsYndxZkdmRzNoSmlLSVlna1hSLThWUV9NN3dPZUVhWU5PZmstbnY0aXl3QlVNQ3dlZmFWN3NXaHFWbUc1MXBZbDgxdEdKbUswMDYxWTJIQjE2YnVYSml0YUNpY0lQZFE3eTJ6YlNZT0xyZkdfaWhoYjNISWd2M044?oc=5",
-     "fonte": "Santa Catarina em Pauta",
-     "data": "2026-11-14T13:05:00+00:00"
-    },
-    {
-     "titulo": "PM prende dois homens por violência doméstica em menos de duas horas em Blumenau",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVU5iOE1rOElvNXNZSU5sREVLN2RKMjdMMFpEWnJpaUdtQ0JGekxkLTBfR3ZfeWNWNzFSbENMQzJpS2ZhUFcwUXVhTkd0cFBkdVdHTUFjLWVHZnI2MmdGLUpjaldWb3RPbllPTnRTUFQxNnh6VTJmVGUzZV9HbzZ3ZG5Ic0FBcTRFWEZZMGtIMENwNlVpT09fYmVudDgyR1RYdmFBdUFvcUVySmpOd3lvWGpudVlHZjc1N1dsZQ?oc=5",
-     "fonte": "AJ Notícias",
-     "data": "2026-11-14T12:31:25+00:00"
-    },
-    {
-     "titulo": "Sábado tem nevoeiro pela manhã e predomínio de sol em Blumenau e região",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdXM3MVk1WGtQeU1rNm81M2RaOTNESUZwQ0tDaVo3VjVQdkQxWnVVTjRSZXdTNFBWYWVaV25kc2pXeVVDOGhLMGZ2VVJmSzZ5ZVQzMTMxeHhlckhwYlJnVUZ2X0prS1hTcFRWdEQtbDBET0U3OWx4Q19nSjh3UmhRYzNxdmgzSHYzbGVkdmhWejN5YUFaVklUMC1CS0ZtZ2tMOFpOMjZDN3R6b3ExQ1hiZg?oc=5",
-     "fonte": "AJ Notícias",
-     "data": "2026-11-14T12:03:12+00:00"
-    },
-    {
-     "titulo": "Operação apreende mais de 600 vapes e prende dois irmãos em SC",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOWVoYWozbnFmeUlqZldPYnJqWGg4cVZOY1VrT1dnMzBqV0d2QVZDRjA1eXBKbVpQLTJSM1VsRk1wWHM2NlNFZG5kUS1uNFZ0Y2pRUTFpODlFZVE3RC1YRmdhcndObzBFbGl2Y1hEYm5yQllQWXpyWWNBMTBMX1BLa1d1eGxhMXRnS0w1TDNCUDlRMzVIU1FfQw?oc=5",
-     "fonte": "sctododia",
-     "data": "2026-11-14T11:59:58+00:00"
     }
    ]
   },
@@ -1924,11 +1931,11 @@
      "data": "2026-11-14T02:51:44+00:00"
     },
     {
-     "titulo": "Secretaria da Pessoa Idosa promove semana de eventos alusivos ao Novembro Azul",
+     "titulo": "Balneário Camboriú antecipa abertura da temporada e espera mais de 2,5 milhões de turistas",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSHFwTHlPbzZ0TkNkcGFlWVNoOXpvZWtFQXZvTnJ5UVdyWU9ZTjBqQ0Iyck5rWW1lVkozYVZvM01LSVJzV3JjTVVDRnhmMFBFTWZidWRvekZEdVl4eHRqWUJyWC00a1B3Q0NDNmREeV9PTnNQeDNKek5GU01iVDl2OE14UFp1OWViRDVBSWRWMG1zcTgxLWNsUW4yMmtXTnNuVFZsN1dpOGVUci1PM3VybXZR?oc=5",
-     "fonte": "Notícia Já",
-     "data": "2026-11-14T15:17:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZnc0TzdadS1hQ3FjT0F2ck9aRWpLZzNTMUh3LS1wa0VHYVM1MFdHR0NJWWFVOFh5NWRmekJtZkpyNm5Rbmo3YVB5MmNGbUptOGxDMlBGdnVGOVVHVV80S3ZVeHcwOFBHM1hfQUtsMDhNYnMyOHBMNGhkUE4zVmdfMHAxX0htbjNPTi1FU3FJcjhhbkRzcmxKMlVxdnVfdXJhRERkV2VteDAyM2lBTWhPNmw5WWtLZVNBWldrYW1n?oc=5",
+     "fonte": "Página 3",
+     "data": "2026-11-14T22:00:00+00:00"
     },
     {
      "titulo": "Gestante e homem são presos após furto em farmácia na Avenida Brasil",
@@ -1938,11 +1945,11 @@
      "data": "2026-11-14T02:36:53+00:00"
     },
     {
-     "titulo": "Etapa do Catarinense de Triathlon será domingo em Balneário Camboriú",
+     "titulo": "Guarda Municipal recupera carro furtado em Balneário Camboriú",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVM5Qk1oaFZVck9oeWNmZHVVVzFHYlEyTVJUWXJKUkxOcDVRZnBoaGUzVzVkREdFQTFYZWdiUXhzM2dRcW82SFByUEc5eVBiSUxpcWdlVWpFN0R3eDZQYkNuWXlhUnpVRmJZWjVRaDdDSTV1R1hDdlRJM1hfLUZOc3dVX3ZhYmY3MF9jMDR1dUdHVnM5YmozU1hZclFMTGF3Znc?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-14T14:48:10+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQlBJWXdvVkhzMkZnUDRxVTA4Zzd6RmdSUnFmX21mZEVrdXpfRHVOYlVrUGxzQkRrTm5yN3N1M0lnaEVaTWdraU0wUjd2anByUk1LSld5WW84WHFMdkZuMlhwVW94dUdrSVNHOVExMWZJQmo1dEh5dkMxUEF6Sm0xQVAwWEVKWmRLa3c?oc=5",
+     "fonte": "SC Hoje",
+     "data": "2026-11-14T21:49:42+00:00"
     },
     {
      "titulo": "Motorista tenta furar bloqueio de desfile de Natal, recusa bafômetro e tem caminhonete removida em BC",
@@ -1952,11 +1959,11 @@
      "data": "2026-11-14T02:35:22+00:00"
     },
     {
-     "titulo": "Teatro Bruno Nitz recebe concerto gratuito de piano e cordas neste domingo em BC",
+     "titulo": "Patrícia Poeta visita Balneário Camboriú",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT2tscXYzY1g1Tm1yUnpULThwc2dGVk1QMEU4NWNkMWJ0RTlzTjZtNjEwV1ltNzBLTldiVjBXNmdxWm9yVEFUbF9fazRjYlZPVWZTRWMyTWM3ek03eDM1c00tOTk1TC1mMVdDWFR4bkxpdmp3QTJ0Z3ZzQll3NmFPN2o5YVBaQ0ZLY3p6aEtyZ2dldURqbmFkSnpCbGE3LTBZQUhPMlBXS2RpNEh6MTNkQzd1Um5ZcThY?oc=5",
-     "fonte": "TopElegance",
-     "data": "2026-11-14T14:28:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQUG0zZzRhaDZXNXVfUGE3Yl9DaGJKaXNLSDJqUFE4UXNDZ2pyN0lGZnQzaFMxZi00TlFGQnFYbzF6QnhZM1RVc1dzcWlvUzJmQ2htWWRyZElmcm9TYWZOUEZBVUM4bDAzSjhGTFp3?oc=5",
+     "fonte": "SC Hoje",
+     "data": "2026-11-14T21:49:36+00:00"
     },
     {
      "titulo": "Homem resgatado no Pico da Pedra diz que não estava perdido e que fazia jejum planejado de 40 dias",
@@ -1966,25 +1973,25 @@
      "data": "2026-11-14T02:20:48+00:00"
     },
     {
-     "titulo": "Natal em Balneário Camboriú terá primeiro desfile neste sábado na Avenida Atlântica; veja horários e paradas",
+     "titulo": "PM cumpre três mandados de prisão em menos de 24 horas em Balneário Camboriú",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQckl3X1JrVHcyUVpKcU15Y093NHdIT1FzNUV1Q3huRFc1a2ltUEpvRExJVDJQRWM3bDVnM2d3Nmo0TkpnbU1wMVVJbHhXNFZKMXdxckRnWml4Wm9tclRPdDNYdk9ZTDhqMUR4YVlHRERNRnZMeWpST1lQbDktbFZLWlZZMFh4c3FoWUg2SDJrbGtwNklDVE5mOWwxUW9kSElYZFRiOUVHMUtXSGZoLW8yR0tZZFRNSnhleGdGS2xkSG9EbmZJeXB6Q2JnWk1rYVlLSmtOeA?oc=5",
-     "fonte": "BC Notícias",
-     "data": "2026-11-14T14:13:13+00:00"
-    },
-    {
-     "titulo": "Festival reúne 14 bandas e fanfarras escolares neste domingo em Balneário Camboriú",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRWlhWUxzSkx3YVpoN0JQeThEbUlKcG9YTVp4LWxGcVZoa1JjMlZCaU1URFRoZ09aQUY3SnI2SjJ1N2MtZFMxN3pEYktiTjVlZ242Ym1pQ0JSWkQwT2NsajZNNlhzZmJzdUdtM2ZidEdvOTR6Rm04TUdJWnhteFZGeEd4SG5rQXVYLXhQUnExb2lGVUJQU0xIUjJxZWl5OEdEcGxjTGRrUFBYQ0Z3NDNERkJJdXo?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-14T14:00:00+00:00"
-    },
-    {
-     "titulo": "BC oferece aulas gratuitas de natação no mar da Praia Central; projeto já teve 400 na fila",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQlJEQ1hJWXFNZllUNGE1OGtLOU0zQUV3QXQwMDFkXzZ0aDI2dzhZcExJZzFvSnlwcG9ocGZaSVVfWDIyX1R5Ymk5SFdMdVhMWTRnQS10ckVPZXRCcVRCRjNiWGtJcnU3UHV5WVVfUTVIM2g1ckszanViZzlyNnl4cEZUbkVpc0VHRTQxTmpLZ0p0VHktRGh6X0VpQWNVU0ZFaTdoT2xRMTZuR2N2MEJHVG1vQnpqRmtPMTVYYUdxQllrYUV2?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZlV0QzdScENIenE2U1FrX1Q5TnN6YmpSWHBfV3o3b0wzYnlNSy1vTjJ4YjhITXlWeGwxeVZ2T0tHMVdQX2xVci1LUUpzU0FRc0pNTGlIcWNkTDE3SWt3bUM3NzdBRm9zdnFfdnd5RlRoUXZDWllzTnl3TnU3RXRPZWdWVlFLRTFpT1hWMnF6T1BsUlIwb2FOZmRFZUNuWWtoRXdRNzJ0dVRZWHBsSWpzMmFRbWR1XzFO?oc=5",
      "fonte": "TopElegance",
-     "data": "2026-11-14T13:57:00+00:00"
+     "data": "2026-11-14T21:05:00+00:00"
+    },
+    {
+     "titulo": "Natação em águas abertas tem boa procura em Balneário Camboriú e lança campanha por segurança no mar",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONlpCTDUtejdZTkJQMXl5V2pwT1U5cnFHSVhlOWxWcWVmeU83aV9XNm02TlYyWGo0blhGSzc4VUNjckY3R05KTElnZHZzM0lpbzlfUzBrQlk5N0FFRjZnRDNSTmR0RXhvSlFYa2R6Z1Y4VWh6Vng2YW1icUo2cklKbkdzX2RrODY3b2ZaWENQeTUyRl9kWWlxVzRTQnJKTlhOWjU2ZGVuZENmWXgtd01rcDNSdmtEczl6N0hMd3dmUGYtaG8wa0JoY1h0VHE?oc=5",
+     "fonte": "Página 3",
+     "data": "2026-11-14T20:00:00+00:00"
+    },
+    {
+     "titulo": "Papai Noel chega ao Bairro da Barra neste domingo em programação do Viva o Natal BC",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMF9MZjlob0ZRV3ZHTnNmekF2MVpMbWtQaVJPdl9WaVFNbDdCZkNIRTM2NkFRV1ZmdFJuejRqT3BnVWZMN3RrWE8ydzdCUXk5SU9UUHFDRlNBdlEweEN3Q1dGckdnUVU4ZTgxQVhtR2Z1ZFBpZFZxX3BHeGFtLVF1dHpRU21PaWNvanNyLXVhRUtoMTZOOHR5NlNPWldDWW1aeTZ6X1prNDAtWFhsN3JoLWN3?oc=5",
+     "fonte": "Portal Menina",
+     "data": "2026-11-14T19:52:37+00:00"
     }
    ]
   }

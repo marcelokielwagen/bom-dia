@@ -153,7 +153,8 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .alerta h3{margin:2px 0;font:600 1.15rem/1.25 var(--serif)}
 .alerta p{margin:0;font-size:.88rem;color:var(--soft)}
 .alerta a{color:var(--accent);font-weight:700;font-size:.82rem}
-.vidro.rio{margin-bottom:10px;padding:12px 16px}
+.caixa{background:var(--chip);border-radius:14px;padding:10px 14px}
+.extras{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:8px;margin-top:10px}
 .rio .linha-rio{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px}
 .rio .nivel{font:600 1.35rem/1 var(--serif)}
 .rio .estagio{font-weight:800;font-size:.72rem;padding:2px 10px;border-radius:999px}
@@ -170,6 +171,7 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .rio .fonte a{color:inherit}
 /* Faturas dos cartoes */
 .vidro.faturas{padding:10px 16px;margin-bottom:12px;display:grid;gap:6px}
+#faturas{display:grid;gap:6px}
 .faturas .fat{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;font-size:.74rem}
 .faturas .fat b{font-weight:800}
 .faturas .fat span{color:var(--soft);font-weight:600}
@@ -229,33 +231,21 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .mov.novo{font-size:.62rem;color:var(--warm)}
 .ataques .abas{margin:8px 0 6px}
 .abas button[data-per="w"]{margin-left:8px}
-/* Musica do dia */
-.musica{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px}
-.musica .disco{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:1.8rem;
-  background:conic-gradient(from 20deg,var(--accent),var(--warm),var(--accent));box-shadow:0 6px 18px -8px rgba(0,0,0,.5)}
-.musica h3{margin:4px 0 0;font:600 clamp(1.15rem,3vw,1.45rem)/1.2 var(--serif)}
-.musica .artista{margin:0 0 4px;font-weight:700;font-size:.9rem}
-.musica p{margin:0;font-size:.9rem;color:var(--soft)}
-.spotify{background:#1db954;color:#06210f;font:800 .9rem var(--sans);padding:11px 18px;border-radius:999px;text-decoration:none;white-space:nowrap}
-.spotify:hover{filter:brightness(1.08)}
-.acoes-m{display:flex;flex-direction:column;gap:8px}
-.acoes-m>*{text-align:center}
-.outra{border:1px solid var(--card-line);background:var(--chip);color:var(--ink);font:700 .85rem var(--sans);padding:9px 16px;border-radius:999px;cursor:pointer;white-space:nowrap}
-@media (max-width:760px){.musica{grid-template-columns:auto minmax(0,1fr)}.acoes-m{grid-column:1/-1;flex-direction:row}.acoes-m>*{flex:1}}
 /* Novela */
-.vidro.novela{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px;padding:11px 18px;margin-bottom:12px}
-.novela b{font:600 1.05rem var(--serif)}
-.novela .sub{font-size:.82rem;color:var(--soft)}
+#novela{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;font-size:.74rem;padding-top:6px;border-top:1px solid var(--grid)}
+#novela[hidden]{display:none}
+#novela b{font-weight:800}
+#novela .sub{color:var(--soft);font-weight:600}
 #bolsas{margin-bottom:14px}
 /* Feriados (compacto) */
-.vidro.feriados-card{padding:8px 14px 10px}
+.feriados-card .feriados{margin-top:4px}
 .feriados{list-style:none;margin:0;padding:0;display:grid}
-.feriados li{display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:10px;align-items:center;padding:6px 0;border-top:1px solid var(--grid)}
+.feriados li{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:8px;align-items:center;padding:4px 0;border-top:1px solid var(--grid)}
 .feriados li:first-child{border-top:0}
-.feriados .data-f{text-align:center;background:var(--chip);border-radius:9px;padding:2px 0;line-height:1.05}
+.feriados .data-f{text-align:center;background:var(--card);border-radius:9px;padding:2px 0;line-height:1.05}
 .feriados .data-f b{display:block;font:600 1rem var(--serif)}
 .feriados .data-f span{font-size:.58rem;font-weight:700;text-transform:uppercase;color:var(--soft)}
-.feriados .nome-f{font-weight:700;font-size:.85rem;line-height:1.25}
+.feriados .nome-f{font-weight:700;font-size:.8rem;line-height:1.25}
 .feriados .sem-f{font-size:.72rem;color:var(--soft);text-transform:capitalize}
 .feriados .falta{font-size:.7rem;font-weight:700;text-align:right;white-space:nowrap}
 .feriados .selo{display:inline-block;margin-left:4px;padding:0 6px;border-radius:999px;font-size:.62rem;font-weight:800;text-transform:none;background:color-mix(in srgb,var(--warm) 25%,transparent);color:var(--ink)}
@@ -275,14 +265,15 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .bolsas .valor{font:600 1.15rem var(--serif);margin-top:2px;white-space:nowrap}
 .bolsas .var{font-size:.78rem;font-weight:800}
 .bolsas .sobe{color:var(--sobe)} .bolsas .cai{color:var(--cai)}
-.fds{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:12px;
-  background:linear-gradient(120deg,color-mix(in srgb,var(--warm) 22%,var(--card)),var(--card) 60%);border-left:5px solid var(--warm)}
-.fds h3{margin:4px 0 6px;font:600 clamp(1.25rem,3.2vw,1.6rem)/1.2 var(--serif)}
-.fds p{margin:0;font-size:.95rem;color:var(--soft)}
+.fds{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;margin-top:10px;padding:10px 14px;border-radius:14px;
+  background:linear-gradient(120deg,color-mix(in srgb,var(--warm) 22%,var(--chip)),var(--chip) 70%);border-left:4px solid var(--warm)}
+.fds[hidden]{display:none}
+.fds h3{margin:2px 0 3px;font:600 clamp(1.02rem,2.6vw,1.2rem)/1.2 var(--serif)}
+.fds p{margin:0;font-size:.82rem;color:var(--soft)}
 .fds .mini{display:flex;gap:8px}
-.fds .mini div{background:var(--chip);border-radius:14px;padding:8px 14px;text-align:center;min-width:86px}
+.fds .mini div{background:var(--card);border-radius:12px;padding:5px 10px;text-align:center;min-width:76px}
 .fds .mini b{display:block;font-size:.78rem;text-transform:capitalize}
-.fds .mini .e{font-size:1.6rem;line-height:1.3}
+.fds .mini .e{font-size:1.3rem;line-height:1.2}
 .fds .mini .t{font:600 1rem var(--serif)}
 .fds .mini .c{font-size:.72rem;font-weight:700;color:var(--rain)}
 .dia{border:1px solid var(--card-line);background:var(--card);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--ink);
@@ -374,12 +365,6 @@ footer a{color:inherit}
     </section>
   </div>
 
-  <section class="vidro musica" id="musica"></section>
-
-  <section class="vidro fds" id="fds" hidden></section>
-
-  <div id="alertas"></div>
-
   <section class="vidro">
     <div class="cidades" role="group" aria-label="Escolha a cidade">
       <button data-cidade="blumenau" aria-pressed="true">Blumenau</button>
@@ -396,16 +381,20 @@ footer a{color:inherit}
     <div class="etiqueta sub-prev">Próximos 15 dias</div>
     <div class="calendario" id="semana"></div>
     <div class="dica">Toque numa hora ou num dia para ver os detalhes aqui em cima.</div>
+    <div class="fds" id="fds" hidden></div>
+    <div class="extras">
+      <div class="caixa rio" id="rio" hidden></div>
+      <div class="caixa feriados-card">
+        <div class="etiqueta">📅 Próximos feriados</div>
+        <ul class="feriados" id="feriados"></ul>
+        <div class="atualizado">⭐ = ponto facultativo</div>
+      </div>
+    </div>
   </section>
 
-  <section class="vidro rio" id="rio" hidden></section>
-
-  <section class="vidro faturas" id="faturas"></section>
-
-  <h2 class="titulo">Próximos feriados</h2>
-  <section class="vidro feriados-card">
-    <ul class="feriados" id="feriados"></ul>
-    <div class="atualizado">⭐ = ponto facultativo</div>
+  <section class="vidro faturas">
+    <div id="faturas"></div>
+    <div id="novela" hidden></div>
   </section>
 
   <h2 class="titulo">Mercado</h2>
@@ -417,8 +406,6 @@ footer a{color:inherit}
   </div>
   <div class="dica" id="mercado-hora"></div>
   <div id="bolsas"></div>
-
-  <section class="vidro novela" id="novela" hidden></section>
 
   <section class="vidro ataques" id="ataques" hidden></section>
 
@@ -559,25 +546,6 @@ $("frase").textContent = escolher(window.FRASES_MOTIVACIONAIS || ["Bom dia!"], 7
 $("cancer").textContent = escolher(window.FRASES_CANCER || ["Dia de cuidar de quem você ama."], 11);
 if (window.CORES_CANCER) { const [nomeCor, cor] = escolher(window.CORES_CANCER, 3);
   $("cor-dia").innerHTML = `<i style="background:${cor}"></i><span>Cor do dia: <b>${nomeCor}</b></span>`; }
-
-// ---------- Musica do dia: uma por dia, na ordem da lista (a de 13/11/2026 e a primeira) ----------
-(function () {
-  const lista = window.MUSICAS || [];
-  if (!lista.length) { $("musica").hidden = true; return; }
-  const ancora = Math.floor(Date.UTC(2026, 10, 13) / 86400000);
-  const hojeIdx = (((numDia - ancora) % lista.length) + lista.length) % lista.length;
-  let idx = hojeIdx;
-  const mostrar = () => {
-    const [titulo, artista, tema] = lista[idx];
-    const link = "https://open.spotify.com/search/" + encodeURIComponent(titulo + " " + artista);
-    $("musica").innerHTML = `<div class="disco" aria-hidden="true">🎵</div>
-      <div><div class="etiqueta">${idx === hojeIdx ? "Música do dia" : "Outra sugestão"} · ${esc(tema)}</div><h3>${esc(titulo)}</h3><p class="artista">${esc(artista)}</p></div>
-      <div class="acoes-m"><a class="spotify" href="${link}" target="_blank" rel="noopener">▶ Ouvir no Spotify</a>
-        <button type="button" class="outra" id="outra-musica">🔀 Outra música</button></div>`;
-    $("outra-musica").addEventListener("click", () => { idx = (idx + 1) % lista.length; mostrar(); });
-  };
-  mostrar();
-})();
 
 // ---------- Previsao ----------
 let horaSel = null, mar = null, dados = null, diaSel = HOJE, cidade = "blumenau";
@@ -838,7 +806,7 @@ function desenharFeriados() {
   }).join("");
 }
 
-// Leva a tela ate o quadro de hora em hora (painel, grafico e horas), nao para o aviso de tempestade
+// Leva a tela ate o quadro de hora em hora (painel, grafico e horas)
 function irParaHoras() {
   const topo = document.querySelector(".hero").getBoundingClientRect().top + window.scrollY - 14;
   const fundo = $("horas").getBoundingClientRect().bottom + window.scrollY + 10;
@@ -869,7 +837,7 @@ document.querySelectorAll(".cidades button").forEach(b => b.addEventListener("cl
   try { localStorage.setItem("cidade", cidade); } catch(e) {}
   carregar();
   if (window.reajustarNoticias) window.reajustarNoticias();
-  desenharAlertas(); desenharRio();
+  desenharRio();
 }));
 carregar();
 
@@ -917,28 +885,16 @@ function desenharNovela(n) {
   else { $("novela").hidden = true; return; }
   if (dia.inicio !== comum) sub = [sub, "horário diferente do normal"].filter(Boolean).join(" · ");
   const quando = dia.data === HOJE ? "Hoje" : "Próximo capítulo: " + nomeDia(dia.data, {weekday: "long"}).replace("-feira", "");
-  $("novela").innerHTML = `<span class="etiqueta">📺 ${esc(n.nome)}</span><b>${quando} às ${hm(dia.inicio)}</b>${sub ? `<span class="sub">${sub}</span>` : ""}`;
+  $("novela").innerHTML = `<span>📺 ${esc(n.nome)}</span><b>${quando} às ${hm(dia.inicio)}</b>${sub ? `<span class="sub">${sub}</span>` : ""}`;
   $("novela").hidden = false;
 }
 
-// ---------- Alertas do INMET, rio de Blumenau e seguranca (vem do robo, a cada 3 horas) ----------
+// ---------- Rio de Blumenau e seguranca (vem do robo, a cada 3 horas) ----------
 let dadosRobo = null;
 const fmtQuando = s => { // "2026-11-14 23:59" -> "sáb 14/11 23h59"
   const [d, h] = s.split(" ");
   return nomeDia(d, {weekday: "short"}).replace(".", "") + " " + d.slice(8) + "/" + d.slice(5, 7) + " " + h.slice(0, 2) + "h" + (h.slice(3) === "00" ? "" : h.slice(3));
 };
-function desenharAlertas() {
-  const lista = dadosRobo && dadosRobo.alertas ? (dadosRobo.alertas[cidade] || []) : [];
-  $("alertas").innerHTML = lista.map(a => {
-    const r = (a.riscos && a.riscos[0]) || "";
-    const curto = r.length > 170 ? r.slice(0, r.lastIndexOf(" ", 170)) + "…" : r;
-    return `<section class="vidro alerta" style="--cor-alerta:${esc(a.cor || "#e8b400")}">
-      <div class="etiqueta">⚠️ Aviso oficial do INMET</div>
-      <h3>${esc(a.tipo)} · ${esc(a.severidade)}</h3>
-      <p>De ${fmtQuando(a.inicio)} até ${fmtQuando(a.fim)}</p>${curto ? `<p>${esc(curto)}</p>` : ""}
-      <a href="https://alertas2.inmet.gov.br/" target="_blank" rel="noopener">Ver o aviso completo ↗</a></section>`;
-  }).join("");
-}
 function desenharRio() {
   const r = dadosRobo && dadosRobo.rio;
   if (cidade !== "blumenau" || !r) { $("rio").hidden = true; return; }
@@ -957,11 +913,13 @@ function desenharRio() {
       <a href="${esc(r.link)}" target="_blank" rel="noopener">ver ao vivo no AlertaBlu ↗</a></div>`;
   $("rio").hidden = false;
 }
+// " · 14/11 08:30" (horario de Brasilia) para as noticias
+const hmData = iso => iso && !isNaN(Date.parse(iso)) ? " · " + new Date(iso).toLocaleString("pt-BR", {timeZone: TZ, day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"}).replace(",", "") : "";
 function desenharSeguranca(lista) {
   const itens = (lista || []).filter(v => v && v.titulo && v.link);
   if (!itens.length) { $("seguranca").hidden = true; return; }
-  const dm = iso => iso ? " · " + new Date(iso).toLocaleDateString("pt-BR", {timeZone: TZ, day: "2-digit", month: "2-digit"}) : "";
-  $("seguranca").innerHTML = `<div class="etiqueta">🛡️ Segurança digital · notícias em português</div><ul>${itens.slice(0, 4).map(v => `<li>
+  const dm = hmData;
+  $("seguranca").innerHTML = `<div class="etiqueta">🛡️ Segurança digital · notícias em português</div><ul>${[...itens].sort((a, b) => (b.data || "").localeCompare(a.data || "")).slice(0, 4).map(v => `<li>
     <a href="${esc(v.link)}" target="_blank" rel="noopener">${esc(v.titulo)}</a><span class="fonte-s">${esc(v.fonte)}${dm(v.data)}</span></li>`).join("")}</ul>`;
   $("seguranca").hidden = false;
 }
@@ -1010,7 +968,7 @@ $("ataques").addEventListener("click", e => {
 });
 
 // Faturas dos cartoes: fecha 10 dias antes do vencimento (o proximo fechamento e o proximo vencimento)
-const CARTOES = [{nome: "Cartão Amazon", vence: 1}, {nome: "Cartão Ailos", vence: 3}];
+const CARTOES = [{nome: "Amazon", vence: 1}, {nome: "Ailos", vence: 3}];
 const DIAS_FECHAMENTO = 10;
 function desenharFaturas() {
   const hoje = new Date(HOJE + "T12:00:00");
@@ -1022,7 +980,7 @@ function desenharFaturas() {
     const venc = [0, 1, 2, 3].map(m => new Date(hoje.getFullYear(), hoje.getMonth() + m, c.vence, 12)).filter(d => d >= hoje);
     const proxVenc = venc[0], fech = venc.map(d => soma(d, -DIAS_FECHAMENTO)).find(d => d >= hoje);
     const nf = dias(fech), nv = dias(proxVenc);
-    return `<div class="fat"><b>${c.nome}</b><span class="${nf <= 3 ? "perto" : ""}">fecha ${fmt(fech)} (${quando(nf)})</span><span class="${nv <= 3 ? "perto" : ""}">vence ${fmt(proxVenc)} (${quando(nv)})</span></div>`;
+    return `<div class="fat">💳 <b>${c.nome}</b><span class="${nf <= 3 ? "perto" : ""}">fecha ${fmt(fech)} (${quando(nf)})</span><span class="${nv <= 3 ? "perto" : ""}">vence ${fmt(proxVenc)} (${quando(nv)})</span></div>`;
   }).join("");
 }
 desenharFaturas();
@@ -1137,7 +1095,7 @@ fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).
   else $("m-ibov").textContent = "—";
   if (j.novela) desenharNovela(j.novela);
   if (j.bolsas) desenharBolsas(j.bolsas);
-  dadosRobo = j; desenharAlertas(); desenharRio(); desenharSeguranca(j.seguranca); desenharAtaques();
+  dadosRobo = j; desenharRio(); desenharSeguranca(j.seguranca); desenharAtaques();
   const todas = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
   let cats = [], atual = "mundo";
   try { atual = localStorage.getItem("categoria") || atual; } catch(e) {}
@@ -1150,7 +1108,8 @@ fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).
   const mostrar = () => {
     $("abas").innerHTML = cats.map(c => `<button role="tab" data-cat="${c.id}" aria-selected="${c.id === atual}">${ICONE_CAT[c.id] || ""} ${esc(ROTULO_CAT[c.id] || c.nome)}</button>`).join("");
     const cat = cats.find(c => c.id === atual);
-    $("noticias").innerHTML = cat.noticias.map(n => `<li><div class="fonte">${esc(n.fonte)}</div>
+    const nots = [...cat.noticias].sort((a, b) => (b.data || "").localeCompare(a.data || ""));
+    $("noticias").innerHTML = nots.map(n => `<li><div class="fonte">${esc(n.fonte)}${hmData(n.data)}</div>
       <a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.titulo)}</a>${n.resumo ? `<p>${esc(n.resumo)}</p>` : ""}</li>`).join("");
     $("noticias").scrollLeft = 0; ajustarSetas();
   };

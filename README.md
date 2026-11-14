@@ -11,7 +11,6 @@ Página do dia para **Blumenau** e **Balneário Camboriú**:
 | Fechamento e vencimento das faturas dos cartões | Calculado na página (lista `CARTOES` em `index.html`) |
 | Cotações (dólar, euro, bitcoin) ao vivo; Ibovespa pelo robô | AwesomeAPI e Yahoo Finance |
 | Horário da novela Quem Ama Cuida | Grade da Globo (NSC TV), pelo robô |
-| Música do dia (50 na lista, uma por dia) com botão do Spotify | `frases.js` |
 | Frase motivacional, frase e cor do dia de Câncer | `frases.js` — troca sozinha a cada dia |
 | Notícias em 4 abas: Mundo, Política, TI e Segurança, Ações e Mercado | Vários sites (lista em `scripts/noticias.py`); o GitHub roda `scripts/noticias.py` a cada 3 horas e grava `noticias.json` |
 

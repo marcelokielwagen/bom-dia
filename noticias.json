@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-19T02:34:13.780451+00:00",
+ "atualizado": "2026-11-19T11:37:52.133448+00:00",
  "ibovespa": {
   "pontos": 167538,
   "variacao": -1.34,
@@ -9,11 +9,6 @@
   "nome": "Quem Ama Cuida",
   "canal": "TV Globo",
   "exibicoes": [
-   {
-    "data": "2026-11-16",
-    "inicio": "21:30",
-    "duracao": 70
-   },
    {
     "data": "2026-11-17",
     "inicio": "21:30",
@@ -53,6 +48,11 @@
     "data": "2026-11-25",
     "inicio": "21:30",
     "duracao": 70
+   },
+   {
+    "data": "2026-11-26",
+    "inicio": "21:30",
+    "duracao": 70
    }
   ]
  },
@@ -86,16 +86,16 @@
    "nome": "Nikkei 225",
    "grupo": "indices",
    "simbolo": "^N225",
-   "preco": 59100.84,
-   "variacao": 0.13
+   "preco": 59444.21,
+   "variacao": 0.71
   },
   {
    "id": "dax",
    "nome": "DAX (Alemanha)",
    "grupo": "indices",
    "simbolo": "^GDAXI",
-   "preco": 25736.24,
-   "variacao": -1.19
+   "preco": 25799.83,
+   "variacao": 0.25
   },
   {
    "id": "itub",
@@ -128,7 +128,7 @@
     "tipo": "Tempestade",
     "severidade": "Perigo Potencial",
     "cor": "#FFFE00",
-    "inicio": "2026-11-18 09:00",
+    "inicio": "2026-11-19 00:00",
     "fim": "2026-11-20 23:59",
     "riscos": [
      "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos."
@@ -140,7 +140,7 @@
     "tipo": "Tempestade",
     "severidade": "Perigo Potencial",
     "cor": "#FFFE00",
-    "inicio": "2026-11-18 09:00",
+    "inicio": "2026-11-19 00:00",
     "fim": "2026-11-20 23:59",
     "riscos": [
      "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos."
@@ -149,21 +149,12 @@
   ]
  },
  "rio": {
-  "nivel": 2.5,
-  "leitura": "2026-11-18 23:00",
+  "nivel": 2.24,
+  "leitura": "2026-11-19 08:00",
   "estagio": "Normalidade",
-  "tendencia": "subindo",
-  "variacao3h": 0.11,
+  "tendencia": "descendo",
+  "variacao3h": -0.07,
   "historico": [
-   3.27,
-   3.24,
-   3.2,
-   3.17,
-   3.12,
-   3.07,
-   3.03,
-   2.99,
-   2.96,
    2.93,
    2.91,
    2.89,
@@ -178,7 +169,16 @@
    2.39,
    2.42,
    2.47,
-   2.5
+   2.5,
+   2.47,
+   2.46,
+   2.43,
+   2.4,
+   2.36,
+   2.31,
+   2.27,
+   2.25,
+   2.24
   ],
   "link": "https://alertablu.blumenau.sc.gov.br/"
  },
@@ -221,30 +221,30 @@
  ],
  "ataques": {
   "fonte": "Kaspersky Cyberthreat Map",
-  "data": "2026-11-18",
+  "data": "2026-11-19",
   "tipos": {
    "oas": {
     "w": {
      "top": [
       [
        "TM",
-       9.23
+       9.13
       ],
       [
        "MN",
-       7.37
+       7.13
       ],
       [
        "BI",
-       6.66
+       6.54
       ],
       [
        "MM",
-       6.45
+       6.37
       ],
       [
        "CM",
-       5.86
+       5.81
       ],
       [
        "CG",
@@ -252,88 +252,88 @@
       ],
       [
        "TD",
-       5.36
-      ],
-      [
-       "BJ",
-       5.21
+       5.33
       ],
       [
        "AF",
-       5.18
+       5.19
+      ],
+      [
+       "BJ",
+       5.14
       ],
       [
        "CN",
-       5.07
+       5.12
       ],
       [
        "UZ",
-       5.06
-      ],
-      [
-       "ML",
        4.99
       ],
       [
+       "ML",
+       4.93
+      ],
+      [
        "KZ",
-       4.96
+       4.89
       ],
       [
        "DZ",
-       4.66
+       4.62
       ],
       [
        "UG",
-       4.59
+       4.55
       ]
      ],
      "br": {
-      "pos": 94,
+      "pos": 96,
       "de": 160,
-      "pct": 1.79
+      "pct": 1.75
      }
     },
     "m": {
      "top": [
       [
        "TM",
-       20.75
+       20.91
       ],
       [
        "BI",
-       14.07
+       14.26
       ],
       [
        "CN",
-       13.54
+       13.63
       ],
       [
        "TD",
-       12.15
+       12.23
       ],
       [
        "AF",
-       11.88
+       11.96
       ],
       [
        "MN",
-       11.45
+       11.52
       ],
       [
        "CM",
-       11.3
+       11.37
       ],
       [
        "CG",
-       11.19
+       11.32
       ],
       [
        "CF",
-       10.94
+       10.97
       ],
       [
        "ML",
-       10.64
+       10.71
       ],
       [
        "MM",
@@ -341,25 +341,25 @@
       ],
       [
        "UZ",
-       10.03
-      ],
-      [
-       "BJ",
-       9.63
+       10.09
       ],
       [
        "MZ",
-       9.57
+       9.72
+      ],
+      [
+       "BJ",
+       9.69
       ],
       [
        "UG",
-       9.44
+       9.55
       ]
      ],
      "br": {
-      "pos": 108,
+      "pos": 109,
       "de": 160,
-      "pct": 3.52
+      "pct": 3.54
      }
     }
    },
@@ -368,67 +368,67 @@
      "top": [
       [
        "AL",
-       4.66
-      ],
-      [
-       "BD",
-       3.27
+       4.64
       ],
       [
        "GR",
-       3.25
+       3.27
       ],
       [
        "BE",
-       3.24
+       3.23
+      ],
+      [
+       "BD",
+       3.21
       ],
       [
        "SI",
-       3.16
+       3.19
       ],
       [
        "HU",
-       3.1
+       3.11
       ],
       [
        "LK",
-       3.03
-      ],
-      [
-       "PE",
-       2.95
+       3.01
       ],
       [
        "BY",
-       2.92
+       2.95
       ],
       [
-       "SK",
-       2.86
+       "PE",
+       2.93
       ],
       [
        "RS",
-       2.84
+       2.9
+      ],
+      [
+       "SK",
+       2.83
       ],
       [
        "HR",
-       2.81
+       2.82
       ],
       [
        "DK",
-       2.72
-      ],
-      [
-       "CA",
-       2.67
+       2.74
       ],
       [
        "MK",
-       2.64
+       2.66
+      ],
+      [
+       "CA",
+       2.66
       ]
      ],
      "br": {
-      "pos": 74,
+      "pos": 72,
       "de": 160,
       "pct": 1.93
      }
@@ -437,23 +437,23 @@
      "top": [
       [
        "AL",
-       12.13
+       12.11
       ],
       [
        "BD",
-       8.66
+       8.59
       ],
       [
        "GR",
-       7.83
+       7.86
       ],
       [
        "PE",
-       7.77
+       7.75
       ],
       [
        "LK",
-       7.66
+       7.65
       ],
       [
        "HU",
@@ -461,11 +461,11 @@
       ],
       [
        "SI",
-       7.15
+       7.16
       ],
       [
        "BY",
-       7.07
+       7.09
       ],
       [
        "BZ",
@@ -473,33 +473,33 @@
       ],
       [
        "SK",
-       6.89
+       6.86
       ],
       [
        "IS",
-       6.76
+       6.8
       ],
       [
        "BE",
-       6.75
+       6.79
       ],
       [
        "RS",
-       6.65
+       6.72
+      ],
+      [
+       "MK",
+       6.63
       ],
       [
        "HR",
-       6.6
-      ],
-      [
-       "RW",
-       6.54
+       6.62
       ]
      ],
      "br": {
-      "pos": 79,
+      "pos": 80,
       "de": 160,
-      "pct": 4.95
+      "pct": 4.96
      }
     }
    },
@@ -508,55 +508,55 @@
      "top": [
       [
        "MK",
-       2.95
+       3.03
       ],
       [
        "RS",
-       2.28
+       2.66
       ],
       [
        "BA",
-       2.25
+       2.15
       ],
       [
        "HR",
-       1.75
+       1.6
       ],
       [
        "GR",
-       1.51
+       1.59
       ],
       [
        "MY",
-       1.46
-      ],
-      [
-       "ZA",
-       1.25
+       1.49
       ],
       [
        "AE",
-       1.23
+       1.2
       ],
       [
        "PT",
-       1.16
+       1.17
       ],
       [
-       "UY",
-       1.11
-      ],
-      [
-       "ID",
-       1.1
+       "ZA",
+       1.13
       ],
       [
        "BD",
-       1.07
+       1.06
+      ],
+      [
+       "ID",
+       1.05
+      ],
+      [
+       "UY",
+       1.04
       ],
       [
        "HU",
-       1.01
+       0.98
       ],
       [
        "MX",
@@ -564,12 +564,12 @@
       ],
       [
        "QA",
-       0.93
+       0.91
       ]
      ],
      "br": {
-      "pos": 100,
-      "de": 158,
+      "pos": 96,
+      "de": 159,
       "pct": 0.2
      }
     },
@@ -577,23 +577,23 @@
      "top": [
       [
        "BA",
-       5.03
+       5.05
       ],
       [
        "RS",
-       4.62
+       4.69
       ],
       [
        "MK",
-       4.17
+       4.24
       ],
       [
        "HR",
-       4.14
+       4.15
       ],
       [
        "ZA",
-       3.13
+       3.15
       ],
       [
        "HU",
@@ -601,45 +601,45 @@
       ],
       [
        "SI",
-       2.9
+       2.92
       ],
       [
        "GR",
-       2.8
+       2.85
       ],
       [
        "MY",
-       2.56
+       2.59
       ],
       [
        "PT",
-       2.53
+       2.55
       ],
       [
        "ME",
-       2.46
+       2.55
       ],
       [
        "AE",
-       2.37
-      ],
-      [
-       "VE",
-       2.34
+       2.4
       ],
       [
        "UY",
-       2.34
+       2.38
+      ],
+      [
+       "VE",
+       2.35
       ],
       [
        "BD",
-       2.28
+       2.29
       ]
      ],
      "br": {
       "pos": 81,
       "de": 160,
-      "pct": 0.61
+      "pct": 0.62
      }
     }
    },
@@ -648,31 +648,31 @@
      "top": [
       [
        "SZ",
-       6.41
+       6.4
       ],
       [
        "KR",
-       2.63
+       2.6
       ],
       [
        "OM",
-       1.44
+       1.42
       ],
       [
        "LS",
-       1.09
-      ],
-      [
-       "GH",
-       0.84
+       1.13
       ],
       [
        "EG",
-       0.81
+       0.84
+      ],
+      [
+       "GH",
+       0.82
       ],
       [
        "IR",
-       0.78
+       0.75
       ],
       [
        "JO",
@@ -687,28 +687,28 @@
        0.63
       ],
       [
-       "BD",
-       0.61
-      ],
-      [
        "TN",
-       0.58
+       0.59
       ],
       [
-       "MC",
-       0.57
-      ],
-      [
-       "CN",
+       "RW",
        0.52
       ],
       [
-       "ZA",
+       "HK",
+       0.52
+      ],
+      [
+       "CN",
        0.51
+      ],
+      [
+       "NA",
+       0.49
       ]
      ],
      "br": {
-      "pos": 50,
+      "pos": 53,
       "de": 157,
       "pct": 0.2
      }
@@ -717,7 +717,7 @@
      "top": [
       [
        "SZ",
-       7.58
+       7.54
       ],
       [
        "KR",
@@ -728,11 +728,11 @@
        2.02
       ],
       [
-       "EG",
+       "OM",
        1.93
       ],
       [
-       "OM",
+       "EG",
        1.92
       ],
       [
@@ -741,35 +741,35 @@
       ],
       [
        "UZ",
-       1.35
-      ],
-      [
-       "IR",
-       1.27
+       1.36
       ],
       [
        "LS",
-       1.25
+       1.29
+      ],
+      [
+       "IR",
+       1.26
       ],
       [
        "DJ",
-       1.25
+       1.24
       ],
       [
        "MG",
-       1.18
+       1.2
       ],
       [
        "JO",
-       1.16
-      ],
-      [
-       "TN",
-       1.11
+       1.15
       ],
       [
        "NA",
-       1.11
+       1.13
+      ],
+      [
+       "TN",
+       1.12
       ],
       [
        "MC",
@@ -777,7 +777,7 @@
       ]
      ],
      "br": {
-      "pos": 64,
+      "pos": 66,
       "de": 160,
       "pct": 0.38
      }
@@ -788,15 +788,15 @@
      "top": [
       [
        "UY",
-       0.27
+       0.26
       ],
       [
        "YE",
-       0.23
+       0.22
       ],
       [
        "TM",
-       0.19
+       0.2
       ],
       [
        "KR",
@@ -804,26 +804,26 @@
       ],
       [
        "CN",
-       0.19
-      ],
-      [
-       "AF",
        0.18
       ],
       [
+       "AF",
+       0.17
+      ],
+      [
        "IR",
-       0.16
-      ],
-      [
-       "MK",
-       0.13
-      ],
-      [
-       "HK",
-       0.12
+       0.15
       ],
       [
        "PK",
+       0.12
+      ],
+      [
+       "MK",
+       0.11
+      ],
+      [
+       "HK",
        0.11
       ],
       [
@@ -848,7 +848,7 @@
       ]
      ],
      "br": {
-      "pos": 78,
+      "pos": 74,
       "de": 155,
       "pct": 0.04
      }
@@ -860,12 +860,12 @@
        0.72
       ],
       [
-       "YE",
-       0.7
+       "TM",
+       0.71
       ],
       [
-       "TM",
-       0.7
+       "YE",
+       0.69
       ],
       [
        "CN",
@@ -873,7 +873,7 @@
       ],
       [
        "AF",
-       0.61
+       0.6
       ],
       [
        "IR",
@@ -885,11 +885,11 @@
       ],
       [
        "PK",
-       0.34
+       0.35
       ],
       [
        "SG",
-       0.33
+       0.34
       ],
       [
        "IQ",
@@ -905,11 +905,11 @@
       ],
       [
        "SY",
-       0.29
+       0.3
       ],
       [
        "CM",
-       0.28
+       0.29
       ],
       [
        "MK",
@@ -917,78 +917,78 @@
       ]
      ],
      "br": {
-      "pos": 62,
+      "pos": 56,
       "de": 158,
-      "pct": 0.12
+      "pct": 0.13
      }
     }
    }
   },
   "ontem": {
-   "data": "2026-11-17",
+   "data": "2026-11-18",
    "tipos": {
     "oas": {
      "w": {
       "top": [
        [
         "TM",
-        9.24
+        9.23
        ],
        [
         "MN",
-        7.23
+        7.37
        ],
        [
         "BI",
-        6.62
+        6.66
        ],
        [
         "MM",
-        6.51
+        6.45
        ],
        [
         "CM",
-        5.92
+        5.86
        ],
        [
         "CG",
-        5.62
+        5.6
        ],
        [
         "TD",
-        5.32
-       ],
-       [
-        "AF",
-        5.24
+        5.36
        ],
        [
         "BJ",
-        5.2
+        5.21
+       ],
+       [
+        "AF",
+        5.18
        ],
        [
         "CN",
-        5.05
+        5.07
        ],
        [
         "UZ",
-        5.03
+        5.06
        ],
        [
         "ML",
-        5.03
+        4.99
        ],
        [
         "KZ",
-        4.95
+        4.96
        ],
        [
         "DZ",
-        4.65
+        4.66
        ],
        [
-        "GW",
-        4.64
+        "UG",
+        4.59
        ]
       ]
      },
@@ -996,63 +996,63 @@
       "top": [
        [
         "TM",
-        20.61
+        20.75
        ],
        [
         "BI",
-        13.87
+        14.07
        ],
        [
         "CN",
-        13.57
+        13.54
        ],
        [
         "TD",
-        12.02
+        12.15
        ],
        [
         "AF",
-        11.94
+        11.88
        ],
        [
         "MN",
-        11.35
+        11.45
        ],
        [
         "CM",
-        11.25
+        11.3
        ],
        [
         "CG",
-        11.12
+        11.19
        ],
        [
         "CF",
-        10.98
+        10.94
        ],
        [
         "ML",
-        10.58
+        10.64
        ],
        [
         "MM",
-        10.44
+        10.48
        ],
        [
         "UZ",
-        10.0
+        10.03
        ],
        [
         "BJ",
-        9.57
+        9.63
        ],
        [
         "MZ",
-        9.42
+        9.57
        ],
        [
-        "CD",
-        9.35
+        "UG",
+        9.44
        ]
       ]
      }
@@ -1062,7 +1062,7 @@
       "top": [
        [
         "AL",
-        4.71
+        4.66
        ],
        [
         "BD",
@@ -1070,55 +1070,55 @@
        ],
        [
         "GR",
-        3.22
+        3.25
        ],
        [
         "BE",
-        3.15
+        3.24
        ],
        [
         "SI",
-        3.12
+        3.16
        ],
        [
         "HU",
-        3.08
+        3.1
        ],
        [
         "LK",
-        3.06
+        3.03
        ],
        [
         "PE",
-        2.96
+        2.95
        ],
        [
         "BY",
-        2.89
+        2.92
        ],
        [
         "SK",
-        2.83
-       ],
-       [
-        "HR",
-        2.8
+        2.86
        ],
        [
         "RS",
-        2.76
+        2.84
+       ],
+       [
+        "HR",
+        2.81
        ],
        [
         "DK",
-        2.7
+        2.72
        ],
        [
         "CA",
-        2.65
+        2.67
        ],
        [
         "MK",
-        2.6
+        2.64
        ]
       ]
      },
@@ -1126,31 +1126,31 @@
       "top": [
        [
         "AL",
-        12.16
+        12.13
        ],
        [
         "BD",
-        8.72
-       ],
-       [
-        "PE",
-        7.79
+        8.66
        ],
        [
         "GR",
-        7.79
+        7.83
+       ],
+       [
+        "PE",
+        7.77
        ],
        [
         "LK",
-        7.65
+        7.66
        ],
        [
         "HU",
-        7.16
+        7.17
        ],
        [
         "SI",
-        7.11
+        7.15
        ],
        [
         "BY",
@@ -1161,28 +1161,28 @@
         7.0
        ],
        [
-        "IS",
-        6.86
+        "SK",
+        6.89
        ],
        [
-        "SK",
-        6.82
+        "IS",
+        6.76
        ],
        [
         "BE",
-        6.69
+        6.75
        ],
        [
         "RS",
-        6.59
-       ],
-       [
-        "UG",
-        6.56
+        6.65
        ],
        [
         "HR",
-        6.56
+        6.6
+       ],
+       [
+        "RW",
+        6.54
        ]
       ]
      }
@@ -1192,31 +1192,31 @@
       "top": [
        [
         "MK",
-        2.87
-       ],
-       [
-        "HR",
-        2.24
-       ],
-       [
-        "BA",
-        2.16
+        2.95
        ],
        [
         "RS",
-        2.14
+        2.28
        ],
        [
-        "HU",
-        1.57
+        "BA",
+        2.25
+       ],
+       [
+        "HR",
+        1.75
        ],
        [
         "GR",
-        1.57
+        1.51
        ],
        [
         "MY",
-        1.52
+        1.46
+       ],
+       [
+        "ZA",
+        1.25
        ],
        [
         "AE",
@@ -1224,31 +1224,31 @@
        ],
        [
         "PT",
-        1.15
-       ],
-       [
-        "ZA",
-        1.14
+        1.16
        ],
        [
         "UY",
-        1.14
+        1.11
        ],
        [
         "ID",
-        1.09
+        1.1
        ],
        [
         "BD",
-        1.09
+        1.07
+       ],
+       [
+        "HU",
+        1.01
+       ],
+       [
+        "MX",
+        0.95
        ],
        [
         "QA",
-        0.99
-       ],
-       [
-        "VE",
-        0.95
+        0.93
        ]
       ]
      },
@@ -1256,63 +1256,63 @@
       "top": [
        [
         "BA",
-        4.98
+        5.03
        ],
        [
         "RS",
-        4.56
+        4.62
        ],
        [
         "MK",
-        4.12
+        4.17
        ],
        [
         "HR",
-        4.07
-       ],
-       [
-        "HU",
-        3.06
+        4.14
        ],
        [
         "ZA",
-        3.03
+        3.13
+       ],
+       [
+        "HU",
+        3.07
        ],
        [
         "SI",
-        2.89
+        2.9
        ],
        [
         "GR",
-        2.79
+        2.8
        ],
        [
         "MY",
-        2.54
+        2.56
        ],
        [
         "PT",
-        2.5
+        2.53
        ],
        [
         "ME",
-        2.43
+        2.46
        ],
        [
         "AE",
+        2.37
+       ],
+       [
+        "VE",
         2.34
        ],
        [
         "UY",
-        2.33
-       ],
-       [
-        "VE",
-        2.32
+        2.34
        ],
        [
         "BD",
-        2.26
+        2.28
        ]
       ]
      }
@@ -1322,63 +1322,63 @@
       "top": [
        [
         "SZ",
-        6.34
+        6.41
        ],
        [
         "KR",
-        2.66
+        2.63
        ],
        [
         "OM",
-        1.31
+        1.44
        ],
        [
         "LS",
-        1.05
+        1.09
+       ],
+       [
+        "GH",
+        0.84
        ],
        [
         "EG",
-        0.82
+        0.81
        ],
        [
         "IR",
         0.78
        ],
        [
-        "SR",
+        "JO",
         0.7
        ],
        [
-        "GH",
-        0.63
+        "SR",
+        0.69
        ],
        [
         "ET",
-        0.62
-       ],
-       [
-        "JO",
-        0.61
+        0.63
        ],
        [
         "BD",
         0.61
        ],
        [
-        "ZA",
+        "TN",
         0.58
        ],
        [
-        "TN",
-        0.57
-       ],
-       [
         "MC",
-        0.52
+        0.57
        ],
        [
         "CN",
         0.52
+       ],
+       [
+        "ZA",
+        0.51
        ]
       ]
      },
@@ -1386,27 +1386,27 @@
       "top": [
        [
         "SZ",
-        7.56
+        7.58
        ],
        [
         "KR",
-        3.43
+        3.44
        ],
        [
         "GH",
-        2.01
+        2.02
        ],
        [
         "EG",
-        1.92
+        1.93
        ],
        [
         "OM",
-        1.75
+        1.92
        ],
        [
         "ET",
-        1.66
+        1.64
        ],
        [
         "UZ",
@@ -1414,35 +1414,35 @@
        ],
        [
         "IR",
-        1.28
+        1.27
+       ],
+       [
+        "LS",
+        1.25
        ],
        [
         "DJ",
         1.25
        ],
        [
-        "LS",
-        1.2
-       ],
-       [
         "MG",
-        1.19
+        1.18
        ],
        [
         "JO",
-        1.14
-       ],
-       [
-        "NA",
-        1.09
+        1.16
        ],
        [
         "TN",
-        1.08
+        1.11
+       ],
+       [
+        "NA",
+        1.11
        ],
        [
         "MC",
-        1.05
+        1.09
        ]
       ]
      }
@@ -1459,44 +1459,40 @@
         0.23
        ],
        [
-        "KR",
-        0.2
+        "TM",
+        0.19
        ],
        [
-        "AF",
-        0.2
+        "KR",
+        0.19
        ],
        [
         "CN",
         0.19
        ],
        [
-        "TM",
-        0.17
+        "AF",
+        0.18
        ],
        [
         "IR",
-        0.15
-       ],
-       [
-        "BZ",
-        0.15
+        0.16
        ],
        [
         "MK",
-        0.14
-       ],
-       [
-        "PK",
-        0.12
+        0.13
        ],
        [
         "HK",
         0.12
        ],
        [
-        "IT",
-        0.1
+        "PK",
+        0.11
+       ],
+       [
+        "BZ",
+        0.11
        ],
        [
         "GQ",
@@ -1508,6 +1504,10 @@
        ],
        [
         "SG",
+        0.09
+       ],
+       [
+        "IT",
         0.09
        ]
       ]
@@ -1524,7 +1524,7 @@
        ],
        [
         "TM",
-        0.69
+        0.7
        ],
        [
         "CN",
@@ -1544,10 +1544,14 @@
        ],
        [
         "PK",
-        0.35
+        0.34
        ],
        [
         "SG",
+        0.33
+       ],
+       [
+        "IQ",
         0.33
        ],
        [
@@ -1555,12 +1559,8 @@
         0.32
        ],
        [
-        "IQ",
-        0.32
-       ],
-       [
         "HK",
-        0.3
+        0.31
        ],
        [
         "SY",
@@ -1572,7 +1572,7 @@
        ],
        [
         "MK",
-        0.26
+        0.27
        ]
       ]
      }
@@ -1586,18 +1586,39 @@
    "nome": "Mundo",
    "noticias": [
     {
-     "titulo": "Por que encontro histórico com Xi e Trump já é uma vitória para Putin",
-     "resumo": "O encontro entre os líderes dos EUA, China e Rússia dará a Vladimir Putin uma grande plataforma, mas não o aproximará da vitória na guerra na Ucrânia.",
-     "link": "https://www.bbc.com/portuguese/articles/cvp86k97y0g8o?at_medium=RSS&at_campaign=rss",
+     "titulo": "Trump, Xi e Putin em encontro histórico na China: o que cada um falou e quer na cúpula",
+     "resumo": "Antes da conversa a três, Trump se reuniu separadamente com os presidentes russo e chinês. Trump chamou Putin de 'amigo' e disse que os dois têm uma 'ótima relação'.",
+     "link": "https://www.bbc.com/portuguese/articles/cjvg2922e50qo?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-18T16:14:08+00:00"
+     "data": "2026-11-19T11:02:03+00:00"
     },
     {
-     "titulo": "Trump diz que discutiu IA com Xi Jinping e que mencionou apenas 'brevemente' situação do ex-CEO da Nvidia",
-     "resumo": "O presidente dos Estados Unidos, Donald Trump, afirmou nesta quarta-feira (18) que conversou com o presidente chinês, Xi Jinping, sobre inteligência artificial, mas que o ex-CEO da Nvidia, Jensen Huang, foi mencionado…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/18/trump-diz-que-nao-discutiu-situacao-do-ceo-da-nvidia-com-xi-jinping.ghtml",
+     "titulo": "China, Rússia e EUA manterão diálogo sobre riscos nucleares, diz 'declaração de paz' conjunta",
+     "resumo": "Reunião histórica: líderes de EUA, Rússia e China se encontram em Shenzhen China, Rússia e Estados Unidos manterão um diálogo sobre riscos nucleares, anunciaram os três países em conjunto, através de uma \"declaração de…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/19/china-russia-e-eua-manterao-dialogo-sobre-riscos-nucleares.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-19T00:34:25+00:00"
+     "data": "2026-11-19T11:17:28+00:00"
+    },
+    {
+     "titulo": "Anthropic estreia na bolsa com avaliação de US$ 1,5 trilhão",
+     "resumo": "Empresa de inteligência artificial que criou o Claude captou 81,3 bilhões de dólares em IPO, superando a estreia da SpaceX no mercado. Ação ocorre em momento desafiador para empresas de tecnologia.",
+     "link": "https://www.dw.com/pt-br/anthropic-estreia-na-bolsa-com-avaliação-de-us-1-5-trilhão/a-79989133?maca=bra-rss-br-all-1030-rdf",
+     "fonte": "DW Brasil",
+     "data": "2026-11-19T10:18:00+00:00"
+    },
+    {
+     "titulo": "Trump encontra Putin: 'Ele é meu amigo'",
+     "resumo": "Donald Trump chamou o presidente russo Vladimir Putin de seu \"amigo\" antes de ambos participarem de uma reunião com o presidente da China, Xi Jinping.",
+     "link": "https://www.bbc.com/portuguese/watch/cmz9dnwg2yjxo?at_medium=RSS&at_campaign=rss",
+     "fonte": "BBC Brasil",
+     "data": "2026-11-19T10:32:16+00:00"
+    },
+    {
+     "titulo": "Mianmar tinha intenção de destruir a população Rohingia, diz ONU",
+     "resumo": "ONU afirma que Mianmar está promovendo uma limpeza étnica contra a minoria muçulmana Juízes da Corte Internacional de Justiça, principal órgão judicial das Nações Unidas (ONU), decidiram nesta quinta-feira (19) que as…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/19/myanmar-tinha-intencao-de-destruir-a-populacao-rohingya-diz-onu.ghtml",
+     "fonte": "g1 Mundo",
+     "data": "2026-11-19T10:46:12+00:00"
     },
     {
      "titulo": "EUA e Venezuela assinam acordo de cooperação militar",
@@ -1607,39 +1628,18 @@
      "data": "2026-11-18T22:03:00+00:00"
     },
     {
-     "titulo": "Reunião pode dividir o mundo em três? Por que cúpula entre Trump, Xi e Putin deixa a Europa preocupada",
-     "resumo": "Preparativos para o primeiro encontro trilateral entre os líderes da China, da Rússia e dos EUA provocaram apreensão na Europa, onde alguns veem paralelos com a divisão do mundo em esferas de influência após a Segunda…",
-     "link": "https://www.bbc.com/portuguese/articles/cqx2ey1zxjymo?at_medium=RSS&at_campaign=rss",
+     "titulo": "Recorde da Anthropic em estreia na bolsa conseguirá impedir o estouro da bolha da IA?",
+     "resumo": "O preço inicial da ação será de US$ 83 quando começar a ser negociada nesta quinta-feira. Com esse preço, o valor de mercado da Anthropic é estimado em US$ 1,5 trilhão.",
+     "link": "https://www.bbc.com/portuguese/articles/cm782wyv0153o?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-18T14:54:26+00:00"
+     "data": "2026-11-19T08:28:25+00:00"
     },
     {
-     "titulo": "Enquanto Putin se reúne com Trump e Xi, Ucrânia ataca ponte da Crimeia pela terceira vez na semana",
-     "resumo": "Enquanto os líderes de Rússia, Estados Unidos e China se preparam para uma série de encontros diplomáticos, a Ucrânia realizou um novo ataque à Ponte da Crimeia, na noite de quarta-feira (18).",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/18/enquanto-putin-se-reune-com-trump-e-xi-ucrania-ataca-ponte-da-crimeia-pela-terceira-vez-na-semana.ghtml",
+     "titulo": "Perdas do Ueno Bank se aproximam de US$ 1 bilhão, segundo Banco Central do Paraguai",
+     "resumo": "O Escândalo do banco Ueno no Paraguai As perdas causadas pela quebra do banco paraguaio Ueno podem chegar a cerca de US$ 1 bilhão (R$ 5,8 bilhões), no pior cenário, estimou o novo presidente do Banco Central do Paraguai…",
+     "link": "https://g1.globo.com/economia/noticia/2026/11/19/perdas-do-ueno-bank-se-aproximam-de-us-1-bilhao-segundo-banco-central.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-18T23:24:57+00:00"
-    },
-    {
-     "titulo": "Muçulmanos devem superar cristãos em número até 2035 e se tornar maior grupo religioso do mundo",
-     "resumo": "Comunidade muçulmana deve ultrapassar a cristã nas próximas décadas, impulsionada principalmente por taxas de fecundidade superiores às de outros grandes grupos religiosos.",
-     "link": "https://www.dw.com/pt-br/muçulmanos-devem-superar-cristãos-em-número-até-2035-e-se-tornar-maior-grupo-religioso-do-mundo/a-79986215?maca=bra-rss-br-all-1030-rdf",
-     "fonte": "DW Brasil",
-     "data": "2026-11-18T21:30:00+00:00"
-    },
-    {
-     "titulo": "'Grand Theft Auto 6' é uma obra-prima, dizem os críticos: 'Não há nada igual'",
-     "resumo": "GTA 6 é o videogame mais aguardado de todos os tempos e, segundo as primeiras críticas, após 13 anos, valeu a pena esperar pelo seu lançamento.",
-     "link": "https://www.bbc.com/portuguese/articles/cj20qkl5w1qpo?at_medium=RSS&at_campaign=rss",
-     "fonte": "BBC Brasil",
-     "data": "2026-11-18T19:27:01+00:00"
-    },
-    {
-     "titulo": "Ex-deputada de direita se inscreve para disputar a Presidência de El Salvador",
-     "resumo": "A ex-deputada de direita Mayteé Iraheta, do partido Arena, se inscreveu nesta quarta-feira (18) para disputar as eleições de fevereiro de 2027 em El Salvador, nas quais o presidente Nayib Bukele buscará um terceiro…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/18/ex-deputada-de-direita-se-inscreve-para-disputar-presidencia-de-el-salvador.ghtml",
-     "fonte": "g1 Mundo",
-     "data": "2026-11-18T23:12:09+00:00"
+     "data": "2026-11-19T10:39:16+00:00"
     }
    ]
   },
@@ -1648,60 +1648,60 @@
    "nome": "Política",
    "noticias": [
     {
-     "titulo": "Fachin encaminhará relatórios da PF sobre ministros citados em mensagens de Vorcaro para PGR",
-     "resumo": "Andrei se reúne com Fachin para entregar relatórios sobre ministros citados em mensagens de Vorcaro A presidência do Supremo Tribunal Federal (STF) informou que vai encaminhar à Procuradoria-Geral da República (PGR) os…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/18/fachin-relatorios-da-pf-sobre-ministros-citados-em-mensagens-de-vorcaro-pgr.ghtml",
+     "titulo": "Conselho da ANPD rejeita recurso e mantém suspensas transmissões ao vivo do Discord no Brasil",
+     "resumo": "O Conselho Diretor da Agência Nacional de Proteção de Dados (ANPD) rejeitou um recurso do Discord e manteve suspensas no Brasil as transmissões ao vivo pela plataforma.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/19/conselho-da-anpd-rejeita-recurso-e-mantem-suspensas-transmissoes-ao-vivo-do-discord-no-brasil.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-18T23:50:04+00:00"
+     "data": "2026-11-19T11:00:00+00:00"
     },
     {
-     "titulo": "Saiba como votou cada senador nos destaques do ajuste fiscal",
-     "resumo": "Plenário derrubou 3 propostas da oposição sobre gastos, previdência e tributos; texto segue para a Câmara",
-     "link": "https://www.poder360.com.br/poder-congresso/saiba-como-votou-cada-senador-nos-destaques-do-ajuste-fiscal/",
+     "titulo": "Três brasileiros estão entre os 50 goleiros mais valiosos do futebol",
+     "resumo": "Joan García, do Barcelona, lidera levantamento; Luiz Júnior, Otávio Costa e Carlos Miguel aparecem entre os 50 primeiros",
+     "link": "https://www.poder360.com.br/poder-sportsmkt/tres-brasileiros-estao-entre-os-50-goleiros-mais-valiosos-do-futebol/",
      "fonte": "Poder360",
-     "data": "2026-11-19T02:25:14+00:00"
+     "data": "2026-11-19T11:28:29+00:00"
     },
     {
-     "titulo": "Motta diz que vai convocar sessão para votar ajuste fiscal na segunda-feira",
-     "resumo": "O presidente da Câmara, Hugo Motta (Republicanos-PB), disse em Buenos Aires, na Argentina, onde participa de um evento, que convocará uma sessão extraordinária na segunda-feira (23) para votar o projeto com as medidas…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/18/motta-convoca-sessao-para-votar-ajuste-fiscal-na-segunda-feira.ghtml",
+     "titulo": "Machado de Xangô, crucifixos e Cristo de madeira: veja símbolos religiosos já instalados nas sedes dos Três Poderes, em Brasília",
+     "resumo": "Símbolos de diferentes tradições religiosas estão presentes nas sedes dos Três Poderes, em Brasília. Crucifixos, uma escultura de Cristo em madeira – e, agora, um Oxê de Xangô – podem ser encontrados nos prédios…",
+     "link": "https://g1.globo.com/df/distrito-federal/noticia/2026/11/19/machado-de-xango-crucifixos-e-cristo-de-madeira-veja-simbolos-religiosos-ja-instalados-nas-sedes-dos-tres-poderes-em-brasilia.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-18T23:41:54+00:00"
+     "data": "2026-11-19T05:00:02+00:00"
     },
     {
-     "titulo": "Acordo apenas reduziu prejuízo do ajuste fiscal, diz Marinho",
-     "resumo": "Senador criticou Davi Alcolumbre por suspender votação na 3ª feira e o chamou de “líder informal” do Planalto; governo e oposição chegaram a entendimento sobre a Lei Kandir",
-     "link": "https://www.poder360.com.br/poder-congresso/acordo-apenas-reduziu-prejuizo-do-ajuste-fiscal-diz-marinho/",
+     "titulo": "Vou para a rua se governo der dinheiro a clubes, diz Casagrande",
+     "resumo": "Ex-jogador critica pedido de ajuda financeira de clubes ao governo Lula e responsabiliza dirigentes pela crise do Corinthians",
+     "link": "https://www.poder360.com.br/poder-sportsmkt/vou-para-a-rua-se-governo-der-dinheiro-a-clubes-diz-casagrande/",
      "fonte": "Poder360",
-     "data": "2026-11-19T02:14:12+00:00"
+     "data": "2026-11-19T11:19:52+00:00"
     },
     {
-     "titulo": "PSB e PDT oficializam federação partidária; entenda como funciona a união",
-     "resumo": "O Partido Socialista Brasileiro (PSB) e o Partido Democrático Trabalhista (PDT) oficializaram nesta quarta-feira (18) a formação de uma federação partidária a nível nacional.",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/18/psb-pdt-federacao-entenda.ghtml",
+     "titulo": "Ajuste fiscal: Moretti diz que texto aprovado pelo Senado preserva políticas sociais essenciais em 2027",
+     "resumo": "O ministro do Planejamento, Bruno Moretti, disse nesta quarta-feira (18) que o pacote fiscal aprovado pelo Senado manteve a essência da proposta do governo de equilibrar as contas públicas e garantir recursos para…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/19/ajuste-fiscal-moretti-diz-que-texto-aprovado-pelo-senado-preserva-politicas-sociais-essenciais-em-2027.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-18T22:56:40+00:00"
+     "data": "2026-11-19T03:00:00+00:00"
     },
     {
-     "titulo": "Cid Gomes chama Galípolo de “cavalo de Troia do mercado”",
-     "resumo": "Durante votação do ajuste fiscal, senador afirmou que custo da dívida ofusca corte de gastos e criticou a política de juros do BC",
-     "link": "https://www.poder360.com.br/poder-congresso/cid-gomes-chama-galipolo-de-cavalo-de-troia-do-mercado/",
+     "titulo": "Governo regulamenta o fim da 6 X 1 nesta 5ª feira",
+     "resumo": "Lula assina decreto; medida foi uma das bandeiras de campanha para a reeleição do petista",
+     "link": "https://www.poder360.com.br/poder-governo/governo-regulamenta-o-fim-da-6-x-1-nesta-5a-feira/",
      "fonte": "Poder360",
-     "data": "2026-11-19T01:40:22+00:00"
+     "data": "2026-11-19T11:03:34+00:00"
     },
     {
-     "titulo": "PGR denuncia Flávio Bolsonaro por calúnia contra Lula",
-     "resumo": "A Procuradoria-Geral da República (PGR) denunciou o senador Flávio Bolsonaro (PL-RJ) por calúnia contra o presidente Luiz Inácio Lula da Silva (PT) ao fazer uma postagem atribuindo crimes como os de tráfico de drogas e…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/18/pgr-denuncia-flavio-bolsonaro-por-calunia-contra-lula.ghtml",
+     "titulo": "Governo regulamenta jornada 5x2 nesta quinta-feira; Lula assina decreto com novas regras",
+     "resumo": "O presidente Luiz Inácio Lula da Silva (PT) deve assinar nesta quinta-feira (19) o decreto que regulamenta o fim da escala 6x1. O texto vai definir as regras de transição do regime atual para a jornada 5x2.",
+     "link": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/19/governo-regulamenta-da-jornada-5x2-nesta-quinta-feira-lula-assina-decreto-com-novas-regras.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-18T22:38:11+00:00"
+     "data": "2026-11-19T03:00:00+00:00"
     },
     {
-     "titulo": "Bet usava CPF de mortos e menores para lavar dinheiro, diz Fisco",
-     "resumo": "Operação conjunta bloqueia R$ 2,3 bilhões em ativos, apreende bens de luxo e aponta sonegação bilionária mesmo após regulamentação do setor",
-     "link": "https://www.poder360.com.br/poder-seguranca-publica/bet-usava-cpf-de-mortos-e-menores-para-lavar-dinheiro-diz-fisco/",
+     "titulo": "“Precisamos de socorro do governo”, diz presidente do Corinthians",
+     "resumo": "Osmar Stabile cita quase R$ 500 milhões em contratos afetados pela proibição das casas de apostas",
+     "link": "https://www.poder360.com.br/poder-sportsmkt/precisamos-de-socorro-do-governo-diz-presidente-do-corinthians/",
      "fonte": "Poder360",
-     "data": "2026-11-19T01:29:50+00:00"
+     "data": "2026-11-19T10:34:15+00:00"
     }
    ]
   },
@@ -1710,6 +1710,41 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
+     "titulo": "Star Wars Galactic Racer terá nova atualização com multiplayer local e tela dividida",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/star-wars-galactic-racer-tera-nova-atualizacao-com-multiplayer-local-e-tela-dividida/",
+     "fonte": "TecMundo",
+     "data": "2026-11-19T11:15:00+00:00"
+    },
+    {
+     "titulo": "Google apresenta Gemini 4 Neon para concorrer com Claude Opus e GPT-6.2 Sol",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/google-apresenta-gemini-4-neon-para-concorrer-com-claude-opus-e-gpt-62-sol/",
+     "fonte": "TecMundo",
+     "data": "2026-11-19T11:00:00+00:00"
+    },
+    {
+     "titulo": "Recorde da Anthropic em estreia na bolsa de valores conseguirá impedir o estouro da bolha da IA?",
+     "resumo": "Por que tanta gente está falando do Claude? Conheça a IA mais perigosa do mundo Foi em novembro de 2020 que, em algum lugar de São Francisco, nos Estados Unidos, uma mulher chamada Daniela Amodei telefonou para uma…",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/19/recorde-da-anthropic-em-estreia-na-bolsa-de-valores-conseguira-impedir-o-estouro-da-bolha-da-ia.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-19T10:25:04+00:00"
+    },
+    {
+     "titulo": "Google exigirá apps e jogos adaptados para dobráveis a partir de 2027",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/produto-e-review/google-exigira-apps-e-jogos-adaptados-para-dobraveis-a-partir-de-2027/",
+     "fonte": "TecMundo",
+     "data": "2026-11-19T10:00:00+00:00"
+    },
+    {
+     "titulo": "Fones com cancelamento de ruído: g1 testa dois modelos com bom custo-benefício",
+     "resumo": "Dois fones de ouvido sem fio, dois perfis de uso diferentes e preços parecidos. Assim dá para resumir o Aiwa HP-06 e o JBL Tune 780NC, modelos \"over-ear\" (que cobrem todo o ouvido) com cancelamento ativo de ruído (ANC)…",
+     "link": "https://g1.globo.com/guia/guia-de-compras/casa/home-office/fones-com-cancelamento-de-ruido-g1-testa-dois-modelos-com-bom-custo-beneficio.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-19T05:00:00+00:00"
+    },
+    {
      "titulo": "Kit da ‘maldade’ usa GTA 6 para hackear computadores",
      "resumo": "",
      "link": "https://www.estadao.com.br/tecmundo/produto-e-review/kit-da-maldade-usa-gta-6-para-infectar-computadores/",
@@ -1717,46 +1752,11 @@
      "data": "2026-11-19T00:00:00+00:00"
     },
     {
-     "titulo": "25 anos de Xbox: como a Microsoft transformou para sempre a indústria dos games",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/25-anos-de-xbox-como-a-microsoft-transformou-para-sempre-a-industria-dos-games/",
-     "fonte": "TecMundo",
-     "data": "2026-11-17T21:00:00+00:00"
-    },
-    {
-     "titulo": "99 é alvo de ação por cobrar de motoristas para liberar corridas sem taxas; MPT pede R$ 100 milhões",
-     "resumo": "O Ministério Público do Trabalho (MPT) entrou na Justiça contra a 99 Tecnologia para pedir a suspensão imediata do programa Taxa Zero, a devolução dos valores pagos por motoristas e o pagamento de uma indenização por…",
-     "link": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/18/99-acao-mpt-taxa-zero.ghtml",
+     "titulo": "Anthropic, dona do Claude, estreia na bolsa avaliada em US$ 1,5 trilhão; conheça a empresa",
+     "resumo": "A Anthropic, startup de inteligência artificial responsável pelo Claude, deve estrear nesta quinta-feira (19) na Nasdaq, bolsa americana que reúne algumas das maiores empresas de tecnologia do mundo.",
+     "link": "https://g1.globo.com/inovacao/noticia/2026/11/19/anthropic-dona-do-claude-estreia-na-bolsa-conheca-a-empresa.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-18T21:56:30+00:00"
-    },
-    {
-     "titulo": "Home office: 135 vagas para trabalho remoto [18/11]",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/home-office-135-vagas-para-trabalho-remoto-1811/",
-     "fonte": "TecMundo",
-     "data": "2026-11-18T23:00:00+00:00"
-    },
-    {
-     "titulo": "VÍDEO: mais de 100 robôs humanoides fazem coreografia na cidade chinesa onde acontece cúpula mundial",
-     "resumo": "Mais de 100 robôs humanoides fazem coreografia sincronizada na China Mais de 100 robôs humanoides participaram de uma apresentação de dança coletiva em uma praça no centro de Shenzhen, na China, na terça-feira (17).",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/18/video-mais-de-100-robos-humanoides-fazem-coreografia-na-cidade-chinesa-onde-acontece-cupula-mundial.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-18T20:38:53+00:00"
-    },
-    {
-     "titulo": "Banco do Brasil nega invasão, mas alerta clientes sobre vazamento de dados",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/banco-do-brasil-nega-invasao-mas-alerta-clientes-sobre-vazamento-de-dados/",
-     "fonte": "TecMundo",
-     "data": "2026-11-18T22:45:00+00:00"
-    },
-    {
-     "titulo": "Banco do Brasil alerta clientes sobre vazamento de dados pessoais; veja o que foi exposto",
-     "resumo": "O Banco do Brasil informou nesta quarta-feira (18) que identificou, em 12 de novembro, um acesso não autorizado a dados pessoais de seus clientes.",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/18/banco-do-brasil-dados.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-18T19:30:01+00:00"
+     "data": "2026-11-19T03:00:00+00:00"
     }
    ]
   },
@@ -1765,25 +1765,25 @@
    "nome": "Ações e Mercado",
    "noticias": [
     {
-     "titulo": "Vitória do governo: Senado rejeita destaques e mantém plano fiscal; projeto segue para Câmara",
-     "resumo": "O Senado manteve nesta quarta-feira o projeto fiscal proposto pelo governo Lula que abre condições para garantir um superávit primário de 0,5% do PIB no próximo ano, rejeitando três destaques que poderiam desfigurar o…",
-     "link": "https://www.moneytimes.com.br/vitoria-do-governo-senado-rejeita-destaques-e-mantem-plano-fiscal-projeto-segue-para-camara-rnda/",
+     "titulo": "Xi Jinping pede que EUA ‘façam a coisa certa’ sobre Taiwan; Trump diz não apoiar independência da ilha",
+     "resumo": "O presidente da China, Xi Jinping, discutiu a questão de Taiwan em encontro com o presidente dos Estados Unidos, Donald Trump, nesta quinta-feira (19).",
+     "link": "https://www.moneytimes.com.br/xi-jinping-pede-que-eua-facam-a-coisa-certa-sobre-taiwan-trump-diz-nao-apoiar-independencia-da-ilha-mlem/",
      "fonte": "Money Times",
-     "data": "2026-11-18T22:18:30+00:00"
+     "data": "2026-11-19T11:33:32+00:00"
     },
     {
-     "titulo": "Ações da Sunrise Energy Metals despencam 10% para mínima de sete meses",
+     "titulo": "Analistas otimistas com Airtel Money enquanto pagamentos móveis impulsionam crescimento",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/acoes-da-sunrise-energy-metals-despencam-10-para-minima-de-sete-meses-2132084",
+     "link": "https://br.investing.com/news/stock-market-news/analistas-otimistas-com-airtel-money-enquanto-pagamentos-moveis-impulsionam-crescimento-2132470",
      "fonte": "Investing.com",
-     "data": "2026-11-19T02:13:38+00:00"
+     "data": "2026-11-19T11:28:33+00:00"
     },
     {
-     "titulo": "Anthropic estreia na bolsa nesta quinta (19); IPO sai a US$ 83 por ação. O que o investidor precisa saber agora?",
-     "resumo": "A oferta da criadora do Claude atraiu demanda várias vezes maior que o número de ações à venda e está entre as maiores da história; papéis começam a ser negociados na Nasdaq com o ticker ANT The post Anthropic estreia…",
-     "link": "https://www.seudinheiro.com/2026/internacional/anthropic-estreia-na-bolsa-nesta-quinta-19-ipo-sai-a-us-83-por-acao-o-que-o-investidor-precisa-saber-agora-ccgg/",
+     "titulo": "O que faz a diferença: investidores repercutem ajuste fiscal, estreia da Anthopic e encontro Xi-Trump-Putin",
+     "resumo": "Ibovespa tenta recuperação depois de cair mais de 1% com adiamento da votação de destaques do ajuste fiscal; dólar começa o dia na faixa de R$ 5,86 The post O que faz a diferença: investidores repercutem ajuste fiscal…",
+     "link": "https://www.seudinheiro.com/2026/colunistas/faz-diferenca-investidores-repercutem-ajuste-fiscal-estreia-anthopic-encontro-xi-trump-putin-rsgp/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-18T23:05:36+00:00"
+     "data": "2026-11-19T11:35:48+00:00"
     },
     {
      "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
@@ -1793,25 +1793,25 @@
      "data": "2026-05-27T21:59:36+00:00"
     },
     {
-     "titulo": "Bolsas de NY fecham sem direção única com balanço da Nvidia e ata do Fed",
-     "resumo": "As bolsas de Nova York fecharam sem direção única nesta quarta-feira (18), com o setor de energia pressionado em meio à queda dos preços do petróleo, enquanto os investidores digeriram os resultados da Nvidia.",
-     "link": "https://www.moneytimes.com.br/bolsas-de-ny-fecham-sem-direcao-unica-com-balanco-da-nvidia-e-ata-do-fed-davs/",
+     "titulo": "Copel (CPLE3) prevê R$ 21,1 bilhões em investimentos entre 2027 e 2030, com foco na distribuição de energia",
+     "resumo": "A Copel (CPLE3) planeja investimentos de R$ 21,1 bilhões para o período de 2027 a 2030, com quase 70% desse montante voltado ao negócio de distribuição de energia elétrica, anunciou a companhia nesta quinta-feira (19).",
+     "link": "https://www.moneytimes.com.br/copel-cple3-preve-r-211-bilhoes-em-investimentos-entre-2027-e-2030-com-foco-na-distribuicao-de-energia-mlem/",
      "fonte": "Money Times",
-     "data": "2026-11-18T22:09:57+00:00"
+     "data": "2026-11-19T11:29:01+00:00"
     },
     {
-     "titulo": "Por que o Dólar Australiano está caindo hoje?",
+     "titulo": "Quase todos os bancos da zona do euro enfrentam riscos tecnológicos, diz BCE",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/por-que-o-dolar-australiano-esta-caindo-hoje-93CH-2132080",
+     "link": "https://br.investing.com/news/stock-market-news/quase-todos-os-bancos-da-zona-do-euro-enfrentam-riscos-tecnologicos-diz-bce-2132465",
      "fonte": "Investing.com",
-     "data": "2026-11-19T02:08:52+00:00"
+     "data": "2026-11-19T11:21:18+00:00"
     },
     {
-     "titulo": "Um pouco mais devagar do que a rotação da Terra",
-     "resumo": "Tudo ocorre muito rápido; quando decidimos olhar pelo telescópio, o cometa já se aproxima dos nossos telhados de vidro The post Um pouco mais devagar do que a rotação da Terra appeared first on Seu Dinheiro .",
-     "link": "https://www.seudinheiro.com/2026/colunistas/um-pouco-mais-devagar-do-que-a-rotacao-da-terra-ccgg/",
+     "titulo": "De esqui no Morumbi: viagens para a neve crescem e escolas para esquiadores ganham adeptos em São Paulo",
+     "resumo": "Esteiras, simuladores e nenhum floco de neve. Com a segunda unidade da Born to Ski, São Paulo ganha mais um endereço para quem quer chegar à montanha sabendo o que fazer com os esquis The post De esqui no Morumbi…",
+     "link": "https://www.seudinheiro.com/2026/lifestyle/com-mais-brasileiros-viajando-para-esquiar-escolas-de-esqui-ganham-espaco-em-sao-paulo-edvl/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-18T22:32:19+00:00"
+     "data": "2026-11-19T11:16:00+00:00"
     },
     {
      "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
@@ -1821,18 +1821,18 @@
      "data": "2026-05-27T21:47:03+00:00"
     },
     {
-     "titulo": "Ibovespa perde os 168 mil pontos com incertezas fiscais e juros dos EUA no radar",
-     "resumo": "O clima de aversão ao risco dominou a bolsa brasileira nesta quarta-feira (18), e o Ibovespa (IBOV) até tentou defender os 168 mil pontos, mas não perdeu ainda mais o fôlego no fim do pregão.",
-     "link": "https://www.moneytimes.com.br/ibovespa-perde-os-168-mil-pontos-com-incertezas-fiscais-e-juros-dos-eua-no-radar-davs/",
+     "titulo": "Priner (PRNR3) cancela aumento de capital privado após demanda não atingir valor mínimo",
+     "resumo": "A Priner (PRNR3) informou nesta terça-feira (18) que não conseguiu levantar os recursos que pretendia com um aumento de capital privado e decidiu cancelar a operação de até R$ 220 milhões aprovada em outubro.",
+     "link": "https://www.moneytimes.com.br/priner-prnr3-cancela-aumento-de-capital-privado-apos-subscricoes-nao-atingirem-valor-minimo-miql/",
      "fonte": "Money Times",
-     "data": "2026-11-18T21:58:22+00:00"
+     "data": "2026-11-19T11:27:28+00:00"
     },
     {
-     "titulo": "Ações da Datasection despencam após corte drástico de previsão em meio à disputa EUA-China por chips",
+     "titulo": "Ações de semicondutores disparam com o maior IPO da história da Anthropic",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/acoes-da-datasection-despencam-apos-corte-drastico-de-previsao-em-meio-a-disputa-euachina-por-chips-2132076",
+     "link": "https://br.investing.com/news/stock-market-news/acoes-de-semicondutores-disparam-com-o-maior-ipo-da-historia-da-anthropic-2132443",
      "fonte": "Investing.com",
-     "data": "2026-11-19T01:53:20+00:00"
+     "data": "2026-11-19T10:57:07+00:00"
     }
    ]
   },
@@ -1841,60 +1841,60 @@
    "nome": "Blumenau",
    "noticias": [
     {
-     "titulo": "SC abre vaga professor Letras substituto Blumenau salário R 4600",
+     "titulo": "Polícia Penal entrega 150 kits para recém-nascidos no Hospital Santo Antônio, em Blumenau",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNczR3RTd0UXR6cHNaVGdFYUROMk1KOXE3ak5tSVZWSm9sNVU2Nm0xSTFNUU5EaDNkdDA0RVhBYThsVzdSTGwtNXJNdmNVdlFWUkRQMXhEN0FERkZ3TFFENFJzSFRTaUVzdS05cENoZE1ETF9FU05PUk5xR1pNbU5WbUpyanJVNHpXa2J6Mk9GZHYzbnMwc3Izdk9XOWh5NTlab2l4NnJlcm01cTQ?oc=5",
-     "fonte": "Sou Enfermagem",
-     "data": "2026-11-18T23:50:13+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQk1yWWRsNzVXX19PbGtfd19nOFBuM1BjeG9GRWwzYWJLVzFNdUF0aEY3OGx2ZlhzQ01JZ3lMZDlxQWlENGEwV01ySVFydlpSN0dsRDZyMTdrWURFTGd0aTdzUVZ1M1JyWENsVmpnZGZvV1BZNmtSc205TGlhOEh4US11T2VjM0lKQlNvd1dxa1l2WllMZmJlUnhIZUN1SGtVdGVxeHF4UGJ4Tnhyc3VOdlhuZw?oc=5",
+     "fonte": "Real News",
+     "data": "2026-11-19T11:18:35+00:00"
     },
     {
-     "titulo": "Natal em Blumenau terá espetáculo diário de luzes e sete desfiles gratuitos",
+     "titulo": "atracoes-natal-em-blumenau-2026",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS180OEwyRzBNRllQTEl5OWpQTDNFb3RONUtUTTQ3Ung0dXlaenQwY2dBVk4weUFZdjRHaF9lQVk4TGxnaGhUbnNTOTltanQzbDhVallMZW9nbTFkTWV0QUJyM3czTWtIY3lXTEgyNkh1VUpiTC0xYllacW1pVUlrbndWY3RrZ0ZkLWJfcWl4YmZsUVhpckxaQVN0RnJ1QXNXZFpxYS1tVmxPVG1Tcm5zSk9JME5XUQ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWYlZNaEhCU0ptdHNuWGVvV285ZXdRU2xlTEpyZE9ubzJlT0RDNUVVSGdWUmVDa2lVdnpvMm9OVmtGTFd1RHVmamc0SWpHNERfYTR3UGFSVnhITHgyV0ZmTG5qcmczNHpj?oc=5",
+     "fonte": "Passeios.org",
+     "data": "2026-11-19T10:40:29+00:00"
+    },
+    {
+     "titulo": "Hospital Unimed; Barão em Timbó; Rota de Lazer; barragem: o que você precisa saber nesta quinta-feira",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSDZJa1lRQkRPZTdPQVA5WDU2NTF4d1dqSEI2TGJrYkRpRTFlcXBvMmx5czV4eHVCU2NnWHR2TWxGQTV0aDFqYXVRX1RVdFhvMENuT1JXM0hYVWFWWGNaTXV1bXNVaXlmRTNLSVhEM01aMTA1MDcyWjJuWFBlbkVvM0UtZjZwQms2M3NJZ0x2a2x5ZmVYd2llazZaQ084elZlUWVhckMwQ0h5SU9weXJSeFNoUC1tcVVFaFhSRA?oc=5",
+     "fonte": "Pancho",
+     "data": "2026-11-19T09:30:25+00:00"
+    },
+    {
+     "titulo": "Jovem é presa após furtar R$ 450 em roupas em loja de shopping na Itoupava Norte, em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQanplZUxPQ1Y2NVA5ZEJrQXZQR0RwaWlLcmg1eVRZc1VXQlY4VEgzWnBwS0FneFFoekZWS0lYX291TXpCQmtkZ3F6UWVIZHNQVDhMRXAxWkVydVFJajBoN014QXhLQjlJZXQ3YmpMckk4aklZZ29qcWdqMlk3akMzRWRDblA5dWZ4NnNqbHRTN2RyOUowOVhiY3VoMWprbWp0bEU5RUlRSEZRcDdmSmxqbDJMXzJhSHI3YjBkeGdPZnJwRER6b29jUHJDSQ?oc=5",
      "fonte": "AJ Notícias",
-     "data": "2026-11-18T21:44:50+00:00"
-    },
-    {
-     "titulo": "Mais de 3 toneladas de entulho são retiradas de imóvel durante ação contra a dengue em Blumenau",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQczBzZF9mVG1kdHJZWFF1VzJlLVYxdkNDU3RwS0FGR1hxbm9UZU10VDAzT0Y3UmVXY1Z2ZDZNczg4QmlVX2xxcWtGOTFJdHlBZDZzMzRpM0pyQk9WaFM4UW1oNXF4RWR5Y3Uwcng4M2hiY3NRNTZPY2hxNWMxZFFteEZ2LTd3ZEtTSzFJRVFQYmVWQlZqTDNKMGYwakk2eDMxV1UwdUdTbVRYUFNIamNaWmNTOFkxa3laRlhGakdWd2pFUXVBMi1ZU21YdUc3VmVq?oc=5",
-     "fonte": "AJ Notícias",
-     "data": "2026-11-18T21:15:27+00:00"
-    },
-    {
-     "titulo": "Natal em Blumenau terá espetáculo diário \"A Chave do Natal\" no acendimento das luzes",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUEdOVmxDSHBITjk0d3lJNnlvZmhHSWVRWjVZNEVsSlNVTXY3Y0pSakdiZ3RTaTg5TDBybGllZFlTanFPb25wcUMzQk1YRnZPNkoxSWhrZHhoTWM1ZWxhQ2YwamQzMkdmNXB4Uk9BWWswTnhNNWRxbTZDWUxoZXR6bWMwdkthRlRIdmlUaTFjZHdSLTRZNDFSeHpyR0ppRzZRN2NXTjB6OW1YVWQwYi1tc3NNcnVNdw?oc=5",
-     "fonte": "Informe Blumenau",
-     "data": "2026-11-18T21:07:01+00:00"
+     "data": "2026-11-19T09:29:58+00:00"
     },
     {
      "titulo": "Atleta de Blumenau com Síndrome de Down conclui triatlo e vence etapa nacional",
      "resumo": "",
      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DNnVfWE1NbzhvN0RDYkxVbkgxNE9TY2Q4cFhtMEpKQVFtM1J2Q0FQTm5sUzFhcHdEcWc2R3BZTnJhMUZFaE4zT2N1Q2xIdVRsLWN5c3JiZkFMTUdqSUpxVkFn?oc=5",
      "fonte": "Prefeitura de Blumenau",
-     "data": "2026-11-18T21:05:00+00:00"
+     "data": "2026-11-19T09:15:00+00:00"
     },
     {
-     "titulo": "Do lixo ao combustível: como a Oktoberfest Blumenau transformou os resíduos em energia para a indústria",
+     "titulo": "Quinta-feira tem calor de até 33°C em Blumenau, e instabilidade traz risco de temporais isolados à tarde",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObTN6QzZtM1BhaHhFcmRpTUlSRHJpWnZtTzYyX3JOX1Y2LXVxcGVudHVfOHRlV0JwS0wzYkIyVHpubTRWZFF0b0pSLUxERUNaeUZ1R0lCUko2NXk1TjR4LUhtcHhpR3RIZjNRbDI3Rmk0bFJ5Zy1PQ3UxR1ZtdkRNcVdQb2NQQXVTdFBzdXBNbWRjWng2cGMxWVV2MFFiQ3Y0LXdyOTVQc21ITi1oN29qNzlWWXJPTUhpQ3g1TjVPN0I3eUhLVWZQR2gzckNBNHlvOXJYQm5R?oc=5",
-     "fonte": "ESG Inside",
-     "data": "2026-11-18T21:01:47+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWXFkN2M3bWk2NVlVeFRzcUxkX3RKU0lLS2JWS3hMRFdvMjZiV1hVaWNyV24zaXlPTWZYQU1feWpDRExuZTBraTE1d0QzYi1qakdQZVFXZVd6SlR6Z0RVWHNFRmFyeTdXN2lKOHA1Ry1BamhJNmZVV25zY1A0V0R4ekhMeThzTng0ZnUxNGNneFVxemYwTkNwUlRud0ZhQmZQQUlKOVQ0UjFhMXI1eGdmZG1ubTZqc0tfaGVJMDkxMW1jci1fTExBVnZlOVJBRjlWbGdYd3NCcDFpZmM?oc=5",
+     "fonte": "AJ Notícias",
+     "data": "2026-11-19T09:10:32+00:00"
     },
     {
-     "titulo": "Nova comissão da Câmara para acompanhar municipalização do Centro Esportivo Bernardo Werner realiza primeira reunião nesta quinta-feira",
+     "titulo": "Previsão do tempo em Blumenau hoje: veja como fica o clima nesta quinta-feira",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRFM4Y1JxNXNfMS1VYW5BZGd6R1hwQkItdk1vdXk1QU5lblkzM1ZHMlBmZTNQX0Q2UmdEX1JTZHk4blRlWWZYU1cwOFQ5eFJJeHhKNFJ5OUxGTENhWGpNZzk3WV8zUFBBaEZMbDhndGY5bkFyYVdHV1pvY3Nsd1BCVG9NNlo5MHc2Z3BENGZ2ZXRRMm1saVZhOHc0alRMM0NTMEtIVS1MQVFybDE4aGVTWF9rQkw4ZXhVS2tXSWlfWWtRek05V2Q1SERmVWpvcVBoMkVwY1hLaFlyZnN2WVFpWVdjUks2ZkxjMTNtR2dlbFpma19BSHBuS2huNWI?oc=5",
-     "fonte": "Informe Blumenau",
-     "data": "2026-11-18T20:52:08+00:00"
+     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPMjYxcWVDb2Fwc01IN0JlUkVjS1pJd21PR1ZVNWVfLXNOSHVjVUVOQUdxYXBSd19PdE1Ob3M0VW5fYVZVTnF5QlpVUGN5Sm5QdWV5dXUyWFptbXl2SGJTT3ZYbjBOaV9naWFveTUwcjdJdzhHUEM1ZUxKQlY2QWtGM2pNeDgwR2lWNnpqb0xJY2lDUlg2cUQyazNDQUpZWkJCc3BTSE55b0FkemtBM0tINTZnRkNKVEEwaU1YaVdVbWRPM2w3TV9uYzVLZmNwYjZFQmozN0szWmpoTTZXbGhoNERRMEJ6dE9od1lGNGMzWHZ5aklOZjRVaTRvQ0tjd0NjVnVWdg?oc=5",
+     "fonte": "Terra",
+     "data": "2026-11-19T07:52:00+00:00"
     },
     {
-     "titulo": "Blumenau assume a vice-liderança geral do Jasc com bronze no bolão 23 feminino.",
+     "titulo": "SC abre vaga professor Letras substituto Blumenau salário R 4600",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR0UyUHRwRFhWNTNrLWJyaTQyQV9wVGY2SThkcGRDdW9seDlJMWNsYmZYQktJTWliYmZwYVFucTV3cEd1cTcyMVplelA4NnpPSmlnVnFETlN4aDJkNW9rVzk4NnduV2RfdlZ1RHhfWmtPQWtSMjlRVGlobEh4QmF3RUFZQ2ZDRl9YejdTb3BCUnVpRWlVUG5OX0lBcW5JTzB4NDl1dWw4ZHBUZw?oc=5",
-     "fonte": "Blog do Jaime",
-     "data": "2026-11-18T20:50:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNczR3RTd0UXR6cHNaVGdFYUROMk1KOXE3ak5tSVZWSm9sNVU2Nm0xSTFNUU5EaDNkdDA0RVhBYThsVzdSTGwtNXJNdmNVdlFWUkRQMXhEN0FERkZ3TFFENFJzSFRTaUVzdS05cENoZE1ETF9FU05PUk5xR1pNbU5WbUpyanJVNHpXa2J6Mk9GZHYzbnMwc3Izdk9XOWh5NTlab2l4NnJlcm01cTQ?oc=5",
+     "fonte": "Sou Enfermagem",
+     "data": "2026-11-18T23:50:13+00:00"
     }
    ]
   },
@@ -1910,11 +1910,11 @@
      "data": "2026-11-19T01:11:11+00:00"
     },
     {
-     "titulo": "Andrei entrega a Fachin relatórios sobre ministros no caso Master",
+     "titulo": "Teste de fogos para o Réveillon de Balneário Camboriú será realizado neste sábado",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOalFEUXF6clRyMWF1ZThhYXZCSndOekJsM2RLQ2xJVm1MOVVZb2ZrV2Ztbm9ISkVxVVJwd1hIbWdQbGNuM0pSRnZ1TS1QbzJrRkw1T05WeDdPOHlRMjZoZ0FxSFN6MGNNZ2RDbG03T3lhQzJfUEs0dWFjMkREQlQ1bUg3ODFoVF82VzAtcnJYcGt0eVZsMjNyanNvZ28tQ1pt?oc=5",
-     "fonte": "Notícia Já",
-     "data": "2026-11-19T01:58:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUzc3dkVlaTFIWFF3U09fLTdOWkR3M01FeHFDeldFVTR5YWZOYUlCMXRueFp0c3BlQVJsNG1DZ21CaHBTdGtqR0VaRkpnSHlpSTMwLXRLckhFZ2o4dDFHTXZQZ1Ytdl9RVE5IMFA2SVdWTUlEalhpWXp3bkV1WWRQYXE5ZWI4aFF2VEpiNFQyWmt6X0szbFZLQm1TUEFxUkhDY0doMWpfSTcxaHRsdzVJ?oc=5",
+     "fonte": "Portal Menina",
+     "data": "2026-11-19T11:29:08+00:00"
     },
     {
      "titulo": "Homem é preso após PM monitorar tráfico com drone no Municípios",
@@ -1924,11 +1924,11 @@
      "data": "2026-11-19T00:54:06+00:00"
     },
     {
-     "titulo": "Senado rejeita mudanças no texto e aprova ajuste fiscal do governo",
+     "titulo": "Mega-Sena sorteia prêmio de R$ 40 milhões nesta quinta-feira",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN203WDNDQUVyN3J1R2RWQkk4TkpmemtwaS1kWk1LX3JRSDRwUjBPQkhuamo4YXN1VXV5LUFYLU1fck1nMnZ4ZkgyT2RnWU01U0ZTM1JoXzAxOGdaWjY5Y0kwM2M2dk5yV01GQWZFQkNSUWZQRzNRNGxoa2wxTzd5Y0lFU1hQUUR3WS1SbzlXWEZGdG8zaGd5dHhCOExLVjlnelE?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSnhRbVppYlAyUkdjWVNPUE1XUUphT2RoZjBxYVVkYVBWalBRVjJHUFMyR05kdWJ3Zm9Hb3lPNFZCeUJSdm1xT1Y0R1RHUC1NOHVGUnh3V2JKb2pzaklRWDZFamxvM2doajBEZUZ0NlYyZE1SRzUwZEhFSkhyMVRWWmw0N2laWmJzVTh6Q3NqTXdXRkxtb1FlUQ?oc=5",
      "fonte": "Notícia Já",
-     "data": "2026-11-18T23:58:00+00:00"
+     "data": "2026-11-19T10:58:00+00:00"
     },
     {
      "titulo": "Homem é morto a tiros ao sair para almoçar com esposa e filho em Camboriú",
@@ -1938,11 +1938,11 @@
      "data": "2026-11-19T00:50:16+00:00"
     },
     {
-     "titulo": "Shakira fará show no Réveillon de Balneário Camboriú: anúncio oficial deverá acontecer nesta quinta-feira",
+     "titulo": "Jogo inspirado em GTA vai recriar Balneário Camboriú até com prédios que ainda não existem",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWFg4RGI5NzF4V2k3aV85eUMzWmg0UnI5VUtrRlhqVG5iTC1QRWF4UnVaMVR1TnJkMGxSenU5cHVXaDNNV3RzdnpzaVhlbm5MeXAxWFpiZ1BQTzRyLUZnc1BYWGM4VFZRajFlNk9UU0g4SUVTVWNjV0MxaUlxQm1HamdITW11X3FOQXQ5Zjl4anZiVHJVcTJwb3NMQ0lWeFhKeGhYQjFPVThjNlQ1QzFsZ2JUeUFVRXhwSWRaZ0kzSVZ0aC1YeTN5YjNaWVVXTHpB?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-18T22:12:08+00:00"
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOXQ1ZjZtOGktTXUxQWswSkpoM1hEWnE1eEtXZF9na3FkeVk2dVpENHo1azR6S2psVjE4UzJrZ0VWT2ZOTFBYaXVRQ0l0ajdtUG41VE5IYmJpS1JSZXRITXR4UEJrcjNnY3FfemxiYVpPTjFNOEgyN1VINFdpNVp6UmZMbFhnS2lMVWhKclc4aWU5Q0c3MWdNVkNPMU1jWXpNY2h6UlFjZkpadUUzVXIwazdEX2hYVVNGRktReWJXSHk1d09XdUE?oc=5",
+     "fonte": "TopElegance",
+     "data": "2026-11-19T09:08:00+00:00"
     },
     {
      "titulo": "Motociclista foge da PM, entra em área de mata e drogas são apreendidas em casa no Monte Alegre",
@@ -1952,25 +1952,25 @@
      "data": "2026-11-19T00:46:31+00:00"
     },
     {
-     "titulo": "Grupo Koch inaugura 104ª loja em SC e gera 150 empregos em Balneário Piçarras",
+     "titulo": "Batida deixa carro de rodas para o ar na Rua Getúlio Vargas, em Camboriú",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdHNiRDdSMlhmUEtnZjJNVk9WVndRdVpnRjNjNUs5Yl9jOWJKS19mdVdoMEdtbVJ3ZmRkME1aX3c1ZGlmMEdDbjZFSy1zUkZfS0NwdDVOSFdJSF9lajlOazN6bVZJQnE3X2YxV04tM2ZIUEV4QVlhY1g2aWNpM1hRcUR5V3NwWWFaRlVOemN5U05kbi0tUk5TVGRWVmkzckl1MDFGN0dGUGd1ekRhTEYyQVFqNnFLdw?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWGhNWHVFdGtZUjAxRjZwcC10ZlpUYzZnc3hhODNfRkpkbG10aGE4TjgtRXBNSWF6ZGJpV2MzRXZfNldkSmhtMVo2MHNUZ3RLQ3pjTVV1VF8wQkdBZmdzbldvYzFseUs0LWZSd2E2dDlKT2FDNnM2aUZXdnVFS2xRSTRRaFh0cVQyYXgzenFhWFZxaWdmSm1VdFFIeGdJRWpoZHpnTU1lOUEzT1ZEdFp0OA?oc=5",
      "fonte": "TopElegance",
-     "data": "2026-11-18T21:32:23+00:00"
+     "data": "2026-11-19T09:02:00+00:00"
     },
     {
-     "titulo": "Balneário Camboriú redireciona R$ 14,5 milhões para reforçar saúde básica e ampliar atendimentos",
+     "titulo": "Guarda Municipal de Balneário Camboriú participa de simulado de resposta a agressor ativo em Navegantes",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd1dzbzU3di1RNy1zVXhFZDltRHNQRTFtRURhMXA5ME1ibExQNlJpRk9NVjhwYzlLOWJ5cDdUQlR0S3NndDRPWFBaZmFqZWV3d3dSdHY0ckNpTnBHVmxVTFk3N0luOEthdXBWenRBSkpFSHkwZUV4OHVaSm5OMXZWNGlMNTRJOUxtb183VmI1bkxvRGJ2SnE3MU0xMG5IQkt2Q3hjVW9Ga0VyeGM0VVAzbnZUeXdtc2pMdUIxWHJpXzc?oc=5",
-     "fonte": "ND Mais",
-     "data": "2026-11-18T21:02:48+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNLWMwaDVER1BPamtKdFlNbEhkQWJmUjdjVWNmVDVDTlJEdUt0VThXalozOENlSzJfNmVUc2JNeWJNU1dfeVBFYXVpWDlFS19UcjdaRFFpcEpjLUFjdEJSQ2lpUHZscm9vY1JJNkNnY2M2czhBVWNaaGh3Wl81VlJleHhmcmlwQng3UjdsSWN4Q204Z1ZwY0lpWG40VlVPQlRzZXZMS0ZIc3gtc3V3TjhWYkZQSmVqY1dwUmloWXNTTnZkWGltdThkcXZjdEpJTHBnVUlR?oc=5",
+     "fonte": "Notícia Já",
+     "data": "2026-11-19T07:52:00+00:00"
     },
     {
-     "titulo": "Guarda Municipal de Balneário Camboriú participa de simulado de ‘resposta a agressor ativo’ em Navegantes",
+     "titulo": "Bombinhas: como chegar, o que fazer e como funciona a taxa ambiental para entrar na menor cidade de SC",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWE1yMFZhc3VRS2hyak8tbm5pUG9zLTd4dGtzSFBXQlQwNW5MRHY4amZxdWVORVBxcHYxd1B5YjZhU0hJZXVxakxwRE9GWUJsRjBpOXlxQVZVTWtTalYyUmNxR0I2QXNUY3BNOTdNX0g1dkRQOVpKMU81OF9zQ3VtOG5VbmZPVHJpR0loVURZemlaNmpWdGpYdGxSZ2t2Z3oxejBNYlE3MUUyQXFXVTljMVVEdFUtMS15ZjZUN251dzR0SVBHTHUzUENPODNyYlk3UGlJ?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-18T21:00:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdG82M3lvQmIwTE1ESHFvTzZJTks5Ujd4R01YYkE5UVZhS1hFcDhBRWxEc0NHVVdrMV9ZY3pyeW5lVl9NOHNVMDBmTnhnakRoTVdlSkxEYWtIMW1QSjFKNlB0enB6NFdCOFNQY3FiQkhleG16WE9OeGwybzVpWVV0T0FDZHAwbllPdnVXSllTa3JtQ1pDUDA2X21JdFFfbDFINHo5WFZuWWxlRS03clFKdU9B0gHAAUFVX3lxTE5DZzMwYWs1SmhHRmowMzRXd194LXpPckNIazhjVHBZQ1dCOVNiODFsQUhkREZMNnpaM1NfY2V1T3pnTjZjOFE0NXdQUnpCNVlOak9wOGtFQWo4UHlpYlVVaGxFZnVWNkdheWJWNUluRUNmWkVZSjlJTGFJaWNBbTA4U1dtaUZFTkVrYjlsOXR0NGY5eXlhLV9FUWxfQ1E3Y0xlTm1nOXhXdWNKOVp0VFBsWGc5eG1BdTM1Tm9zd3ptOQ?oc=5",
+     "fonte": "G1",
+     "data": "2026-11-19T06:00:00+00:00"
     }
    ]
   }

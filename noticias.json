@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-19T20:35:31.513538+00:00",
+ "atualizado": "2026-11-20T02:19:11.077838+00:00",
  "ibovespa": {
-  "pontos": 166197,
-  "variacao": -0.8,
-  "hora": "2026-11-19T20:20:31+00:00"
+  "pontos": 166376,
+  "variacao": -0.69,
+  "hora": "2026-11-19T21:20:00+00:00"
  },
  "novela": {
   "nome": "Quem Ama Cuida",
@@ -62,32 +62,32 @@
    "nome": "S&P 500",
    "grupo": "indices",
    "simbolo": "^GSPC",
-   "preco": 7182.6,
-   "variacao": -1.93
+   "preco": 7175.83,
+   "variacao": -2.02
   },
   {
    "id": "nasdaq",
    "nome": "Nasdaq",
    "grupo": "indices",
    "simbolo": "^IXIC",
-   "preco": 23906.33,
-   "variacao": -2.14
+   "preco": 23879.2,
+   "variacao": -2.25
   },
   {
    "id": "dow",
    "nome": "Dow Jones",
    "grupo": "indices",
    "simbolo": "^DJI",
-   "preco": 49155.81,
-   "variacao": -2.08
+   "preco": 49097.06,
+   "variacao": -2.19
   },
   {
    "id": "nikkei",
    "nome": "Nikkei 225",
    "grupo": "indices",
    "simbolo": "^N225",
-   "preco": 59444.21,
-   "variacao": 0.71
+   "preco": 56824.45,
+   "variacao": -4.41
   },
   {
    "id": "dax",
@@ -102,24 +102,24 @@
    "nome": "Itaú",
    "grupo": "bancos",
    "simbolo": "ITUB4.SA",
-   "preco": 40.03,
-   "variacao": -0.4
+   "preco": 40.07,
+   "variacao": -0.3
   },
   {
    "id": "bbdc",
    "nome": "Bradesco",
    "grupo": "bancos",
    "simbolo": "BBDC4.SA",
-   "preco": 13.85,
-   "variacao": -1.63
+   "preco": 13.83,
+   "variacao": -1.78
   },
   {
    "id": "bbas",
    "nome": "Banco do Brasil",
    "grupo": "bancos",
    "simbolo": "BBAS3.SA",
-   "preco": 14.14,
-   "variacao": 0.14
+   "preco": 14.3,
+   "variacao": 1.27
   }
  ],
  "alertas": {
@@ -169,18 +169,12 @@
   ]
  },
  "rio": {
-  "nivel": 2.42,
-  "leitura": "2026-11-19 17:00",
+  "nivel": 2.59,
+  "leitura": "2026-11-19 23:00",
   "estagio": "Normalidade",
-  "tendencia": "estável",
-  "variacao3h": -0.02,
+  "tendencia": "subindo",
+  "variacao3h": 0.14,
   "historico": [
-   2.49,
-   2.4,
-   2.39,
-   2.42,
-   2.47,
-   2.5,
    2.47,
    2.46,
    2.43,
@@ -198,7 +192,13 @@
    2.44,
    2.45,
    2.42,
-   2.42
+   2.42,
+   2.44,
+   2.45,
+   2.45,
+   2.51,
+   2.57,
+   2.59
   ],
   "link": "https://alertablu.blumenau.sc.gov.br/"
  },
@@ -218,6 +218,13 @@
    "data": "2026-11-19T18:06:00+00:00"
   },
   {
+   "titulo": "Galaxy S24 e S25 começam a receber patch de segurança de novembro",
+   "resumo": "Os modelos das séries Galaxy S24 e S25 estão recebendo o patch de segurança de novembro com correções para mais de 200 vulnerabilidades.",
+   "link": "https://www.oficinadanet.com.br/samsung/74296-galaxy-s24-s25-comecam-receber-patch-seguranca-novembro",
+   "fonte": "Oficina da Net",
+   "data": "2026-11-19T12:16:07+00:00"
+  },
+  {
    "titulo": "Banco do Brasil nega invasão, mas alerta clientes sobre vazamento de dados",
    "resumo": "",
    "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/banco-do-brasil-nega-invasao-mas-alerta-clientes-sobre-vazamento-de-dados/",
@@ -230,13 +237,6 @@
    "link": "https://www.estadao.com.br/tecmundo/ciberseguranca/falha-em-extensoes-de-assinatura-digital-atinge-10-milhoes-de-computadores-no-brasil/",
    "fonte": "TecMundo",
    "data": "2026-11-17T14:15:00+00:00"
-  },
-  {
-   "titulo": "Samsung libera patch de segurança de novembro para Galaxy A56 e A26",
-   "resumo": "O patch de segurança de novembro está chegando aos Galaxy A56 e A26 com correções para mais de 200 vulnerabilidades.",
-   "link": "https://www.oficinadanet.com.br/samsung/74232-samsung-libera-patch-seguranca-novembro-galaxy-a56-a26",
-   "fonte": "Oficina da Net",
-   "data": "2026-11-17T12:31:51+00:00"
   }
  ],
  "ataques": {
@@ -1606,25 +1606,46 @@
    "nome": "Mundo",
    "noticias": [
     {
-     "titulo": "Quando começa a valer o fim da escala 6x1? Qual a regra de transição? Entenda o que está mudando na lei",
+     "titulo": "Hora extra mais cara com fim da 6x1? Veja conta com salário de R$ 3 mil e o que muda com decreto de Lula",
      "resumo": "A maior mudança nas jornadas de trabalho em quase 40 anos começará a entrar em vigor no mês que vem, com um período de transição. Ainda há contestações na Justiça.",
      "link": "https://www.bbc.com/portuguese/articles/cvlyjkw9zr5jo?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-19T15:12:08+00:00"
+     "data": "2026-11-19T20:39:07+00:00"
     },
     {
-     "titulo": "'Quem é esse? É meu amigo', diz Trump antes de cumprimentar Putin na China",
-     "resumo": "",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/19/quem-e-esse-e-meu-amigo-diz-trump-antes-de-cumprimentar-putin-na-china.ghtml",
+     "titulo": "Guiana afirma que EUA apoiam decisão da Corte Internacional em disputa com a Venezuela por Essequibo",
+     "resumo": "Essequibo é alvo de disputa entre Venezuela e Guiana JN O presidente da Guiana, Irfaan Ali, afirmou nesta quinta-feira (19) que os Estados Unidos apoiam que a disputa pelo Essequibo entre Guiana e Venezuela seja…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/19/guiana-eua-decisao-corte-internacional-disputa-venezuela-essequibo.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-19T20:22:18+00:00"
+     "data": "2026-11-19T23:30:07+00:00"
     },
     {
-     "titulo": "Escolas secretas educam crianças ucranianas sob ocupação russa",
-     "resumo": "Estudantes buscam alternativa às aulas obrigatórias impostas pelo Kremlin, onde se exibe propaganda de guerra. Famílias enfrentam risco de separação ou até detenção.",
-     "link": "https://www.dw.com/pt-br/escolas-secretas-educam-crianças-ucranianas-sob-ocupação-russa/a-79981727?maca=bra-rss-br-all-1030-rdf",
+     "titulo": "Europa luta para não ficar à margem do futuro da Ucrânia",
+     "resumo": "Berlim reuniu aliados de Kiev em cúpula para cobrar espaço nas negociações de paz, enquanto Trump, Putin e Xi se encontravam paralelamente na China.",
+     "link": "https://www.dw.com/pt-br/europa-luta-para-não-ficar-à-margem-do-futuro-da-ucrânia/a-79997957?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-19T19:58:00+00:00"
+     "data": "2026-11-19T22:36:00+00:00"
+    },
+    {
+     "titulo": "Por que Justiça anulou condenação da Marinha por ataque à memória de João Cândido, 116 anos após Revolta da Chibata",
+     "resumo": "No mês da Consciência Negra, Ministério Público foi intimado da decisão da Justiça que anula condenação da Marinha por carta em que chamou Cândido e colegas de \"abjetos\".",
+     "link": "https://www.bbc.com/portuguese/articles/cwjd735m9093o?at_medium=RSS&at_campaign=rss",
+     "fonte": "BBC Brasil",
+     "data": "2026-11-19T18:54:25+00:00"
+    },
+    {
+     "titulo": "Príncipe Harry diz estar disposto a voltar ao Exército para lutar contra a Rússia",
+     "resumo": "Príncipe Harry, esposa e filhos vão voltar a morar no Reino Unido após anos nos EUA O príncipe Harry afirmou estar disposto a voltar a servir no Exército britânico e lutar contra a Rússia, \"se fosse necessário\".",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/19/principe-harry-diz-estar-disposto-a-voltar-ao-exercito-para-lutar-contra-a-russia.ghtml",
+     "fonte": "g1 Mundo",
+     "data": "2026-11-19T21:42:02+00:00"
+    },
+    {
+     "titulo": "Combustíveis fósseis: o que são e por que importam",
+     "resumo": "Dos motores da Revolução Industrial à crise climática: entenda como carvão, petróleo e gás natural moldaram o mundo moderno e por que cientistas defendem sua substituição para conter o aquecimento global.",
+     "link": "https://www.dw.com/pt-br/combustíveis-fósseis-o-que-são-e-por-que-importam/a-79994658?maca=bra-rss-br-all-1030-rdf",
+     "fonte": "DW Brasil",
+     "data": "2026-11-19T20:35:00+00:00"
     },
     {
      "titulo": "Trump, Xi e Putin em encontro histórico na China: o que cada um falou e quer na cúpula",
@@ -1634,32 +1655,11 @@
      "data": "2026-11-19T12:15:29+00:00"
     },
     {
-     "titulo": "Após encontro com Xi Jinping e Putin, Trump diz que é 'psicologicamente difícil' abrir mão de armas nucleares",
-     "resumo": "Após sair do encontro com o presidente da China, Xi Jinping, o presidente dos Estados Unidos, Donald Trump, afirmou nesta quinta-feira (19) que é \"psicologicamente difícil\" abrir mão de armas nucleares.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/19/apos-encontro-com-xi-jinping-e-putin-trump-diz-que-e-psicologicamente-dificil-abrir-mao-de-armas-nucleares.ghtml",
+     "titulo": "Operação de segurança no Haiti deixa 34 membros de gangues mortos, segundo a polícia",
+     "resumo": "A Polícia Nacional do Haiti anunciou a morte de 34 integrantes de uma gangue durante uma operação realizada nesta quinta-feira (19) em um bairro de Porto Príncipe especialmente afetado pela violência das quadrilhas.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/19/operacao-de-seguranca-no-haiti-deixa-34-membros-de-gangues-mortos-segundo-a-policia.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-19T20:17:59+00:00"
-    },
-    {
-     "titulo": "O que está por trás do acirramento da disputa entre Airbus e Boeing",
-     "resumo": "EUA dizem que financiamento recorde de 3 bilhões de euros para empresa europeia ameaça trégua transatlântica sobre subsídios ao setor aéreo. UE insiste estar agindo em conformidade com as regras de mercado.",
-     "link": "https://www.dw.com/pt-br/o-que-está-por-trás-do-acirramento-da-disputa-entre-airbus-e-boeing/a-79993144?maca=bra-rss-br-all-1030-rdf",
-     "fonte": "DW Brasil",
-     "data": "2026-11-19T18:21:00+00:00"
-    },
-    {
-     "titulo": "Trump encontra Putin: 'Ele é meu amigo'",
-     "resumo": "Donald Trump chamou o presidente russo Vladimir Putin de seu \"amigo\" antes de ambos participarem de uma reunião com o presidente da China, Xi Jinping.",
-     "link": "https://www.bbc.com/portuguese/watch/cmz9dnwg2yjxo?at_medium=RSS&at_campaign=rss",
-     "fonte": "BBC Brasil",
-     "data": "2026-11-19T10:32:16+00:00"
-    },
-    {
-     "titulo": "Música usada por Trump em eventos, YMCA é tocada durante visita à China",
-     "resumo": "Usada por Donald Trump na campanha presidencial nos Estados Unidos, a música YMCA, do grupo Village People, foi usada em uma apresentação ao presidente durante visita à China.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/19/musica-trump-ymca-tocada-visita-china.ghtml",
-     "fonte": "g1 Mundo",
-     "data": "2026-11-19T17:29:05+00:00"
+     "data": "2026-11-19T21:36:43+00:00"
     }
    ]
   },
@@ -1668,6 +1668,48 @@
    "nome": "Política",
    "noticias": [
     {
+     "titulo": "Ministros do STF recebem cópia do relatório da PF em que são citados sobre relações com Vorcaro",
+     "resumo": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, enviou uma cópia dos relatórios produzidos pela Polícia Federal (PF) sobre as relações do banqueiro Daniel Vorcaro, ex-dono do Banco Master, aos ministros…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/19/ministros-do-stf-recebem-copia-do-relatorio-da-pf-em-que-sao-citados-sobre-relacoes-com-vorcaro.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-20T00:06:16+00:00"
+    },
+    {
+     "titulo": "Assista aos discursos de Xi, Trump e Putin em inédita reunião trilateral",
+     "resumo": "Líderes de China, Rússia e EUA se encontram em Shenzhen; guerra na Ucrânia, armas nucleares e Irã dominaram as falas",
+     "link": "https://www.poder360.com.br/poder-internacional/assista-aos-discursos-de-xi-trump-e-putin-em-inedita-reuniao-trilateral/",
+     "fonte": "Poder360",
+     "data": "2026-11-20T02:16:04+00:00"
+    },
+    {
+     "titulo": "Relator do ajuste fiscal na Câmara mantém texto do Senado; projeto deve ser votado na segunda-feira",
+     "resumo": "Projeto de ajuste fiscal segue para Câmara dos Deputados O relator do projeto de ajuste fiscal do governo Lula (PT) na Câmara dos Deputados, Mauro Benevides (União Brasil-CE), apresentou nesta quinta-feira (19) seu…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/19/relator-do-ajuste-fiscal-na-camara-mantem-texto-do-senado-projeto-deve-ser-votado-segunda-feira.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-19T23:37:50+00:00"
+    },
+    {
+     "titulo": "Fachin envia à PGR 4 relatórios da PF sobre ministros do STF",
+     "resumo": "Documentos citam Moraes, Mendonça, Nunes Marques e Toffoli em mensagens encontradas no celular de Vorcaro; Paulo Gonet avaliará o material",
+     "link": "https://www.poder360.com.br/poder-justica/fachin-envia-a-pgr-4-relatorios-da-pf-sobre-ministros-do-stf/",
+     "fonte": "Poder360",
+     "data": "2026-11-20T01:15:37+00:00"
+    },
+    {
+     "titulo": "Moraes libera ações sobre Lei da Dosimetria para julgamento no STF; caso será analisado em dezembro",
+     "resumo": "",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/19/moraes-libera-acoes-sobre-lei-da-dosimetria-para-julgamento-no-stf.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-19T21:20:39+00:00"
+    },
+    {
+     "titulo": "JPMorgan, Visa e Mastercard relatam ataque cibernético",
+     "resumo": "Invasões a fornecedores terceirizados expuseram dados de clientes, incluindo e-mails e nomes",
+     "link": "https://www.poder360.com.br/poder-tech/jpmorgan-visa-e-mastercard-relatam-ataque-cibernetico/",
+     "fonte": "Poder360",
+     "data": "2026-11-20T00:31:21+00:00"
+    },
+    {
      "titulo": "Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar",
      "resumo": "Mercado de câmbio trava após Lula sobre escolha de ministros e BC intervém Mesmo com a aprovação do ajuste fiscal pelo Senado Federal, o mercado cambial segue pressionado nesta quinta-feira (19) por causa de declarações…",
      "link": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/11/19/mercado-de-cambio-trava-apos-fala-de-lula-sobre-escolha-de-ministros-e-bc-intervem-com-leilao-de-dolar.ghtml",
@@ -1675,53 +1717,11 @@
      "data": "2026-11-19T19:28:15+00:00"
     },
     {
-     "titulo": "Medidas do governo elevam gastos em R$ 40 bilhões, diz IFI",
-     "resumo": "Iniciativas também reduzem receitas em R$ 6,4 bilhões; instituição alerta para risco de falta de recursos para despesas discricionárias",
-     "link": "https://www.poder360.com.br/poder-economia/medidas-do-governo-elevam-gastos-em-r-40-bilhoes-diz-ifi/",
+     "titulo": "Justiça mantém condenação de Sikêra Júnior por ofensas à “Globo”",
+     "resumo": "Apresentador e \"TV A Crítica\" terão de pagar R$ 100 mil por declarações contra emissora; decisão de 2ª instância ainda cabe recurso",
+     "link": "https://www.poder360.com.br/poder-justica/justica-mantem-condenacao-de-sikera-junior-por-ofensas-a-globo/",
      "fonte": "Poder360",
-     "data": "2026-11-19T20:34:03+00:00"
-    },
-    {
-     "titulo": "Defesa diz que Bolsonaro não vota na eleição do Senado e recorre para que ex-presidente receba visita de Marinho",
-     "resumo": "A defesa de Jair Bolsonaro recorreu nesta quinta-feira (19) contra a decisão do ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), que não autorizou visita do senador Rogério Marinho (PL-RN) ao…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/19/defesa-diz-que-bolsonaro-nao-tem-voto-na-eleicao-do-senado-e-recorre-para-que-ex-presidente-receba-marinho.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-19T18:51:18+00:00"
-    },
-    {
-     "titulo": "Justiça libera pregão de R$ 6 milhões para iPhones do Senado",
-     "resumo": "Decisão da presidente do TRF-1, juíza federal Maria do Carmo Cardoso, derruba liminar concedida a pedido de Nikolas Ferreira (PL)",
-     "link": "https://www.poder360.com.br/poder-congresso/justica-libera-pregao-de-r-6-milhoes-para-iphones-do-senado/",
-     "fonte": "Poder360",
-     "data": "2026-11-19T20:31:00+00:00"
-    },
-    {
-     "titulo": "Justiça autoriza Senado a retomar gasto de R$ 6 milhões com iPhones e celulares para parlamentares",
-     "resumo": "Sadi diz que compra de celulares no Senado 'é escárnio com o dinheiro público' A Justiça Federal autorizou nesta quinta-feira (19) a retomada da licitação do Senado que prevê gasto de até R$ 6 milhões com linhas…",
-     "link": "https://g1.globo.com/df/distrito-federal/noticia/2026/11/19/justica-autoriza-senado-a-retomar-licitacao-de-r-6-milhoes-para-comprar-iphones-para-parlamentares.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-19T18:09:32+00:00"
-    },
-    {
-     "titulo": "Vieira e Mauricio Lyrio devem comandar Itamaraty no 4º mandato de Lula",
-     "resumo": "Ministro deve ficar no cargo por 2 anos; secretário de Clima deve se tornar secretário-geral e passar ao posto principal em 2029",
-     "link": "https://www.poder360.com.br/poder-governo/vieira-e-lyrio-devem-comandar-itamaraty-no-4o-mandato-de-lula/",
-     "fonte": "Poder360",
-     "data": "2026-11-19T20:29:15+00:00"
-    },
-    {
-     "titulo": "Lula exonera Wellington Dias, ministro do Desenvolvimento Social",
-     "resumo": "O presidente Luiz Inácio Lula da Silva (PT) exonerou o Wellington Dias do cargo de ministro do Desenvolvimento e Assistência Social, Família e Combate à Fome (MDS).",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/19/lula-exonera-wellington-dias-ministro-do-desenvolvimento-social.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-19T17:32:20+00:00"
-    },
-    {
-     "titulo": "Dólar vai a R$ 5,93 e renova máxima do ano apesar de leilão do BC",
-     "resumo": "Moeda norte-americana fechou com alta de 1,15%; BC fez leilão extraordinário de US$ 1 bilhão no mercado à vista para reduzir a pressão sobre o câmbio, mas não foi suficiente",
-     "link": "https://www.poder360.com.br/poder-economia/dolar-vai-a-r-593-e-renova-maxima-do-ano-apesar-de-leilao-do-bc/",
-     "fonte": "Poder360",
-     "data": "2026-11-19T20:28:11+00:00"
+     "data": "2026-11-20T00:23:55+00:00"
     }
    ]
   },
@@ -1730,11 +1730,25 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Play Store libera 5 jogos grátis por tempo limitado! Resgate agora (19)",
+     "titulo": "Como resgatar os benefícios da Ultimate Edition de GTA 6? Veja o guia",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/play-store-libera-5-jogos-gratis-por-tempo-limitado-resgate-agora-18/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/como-resgatar-os-beneficios-da-ultimate-edition-de-gta-6-veja-o-guia/",
      "fonte": "TecMundo",
-     "data": "2026-11-19T20:15:00+00:00"
+     "data": "2026-11-20T00:15:00+00:00"
+    },
+    {
+     "titulo": "Governo Trump liberou quase 900 mil chips avançados de IA para empresas chinesas, diz comitê dos EUA",
+     "resumo": "A administração do presidente dos Estados Unidos, Donald Trump, autorizou o envio de 879 mil chips avançados de inteligência artificial (IA) das fabricantes Nvidia e AMD para empresas chinesas entre dezembro de 2025 e…",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/19/governo-trump-liberou-quase-900-mil-chips-avancados-de-ia-para-empresas-chinesas-diz-comite-dos-eua.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-19T21:50:15+00:00"
+    },
+    {
+     "titulo": "Xbox Game Pass de novembro recebe High on Life 2 e mais jogos! Veja a lista",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/xbox-game-pass-de-novembro-recebe-high-on-life-2-e-mais-jogos-veja-a-lista/",
+     "fonte": "TecMundo",
+     "data": "2026-11-19T23:15:00+00:00"
     },
     {
      "titulo": "Visa, Mastercard e JPMorgan dizem que fornecedores foram alvo de ataque cibernético",
@@ -1744,11 +1758,11 @@
      "data": "2026-11-19T18:15:51+00:00"
     },
     {
-     "titulo": "Gabinete monstruoso e micro-ondas de 30L: os lançamentos da semana",
+     "titulo": "Saros e mais jogos para PS4 e PS5 com até 90% OFF na PS Store",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/gabinete-monstruoso-e-micro-ondas-de-30l-os-lancamentos-da-semana/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/saros-e-mais-jogos-para-ps4-e-ps5-com-ate-90-off-na-ps-store-2/",
      "fonte": "TecMundo",
-     "data": "2026-11-19T20:00:00+00:00"
+     "data": "2026-11-19T22:30:00+00:00"
     },
     {
      "titulo": "iFood sofre ataque hacker que expõe dados de clientes, entregadores e representantes de restaurantes",
@@ -1758,32 +1772,18 @@
      "data": "2026-11-19T18:00:00+00:00"
     },
     {
-     "titulo": "Windows 11 terá verificação de segurança que pode bloquear programas e jogos; entenda",
+     "titulo": "Hoje no TecMundo (19): GTA 6 estreia com nota 99, Google lança Gemini 4 Neon e mais",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/produto-e-review/windows-11-tera-verificacao-de-seguranca-que-pode-bloquear-programas-e-jogos-entenda/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/hoje-no-tecmundo-19-gta-6-estreia-com-nota-99-google-lanca-gemini-4-neon-e-mais/",
      "fonte": "TecMundo",
-     "data": "2026-11-19T20:00:00+00:00"
+     "data": "2026-11-19T22:06:00+00:00"
     },
     {
      "titulo": "Anthropic entra para grupo das empresas mais valiosas do mundo; veja ranking",
-     "resumo": "Anthropic estreia na bolsa avaliada em US$ 1,5 trilhão A Anthropic, criadora do chatbot de inteligência artificial (IA) Claude, chegou à sexta posição entre as empresas mais valiosas do mundo em sua estreia na Nasdaq…",
+     "resumo": "Anthropic estreia na bolsa avaliada em US$ 1,5 trilhão f A Anthropic, criadora do chatbot de inteligência artificial (IA) Claude, alcançou a sexta posição entre as empresas mais valiosas do mundo nesta quinta-feira…",
      "link": "https://g1.globo.com/economia/noticia/2026/11/19/anthropic-valor-de-mercado.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-19T17:16:05+00:00"
-    },
-    {
-     "titulo": "Mod coloca DLSS 5 e Frame Gen em GTA 6 pelo PS5 Remote Play",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/mod-coloca-dlss-5-e-frame-gen-em-gta-6-pelo-ps5-remote-play/",
-     "fonte": "TecMundo",
-     "data": "2026-11-19T19:45:00+00:00"
-    },
-    {
-     "titulo": "Anthropic abre a US$ 111,50 por ação, alta de 34,3%; valor da empresa chega a US$ 2 trilhões",
-     "resumo": "Anthropic estreia na bolsa avaliada em US$ 1,5 trilhão As ações da Anthropic, empresa americana responsável pelo desenvolvimento do assistente de inteligência artificial Claude, estrearam na bolsa Nasdaq nesta…",
-     "link": "https://g1.globo.com/economia/noticia/2026/11/19/acoes-anthropic-nasdaq.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-19T16:51:36+00:00"
     }
    ]
   },
@@ -1792,25 +1792,25 @@
    "nome": "Ações e Mercado",
    "noticias": [
     {
-     "titulo": "Trump comprou até US$ 265.000 em ações da Nvidia em setembro",
-     "resumo": "O presidente dos Estados Unidos, Donald Trump, comprou até US$ 265.000 em ações da Nvidia e vendeu até US$ 15.000 dessas ações em setembro, semanas antes de surgirem notícias sobre os laços do presidente-executivo…",
-     "link": "https://www.moneytimes.com.br/trump-comprou-ate-us-265-000-em-acoes-da-nvidia-em-setembro-pads/",
+     "titulo": "72 vezes, mas com juros: GPA (PCAR3) parcela dívida trabalhista milionária",
+     "resumo": "O Grupo Pão de Açúcar (PCAR3), que está em recuperação extrajudicial, conseguiu mais um alívio. O Órgão Especial do Tribunal Regional do Trabalho da 2ª Região (TRT-2) aprovou o parcelamento de cerca de R$ 140 milhões…",
+     "link": "https://www.moneytimes.com.br/72-vezes-mas-com-juros-gpa-pcar3-parcela-divida-trabalhista-milionaria/",
      "fonte": "Money Times",
-     "data": "2026-11-19T20:32:22+00:00"
+     "data": "2026-11-19T22:38:20+00:00"
     },
     {
-     "titulo": "Coca-Cola é a principal escolha de ações da TD Cowen para 2027 com preço-alvo elevado a US$ 112",
+     "titulo": "Futuros de Wall Street caem com estreia da Anthropic sem animar o setor de IA",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/cocacola-e-a-principal-escolha-de-acoes-da-td-cowen-para-2027-com-precoalvo-elevado-a-us-112-2133233",
+     "link": "https://br.investing.com/news/stock-market-news/futuros-de-wall-street-caem-com-estreia-da-anthropic-sem-animar-o-setor-de-ia-2133506",
      "fonte": "Investing.com",
-     "data": "2026-11-19T20:18:42+00:00"
+     "data": "2026-11-20T01:11:53+00:00"
     },
     {
-     "titulo": "Nem pacote fiscal acalma o mercado: o que falta para estancar a queda do Ibovespa e frear o dólar?",
-     "resumo": "Para economista, medidas aprovadas pelo Senado têm efeito limitado sobre as contas públicas, enquanto investidores buscam um novo prêmio de risco para o Brasil The post Nem pacote fiscal acalma o mercado: o que falta…",
-     "link": "https://www.seudinheiro.com/2026/bolsa-dolar/nem-pacote-fiscal-acalma-o-mercado-o-que-falta-para-interromper-a-queda-do-ibovespa-e-a-disparada-do-dolar-jcav/",
+     "titulo": "Anthropic sobe 17% na estreia em Wall Street e BDR movimenta R$ 460 milhões na B3",
+     "resumo": "A disparada em Nova York avalia a dona do Claude em US$ 1,271 trilhão. Na bolsa brasileira, o ANTH34 superou a estreia da SpaceX de Elon Musk.",
+     "link": "https://www.seudinheiro.com/2026/internacional/anthropic-sobe-17-na-estreia-e-wall-street-e-bdr-movimenta-r-460-milhoes-na-b3-ccgg/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-19T20:30:00+00:00"
+     "data": "2026-11-19T22:57:30+00:00"
     },
     {
      "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
@@ -1820,25 +1820,25 @@
      "data": "2026-05-27T21:59:36+00:00"
     },
     {
-     "titulo": "Dólar à vista supera os R$ 5,93 e renova máxima em mais de um ano",
-     "resumo": "O dólar à vista estendeu os ganhos da véspera e subiu forte durante quase toda a sessão desta quarta-feira (18). A moeda encerrou o dia em alta de 1,16%, a R$ 5,9350, o maior patamar de fechamento em 19 meses.",
-     "link": "https://www.moneytimes.com.br/dolar-a-vista-supera-os-r-593-e-renova-maxima-em-mais-de-um-ano-davs/",
+     "titulo": "Valorização global do dólar se acentuou após a eleição nos EUA, diz diretor do banco Pine",
+     "resumo": "O diretor de Pesquisa Econômica do Banco Pine, Cristiano Oliveira, avalia que o movimento de fortalecimento global do dólar iniciado em setembro ainda não terminou, o que pode limitar o fôlego da moeda brasileira ao…",
+     "link": "https://www.moneytimes.com.br/valorizacao-global-do-dolar-se-acentuou-apos-a-eleicao-nos-eua-diz-diretor-do-banco-pine-pads/",
      "fonte": "Money Times",
-     "data": "2026-11-19T20:19:03+00:00"
+     "data": "2026-11-19T22:25:08+00:00"
     },
     {
-     "titulo": "Por que as ações da Philip Morris International estão caindo hoje?",
+     "titulo": "Diretor de cibersegurança da Casa Branca, Sean Cairncross, deixa o cargo",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/por-que-as-acoes-da-philip-morris-international-estao-caindo-hoje-93CH-2133219",
+     "link": "https://br.investing.com/news/stock-market-news/diretor-de-ciberseguranca-da-casa-branca-sean-cairncross-deixa-o-cargo-93CH-2133491",
      "fonte": "Investing.com",
-     "data": "2026-11-19T19:51:54+00:00"
+     "data": "2026-11-20T00:21:37+00:00"
     },
     {
-     "titulo": "Tesouro Direto: prefixado 2029 atinge maior taxa do ano e paga mais de 15% — é oportunidade ou alerta para o investidor?",
-     "resumo": "Mercado exige juros cada vez maiores para emprestar dinheiro ao governo em meio às dúvidas sobre as contas públicas e à perspectiva de juros altos nos EUA The post Tesouro Direto: prefixado 2029 atinge maior taxa do ano…",
-     "link": "https://www.seudinheiro.com/2026/renda-fixa/tesouro-direto-hoje-prefixado-2029-atinge-maior-taxa-do-ano-e-paga-mais-de-15-mlim/",
+     "titulo": "Não está fácil para o crédito privado: só 4 empresas passaram no teste do Itaú BBA no terceiro trimestre; 46 ficaram no neutro",
+     "resumo": "Maioria das companhias manteve perfil de crédito estável, sem avanços suficientes para convencer os analistas do banco a adotarem uma visão mais otimista The post Não está fácil para o crédito privado: só 4 empresas…",
+     "link": "https://www.seudinheiro.com/2026/renda-fixa/nao-esta-facil-para-o-credito-privado-so-4-empresas-passaram-no-teste-do-itau-bba-no-terceiro-trimestre-mlim/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-19T19:11:49+00:00"
+     "data": "2026-11-19T21:42:20+00:00"
     },
     {
      "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
@@ -1848,18 +1848,18 @@
      "data": "2026-05-27T21:47:03+00:00"
     },
     {
-     "titulo": "Lula reclama de especulações sobre ministros e diz que indicará nomes quando quiser",
-     "resumo": "O presidente Luiz Inácio Lula da Silva (PT) reclamou das especulações sobre quem serão seus ministros e disse que a decisão “é uma coisa minha” e que vai indicar os ministros “na hora que eu quiser, no dia que eu…",
-     "link": "https://www.moneytimes.com.br/lula-reclama-de-especulacoes-sobre-ministros-e-diz-que-indicara-nomes-quando-quiser/",
+     "titulo": "Anthropic estreia em Wall Street com alta de 17% e se torna 12ª empresa mais valiosa do mundo",
+     "resumo": "A Anthropic encerrou sua estreia em Wall Street nesta quinta-feira como a 12ª empresa mais valiosa do mundo, com capitalização de mercado de US$ 1,271 trilhão, segundo o ranking do CompaniesMarketCap.",
+     "link": "https://www.moneytimes.com.br/anthropic-estreia-em-wall-street-com-alta-de-17-e-se-torna-12a-empresa-mais-valiosa-do-mundo/",
      "fonte": "Money Times",
-     "data": "2026-11-19T19:50:15+00:00"
+     "data": "2026-11-19T22:13:55+00:00"
     },
     {
-     "titulo": "Ações da Cigna caem com pressão regulatória no setor de saúde",
+     "titulo": "Citigroup subestimou risco em US$ 35 bilhões em unidade europeia, diz Reuters",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/acoes-da-cigna-caem-com-pressao-regulatoria-no-setor-de-saude-93CH-2133218",
+     "link": "https://br.investing.com/news/stock-market-news/citigroup-subestimou-risco-em-us-35-bilhoes-em-unidade-europeia-diz-reuters-93CH-2133492",
      "fonte": "Investing.com",
-     "data": "2026-11-19T19:51:35+00:00"
+     "data": "2026-11-20T00:21:37+00:00"
     }
    ]
   },
@@ -1868,6 +1868,41 @@
    "nome": "Blumenau",
    "noticias": [
     {
+     "titulo": "Polícia Penal entrega 150 kits para recém-nascidos no Hospital Santo Antônio, em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNHNIMm16S2d1ekdiX1pZcWZTWWhUcUJiX0ltak5zR1BCVTBJVmNpRjdINmRuZ3lJWUV3LWtuU1BrLUF0QV9NMzhVNnIyNGc3UXVNREt3QmRJM0JHQnZwTEt2RFU2S3NLbVFPaXdORXB3ZlZwNjNFb3ZJdGp2c3gyVEhpUDN0a0FkTG51N3EwS1FoeS1VWXVrTGFSX0NmeG5WUFIzb1RCejRvOVhDYXJCNXJ0aVVjUQ?oc=5",
+     "fonte": "Real News",
+     "data": "2026-11-19T23:05:27+00:00"
+    },
+    {
+     "titulo": "Comportamento e Saúde Mental | A justiça que o mundo nos cobra",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWJ2cDJ0UjdGQ184NWdva0NpeFluZmRmUVU2Nmg4RDItUGxWSHZhUjFvUV85NFFoMGNoRFZEWVA2TU9DZHY0cEhrVERBLThfcDZoTHRGbTB4Vm10aEFKbkN1S3h0V3ZpaDhBOWtDdl9YblZtQVFYbkF1NWZJRFVxWE5pNHUwTmxMX2ItWHhpZVRXaDNPM3hsQw?oc=5",
+     "fonte": "Informe Blumenau",
+     "data": "2026-11-19T21:42:04+00:00"
+    },
+    {
+     "titulo": "Marcelo Lanzarin de volta à Câmara de Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZFVzOXFBQmM3ZDdqQV93TVlEbzd3SnJHWnNKR2p6S0VuRlVyaW80REdFanRZZjZGb3MzRzlSbHJ5M29Ea3BVZmdHTEVybDdsY3kzNHhfeDh4YWk3aXNTcUJsNFRjdUV2TGZaaENicXJTbDhYVUQ3MHlTSUlCNlI2Q19NdUtuZw?oc=5",
+     "fonte": "Informe Blumenau",
+     "data": "2026-11-19T21:26:58+00:00"
+    },
+    {
+     "titulo": "Após sete meses no cargo, Marcelo Lanzarin pede exoneração e deixa comando da Secretaria de Saúde em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPb3UzNGtMMm1mcm8xVW1yMVVDVG9ZSUM5ZUR4andLaDNjNWlPNTVBc3dWdW85cEtNbkFDQW53Zl90Uy1Ia190SkwtSU1mRVhRV0preV9FOHlEWkFIT2hIZmpOaVJocmplSXZKT1hDcFV2b1dWcHRvUlBIRDBWZlJtb0p1MURlemVTMTJRS05UNnl4X2E4aklwNllRaEFlRmhQUVA0NXZTcjZkYkFEQTVNWGFaNk0tajFtWTlQbzZkR1pjd1gwM3p0bTFzc2l0b2QyTlhuZlNiVnN0RDcxZ25tc2ln?oc=5",
+     "fonte": "AJ Notícias",
+     "data": "2026-11-19T21:11:40+00:00"
+    },
+    {
+     "titulo": "Natal em Blumenau terá espetáculo diário no acendimento das luzes.",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbDRaa280bXAxU0pFUHdYT3dvemhRTEtaUm04bGxWZXl6MVpra1lCTGNXOHNyRm03ZHJOcjhldVpCLTNlUHB4Nm5JdWdlOWJzZUxsdVhVWVlQbUNMTldpYkFRS2tHSTNfLTFBOTFGTHpVMS1UTW5HLVhzdzBNdTZhbnNOWl95ZFB2SkVrclJ4X2JsRW1jQzBJNw?oc=5",
+     "fonte": "Blog do Jaime",
+     "data": "2026-11-19T20:50:00+00:00"
+    },
+    {
      "titulo": "Feriado da Consciência Negra altera atendimento dos serviços públicos em Blumenau",
      "resumo": "",
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTFVMOTVSVnVfRzlxb1V1Y25ULXdvWW81QjRfTHRjQnZudFFwNWlNWWJoclhLdVgxMjJVOWxFd3pvOTh3QTAwMlA5Tmx6WTF0WGNoRFNfaVFLQ1o5QUZSZ3dESGw5UG5hODdCTkhnRnNuREszeDE0Z1o5QzJNSC1SQ0FlRHJ0OHlsUElkQXM4ZlI0dUN1dzJXZzNzMEI4NkF0eE93M0JUVlhuc1NPNUpnVFJqX2RqTWZSdjF4TGdB?oc=5",
@@ -1875,53 +1910,18 @@
      "data": "2026-11-19T20:20:45+00:00"
     },
     {
+     "titulo": "Gaspar abre consulta pública sobre materiais didáticos",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSXktTXkzWDFsZy03d0pyd0U2Z0hBTFJkUDIxTVVtT2czN2NmUkcyWEVEM0c4OUhzZ1pmVnRULVo1ZHhmVUY0MGxDakFXSFZKOGlQYjJtbExudjM5elRJSm1MUjBGTWVjQlhmWFhSdE5GM09LTDk5bjc4YURYdVVCeWM1VUtvb0RBWUtEWWRzTkNqeTlNQ0NOX0NzdFp0UlNoTW9zOGdMeWdJTjZ1UWFyak1UQU1mVVI5Rk5nZTd5T20xZ3UyandvQ3ZUUTc2bVdqXzhESFJGNC1fTHMyN0VkQ0x0aXrSAfMBQVVfeXFMUHc4cWh4aDhfR3JsZ3BvNVU1OVR2U0NaOGhxS3hzcmxsWGJmWGU1SG5TaFlpUDJ2aEIxeUhwaFhqZ3Z5eE4zRnNBR1VTVWFnRVhLVng5SmY1S2NaNHdFbDNmd0tGQ3QzSVV1VHZQRjZvSVNRT3ZzbFZxeU1hVHRBX3ZvdGp2enBMdFZKc0FDN19pV0xXUWhKUFNsai15VTN2VGNzdlpFSUJIeV9iU0dUZVdkWkR3SkhSX0JuVlNmSkdZeF9CUzlxMHlLR1J1X1Z1WlRCVlFhWUx5cVV0QWVqQUFyX2gyZmdnTGk4YWVwUVVHblln?oc=5",
+     "fonte": "G1",
+     "data": "2026-11-19T20:17:03+00:00"
+    },
+    {
      "titulo": "Blumenau conquista segundo lugar em prêmio nacional de cidades inteligentes com aplicativo AlertaBlu.",
      "resumo": "",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaE9yNXRGQ08zeVp6bklMekh5R1l2aE9RUlNYTFNrbHZGMEdnYUdHZDQ0VEZxYUtOTDRpTzl1V3JUUFM2ZndrZ21fZ0tvdzZ4THZBWHdCWkNEcTJiSEc0cWFNNnhkWXlfS2R3MnVFa1A1Vl83Q0FjdlRpSmtnSXNNQlF2cGxSOU1kRnRtSFRkdjhmd3RqeHl3UU00VUxweUxxdzBCSzdUeElFODFLVWZydC1DVklRRkRTMmhqQ1J0R1pIVDZ5cXJn?oc=5",
      "fonte": "Blog do Jaime",
      "data": "2026-11-19T20:15:00+00:00"
-    },
-    {
-     "titulo": "PARÓQUIA SANTO ANTÔNIO DE BLUMENAU CELEBRA JUBILEU DE 50 ANOS! Domingo dia 06/12/26 às 9h.",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRkxwX3hSdExwMFNWZG9mMkJlZnc2c1ZrQ0pNU0ozT0tKZ0JzcksyRVFzVTV5WWE0RzdaXy11WXM2bGs2MW43UW4tVzJZQlQyamRQRUEtdHIxRGdFMWxITFVkUkYxZm1jZDRmLTR1cHpWdFdqNkwtQXdRTVpLeV9sZGpuN19aWFBjTXppZDh1bzZ1ZXpMNFozRzR2UXd2UzVRYmoxTW9RdDVBNWhwTEJldy16cmFMVXc?oc=5",
-     "fonte": "Blog do Jaime",
-     "data": "2026-11-19T20:00:00+00:00"
-    },
-    {
-     "titulo": "Árvore Solidária arrecada presentes para crianças e idosos em Blumenau; veja como participar",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbnp1YnhELXZDcVlRSmNVekRyckVfRU51TTBudXhNbVlfdnlUQjhSWFo1d3RXYjZHNnMzQTY2VHBhWkdEeUNOcVZ1V09ETjc1SHFQX1JhcnZxUFM3SmJ2bkdQNDZjNTVHT21vZm1JRHc5eDhfNmhaZjdIWlBTY1B0SjVPZktmd1RlZ1YxdFowaVVXV28wZ21CN1lsd21xeXctamR6dUFoS2Q5UzNMaWlhS0xUOWZyQS00WWpiUnpfeENZMWhyMlhj?oc=5",
-     "fonte": "Jornal de Pomerode",
-     "data": "2026-11-19T19:13:55+00:00"
-    },
-    {
-     "titulo": "Blumenau registra alta de 16,5% no empreendedorismo feminino",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMFpKekE4TVU1dG1iZ1ZETjk5UDhTNnN2MnJSelBZelJiOU83X0JqblZuaXNpbUhEME1RM05jNW1hb1VOMGZMVU8tckNmOFlTZlMyamRQVGh0WGxHM2FBQ0U2STBIX1VBTEk4ZU1aMGVtSWJta3ZvOEgxZE02VEFYTXo3UjdlS2U4akJZOTRjRzcwRzNORmc?oc=5",
-     "fonte": "Informe Blumenau",
-     "data": "2026-11-19T19:03:46+00:00"
-    },
-    {
-     "titulo": "Polícia Penal entrega 150 kits para recém-nascidos no Hospital Santo Antônio, em Blumenau",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNHNIMm16S2d1ekdiX1pZcWZTWWhUcUJiX0ltak5zR1BCVTBJVmNpRjdINmRuZ3lJWUV3LWtuU1BrLUF0QV9NMzhVNnIyNGc3UXVNREt3QmRJM0JHQnZwTEt2RFU2S3NLbVFPaXdORXB3ZlZwNjNFb3ZJdGp2c3gyVEhpUDN0a0FkTG51N3EwS1FoeS1VWXVrTGFSX0NmeG5WUFIzb1RCejRvOVhDYXJCNXJ0aVVjUQ?oc=5",
-     "fonte": "Real News",
-     "data": "2026-11-19T18:35:43+00:00"
-    },
-    {
-     "titulo": "Empreendedores negros lideram mais da metade dos pequenos negócios no Brasil",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObTdJdXFMeVc2T1JOQjNPQU1Nbld3Ny15aTJ5U3BKSng3UGlKYnJ4YTRMWTdzT29mQk9aY1JDdmpLOU8wbDBid0pTcDRYcW5mWDM4d0sySjV1Q1hMeDV0R0JfMy0tREVvNjZneGZJNGs5V28tNUpBb1c3czlVQk1JTXFvWFlsRURvMHlDR1JOSC1VXzBvUW5CbXUzYThBNGt4TzFsVno4TGQwaWxSSmc?oc=5",
-     "fonte": "Informe Blumenau",
-     "data": "2026-11-19T18:07:57+00:00"
-    },
-    {
-     "titulo": "Integração do Samu ao Centro de Operações de Blumenau fortalece atendimento de emergências",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUUZMMkkyUlV3dU9hZUpIMkY3RGtEc0FLbmxYN3g0NDZOVVIwc2lIZ2prLTBnUnhib19zZThKYmRSeVVvRkw5WnJMZy1PVFhfelpfc3Nfd042NHl4NjBheVBHalZWNlRydV9Ld2hZUEtBWmhtZXN6TGRkalJia2hRNUZVYmJaNVZWcm5VWjJLZndJV2tjOWhHTEQ0T1RQRFF1bDA3T0g5RVlzeUtVcnlOVm45T3BUUQ?oc=5",
-     "fonte": "Real News",
-     "data": "2026-11-19T18:07:25+00:00"
     }
    ]
   },
@@ -1930,74 +1930,74 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
-     "titulo": "Adolescente que matou colega a facadas em supermercado é alvo de pedido de internação em SC",
-     "resumo": "MPSC apresentou representação por ato infracional análogo a homicídio qualificado após crime contra funcionário de 48 anos Leia no Camboriú News",
-     "link": "https://camboriu.news/adolescente-que-matou-colega-a-facadas-em-supermercado-e-alvo-de-pedido-de-internacao-em-sc/",
+     "titulo": "Homem invade casa, leva TV e semijoias, mas acaba preso no bairro Taquaras",
+     "resumo": "Suspeito havia sido procurado após invadir imóvel na Rua Aroeira, no bairro Taquaras Leia no Camboriú News",
+     "link": "https://camboriu.news/homem-invade-casa-leva-tv-e-semijoias-mas-acaba-preso-no-bairro-taquaras/",
      "fonte": "Camboriú News",
-     "data": "2026-11-19T19:42:31+00:00"
+     "data": "2026-11-20T02:00:27+00:00"
     },
     {
-     "titulo": "Boxe de Balneário Camboriú conquista seis medalhas e se consagra campeão geral dos Jogos Abertos de Santa Catarina",
+     "titulo": "Motociclista bate na traseira de Jeep e sofre fraturas graves sobre viaduto da BR-101 em BC",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNN2FOVzZ1dVFQQkZxMDVPNi1fZWdlM0pieElnYm5YZXpzT3pCQi14dV9pOWwtSHlNNHB2eElRVGFnOGNlbkN6MmpsOVVscE9INzdBb1EzNUptRkhwM20xXzFnSXo2QXQtV1JLbVBERmJqQWxxTU5RLU94cUZaZnNqMzNOMXJyell5UWlBWUFUamlJTTlIaklRdXpoZzYxYTJ2TWQyN0g2clphM3BsQWdaTktHZVNGd3k5bFhrX0VUekFlMjg4SEdSZFJVenJuRmc0VWxNVU1ocndOOXFwbEdfMUdB?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdXpjZDlfazdQZkdEZ3dQZGZKNnBxVGFvaHRPQTRSZkg1SHM5ZzcyTTNqU0VPaktpZDRLdGQzdHFvTXZ0bEtLNGcxeUR2Y0lXMXBNUmVlaGtOd1VyNjYyR1hhUlJrQUtIVS1BcmhtU21jWmhReDRkWElyT29yNVpOTXBUMFppQVRyUjJaTGZWZXJ6d2pxb09uTi1NZ0pCbG9zcHdrWlNzYTBodmhkd2VLN2VQNHY?oc=5",
+     "fonte": "Camboriú News",
+     "data": "2026-11-20T01:56:14+00:00"
+    },
+    {
+     "titulo": "Motociclista bate na traseira de Jeep e sofre fraturas graves sobre viaduto da BR-101 em BC",
+     "resumo": "Homem teve fraturas no fêmur e no joelho, além de cortes profundos na cabeça, e foi levado ao Hospital Ruth Cardoso Leia no Camboriú News",
+     "link": "https://camboriu.news/motociclista-bate-na-traseira-de-jeep-e-sofre-fraturas-graves-sobre-viaduto-da-br-101-em-bc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-20T01:56:14+00:00"
+    },
+    {
+     "titulo": "Autopropelidos na contramão, na calçada e em alta velocidade são removidos em BC",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbldKM0Z0RXF0RVVjRFg0cWcxU2FheDFLLTJWUy1HMUswN09yY1NEc2JqQlB4RmtSZkZwSGNWUDFMZkMybVJORDdMLUZiS1RSSVY3ckVKc1JQNUE0Y0RPZGg4ZFZ2YkdnVm9BWDFQek1obXFmUWYxcEx4OG90dGJVVnd3UjZXc2lVU1RGbERSeXBDcl9vNVVTT04wSjg5c2h5b2tiTQ?oc=5",
+     "fonte": "Camboriú News",
+     "data": "2026-11-20T01:53:47+00:00"
+    },
+    {
+     "titulo": "Autopropelidos na contramão, na calçada e em alta velocidade são removidos em BC",
+     "resumo": "Ao todo, 15 equipamentos e um ciclomotor foram levados ao pátio em fiscalizações realizadas na terça-feira Leia no Camboriú News",
+     "link": "https://camboriu.news/autopropelidos-na-contramao-na-calcada-e-em-alta-velocidade-sao-removidos-em-bc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-20T01:53:47+00:00"
+    },
+    {
+     "titulo": "CIM-Amfri firma contrato inédito com o Banco Mundial para o Promobis",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbmYxd1VoMHVBbXBnUUh1cFNRQUQ2anlVeWN4eGFRUXJuZnRuWnhnZmpxU0ZjblE3S2N6RG5BZWtjZ3I4c29ybGdjamxxNEg2MTRFNC1MamxWQjFGSjdBY1lRaU9WU3dxdVF6WFBCMUxKRG9QM3drQXM5UEVvQ2ZrM0tqeVhNTE0zYzlEVnZxaDdxMGR2NHcta0NTVGtHRmg1aGJvcA?oc=5",
      "fonte": "Notícia Já",
-     "data": "2026-11-19T20:10:00+00:00"
+     "data": "2026-11-20T01:01:00+00:00"
     },
     {
-     "titulo": "Oito funerárias são condenadas por fraudar licitação e criar falsa concorrência em prefeitura de SC",
-     "resumo": "Justiça apontou acesso antecipado a documentos do edital, atuação coordenada e favorecimento de empresas no serviço funerário Leia no Camboriú News",
-     "link": "https://camboriu.news/oito-funerarias-sao-condenadas-por-fraudar-licitacao-e-criar-falsa-concorrencia-em-prefeitura-de-sc/",
+     "titulo": "Preso esconde bilhete em marmita, oferece R$ 3 mil a policial penal para conseguir trabalho e é condenado em SC",
+     "resumo": "Justiça condenou detento a dois anos e oito meses de prisão por corrupção ativa Leia no Camboriú News",
+     "link": "https://camboriu.news/preso-esconde-bilhete-em-marmita-oferece-r-3-mil-a-policial-penal-para-conseguir-trabalho-e-e-condenado-em-sc/",
      "fonte": "Camboriú News",
-     "data": "2026-11-19T19:34:47+00:00"
+     "data": "2026-11-20T01:25:31+00:00"
     },
     {
-     "titulo": "Após modernização da rede de esgoto, requalificação asfáltica da Rua 3700 é concluída em Balneário Camboriú",
+     "titulo": "Neve, show gratuito e pizzas de peru e chocotone: castelo de Balneário Camboriú prepara Natal especial",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa2hJZTJhZ2xaekVydlZLUFdBSm5mZ2lCYU1VVnY4bHhyeGs4OGJvRzI4MkVfRFNCU2M3d1pCSzhiaElSNTV5d2l2dUFTLWZnR0dJLUliM29mSVV2bDExRmcyYUpZekVOYkdzU2ppMGlpelJFMXNoSzJRMlFreEpjUkJrVkJQUXN6RkVCTUNGVG9GVWZoLUthcXUyZThpcC11TVo3R1JmMkVZLVMtOElvNGFiYW04eUN5SjhzX0RYaGgtOHU2MVNZd0ZmZ09scnMw?oc=5",
-     "fonte": "www.ojanelao.com.br",
-     "data": "2026-11-19T20:09:16+00:00"
-    },
-    {
-     "titulo": "Mulher vai ao jazigo do pai, encontra outra pessoa sepultada no local e aciona a Justiça em SC",
-     "resumo": "Justiça determinou que Prefeitura de Lages devolva o espaço à família e pague indenização por danos morais Leia no Camboriú News",
-     "link": "https://camboriu.news/mulher-vai-ao-jazigo-do-pai-encontra-outra-pessoa-sepultada-no-local-e-aciona-a-justica-em-sc/",
-     "fonte": "Camboriú News",
-     "data": "2026-11-19T19:21:15+00:00"
-    },
-    {
-     "titulo": "Comissão aprova tarifa social de luz para idoso de baixa renda sem exigência de CadÚnico",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUlpkSUc0NzhyNmhCMVBSbnBwTWxoVmVPQWw5RGFzQlNkaWV0b3ZfVHcyMUVmMzFmY3preUZ0bUpTSS0zZVU2VEJ6eWUwb1JGQWhlQlZZaC1heG81V0c4bXFCYkZhTmZqOHZoNHlaaVppekNvOW9wN01wTGVIRC1icGpfWUg5MWVkZ01lTlZYd1F4X2JzN2FSUXNLZGNZYk5iblRUWmxIRDFqQTY5QkRkbnB1bHVNWjAzdTdvcVh1TQ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV2xhWnd3NFRQZkNlWFpYYi10cXduRUVaWm4yZGxtUFZESTdheUg0Mld0TXBLSmItR2Jyc20zMTRXcUlDT3dtOWNoSEhobC1IS3dqSE94NWRTbWpsUHFxVUlqUUp5andkQmhvV3EwYW9SV3lzRng3YnB0NzgtOVN0V3RLa1VMX1lmVUtra1FrdHRNdTVPTFF5MU1HYkt6MkctT0JCb0VXdTktZGZ6MEk3SEdpZmJsMlpvMVpnTzc4VWlZc3lqQXlkSERiQW1MOTA?oc=5",
      "fonte": "Notícia Já",
-     "data": "2026-11-19T19:58:00+00:00"
+     "data": "2026-11-20T00:44:00+00:00"
     },
     {
-     "titulo": "Hilux furtada é recuperada na BR-101 com placas adulteradas e dois homens são presos em SC",
-     "resumo": "Segundo a PM, suspeitos receberiam dinheiro para levar a caminhonete até Joinville Leia no Camboriú News",
-     "link": "https://camboriu.news/hilux-furtada-e-recuperada-na-br-101-com-placas-adulteradas-e-dois-homens-sao-presos-em-sc/",
-     "fonte": "Camboriú News",
-     "data": "2026-11-19T18:55:58+00:00"
-    },
-    {
-     "titulo": "Boxe de Balneário Camboriú é campeão nos JASC",
+     "titulo": "Marcelo Achutti vai assumir Secretaria de Obras de Balneário Camboriú em dezembro",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ubFB2elRRbHp5dWNYWFMzM25jcG5LWGVXUGlLUFZwLVNBZzFKTTk4aTVscFpSX0tZQ3RzaU1TRS0yN0tUZkZJNW1aNjMyQnFOS1lzbGMxdlQ2aUIwVmo4SVkxb3JVY1UteWJSbGE5dXhCZkRF?oc=5",
-     "fonte": "SC Hoje",
-     "data": "2026-11-19T19:50:06+00:00"
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYkRuekt4cUJic3NvUUxwRHpERFhkMGtTSTNkQ2ItR05mNzVueWRXWjZpLXRSVGlSTy1LNlptTjNscXp2b200VEJqZ1U5azgzdEljcVdiTTZsenVzOVJfSGowanpIZ3lpY0ZydERWUFdrWk0wYzA4aVRXeXZDTWYzZTFReFExVDVhSXZmWXZnejlFcWhhclRPNWYzZ3piZEpjVjZQLWppS0xzcEN0RE94bXZn?oc=5",
+     "fonte": "Página 3",
+     "data": "2026-11-20T00:00:00+00:00"
     },
     {
-     "titulo": "Shakira em Balneário Camboriú? Entenda o que se sabe sobre possível show no Réveillon - Portal da Cidade",
+     "titulo": "Dubai brasileira: a cidade que concentra 7 dos 10 arranha-céus mais altos do país tem bondinho que cruza a Mata Atlântica entre duaspraias",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNLVlfZlJ4THEya2VHUm9HNDNNT1J1SEp5OUlDeUl4azBwaTdNRUNvdlpya2tTeG1tc25iUXFLdUd0ZGpVZ3BCT25rbDA3UW9sS3cwcDNEVnczbEFsZVdKcENDdm1GU2MxbXlTcERlU0o2VFJad0ZqU1NyWmRod3V5TFVhUVk5Vk0tOVAxU1haNksyb2x1MjRmVllTTTRjcDFHQVJ6NEg2bDMyb3ZsVEltQm9vT3o0d3l2Yng2Y01LRDN1RVpBVFB3d3ZLci1TQVBsMndqZ2lMem9BcGpPS3d0dHd3TQ?oc=5",
-     "fonte": "Brusque / SC",
-     "data": "2026-11-19T19:38:00+00:00"
-    },
-    {
-     "titulo": "Clássicos da Broadway serão apresentados em Balneário Camboriú",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMzF6N1gwYW11M2N6SWRzaENDajMzWkNBRGVfMUQyU0FqcnNiTFdPUDcyV21qWWdZV3hWZjZtUHFTbHBmaTl4T3RDVzNDZ1ZVbGloYWVxc0o0TENUc0ZiUHFEbkYzYkt5Y2U3WTVkdE45ODNacGlnS1pLRXN3U2dYaWxJT3FLb29KMU5RM2lGYTlwVUYxai16NzZwRjd1ZVE?oc=5",
-     "fonte": "DIARINHO",
-     "data": "2026-11-19T19:20:58+00:00"
+     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNVkxqQWJvM054NWFqWUw4elAtaXBrS0ZHY1o1bVhKSG9zZGFhSXA1Rk45LU5oOWdmWDJlUDkxNHJRajRUV2tRZmwxWGFXdkFiSGtzYWV6cGFLY2Joc0ZhTE9td0lYcG1seHlIWnE1Y0lyMDZVb1dYRm1xNFRDeE10TzQ1VE5GelVISWV4aVdlMWNwSzBzTVZERnBBa3ZIWFdPNWtJd3lSaURJTDlQV1JzRmhPMTR6NW5TWm9xN0o2ckJUeWFlVmpES01JQmNFeW8yeGlLNVQxNUw0TnpGbXJOdkM2OUVaZTdkUGpoV2Znd2liNzNmMl9vY1RTRDNfd2hwQmNMeGFvd0ltN3BZZkdBWVh6d0I?oc=5",
+     "fonte": "Brasil 247",
+     "data": "2026-11-19T23:45:00+00:00"
     }
    ]
   }

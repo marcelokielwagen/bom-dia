@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-20T20:16:45.261193+00:00",
+ "atualizado": "2026-11-21T02:12:59.074018+00:00",
  "ibovespa": {
   "pontos": 166376,
   "variacao": -0.69,
@@ -62,24 +62,24 @@
    "nome": "S&P 500",
    "grupo": "indices",
    "simbolo": "^GSPC",
-   "preco": 6957.79,
-   "variacao": -3.04
+   "preco": 6910.39,
+   "variacao": -3.7
   },
   {
    "id": "nasdaq",
    "nome": "Nasdaq",
    "grupo": "indices",
    "simbolo": "^IXIC",
-   "preco": 22771.92,
-   "variacao": -4.64
+   "preco": 22617.73,
+   "variacao": -5.28
   },
   {
    "id": "dow",
    "nome": "Dow Jones",
    "grupo": "indices",
    "simbolo": "^DJI",
-   "preco": 48467.86,
-   "variacao": -1.28
+   "preco": 48147.33,
+   "variacao": -1.93
   },
   {
    "id": "nikkei",
@@ -169,18 +169,12 @@
   ]
  },
  "rio": {
-  "nivel": 2.43,
-  "leitura": "2026-11-20 17:00",
-  "estagio": "Normalidade",
-  "tendencia": "estável",
-  "variacao3h": 0.01,
+  "nivel": 3.37,
+  "leitura": "2026-11-20 23:00",
+  "estagio": "Observação",
+  "tendencia": "subindo",
+  "variacao3h": 0.5,
   "historico": [
-   2.44,
-   2.45,
-   2.45,
-   2.51,
-   2.57,
-   2.59,
    2.62,
    2.62,
    2.59,
@@ -198,7 +192,13 @@
    2.42,
    2.39,
    2.39,
-   2.43
+   2.43,
+   2.58,
+   2.7,
+   2.87,
+   3.01,
+   3.18,
+   3.37
   ],
   "link": "https://alertablu.blumenau.sc.gov.br/"
  },
@@ -1607,24 +1607,24 @@
    "noticias": [
     {
      "titulo": "'A cidade acabou': a destruição causada por temporal que provocou mortes no RS",
-     "resumo": "Fotos compartilhadas por moradores nas redes sociais mostram ruas cobertas de granizo e destroços de prédios, árvores e postes.",
+     "resumo": "Trinta cidades no Rio Grande do Sul tiveram danos humanos ou materiais, segundo a Defesa Civil. Tupanciretã, na região central do Estado, teve três óbitos e 60 pessoas feridas.",
      "link": "https://www.bbc.com/portuguese/articles/cqdr1xmyg3kzo?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-20T18:44:18+00:00"
+     "data": "2026-11-21T01:16:58+00:00"
     },
     {
-     "titulo": "'Mosca-da-bicheira': parasita que devora animais vivos avança pelos EUA e alerta pecuaristas",
-     "resumo": "Os surtos nos Estados Unidos (EUA) da chamada mosca-da-bicheira do Novo Mundo aumentaram drasticamente devido ao clima excepcionalmente úmido e quente no sudoeste do país.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/20/mosca-da-bicheira-parasita-que-devora-animais-vivos-avanca-pelos-eua-e-alerta-pecuaristas.ghtml",
+     "titulo": "Homem é declarado culpado por incêndio letal em Los Angeles em 2025 e pode pegar 40 anos de prisão",
+     "resumo": "A Justiça dos Estados Unidos considerou culpado nesta sexta-feira (20) o homem suspeito de provocar o incêndio devastador que atingiu a luxuosa região costeira de Malibu, na Califórnia, no início de 2025.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/20/suspeito-de-iniciar-incendio-letal-em-los-angeles-e-declarado-culpado.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-20T19:58:52+00:00"
+     "data": "2026-11-21T01:34:30+00:00"
     },
     {
-     "titulo": "Até onde estratégia de Trump contra o Irã depende de China e Rússia",
-     "resumo": "Pequim compra a maior parte do petróleo iraniano e Moscou oferece apoio político ao reg, mas as duas potências calculam cuidadosamente até onde vale a pena ajudar Teerã.",
-     "link": "https://www.dw.com/pt-br/até-onde-estratégia-de-trump-contra-o-irã-depende-de-china-e-rússia/a-80005164?maca=bra-rss-br-all-1030-rdf",
+     "titulo": "Trump diz que Filipinas trocarão produtos agrícolas do Brasil pelos dos EUA",
+     "resumo": "Declaração ocorre após viagem à Ásia, onde o presidente americano teve encontros com líderes de pelo menos 20 países e disse ter encaminhado até 10 novos acordos comerciais.",
+     "link": "https://www.dw.com/pt-br/trump-diz-que-filipinas-trocarão-produtos-agrícolas-do-brasil-pelos-dos-eua/a-80007345?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-20T19:32:00+00:00"
+     "data": "2026-11-20T21:16:00+00:00"
     },
     {
      "titulo": "Como comprimido diário é a grande esperança contra um dos cânceres mais letais",
@@ -1634,18 +1634,18 @@
      "data": "2026-11-20T15:18:29+00:00"
     },
     {
-     "titulo": "Dois salvadorenhos morrem no Haiti enquanto manuseavam explosivos, diz Exército",
-     "resumo": "Dois soldados salvadorenhos morreram e outros dois ficaram feridos em uma explosão enquanto trabalhavam com material explosivo durante uma missão no Haiti, informou o Exército de El Salvador nesta sexta-feira (20).",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/20/salvadorenhos-morte-haiti.ghtml",
+     "titulo": "Bayer pagará até US$ 7,25 bilhões em acordo judicial com pacientes que alegam ter desenvolvido câncer após uso de herbicida",
+     "resumo": "A fabricante de agroquímicos Bayer pagará até US$ 7,25 bilhões (o equivalente a mais de R$ 40 bilhões) ao longo de duas décadas para resolver milhares de processos movidos por pacientes com câncer nos EUA.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/20/bayer-pagara-ate-us-725-bilhoes-em-acordo-judicial-com-pacientes-que-alegam-ter-desenvolvido-cancer-apos-uso-de-herbicida.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-20T19:18:39+00:00"
+     "data": "2026-11-21T00:38:30+00:00"
     },
     {
-     "titulo": "Diferença salarial na UE: Mulheres trabalharão \"de graça\" até o fim do ano",
-     "resumo": "Diferença média de remuneração entre homens e mulheres na UE é de 11,1%; Alemanha registra índice ainda maior e é cobrada por atrasar regras de transparência salarial.",
-     "link": "https://www.dw.com/pt-br/diferença-salarial-na-ue-mulheres-trabalharão-de-graça-até-o-fim-do-ano/a-80005998?maca=bra-rss-br-all-1030-rdf",
+     "titulo": "Geração Z volta a protestar em centenas de cidades da Europa",
+     "resumo": "Manifestações também reúnem trabalhadores e tem como principais bandeiras mais investimentos em educação, contra o aumento no custo de vida e, principalmente na Alemanha, contra o serviço militar obrigatório.",
+     "link": "https://www.dw.com/pt-br/geração-z-volta-a-protestar-em-centenas-de-cidades-da-europa/a-80006746?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-20T18:22:00+00:00"
+     "data": "2026-11-20T21:15:00+00:00"
     },
     {
      "titulo": "A batalha na Justiça para apagar homenagem a expoente do racismo científico no Brasil",
@@ -1655,11 +1655,11 @@
      "data": "2026-11-20T14:11:01+00:00"
     },
     {
-     "titulo": "Trump diz que convenceu Filipinas a substituir produtos agrícolas do Brasil pelos dos EUA",
-     "resumo": "Trump diz que Filipinas vão trocar Brasil pelos EUA na agricultura O presidente dos Estados Unidos, Donald Trump, afirmou nesta sexta-feira (20) que teria firmado um acordo com as Filipinas para assegurar a preferência…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/20/trump-brasil-filipinas.ghtml",
+     "titulo": "Embaixada brasileira na Ucrânia é atingida por destroços após ataques a Kiev, diz Itamaraty",
+     "resumo": "Governo brasileiro divulga nota condenando ataques a Kiev, na Ucrânia O Ministério das Relações Exteriores (Itamaraty) informou nesta sexta-feira (20) que a embaixada brasileira na Ucrânia foi atingida por destroços…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/20/embaixada-brasileira-na-ucrania-e-atingida-por-destrocos-apos-ataques-a-kiev-diz-itamaraty.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-20T19:16:23+00:00"
+     "data": "2026-11-21T00:37:07+00:00"
     }
    ]
   },
@@ -1668,60 +1668,53 @@
    "nome": "Política",
    "noticias": [
     {
-     "titulo": "Dino vota para tornar Van Hattem réu por calúnia e injúria contra delegado da PF; Zanin leva caso ao plenário físico do STF",
-     "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), votou pelo recebimento da denúncia apresentada pela Procuradoria-Geral da República (PGR) contra o deputado federal Marcel Van Hattem (Novo-RS) pelos crimes de…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/20/dino-vota-para-tornar-van-hattem-reu-por-calunia-e-injuria-contra-delegado-da-policia-federal.ghtml",
+     "titulo": "PF prende no DF suspeita de integrar esquema de falsos investimentos que movimentou mais de R$ 600 milhões no PI",
+     "resumo": "A Polícia Federal prendeu nesta sexta-feira (20), no Distrito Federal, Kayra Cardoso Guimarães, suspeita de fazer parte de um grupo investigado pela Polícia Civil do Piauí por movimentar milhões com golpes envolvendo…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/20/pf-prende-suspeita-de-integrar-esquema-de-falsos-investimentos-que-movimentou-mais-de-r-600-milhoes-no-pi.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-20T14:21:48+00:00"
+     "data": "2026-11-21T01:50:53+00:00"
     },
     {
-     "titulo": "Zanin leva julgamento de Van Hattem a sessão presencial do STF",
-     "resumo": "Ministro pediu destaque depois de voto de Dino para tornar réu o deputado; defesa e OAB pediram sustentação oral ao vivo",
-     "link": "https://www.poder360.com.br/poder-justica/zanin-leva-julgamento-de-van-hattem-a-sessao-presencial-do-stf/",
+     "titulo": "Moraes vota para manter suspensão da privatização da Celepar",
+     "resumo": "Ministro cita riscos à proteção de dados; venda da estatal paranaense tinha preço mínimo de R$ 1,3 bilhão",
+     "link": "https://www.poder360.com.br/poder-justica/moraes-vota-para-manter-venda-da-celepar-suspensa-zanin-diverge/",
      "fonte": "Poder360",
-     "data": "2026-11-20T20:10:31+00:00"
+     "data": "2026-11-21T01:54:45+00:00"
     },
     {
-     "titulo": "Moraes diz que fuga de Flávio para os EUA é tentativa de obstruir investigações e vota para manter restrições a senador",
-     "resumo": "Moraes vota para manter restrições a Flávio Bolsonaro após fuga para os EUA O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), afirmou que a fuga do senador Flávio Bolsonaro (PL-RJ) do Brasil demonstra…",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/20/moraes-diz-que-fuga-de-flavio-para-os-eua-e-tentativa-de-obstruir-investigacao-e-vota-para-manter-restricoes-a-senador.ghtml",
+     "titulo": "Ex-vereador está entre os mortos da tempestade em Tupanciretã (RS)",
+     "resumo": "Prefeitura estima que quase todas as casas da cidade foram destruídas; outras duas pessoas morreram e 60 ficaram feridas",
+     "link": "https://www.poder360.com.br/poder-brasil/ex-vereador-esta-entre-os-mortos-da-tempestade-em-tupancireta-rs/",
+     "fonte": "Poder360",
+     "data": "2026-11-21T01:48:17+00:00"
+    },
+    {
+     "titulo": "Fachin retira sigilo de relatório da PF com 11 conversas que citam André Mendonça no caso Master",
+     "resumo": "Fachin abre sigilo de relatório da PF sobre André Mendonça no caso Master O presidente do Supremo Tribunal Federal, Edson Fachin, retirou o sigilo do relatório da Polícia Federal sobre o ministro André Mendonça, no caso…",
+     "link": "https://g1.globo.com/jornal-nacional/noticia/2026/11/20/fachin-retira-sigilo-de-relatorio-da-pf-com-11-conversas-que-citam-andre-mendonca-no-caso-master.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-20T14:17:49+00:00"
+     "data": "2026-11-21T00:23:24+00:00"
     },
     {
-     "titulo": "Governo envia Força Nacional do SUS a Tupanciretã após temporal no RS",
-     "resumo": "Cidade gaúcha registrou ventos de 114 km/h e danos em residências e unidades de saúde; Defesa Civil investiga possível tornado",
-     "link": "https://www.poder360.com.br/poder-governo/governo-envia-forca-nacional-do-sus-a-tupancireta-apos-temporal-no-rs/",
+     "titulo": "Trump defende pedido de desculpas e volta de Jensen Huang à Nvidia",
+     "resumo": "Presidente chamou o ex-CEO de uma das “mentes mais brilhantes do mundo” e disse ter conversado sobre o assunto com Xi Jinping",
+     "link": "https://www.poder360.com.br/poder-internacional/trump-defende-pedido-de-desculpas-e-volta-de-jensen-huang-a-nvidia/",
      "fonte": "Poder360",
-     "data": "2026-11-20T20:07:25+00:00"
+     "data": "2026-11-21T01:42:05+00:00"
     },
     {
-     "titulo": "Caso Master: Fachin mantém prisão do ex-banqueiro Daniel Vorcaro",
-     "resumo": "Fachin mantém prisão de Daniel Vorcaro O presidente do Supremo Tribunal Federal (STF), Edson Fachin, manteve nesta quinta-feira (19) a prisão do ex-banqueiro Daniel Vorcaro, do Master, alvo da Operação Compliance Zero.",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/20/caso-master-fachin-mantem-prisao-do-ex-banqueiro-daniel-vorcaro.ghtml",
+     "titulo": "Gilmar Mendes diz não ver problema em abertura de sigilo de relatório sobre ministros, mas que medida não resolve questão",
+     "resumo": "O ministro Gilmar Mendes, do Supremo Tribunal Federal (STF), afirmou nesta sexta-feira (20) não ver problema na abertura do sigilo do relatório da Polícia Federal sobre outros ministros do Supremo mencionados ou que…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/20/gilmar-mendes-diz-nao-ver-problema-em-abertura-de-sigilo-de-relatorio-da-pf-sobre-outros-ministros-do-supremo.ghtml",
      "fonte": "g1 Política",
-     "data": "2026-11-20T12:25:23+00:00"
+     "data": "2026-11-20T23:56:40+00:00"
     },
     {
-     "titulo": "Trump diz que EUA e China terão regras conjuntas para IA",
-     "resumo": "Presidente afirma que os 2 países discutirão normas para inteligência artificial e cooperação tecnológica",
-     "link": "https://www.poder360.com.br/poder-tech/trump-diz-que-eua-e-china-terao-regras-conjuntas-para-ia/",
+     "titulo": "Nos EUA, Flávio deseja “força” e Eduardo diz orar pelo pai",
+     "resumo": "Jair Bolsonaro está internado em Brasília com obstrução intestinal; Carlos acompanha o ex-presidente no hospital",
+     "link": "https://www.poder360.com.br/poder-brasil/nos-eua-flavio-deseja-forca-e-eduardo-diz-orar-pelo-pai/",
      "fonte": "Poder360",
-     "data": "2026-11-20T20:01:12+00:00"
-    },
-    {
-     "titulo": "Master: relatório da PF sobre Mendonça cita tentativas de aproximação de Vorcaro ao ministro do STF",
-     "resumo": "O relatório da Polícia Federal com menções ao ministro André Mendonça, do Supremo Tribunal Federal (STF), detalha tentativas de aproximação do ex-banqueiro Daniel Vorcaro, e de pessoas próximas ao dono do Master, ao…",
-     "link": "https://g1.globo.com/economia/blog/ana-flor/post/2026/11/20/master-relatorio-da-pf-sobre-mendonca-cita-tentativas-de-aproximacao-de-vorcaro-ao-ministro-do-stf.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-20T11:43:51+00:00"
-    },
-    {
-     "titulo": "Feriados em 2026: saiba as folgas que ainda restam no 2º semestre",
-     "resumo": "O Brasil terá só mais um feriado nacional em 2026; data cai em uma 6ª feira e permitirá fim de semana prolongado",
-     "link": "https://www.poder360.com.br/poder-brasil/feriados-em-2026-saiba-as-folgas-que-ainda-restam-no-2o-semestre-2/",
-     "fonte": "Poder360",
-     "data": "2026-11-20T19:54:07+00:00"
+     "data": "2026-11-21T01:34:31+00:00"
     }
    ]
   },
@@ -1729,6 +1722,48 @@
    "id": "ti",
    "nome": "TI e Segurança",
    "noticias": [
+    {
+     "titulo": "Orbitals e mais jogos para Switch na eShop com até 90% OFF",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/orbitals-e-mais-jogos-para-switch-na-eshop-com-ate-90-off/",
+     "fonte": "TecMundo",
+     "data": "2026-11-20T22:30:00+00:00"
+    },
+    {
+     "titulo": "Matemático da Anthropic afirma ter provado a Hipótese de Riemann, um dos mais famosos enigmas da matemática",
+     "resumo": "Um pesquisador da empresa de inteligência artificial Anthropic afirmou nesta sexta-feira (20) que utilizou o chatbot Claude, desenvolvido pela companhia, para demonstrar a Hipótese de Riemann, um problema que os…",
+     "link": "https://g1.globo.com/educacao/noticia/2026/11/20/matematico-da-anthropic-afirma-ter-provado-a-hipotese-de-riemann-um-dos-mais-famosos-enigmas-da-matematica.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-20T23:11:41+00:00"
+    },
+    {
+     "titulo": "GTA 6 usa história de amor para entregar o ápice da Rockstar no mundo dos games",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-e-o-apice-de-30-anos-de-evolucao-da-rockstar-no-mundo-dos-games/",
+     "fonte": "TecMundo",
+     "data": "2026-11-18T11:00:00+00:00"
+    },
+    {
+     "titulo": "Ações da Anthropic caem 8,5% um dia após estreia histórica na bolsa dos EUA",
+     "resumo": "As ações da Anthropic, criadora do chatbot de inteligência artificial (IA) Claude, fecharam em queda de 8,5% nesta sexta-feira (20), a US$ 88,91, um dia após a estreia histórica da empresa na bolsa de valores dos…",
+     "link": "https://g1.globo.com/economia/noticia/2026/11/20/acoes-anthropic.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-20T22:34:15+00:00"
+    },
+    {
+     "titulo": "MSI apresenta RTX 5080 de COD MW4 e confirma lançamento para o Brasil",
+     "resumo": "",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/msi-apresenta-rtx-5080-de-cod-mw4-e-confirma-lancamento-para-o-brasil/",
+     "fonte": "TecMundo",
+     "data": "2026-11-20T20:17:00+00:00"
+    },
+    {
+     "titulo": "TikTok lança ferramentas para identificar conteúdos de IA e deepfakes; veja como funcionam",
+     "resumo": "TikTok lança ferramenta para identificar deepfakes O TikTok anunciou nesta sexta-feira (20) duas novas ferramentas para identificar conteúdos criados ou manipulados por inteligência artificial (IA).",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/20/tiktok-ferramentas-para-identificar-ia-e-deepfakes.ghtml",
+     "fonte": "g1 Tecnologia",
+     "data": "2026-11-20T21:30:05+00:00"
+    },
     {
      "titulo": "GTA 6 vende 32,5 milhões de cópias e arrecada US$ 3,79 bilhões na estreia, diz Take-Two",
      "resumo": "",
@@ -1742,48 +1777,6 @@
      "link": "https://g1.globo.com/tecnologia/noticia/2026/11/20/acoes-da-nvidia-tem-pior-sequencia-de-quedas-na-bolsa-desde-2008.ghtml",
      "fonte": "g1 Tecnologia",
      "data": "2026-11-20T18:47:51+00:00"
-    },
-    {
-     "titulo": "GTA 6 acumula recordes de audiência nas plataformas desde o lançamento; veja lista",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/gta-6-acumula-recordes-de-audiencia-nas-plataformas-desde-o-lancamento-veja-lista/",
-     "fonte": "TecMundo",
-     "data": "2026-11-20T19:38:00+00:00"
-    },
-    {
-     "titulo": "Trump diz que não permitirá que empresas construam data centers fora dos EUA",
-     "resumo": "Trump diz que não permitirá data center em outros países O presidente dos Estados Unidos, Donald Trump, afirmou nesta sexta-feira (20) que os EUA não vão permitir que empresas norte-americanas construam data centers…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/20/trump-diz-que-nao-permitira-que-empresas-construam-data-centers-fora-dos-eua.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-20T18:41:10+00:00"
-    },
-    {
-     "titulo": "Como trocar a câmera em GTA 6 a pé e no carro? Confira o tutorial",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/como-trocar-a-camera-em-gta-6-a-pe-e-no-carro-confira-o-tutorial/",
-     "fonte": "TecMundo",
-     "data": "2026-11-20T19:27:00+00:00"
-    },
-    {
-     "titulo": "Após falhas que afetaram Microsoft e suspenderam voos, Trump demite diretor de segurança cibernética",
-     "resumo": "O diretor nacional de segurança cibernética da Casa Branca, Sean Cairncross, foi demitido do cargo, segundo uma fonte próxima ao governo.",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/20/apos-falhas-que-afetaram-microsoft-e-suspenderam-voos-trump-demite-diretor-de-seguranca-cibernetica.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-20T17:36:52+00:00"
-    },
-    {
-     "titulo": "Confira guia de troféus de GTA 6 e como desbloquear todas as conquistas",
-     "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-guia-de-trofeus-e-conquistas/",
-     "fonte": "TecMundo",
-     "data": "2026-11-20T19:15:00+00:00"
-    },
-    {
-     "titulo": "'Robôs assassinos' já são usados em guerras, mas países não chegam a acordo sobre limites na ONU",
-     "resumo": "A conferência da ONU sobre os chamados \"robôs assassinos\" entra na reta final nesta sexta-feira (20), mas os países não entraram em consenso sobre a abertura de negociações para regulamentar esse tipo de armamento…",
-     "link": "https://g1.globo.com/inovacao/noticia/2026/11/20/robos-assassinos-ja-sao-usados-em-guerras-mas-paises-nao-chegam-a-acordo-sobre-limites-na-onu.ghtml",
-     "fonte": "g1 Tecnologia",
-     "data": "2026-11-20T14:00:27+00:00"
     }
    ]
   },
@@ -1792,25 +1785,25 @@
    "nome": "Ações e Mercado",
    "noticias": [
     {
-     "titulo": "Investigação da SEC dos EUA sobre Nvidia analisa possíveis questões contábeis, dizem fontes",
-     "resumo": "A Comissão de Valores Mobiliários dos EUA (SEC, na sigla em inglês) está investigando as práticas contábeis da Nvidia, afirmaram duas pessoas a par do assunto, acrescentando mais um problema jurídico para a fabricante…",
-     "link": "https://www.moneytimes.com.br/investigacao-da-sec-dos-eua-sobre-nvidia-analisa-possiveis-questoes-contabeis-dizem-fontes/",
+     "titulo": "Bitcoin (BTC) cai a US$ 57 mil e renova mínima em mais de dois anos; qual o fundo do poço?",
+     "resumo": "O bitcoin (BTC) aprofundou as perdas nesta sexta-feira (20) e chegou a cair para US$ 57.957, renovando o menor patamar em mais de dois anos, em meio a uma forte aversão a risco nos mercados globais.",
+     "link": "https://www.moneytimes.com.br/bitcoin-btc-cai-a-us-57-mil-e-renova-minima-em-mais-de-dois-anos-qual-o-fundo-do-poco/",
      "fonte": "Money Times",
-     "data": "2026-11-20T19:48:10+00:00"
+     "data": "2026-11-20T22:27:45+00:00"
     },
     {
-     "titulo": "Grand Theft Auto VI estreia com US$ 3,79 bilhões em vendas e bate recorde",
+     "titulo": "UBS vê oportunidades em commodities apesar da queda no prêmio do petróleo",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/grand-theft-auto-vi-estreia-com-us-379-bilhoes-em-vendas-e-bate-recorde-2134458",
+     "link": "https://br.investing.com/news/stock-market-news/ubs-ve-oportunidades-em-commodities-apesar-da-queda-no-premio-do-petroleo-2134666",
      "fonte": "Investing.com",
-     "data": "2026-11-20T19:49:45+00:00"
+     "data": "2026-11-21T01:28:01+00:00"
     },
     {
-     "titulo": "Trump fala de tudo, e nem o Brasil escapa: o que você precisa saber sobre as novas ameaças do republicano",
-     "resumo": "Em coletiva na Casa Branca, o presidente dos EUA criticou o Fed, ameaçou tarifar data centers fora do país, pediu a volta de Jensen Huang à Nvidia e citou o Brasil ao cobrar das Filipinas The post Trump fala de tudo, e…",
-     "link": "https://www.seudinheiro.com/2026/internacional/trump-fala-de-tudo-e-nem-o-brasil-escapa-o-que-voce-precisa-saber-sobre-as-novas-ameacas-do-republicano-ccgg/",
+     "titulo": "Fim da escala 6×1 pode custar R$ 35 milhões por ano a empresa com 10 mil funcionários, diz levantamento",
+     "resumo": "Adequação à jornada 5x2 exigiria 800 novas contratações em um atacarejo; em uma empresa menor, custo seria de R$ 2,9 milhões The post Fim da escala 6×1 pode custar R$ 35 milhões por ano a empresa com 10 mil…",
+     "link": "https://www.seudinheiro.com/2026/economia/fim-da-escala-6x1-pode-custar-r-35-milhoes-por-ano-a-empresa-com-10-mil-funcionarios-cbcb/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-20T20:10:59+00:00"
+     "data": "2026-11-20T21:35:00+00:00"
     },
     {
      "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
@@ -1820,25 +1813,25 @@
      "data": "2026-05-27T21:59:36+00:00"
     },
     {
-     "titulo": "Trump dá ‘rasteira’ em agro brasileiro e leva Filipinas; ‘o Brasil vai ajudá-los caso eles tenham guerra com a China?’",
-     "resumo": "O presidente dos Estados Unidos (EUA), Donald Trump, afirmou que as Filipinas concordaram em comprar 100% dos produtos agrícolas americanos a partir de 1º de janeiro.",
-     "link": "https://www.moneytimes.com.br/trump-filipinas-vinham-comprando-produtos-agro-muito-mais-do-brasil-do-que-dos-eua/",
+     "titulo": "Arandu, atinga Reag, aprova resgate compulsório das ações remanescentes e papéis sairão da B3 em 23 de novembro",
+     "resumo": "A Arandu Investimentos, antiga Reag Investimentos, informou nesta quarta-feira (19) que a assembleia geral extraordinária aprovou o resgate compulsório e o posterior cancelamento de todas as 1.364.507 ações ordinárias…",
+     "link": "https://www.moneytimes.com.br/arandu-atinga-reag-aprova-resgate-compulsorio-das-acoes-remanescentes-e-papeis-sairao-da-b3-em-23-de-novembro/",
      "fonte": "Money Times",
-     "data": "2026-11-20T19:46:00+00:00"
+     "data": "2026-11-20T22:15:04+00:00"
     },
     {
-     "titulo": "GTA VI registra venda recorde de US$3,79 bilhões no primeiro dia de lançamento",
+     "titulo": "Wall St fecha em forte queda com vendas no setor de IA; S&P 500 e Dow Jones entram em correção",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/gta-vi-registra-venda-recorde-de-us379-bilhoes-no-primeiro-dia-de-lancamento-2134456",
+     "link": "https://br.investing.com/news/stock-market-news/wall-st-fecha-em-forte-queda-com-vendas-no-setor-de-ia-sp-500-e-dow-jones-entram-em-correcao-2134593",
      "fonte": "Investing.com",
-     "data": "2026-11-20T19:49:17+00:00"
+     "data": "2026-11-20T22:28:24+00:00"
     },
     {
-     "titulo": "Ouro não protege ninguém, cai a mínima em um ano e falha como porto seguro",
-     "resumo": "Metal recua 4,62% e prata cai 7,41% em dia de liquidação global — três gatilhos tiraram o brilho dos metais preciosos nesta sexta-feira (20) The post Ouro não protege ninguém, cai a mínima em um ano e falha como porto…",
-     "link": "https://www.seudinheiro.com/2026/bolsa-dolar/ouro-nao-protege-ninguem-cai-a-minima-em-um-ano-e-falha-como-porto-seguro-ccgg/",
+     "titulo": "Nvidia cai 14% e vive a pior sequência desde 2008 — a (ex?) queridinha de Wall Street vai ter que desatar mais um nó",
+     "resumo": "Ação cai pela sétima semana seguida, pressionada por uma série de eventos adversos; valor de mercado já encolheu em US$ 2,5 trilhões The post Nvidia cai 14% e vive a pior sequência desde 2008 — a (ex?) queridinha de…",
+     "link": "https://www.seudinheiro.com/2026/internacional/nvidia-cai-14-e-vive-a-pior-sequencia-desde-2008-a-ex-queridinha-de-wall-street-vai-ter-que-desatar-mais-um-no/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-20T19:40:32+00:00"
+     "data": "2026-11-20T21:09:00+00:00"
     },
     {
      "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
@@ -1848,18 +1841,18 @@
      "data": "2026-05-27T21:47:03+00:00"
     },
     {
-     "titulo": "Small caps: Safra coloca na carteira banco que pode disparar 80% e chegar a R$ 100; confira o portfólio",
-     "resumo": "O Banco Safra promoveu uma série de alterações em sua carteira recomendada de small caps para novembro e dezembro.",
-     "link": "https://www.moneytimes.com.br/small-caps-safra-coloca-na-carteira-banco-que-pode-disparar-80-e-chegar-a-r-100-na-carteira-confira/",
+     "titulo": "Jair Bolsonaro é levado ao hospital após sentir fortes dores abdominais",
+     "resumo": "O ex-presidente Jair Bolsonaro foi levado ao hospital após sentir fortes dores abdominais, afirmou seu filho Carlos Bolsonaro, em uma publicação no X, nesta sexta-feira.",
+     "link": "https://www.moneytimes.com.br/jair-bolsonaro-e-levado-ao-hospital-apos-sentir-fortes-dores-abdominais/",
      "fonte": "Money Times",
-     "data": "2026-11-20T19:37:45+00:00"
+     "data": "2026-11-20T21:52:20+00:00"
     },
     {
-     "titulo": "Dez estados se juntam a processo da FTC contra a Dollar General",
+     "titulo": "Oracle afirma que contrato com OpenAI está totalmente financiado",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/dez-estados-se-juntam-a-processo-da-ftc-contra-a-dollar-general-2134454",
+     "link": "https://br.investing.com/news/stock-market-news/oracle-afirma-que-contrato-com-openai-esta-totalmente-financiado-2134579",
      "fonte": "Investing.com",
-     "data": "2026-11-20T19:46:46+00:00"
+     "data": "2026-11-20T22:13:06+00:00"
     }
    ]
   },
@@ -1867,6 +1860,13 @@
    "id": "blumenau",
    "nome": "Blumenau",
    "noticias": [
+    {
+     "titulo": "Motociclista de 61 anos morre após batida com carro no bairro Itoupava Central, em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdVZTZzVRSUhCb3l2ZFdpZlo2ZmMtLXZ1WThveXpBWVBJemVFRk1NbHBzcmhIR2R2VEdEZ3lsVGgxU3lRQ0lBb3I5MUM1QmdpcGhtc21CZE41blpfX1VPU2NiTjAzSzJ6Y3QwYjZUdDFfQ0VpUGJlQTdnelAxRlpQdFJsUU9Ka0dobWE1VThwOUVMdkRIbjZiMi1tVzNKUE9QRENqWVh1aUozeV9DaWVqb1daLU45TmRJbGE1WmxabHhzMWRLTkQ5TUR3?oc=5",
+     "fonte": "TopElegance",
+     "data": "2026-11-20T22:27:04+00:00"
+    },
     {
      "titulo": "Secretário de Saúde de Blumenau, Marcelo Lanzarin, pede exoneração",
      "resumo": "",
@@ -1903,13 +1903,6 @@
      "data": "2026-11-20T17:10:34+00:00"
     },
     {
-     "titulo": "Última semana para se inscrever no Mutirão do Diabetes de Blumenau.",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMFJUSS1iYUJJTWZXa3JpbUlGa3R6TmY4NklENEtLQkVFZ3lpQVNXR2VLMjBPdjcwU0paOS1ZSExSMjlua3A5cERuaExGcXU0X3JRSG5rdUxSOGYwYVNTRUNoRnN4TWpTbXVTU0lCSjc3WGs3azRUNjJNb1Q2cXFha3M3aUtUY2lGb3U4STF2TGZHTEZHekxwWDd3VUw?oc=5",
-     "fonte": "Blog do Jaime",
-     "data": "2026-11-20T16:15:00+00:00"
-    },
-    {
      "titulo": "VEJA A PROGRAMAÇÃO DO NATAL EM BLUMENAU 2026. DESFILES E LUZES NO PARQUE VILA GERMÂNICA E NA RUA XV. ABERTURA DIA 26/11/26 ÀS 19H30.",
      "resumo": "",
      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQdEM0andYSzhVTFJIek5LYzJKRnFPeGVWUzNwVGkta1kwb3hqbkFBanBUajZocm1TbFZQbXpSaUdyMzdoRDNLaWhVNHVGWm9WSjc3X2ZDZXJ1ZnZDNHVhSjRETnBsV2pMa0ZvSXNZemtlcVhpS3NGS1BzajUwUDZaOUZhSlZBWUJKdi1uem9JRlBaelFfclo1Q3RrYjdFQlZJTXlFRkMweHNyZkg5aFVEN1BZVUxfQnpudTFNM2F2VFhLNWZGeUFPRUxtUzlkeDg4czNaRHUxX2dfUkhiNEEyVHhpZGZZcVRKQUxtdTdCMXk?oc=5",
@@ -1930,32 +1923,74 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
-     "titulo": "Cobertura de posto de combustível desaba com vento forte e local é evacuado em Balneário Camboriú",
-     "resumo": "Estrutura metálica cedeu na área das bombas de combustível e loja de conveniência precisou ser evacuada; não houve vítimas Leia no Camboriú News",
-     "link": "https://camboriu.news/cobertura-de-posto-de-combustivel-desaba-com-vento-forte-e-local-e-evacuado-em-balneario-camboriu/",
+     "titulo": "Amfri fecha acordo de US$ 120 milhões com Banco Mundial para obras de mobilidade em 11 cidades de SC",
+     "resumo": "Recursos serão usados em acessos viários, pontes, ciclovias e outras estruturas de integração regional Leia no Camboriú News",
+     "link": "https://camboriu.news/amfri-fecha-acordo-de-us-120-milhoes-com-banco-mundial-para-obras-de-mobilidade-em-11-cidades-de-sc/",
      "fonte": "Camboriú News",
-     "data": "2026-11-20T19:47:09+00:00"
+     "data": "2026-11-21T00:36:00+00:00"
     },
     {
-     "titulo": "Teste de fogos para o Réveillon será realizado neste sábado em Balneário Camboriú",
-     "resumo": "Molhe do Pontal Norte será interditado a partir das 14h e disparos ocorrerão após o desfile de Natal Leia no Camboriú News",
-     "link": "https://camboriu.news/teste-de-fogos-para-o-reveillon-sera-realizado-neste-sabado-em-balneario-camboriu/",
-     "fonte": "Camboriú News",
-     "data": "2026-11-20T03:04:23+00:00"
+     "titulo": "Obra de nova alça de acesso à BR-101 começa em Balneário Camboriú; veja rota alternativa",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOaTd2bkw0bnRlTWFLSURfZ0tKWEU5SE9PMGlUU0NBLVpzUG9WVkx0OGwxTXJ6NENOdE13ODdXTVJqZFowVXFvMmREMkJDcXR3aDVUdGJObVRrYUFkREZRRVhyYk1Qb3hxUGg3QWRRWUdsWTV3a2RWLTFJSGptM0gxUzdoOXZ0blduYllaaFJiMFd6eGp2MGJwai1GUUQyVnZ1YmJDUzdtZjVxcXlUZWlPWWRkUVhKSjdVSUJydnQ2RnRKQlJkWkVJWDZlYmlZOW9yZXdKSlB0WURheGUwM05VNnFn?oc=5",
+     "fonte": "Click Camboriú",
+     "data": "2026-11-21T00:59:00+00:00"
     },
     {
-     "titulo": "Ex-marido teria jogado Fiorino contra carro com mulher, companheiro e criança em BC",
-     "resumo": "Relato ainda aponta que motorista teria agredido o atual companheiro da mulher após a colisão Leia no Camboriú News",
-     "link": "https://camboriu.news/ex-marido-teria-jogado-fiorino-contra-carro-com-mulher-companheiro-e-crianca-em-bc/",
+     "titulo": "BC inaugura deck de R$ 868 mil com acesso à Praia de Taquarinhas",
+     "resumo": "Estrutura tem cerca de 150 metros de extensão, iluminação, banheiros, câmeras e acessibilidade Leia no Camboriú News",
+     "link": "https://camboriu.news/bc-inaugura-deck-de-r-868-mil-com-acesso-a-praia-de-taquarinhas/",
      "fonte": "Camboriú News",
-     "data": "2026-11-20T02:46:25+00:00"
+     "data": "2026-11-21T00:28:10+00:00"
     },
     {
-     "titulo": "Servidores teriam desviado peças de veículos da Prefeitura para empresa que depois vendeu ao próprio Município em SC",
-     "resumo": "Mais de 20 itens novos teriam sido retirados do setor de mecânica e encontrados em estabelecimento comercial Leia no Camboriú News",
-     "link": "https://camboriu.news/servidores-teriam-desviado-pecas-de-veiculos-da-prefeitura-para-empresa-que-depois-vendeu-ao-proprio-municipio-em-sc/",
+     "titulo": "Cobertura de posto de combustível desaba em Balneário Camboriú; ninguém se feriu",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZzloeEhvZ29xYnozZVNFRDNJOWZ4NGtFRjdkUnotc3cyc1BzN1daOEtndmJCSWFBMHhLcUxSN1ltYnlqVWlxMFVab3BkU2xCeUg2TFVXWEpScWtzWjg5d1FWbkhQQVRMTEdMaTRpelUwY3ZDNnNtWTRLWVNoLXFjdUpTcDRlTkpkMWlVM3lOSXNMRVXSAZMBQVVfeXFMTWc5aHhIb2dvcWJ6M2VTRUQzSTlmeDRrRUY3ZFJ6LXN3MnNQczdXWjhLZ3ZiQklhQTB4S3FMUjdZbWJ5alVpcTBVWm9wZFNsQnlINkxVV1hKUnFrc1o4OXdRVm5IUEFUTExHTGk0aXpVMGN2QzZzbVk0S1lTaC1xY3VKU3A0ZU5KZDFpVTN5TklzTEVV?oc=5",
+     "fonte": "Visor Notícias",
+     "data": "2026-11-21T00:19:41+00:00"
+    },
+    {
+     "titulo": "Nova alça para entrar na BR-101 começa a ser construída em BC",
+     "resumo": "Intervenção na Marginal Leste terá drenagem, pavimentação e nova configuração dos acessos à rodovia Leia no Camboriú News",
+     "link": "https://camboriu.news/nova-alca-para-entrar-na-br-101-comeca-a-ser-construida-em-bc/",
      "fonte": "Camboriú News",
-     "data": "2026-11-20T02:45:42+00:00"
+     "data": "2026-11-21T00:19:31+00:00"
+    },
+    {
+     "titulo": "Nova alça para entrar na BR-101 começa a ser construída em BC",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU2RJVkRzWExYV1ZDalJJWWhzM0tMQ3JNc3puUnllS2dXa3NycXRNNk1JRGptU3FXTzRWWmQycHdFbEF4Ty1sYW02VVBMY2pSQmF4eVU1aUFMSHEwZzAxZzhoVERReUpjOUU3VGFvS2lKbU5pNllzYnBsM1kxMUhucHJHTWxuUEFfeUItNQ?oc=5",
+     "fonte": "Camboriú News",
+     "data": "2026-11-21T00:19:31+00:00"
+    },
+    {
+     "titulo": "Moto e carro se envolvem em acidente, motociclista vai para hospital e óleo fica na pista na Rua 3100",
+     "resumo": "Agentes de Trânsito usaram calcário na Rua 3100 para evitar novos acidentes após a ocorrência Leia no Camboriú News",
+     "link": "https://camboriu.news/moto-e-carro-se-envolvem-em-acidente-motociclista-vai-para-hospital-e-oleo-fica-na-pista-na-rua-3100/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-20T23:57:09+00:00"
+    },
+    {
+     "titulo": "Homem é preso pela Guarda Municipal de Balneário Camboriú após agredir esposa",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRUY4RWRYeGxkay1wZ2FxdGRGVnVxdTVmZWQtemNLV2RUV1JNdXV1cU1DQ1hLNnNHS2pZLUswM0duUDFIbjRPOWVWQnp0WHF2OVhiZ0toSzBaU0YtMGJQWUpVUkVBbXV2WWpuaXFwLTM0M2VuaFZfeVlvbzBYeWc5QVU3Tkp2U2hZWGZIRW5xcnZsOHVCVjFDSDd2YzJRQlF2Ymo0VnJuTk1jRGZLalloWg?oc=5",
+     "fonte": "Notícia Já",
+     "data": "2026-11-21T00:08:00+00:00"
+    },
+    {
+     "titulo": "Abordagem por sacos de lixo em frente a garagem termina com prisão de procurado por furto em BC",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZmtBbVhheXgxQ2VqT25OMXpmQjlwa0N0bGw5Nk42VDI3R2JCSmRpZ2FwNTBWQzlNRjdsbFRkNlc5ZkhXSEMwbWxNcFYtanp5dDl4eGJjOVdzV2JaS3VHbExXcllHRnJlNXNmdUhDSDFMeDRfZElVb2lTYmlNTnVRN3FZQ282Y1JoWi1kOTBPajFPbXgyUkg5Uk5OR2laSVNTcUVtX1ptcThnbjhFSTQ0cTVueWdBRGJUWkE?oc=5",
+     "fonte": "Camboriú News",
+     "data": "2026-11-20T23:51:56+00:00"
+    },
+    {
+     "titulo": "Rodolffo, da dupla com Israel, desiste de voo: 'Tem que respeitar o tempo'",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZGc5aTNGTkxCbGJ0U2lQOEdWWk1XR2cxMXowaGFLeE9WN3JxU2VSSmc2SmVrNDF2Q2gtaWhzd09HN0EwQ0ZqRGxsUVRJZ1RMektGSTRMMGQ3QlJES3U5U1JkYWNQVERFaUhCZ3lDLVlCNG1lOHFXX2xMVlVkS0ZoS0gtOFdRQTVRZWM3WTdGQ2pKb2l2NEpUdFR2OVc5RmxRSmtvTlNQTHBFd2NHUWwxNHhreEtjU2U4U1FzRTB6aDVadw?oc=5",
+     "fonte": "UOL",
+     "data": "2026-11-20T23:23:42+00:00"
     }
    ]
   }

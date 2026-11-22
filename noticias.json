@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-21T19:14:58.332789+00:00",
+ "atualizado": "2026-11-22T01:18:05.471719+00:00",
  "ibovespa": {
   "pontos": 166376,
   "variacao": -0.69,
@@ -149,18 +149,12 @@
   ]
  },
  "rio": {
-  "nivel": 3.68,
-  "leitura": "2026-11-21 16:00",
+  "nivel": 3.45,
+  "leitura": "2026-11-21 22:00",
   "estagio": "Observação",
   "tendencia": "descendo",
-  "variacao3h": -0.15,
+  "variacao3h": -0.13,
   "historico": [
-   2.43,
-   2.58,
-   2.7,
-   2.87,
-   3.01,
-   3.18,
    3.37,
    3.57,
    3.72,
@@ -178,7 +172,13 @@
    3.83,
    3.78,
    3.72,
-   3.68
+   3.68,
+   3.64,
+   3.61,
+   3.58,
+   3.53,
+   3.47,
+   3.45
   ],
   "link": "https://alertablu.blumenau.sc.gov.br/"
  },
@@ -1593,53 +1593,53 @@
      "data": "2026-11-21T17:51:39+00:00"
     },
     {
-     "titulo": "Britânico atravessa Estreito de Ormuz a nado para alertar sobre o impacto ambiental da guerra",
-     "resumo": "O britânico Lewis Pugh, conhecido como \"padrinho da ONU para os oceanos\", anunciou neste sábado (21) ter atravessado a nado o Estreito de Ormuz para denunciar as \"devastadoras consequências ambientais da guerra\" entre…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/21/britanico-atravessa-estreito-de-ormuz-a-nado-para-alertar-sobre-o-impacto-ambiental-da-guerra.ghtml",
+     "titulo": "Como uma especialista em aves foi presa na Rússia por causa de US$ 30",
+     "resumo": "Renomada cientista dedicada ao estudo de espécies no Ártico, Sofia Rosenfeld está desde outubro em uma colônia penal na Rússia. O motivo foi uma pequena doação à Fundação Anticorrupção (FBK), de Alexei Navalny.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/21/como-uma-especialista-em-aves-foi-presa-na-russia-por-causa-de-us-30.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-21T18:34:48+00:00"
+     "data": "2026-11-21T22:59:33+00:00"
     },
     {
-     "titulo": "México captura \"Chapo Isidro\", alvo da lista de mais procurados do FBI",
-     "resumo": "A detenção do líder do grupo Meza-Flores desencadeou confrontos, bloqueios de estradas e ataques de criminosos contra forças de segurança no estado de Sinaloa.",
-     "link": "https://www.dw.com/pt-br/méxico-captura-chapo-isidro-alvo-da-lista-de-mais-procurados-do-fbi/a-80010832?maca=bra-rss-br-all-1030-rdf",
+     "titulo": "Temporal no RS afeta 24 mil pessoas e deixa quatro mortos",
+     "resumo": "Uma supercélula provocou ventos de até 114 km/h no Rio Grande do Sul, atingindo 36 municípios. Quase 9 mil residências foram atingidas.",
+     "link": "https://www.dw.com/pt-br/temporal-no-rs-afeta-24-mil-pessoas-e-deixa-quatro-mortos/a-80011201?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-21T19:00:00+00:00"
+     "data": "2026-11-21T22:30:00+00:00"
     },
     {
-     "titulo": "Como governos Lula e Trump pretendem acabar com a 'guerra fria dos vistos diplomáticos'",
-     "resumo": "De um lado, EUA querem liberação para indicado de Trump atue como embaixador no Brasil. Do outro, governo Lula quer normalização de visto de embaixadora em Washington",
-     "link": "https://www.bbc.com/portuguese/articles/cwz0k3r4npexo?at_medium=RSS&at_campaign=rss",
+     "titulo": "Por que aplaudir durante o pouso de um avião pode irritar as pessoas, segundo especialistas",
+     "resumo": "Segundos de aplausos quando um avião aterrissa podem provocar reações fortes entre os passageiros. Psicólogos analisam o que pode estar por trás deste comportamento.",
+     "link": "https://www.bbc.com/portuguese/articles/cm5y1xg8xqjqo?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-21T09:01:48+00:00"
+     "data": "2026-11-21T21:41:51+00:00"
     },
     {
-     "titulo": "Terremoto de magnitude 6,7 deixou 15 feridos no Peru e danificou 127 casas",
-     "resumo": "Além das cidades peruanas, o tremor foi sentido também em Rio Branco e em Cruzeiro do Sul, no Acre, mas não houve ocorrências graves. O abalo sísmico assustou os moradores.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/21/terremoto-de-magnitude-67-deixou-15-feridos-no-peru-e-danificou-127-casas.ghtml",
+     "titulo": "Como El Chapo Isidro ascendeu de pequeno traficante a magnata do narcotráfico no México",
+     "resumo": "O histórico de El Chapo Isidro no tráfico de drogas remonta a mais de 20 anos. Com um perfil discreto, o chefe de cartel mexicano tem atualmente 44 anos, mede 1,68 metro de altura e pesa de 72 quilos.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/21/como-el-chapo-ascendeu-de-pequeno-traficante-a-magnata-do-narcotrafico-no-mexico.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-21T18:26:21+00:00"
+     "data": "2026-11-21T20:38:22+00:00"
     },
     {
-     "titulo": "União Europeia propõe taxar big techs para financiar orçamento",
-     "resumo": "Proposta prevê cobrança de 3% sobre receitas de publicidade online de grandes empresas de tecnologia para ampliar as receitas do bloco.",
-     "link": "https://www.dw.com/pt-br/união-europeia-propõe-taxar-big-techs-para-financiar-orçamento/a-80010694?maca=bra-rss-br-all-1030-rdf",
+     "titulo": "Na COP31, embate sobre relatório climático ameaça negociações futuras",
+     "resumo": "Países divergem sobre quando divulgar a próxima avaliação do IPCC, principal referência científica para a política climática global. Calendário define se o documento orientará o próximo balanço do Acordo de Paris.",
+     "link": "https://www.dw.com/pt-br/na-cop31-embate-sobre-relatório-climático-ameaça-negociações-futuras/a-80011164?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-21T18:24:00+00:00"
+     "data": "2026-11-21T22:20:00+00:00"
     },
     {
-     "titulo": "'O câncer muda você': princesa Kate fala sobre doença em documentário da BBC",
-     "resumo": "“Há um aspecto muito, muito mais profundo no que um diagnóstico de câncer provoca em você”, diz Catherine no documentário.",
-     "link": "https://www.bbc.com/portuguese/articles/cr3wgxxzw81xo?at_medium=RSS&at_campaign=rss",
+     "titulo": "'O futuro para mulheres na pós-menopausa não é catastrófico, é libertador'",
+     "resumo": "Em seu primeiro romance, a escritora venezuelana-peruana Melanie Pérez Arias usa a queda inexplicável de cabelo de uma mulher como ponto de partida para explorar identidade, perdas, corpo feminino e amizade.",
+     "link": "https://www.bbc.com/portuguese/articles/c94g1gk54e2ro?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-21T15:24:06+00:00"
+     "data": "2026-11-21T18:47:47+00:00"
     },
     {
-     "titulo": "'O câncer muda você': princesa Kate Middleton fala sobre doença em documentário da BBC",
-     "resumo": "A princesa de Gales falou sobre como \"o câncer muda você\" em Heal, documentário que será exibido pela BBC. \"O câncer muda seu corpo, muda você fisicamente, mas um diagnóstico de câncer também provoca mudanças muito…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/21/o-cancer-muda-voce-princesa-catherine-fala-sobre-doenca-em-documentario-da-bbc.ghtml",
+     "titulo": "Os cidadãos impedidos pelo governo Ortega de voltar à Nicarágua: 'Sou ilegal no meu próprio país'",
+     "resumo": "\"Comecei a andar porque sentia que não conseguia respirar direito, porque estava desesperado e porque também não tinha mais nada a fazer.\" Minutos antes, Manuel havia chegado ao aeroporto de Barajas, em Madri, para…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/21/os-cidadaos-impedidos-pelo-governo-ortega-de-voltar-a-nicaragua-sou-ilegal-no-meu-proprio-pais.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-21T15:39:09+00:00"
+     "data": "2026-11-21T20:10:26+00:00"
     }
    ]
   },
@@ -1655,11 +1655,11 @@
      "data": "2026-11-21T17:16:23+00:00"
     },
     {
-     "titulo": "Economistas defendem pacote de US$ 450 bi para estimular China",
-     "resumo": "Dados divulgados pelo Escritório Nacional de Estatísticas do país mostraram enfraquecimento da demanda interna",
-     "link": "https://www.poder360.com.br/poder-china/economistas-defendem-pacote-de-us-450-bi-para-estimular-china/",
+     "titulo": "Após viagem, Michelle vai a hospital em que Bolsonaro está internado",
+     "resumo": "Senadora eleita e ex-primeira-dama retornou de viagem neste sábado; ela estava em Israel desde a semana passada",
+     "link": "https://www.poder360.com.br/poder-gente/apos-viagem-michelle-vai-a-hospital-em-que-bolsonaro-esta-internado/",
      "fonte": "Poder360",
-     "data": "2026-11-21T19:00:32+00:00"
+     "data": "2026-11-22T01:13:12+00:00"
     },
     {
      "titulo": "Moraes atende a pedido e autoriza visitas diárias de filhos a Bolsonaro durante a internação",
@@ -1669,11 +1669,11 @@
      "data": "2026-11-21T15:48:34+00:00"
     },
     {
-     "titulo": "Cidadania suspende votação sobre incorporação ao PP",
-     "resumo": "Presidente da legenda, Alex Manente, adiou congresso marcado para este sábado (21.nov.2026) após divergências internas",
-     "link": "https://www.poder360.com.br/poder-partidos-politicos/cidadania-suspende-votacao-sobre-incorporacao-ao-pp/",
+     "titulo": "Sobe para 5 número de mortos em temporais no Rio Grande do Sul",
+     "resumo": "Defesa Civil confirmou nova morte em Tupanciretã; município registra 265 feridos e quase 20.000 pessoas desalojadas ou desabrigadas",
+     "link": "https://www.poder360.com.br/poder-brasil/sobe-para-5-numero-de-mortos-em-temporais-no-rio-grande-do-sul/",
      "fonte": "Poder360",
-     "data": "2026-11-21T18:38:47+00:00"
+     "data": "2026-11-22T01:01:44+00:00"
     },
     {
      "titulo": "Lula diz que projeto aprovado no Senado não é 'reforma fiscal', mas ajuste para Orçamento de 2027, e critica Faria Lima",
@@ -1683,11 +1683,11 @@
      "data": "2026-11-21T14:27:51+00:00"
     },
     {
-     "titulo": "Terremoto de magnitude 6,7 no Peru é sentido no Amazonas",
-     "resumo": "Tremor foi registrado na noite de 6ª feira (20.nov.2026); moradores da capital peruana e de cidades do Amazonas deixaram casas",
-     "link": "https://www.poder360.com.br/poder-internacional/terremoto-de-magnitude-67-no-peru-e-sentido-no-amazonas/",
+     "titulo": "Morre Joe Wallach, um dos fundadores da “TV Globo”, aos 103 anos",
+     "resumo": "Norte-americano naturalizado brasileiro ajudou a criar a Globosat e fundou a rede \"Telemundo\" nos EUA",
+     "link": "https://www.poder360.com.br/poder-brasil/morre-joe-wallach-um-dos-fundadores-da-tv-globo-aos-103-anos/",
      "fonte": "Poder360",
-     "data": "2026-11-21T18:23:37+00:00"
+     "data": "2026-11-22T00:13:10+00:00"
     },
     {
      "titulo": "Defesa de Bolsonaro pede a Moraes autorização para visitas diárias de filhos durante internação",
@@ -1697,11 +1697,11 @@
      "data": "2026-11-21T12:14:12+00:00"
     },
     {
-     "titulo": "Pneumonia pode passar despercebida em idosos, diz instituto",
-     "resumo": "Ministério da Saúde registrou 2.902,7 internações por 100 mil habitantes em 2025 para esta faixa etária",
-     "link": "https://www.poder360.com.br/poder-saude/pneumonia-pode-passar-despercebida-em-idosos-diz-instituto/",
+     "titulo": "Bolsonaro tem tornozeleira retirada durante internação na UTI",
+     "resumo": "Ministro do STF Alexandre de Moraes determinou que equipamento seja recolocado após alta hospitalar; ex-presidente está internado em Brasília",
+     "link": "https://www.poder360.com.br/poder-justica/bolsonaro-tem-tornozeleira-retirada-durante-internacao-na-uti/",
      "fonte": "Poder360",
-     "data": "2026-11-21T18:00:01+00:00"
+     "data": "2026-11-21T23:42:13+00:00"
     }
    ]
   },
@@ -1710,11 +1710,11 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Como ativar a direção automática em GTA 6? Veja o tutorial",
+     "titulo": "Quer trabalhar em big techs? Confira vagas de emprego disponíveis no Brasil",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/como-ativar-a-direcao-automatica-em-gta-6-veja-o-tutorial/",
+     "link": "https://www.estadao.com.br/tecmundo/big-techs/quer-trabalhar-em-big-techs-confira-vagas-de-emprego-disponiveis-no-brasil/",
      "fonte": "TecMundo",
-     "data": "2026-11-21T18:15:00+00:00"
+     "data": "2026-11-21T22:00:00+00:00"
     },
     {
      "titulo": "União Europeia propõe taxar big techs para financiar orçamento até 2034",
@@ -1724,11 +1724,11 @@
      "data": "2026-11-21T11:26:05+00:00"
     },
     {
-     "titulo": "Xbox Game Pass recebe 6 novos jogos esta semana! Veja os lançamentos (21)",
+     "titulo": "GTA 6 tem console próprio com jogos ‘desenvolvidos por equipe dentro da equipe’; entenda",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/xbox-game-pass-recebe-6-novos-jogos-esta-semana-veja-os-lancamentos-21/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-tem-console-proprio-com-jogos-desenvolvidos-por-equipe-dentro-da-equipe-entenda/",
      "fonte": "TecMundo",
-     "data": "2026-11-21T16:15:00+00:00"
+     "data": "2026-11-21T21:15:00+00:00"
     },
     {
      "titulo": "Ataques cibernéticos, IA ou atualizações pendentes: o que há por trás da onda de apagões dos últimos dias",
@@ -1738,11 +1738,11 @@
      "data": "2026-11-21T10:27:04+00:00"
     },
     {
-     "titulo": "Já é Black na Centauro: tem tênis e itens esportivos com até 70% off",
+     "titulo": "GTA 6 traz nova mecânica para empurrar carros e até desatolar veículos",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/guia-de-compras/ja-e-black-na-centauro-tem-tenis-e-itens-esportivos-com-ate-70-off/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-traz-nova-mecanica-para-empurrar-carros-e-ate-desatolar-veiculos/",
      "fonte": "TecMundo",
-     "data": "2026-11-21T14:35:00+00:00"
+     "data": "2026-11-21T20:15:00+00:00"
     },
     {
      "titulo": "Dos algoritmos ao aroma: como a IA está mudando a criação de perfumes",
@@ -1752,11 +1752,11 @@
      "data": "2026-11-21T06:00:01+00:00"
     },
     {
-     "titulo": "Stellar Blade e mais jogos para PC na Steam com até 95% OFF",
+     "titulo": "GTA 6 possui rinhas de galo; entenda como funciona",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/stellar-blade-e-mais-jogos-para-pc-na-steam-com-ate-95-off/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/gta-6-possui-rinhas-de-galo-entenda-como-funciona/",
      "fonte": "TecMundo",
-     "data": "2026-11-21T14:00:00+00:00"
+     "data": "2026-11-21T19:10:00+00:00"
     },
     {
      "titulo": "Saída de Jensen Huang da Nvidia pode frear a onda da IA?",
@@ -1779,18 +1779,18 @@
      "data": "2026-11-21T15:30:00+00:00"
     },
     {
-     "titulo": "Quem realmente ganha com a IA?",
+     "titulo": "Eleições antecipadas na Espanha: o que esperar",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/quem-realmente-ganha-com-a-ia-2134823",
+     "link": "https://br.investing.com/news/stock-market-news/eleicoes-antecipadas-na-espanha-o-que-esperar-2134851",
      "fonte": "Investing.com",
-     "data": "2026-11-21T18:51:31+00:00"
+     "data": "2026-11-21T23:57:24+00:00"
     },
     {
-     "titulo": "Após críticas de todos os lados, Lula defende pacote fiscal e diz que não deixará a Faria Lima ensinar como dirigir o Brasil",
-     "resumo": "Em live neste sábado (21), o presidente rebateu críticas de aliados da esquerda sobre cortes de gastos e pressão do mercado financeiro The post Após críticas de todos os lados, Lula defende pacote fiscal e diz que não…",
-     "link": "https://www.seudinheiro.com/2026/economia/apos-criticas-de-todos-os-lados-lula-defende-pacote-fiscal-e-diz-que-nao-deixara-a-faria-lima-ensinar-como-dirigir-o-brasil-giov/",
+     "titulo": "Troca de cadeiras no Banco do Brasil (BBAS3)? Equipe econômica de Lula avalia nomes para substituir CEO, diz jornal",
+     "resumo": "Com piora nos resultados do Banco do Brasil, inadimplência no agro e pressão nas ações, governo avalia trocar comando para tentar reverter a crise The post Troca de cadeiras no Banco do Brasil (BBAS3)? Equipe econômica…",
+     "link": "https://www.seudinheiro.com/2026/empresas/troca-de-cadeiras-no-banco-do-brasil-bbas3-equipe-economica-discute-com-lula-nomes-para-substituir-ceo-diz-jornal-giov/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-21T17:01:00+00:00"
+     "data": "2026-11-21T20:03:00+00:00"
     },
     {
      "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
@@ -1807,18 +1807,18 @@
      "data": "2026-11-21T15:11:04+00:00"
     },
     {
-     "titulo": "Espanha vai prorrogar imposto bancário até 2027 para financiar habitação",
+     "titulo": "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/espanha-vai-estender-imposto-bancario-ate-2027-para-financiar-habitacao-2134766",
+     "link": "https://br.investing.com/news/stock-market-news/russia--acoes-fecharam-o-pregao-em-queda-e-o-indice-moex-russia-index-terminou-sem-alteracoes-2134842",
      "fonte": "Investing.com",
-     "data": "2026-11-21T10:58:44+00:00"
+     "data": "2026-11-21T21:20:19+00:00"
     },
     {
-     "titulo": "Em semana turbulenta, Minerva (BEEF3) lidera altas e Natura (NATU3) perde mais de 12%. Quais ações se destacaram?",
-     "resumo": "Semana foi marcada pela aversão ao risco devido às incertezas sobre o cenário fiscal brasileiro The post Em semana turbulenta, Minerva (BEEF3) lidera altas e Natura (NATU3) perde mais de 12%.",
-     "link": "https://www.seudinheiro.com/2026/bolsa-dolar/em-semana-turbulenta-minerva-beef3-lidera-altas-e-natura-natu3-perde-mais-de-12-quais-acoes-do-ibovespa-se-destacaram-giov/",
+     "titulo": "Após críticas de todos os lados, Lula defende pacote fiscal e diz que não deixará a Faria Lima ensinar como dirigir o Brasil",
+     "resumo": "Em live neste sábado (21), o presidente rebateu críticas de aliados da esquerda sobre cortes de gastos e pressão do mercado financeiro The post Após críticas de todos os lados, Lula defende pacote fiscal e diz que não…",
+     "link": "https://www.seudinheiro.com/2026/economia/apos-criticas-de-todos-os-lados-lula-defende-pacote-fiscal-e-diz-que-nao-deixara-a-faria-lima-ensinar-como-dirigir-o-brasil-giov/",
      "fonte": "Seu Dinheiro",
-     "data": "2026-11-21T15:18:45+00:00"
+     "data": "2026-11-21T17:01:00+00:00"
     },
     {
      "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
@@ -1835,11 +1835,11 @@
      "data": "2026-11-21T14:20:00+00:00"
     },
     {
-     "titulo": "UBS avalia impacto de paralisação aérea nacional nas companhias aéreas dos EUA no 4T",
+     "titulo": "Quem realmente ganha com a IA?",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/ubs-avalia-impacto-de-paralisacao-aerea-nacional-nas-companhias-aereas-dos-eua-no-4t-2134758",
+     "link": "https://br.investing.com/news/stock-market-news/quem-realmente-ganha-com-a-ia-2134823",
      "fonte": "Investing.com",
-     "data": "2026-11-21T09:46:58+00:00"
+     "data": "2026-11-21T18:51:31+00:00"
     }
    ]
   },
@@ -1847,6 +1847,34 @@
    "id": "blumenau",
    "nome": "Blumenau",
    "noticias": [
+    {
+     "titulo": "28 cães são resgatados de canil clandestino em Blumenau; dono é preso por maus-tratos",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQTFoMWNVTWlrb29nZnBzLW1FVHYzbmR1M2NEbG9DNjlVNGhqN3lqeUZrdzduUUFIUUpGT1JReXd3NUdPMmpMcHlOb1d0YXpvUmhUXzdRUTZpeGNOVHFmNkt4b29yOGZFTGNXYVIyNW1iSk40STZrSFVHN2xyUG5KMVl1OVVyU3ZpOTBEWEdCMTlEM1N6RGx2U0RzamxaWHJRVG02QWhwa0RzY3JfeEpZOExUUjE5TnVUb3U3ekFKdG4?oc=5",
+     "fonte": "TopElegance",
+     "data": "2026-11-21T23:32:24+00:00"
+    },
+    {
+     "titulo": "Homem é preso após fiscalização encontrar 28 cães em condições de maus-tratos, superlotação e sinais de doenças em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFFhdTBaSVViMi0xaHBBdUxfLXlRbTdQUTY0emxhYXdWVEc5dVFXdXk2MnpYNkw2dW5FMUswbWd3emZpU3RkR0xXYjc5QWJxdTQtWTdWd2dIMVI3TkpaTWJBNjU2WmhkOUlrNDVhcUNUb3ZBT3FJZE1nUnpIQXNzM2RzRTlqaXUtZ0haV0ZMbmZiLVk?oc=5",
+     "fonte": "Testo Notícias",
+     "data": "2026-11-21T20:55:04+00:00"
+    },
+    {
+     "titulo": "VÍDEO: polícia flagra canil clandestino com filhotes aglomerados e cães expostos a sol de 30°C em SC; homem é preso",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRXNEWUFUNzNKOUw1LUswd2wxQ245N1ZzZ1gza01Ma2NudEt3NjVhRFdFUUZRNGQtb2IzZWVOOEJRRTZkM0hqVXluUFoyeUFJQnNYMV9jMko4V1l2cmFHYlRCR3FwVUNIV3Fxb0NPYU1DelJQWlpxcG1oamJYTXY3RVFtdUp0SzdpMXlQWWhfeXZweU5tWVJ3eFJ1cFUtd2dCTmVOTkRWZGgydlVlWTMtS202Q1hOVElmQXBDX2xONmRSNkZ5WmhDdNIB1wFBVV95cUxOUDdUM0JCT1k5UHhYaHVCWmJqZFFpYm9Wck85NEpneExVb3RYUWo1ckpETlBwU2lLZ0l2N0M0amVHcXlRcnVJRFV4UkdVSEttUXg3Rm9TeWFkbnFOQ1hvTjVsa3RNekVNckNqRmVCMktXb3hRUzJueGlMRmpaVlM3VkNZY2RXN1dnX3JNbEpJRDh6VVhWMEw4NWdoTER3ako0X28zSld1WlZhcGxSQ180TC0zSGF1VGZ4bTltRWI1d3o3X05GdWFrUVhndFNMOG5xNFE3b25fSQ?oc=5",
+     "fonte": "G1",
+     "data": "2026-11-21T20:32:26+00:00"
+    },
+    {
+     "titulo": "Cães são resgatados e homem é preso em canil clandestino de Blumenau, SC",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWGlRNG45NlBEb1RBM0xvcVNrSnVrb3NQYk54Y3V0UnplZWJvbnZWeVg2OS11NUtfcl9GdHlLbXA5QmZXMUlWaHN5TFljQ3FRUjV2UEt2aERlUE04eXU4bm8xdkV2WWZJT3ZxTVl3Qm5NcnV1UFJzSHRZWmJhUVk1ME1mMFdiUEpEVUNwcnlMdjJxb2tnYVZ0b1hiZEMyRHZubmN1RWFzQkh3NkV5cEZlVVhaWEFheWZ0M1lMeC1ZeVRuRTd2WXVQdFpOWdIB2gFBVV95cUxPdnZJWGhnZUp6ek5LWlBsdHlGRVVSblItT0dIM3I1RW8zSGxwQ1ZjMWJEME95cUQ5dzEwZjJmZEY1bUFnMzl6OTNIalRBdzFxMmp6cTNBcHoySDZuTEF0SE85d3BiUFRRVmFtZGNPdWRlcVdNbUN3YktpQkxDWmJ6RG9RTHJKQ2w1MmdIdDU1UjBTQU5aeXVzQ2NUMTlCa1hYbm9TUnVaXzJVVGpBZmJvQUJjZjVubU8zb05ESV9aZ0hOUklGZFpBT3JuS3E2RC04MXNZQXZlb0dldw?oc=5",
+     "fonte": "G1",
+     "data": "2026-11-21T20:13:17+00:00"
+    },
     {
      "titulo": "VÍDEO: Polícia prende responsável por canil clandestino e resgata 28 cães em Blumenau",
      "resumo": "",
@@ -1869,39 +1897,11 @@
      "data": "2026-11-21T17:25:03+00:00"
     },
     {
-     "titulo": "Abertura da Casa Iluminada foi nesta sexta (20), em Blumenau",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTUhBWDlRMmdEeTNxV2RuYW1uMEtrejdEUm5XbldJZW1DRmZOc1lEOUFOOGtrX3dTeVpjWGRvaDh2S3pKX0NTQjUxYi15R2tqMHUyVWRRWUs0eXRUUEEzMGZHajJVd2hfVnR2VmdCWTY3M3Rqc1NoLTBqWHA0OWtBNEJMR2trOTRoYTE5dHFXWjg5MjJnTWVEQ2twd0pMdmpZR0JtUTR2a1kySjVLclN4UGFFbjJ3N0xMM0dfdC1pWWU0dlFKcEtDZ2lZS25VOTZreWl3dW1wblHSAecBQVVfeXFMTlBZV056SnRfTXJ0Q0hMU282STdaWFhnRHpEQ0hzeG5qSW1TcnJxaUJzSWg2MVR1emxLOEZidmUycHpENTdvb3VmQTJDNXhqREN5RG1tLTA5UlRUbHQxVjRCRWpTVWU2NFhlZE1oZUFNN2xxYkpSWXJKWGJuX1d2X0I2LXBIYTJDMEluM2l6b1NLRExsQjlScWFieE9DcFoxN3dMMjdNVktkZlJTQnVncEZaSEdzUGxDMlY0dnBWSmw0RGFtczZCaFF4VXFCY3MxQjFqTzUxNlAyeEV1aU1hN3NYamozMkFr?oc=5",
-     "fonte": "G1",
-     "data": "2026-11-21T16:56:15+00:00"
-    },
-    {
      "titulo": "Central de Regulação de Blumenau completa 20 anos e coordena 235 tipos de atendimento na saúde.",
      "resumo": "",
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNTRhUUhNektwcWRwR0pYNVNlRlBudG0yZENNeEpRdzk1cFlPcFJCWmE4amp2aW0waml4RTBMRFA2NFEzRHJkeGhsQlVYLXhkVndFRU1MMHZyR2hUeXBNZ2FxTFRaY0JYZUVqd0Q4SWtrMlpHQUM2NEM4NTA4eFlLbGxzOEdBLXExcFlpWGh0aTdQOUhjSVFFOG5BV2syS0VWeUVMazEtMFZCZWljWWlrUjBVODIzSmgzU1FiWjVnWQ?oc=5",
      "fonte": "Blog do Jaime",
      "data": "2026-11-21T16:15:00+00:00"
-    },
-    {
-     "titulo": "Natal em Blumenau terá espetáculo diário no acendimento das luzes.",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONXFlcmViWF81ZU1sMFlmdGNLU0ZKWTdQb1pzV2pYRGs4ZXRkenhKRmphbHR0cVpVMWNPTEF2NHhPUXhlc1ZteS1SZVN0RHdmelVCc1V0aGFSV1VxNHNzS191aFNLVVJTby02ZjJWenRNUUxMbFh4dG9oWkFPazltSFB0RTA1N01kN2tlYzcyeTFsakV2cXVVM0lZYw?oc=5",
-     "fonte": "Blog do Jaime",
-     "data": "2026-11-21T16:00:00+00:00"
-    },
-    {
-     "titulo": "Tempestade com granizo e vento de 60 km/h: Blumenau e mais 1 cidade em alerta amarelo do Inmet",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZ294Tmw2dTZGUXI1ZGJ2SUgzNGU1S3l1QUZWMjVPMVlkT1NGT0xjZVFjMUVQOVFPRmUzNkFRNm1oTTY2eTJsWEp1anZvZlZ1ZU5Qbm04QTROSkM4ckFJeU9URlVNWXBMVWdqbXRHT29UU1Q3dllSSm1qdDBNYjFkMVphRjNmWUtWTUgxRnZwcjJjVjYyOVNTQ2tIM3FVV2JqQjFHRW5rbkI5V0RlVThzaWVGQU1HeFpEdmlEUEpoNFRtTzNVaV9LZWxscUdNWjAtZmc?oc=5",
-     "fonte": "O Tempo",
-     "data": "2026-11-21T15:43:00+00:00"
-    },
-    {
-     "titulo": "Obra do Samae bloqueia rua no bairro Ponta Aguda neste domingo e pode interromper fornecimento de água",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ1Jsck5UaGNDWmItaDQ0MGtLWmhmZXBIY0tfVFhQZDZwRm5hYzZIMHNwQ0EzMGl5VnRkUlFHWjV1YnNJZ0M4Um1iNG5LZC1pbWhfNWZmbk92LWszaWkwako0MzNCMXFLOUhRUWktdGk3UDlSbkhTVGNPRFIwSUdINzRLZDVPZlozYnBPeUY4cGl1WEdJN0hjVkY2SnhqczZvRzMtX0R4VV9xVlN4OTZsVFdpRlE4cDhKbS1udk43QnplRkRkT1JJUUhFcjhEMVRZY2I5VEpTbGNCdU9sdnpTOTFqUVc5cXV0SVE?oc=5",
-     "fonte": "AJ Notícias",
-     "data": "2026-11-21T13:54:54+00:00"
     }
    ]
   },
@@ -1917,11 +1917,11 @@
      "data": "2026-11-21T18:07:25+00:00"
     },
     {
-     "titulo": "Teste de fogos do Réveillon acontece hoje em Balneário Camboriú; veja horário e local",
+     "titulo": "VIII Fórum MICE: especialistas e lideranças discutem o futuro do turismo de negócios em Balneário Camboriú",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaWhoZVp3QkM0SGlUbWNGRHRZUGhzM0g5ckZjbnJaSWU1T18temJrcUVyX1pDSV91MTVDVktJSkI2ZTEtR25HYjZoN0NSSXFtOHcyemh4aUxMODlqVzFWN1JremxFeFhvNHd0TC1wNzEzVmtDaE5hRmZLSU0tczI5V3lGZmlpUHBiQjNTcDV4SkgyT05Bbk9adXhWZWJ6cDhHT1FjZ2ludVA1N3hTMUNlallmQ1hhUFZYR3dydTZQQWU2TGPSAcMBQVVfeXFMUGloaGVad0JDNEhpVG1jRkR0WVBoczNIOXJGY25yWkllNU9fLXpia3FFcl9aQ0lfdTE1Q1ZLSUpCNmUxLUduR2I2aDdDUklxbTh3MnpoeGlMTDg5alcxVjdSa3psRXhYbzR3dEwtcDcxM1ZrQ2hOYUZmS0lNLXMyOVd5RmZpaVBwYkIzU3A1eEpIMk9OQW5PWnV4VmVienA4R09RY2dpbnVQNTd4UzFDZWpZZkNYYVBWWEd3cnU2UEFlNkxj?oc=5",
-     "fonte": "Visor Notícias",
-     "data": "2026-11-21T19:13:10+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaElrUzJJanF3NGxBeVB2cC1Ra3pxa3l4eGx1SFJTM3RUV0U0UEhNNk5ZUWN4Zkw2NV9kdzVvS3BubzdsVVd2c0NiU0ROaDdXLUloR00tY1plU29jRWQ3elVQemw4RUJGTVdVUl9qV21XaDRPQzE2YS1ZWjRWN21TN1Z2UEFranhXVGl1ZGxLZWI0LUtxdnpHN09wU1VDVDN6REZXblVHbTlUQVp2TE5QaVNQeGY0QmFfSkZJMndWTWhBbkRzdGp4OVJvRTlNMTBDeUpoSFpscDRzOW1pOEpVQUNR?oc=5",
+     "fonte": "Página 3",
+     "data": "2026-11-21T23:00:28+00:00"
     },
     {
      "titulo": "Vereador encontra Casa Linhares sem trabalhadores e denuncia obra parada há quase 60 dias em BC",
@@ -1931,11 +1931,11 @@
      "data": "2026-11-21T18:01:58+00:00"
     },
     {
-     "titulo": "Balneário Camboriú terá desfile de Natal neste sábado e teste de fogos para o Réveillon",
+     "titulo": "Deputada Talíria Petrone é ameaçada de morte e violência sexual",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQM3lqNnV6cUZEOXVneXFrTTlmQkhndk9Rd3hTMVhXNUNIZ1NzaXluWE1XS2FlT2RRZkhIT2lnV21JVUZjYnZFd2xORWNFRml3N3QwU2p1RkNqQjBYOXQ1SXN2YlZXMFYyZU9GZW4tcDBBNEh1RV9SZ0VUNzVhaUZkbzhuZTlkWm9pWWRtWmZBa1BMd1lPWGtJZXZYOTA4eGVGOXh1MVV3eGd4aEJVVEpUcHVwVFdvbWI4b2RGMG5tT0ZmU2hpM21zZjVPak45UXA0dkQtdElR?oc=5",
-     "fonte": "Santa Catarina em Pauta",
-     "data": "2026-11-21T19:00:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1pHWWYyMHlZZlRWQ0ZMUG0wdEVqam1acXJ5cTN4TUtkVTh3ZzZNcllraVhuNDJYb3d6MFYzbmFMY3ZZck5fYXFPWTFaQXp4Y2dwYVNBYUd5RWlpbmxIUFBpbU5HdU9Yd1lYV2FQR3VfYV9EYnhxWUhTNXdDRnpCTzBuZ2gzY1J1YXhSY290cEQ3RDdlQnlUQmVQVVBaUQ?oc=5",
+     "fonte": "Notícia Já",
+     "data": "2026-11-21T22:58:00+00:00"
     },
     {
      "titulo": "Naifer fiscaliza reforma de R$ 970 mil e encontra Casa Linhares sem trabalhadores",
@@ -1945,11 +1945,11 @@
      "data": "2026-11-21T17:59:17+00:00"
     },
     {
-     "titulo": "Teste de fogos do Réveillon será realizado neste sábado após desfile de Natal em BC",
+     "titulo": "Marcelo Achutti assumirá Secretaria de Obras de Balneário Camboriú; Bola retorna à Câmara",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMzIyNzVoTmxvU3NTMWpCYVoxX1FSNkpSV1NhZVNRSXRzT2hyR0cwTmJYX0hFRWJUQ01TWmFRM2ctekdnWlVpNFEwOUdzV0dhalhoRlB3ejRtTGMxbTFKVkJGeVBBazd2SmtzU2V2dGZCYjVqZnVGcU5LeUVPXzROUS04X01tXzJXMWpZTGxVYWl0Z3FSdzlPQW5neTkyamxybmU1TVMtYWhCcWFseXhTbmFn?oc=5",
-     "fonte": "Portal Menina",
-     "data": "2026-11-21T18:26:13+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLXByaFhYQXZTbUhlekJqd2k1ZTF3LTNBUnNDc0d1aVFlcUxZajFRX0JlOEdmU0pFaUN3aWJfOGpScjNCenZlNzdOTVpqZ2pJVVY4VE5BZTQ0RUdDUGxyZHBtQWRhcENpaFdwT2hCQUpEak1ib1lnNVdnRTg4R0JSX0YzYnZUVmtWN0VqOElsQnZveld0VzBDWEwtUGxWb1pWLTlpdjl5SjVRY280RFR3NzF2MnVGb19XUG1hZzNlYXR6N2F0d0FNZHNSNWVkVUN5N3lUVDNiMW9yM0FqLTVV?oc=5",
+     "fonte": "Click Camboriú",
+     "data": "2026-11-21T22:53:00+00:00"
     },
     {
      "titulo": "Vereador denuncia sujeira, falta de manutenção e ocupações irregulares no Parque Linear da Rua 3700",
@@ -1959,25 +1959,25 @@
      "data": "2026-11-21T17:52:03+00:00"
     },
     {
-     "titulo": "Marcelo Achutti deixa Câmara para assumir Secretaria de Obras de Balneário Camboriú",
+     "titulo": "Guardas municipais de BC participam de capacitação para operações com drones de primeira resposta",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZnF0UG9ndEVlcTNuVUh5X09yaEIwMWctSmVZblYzMVNpTnN4WmNfTmZzd3NESl8xS3lvSVJuNVV1R1NzREFCZ0QyNVBPTXZ1cV91SW9LUW9PZVZ4RXQ2ZWhxNF9PbFl3VTloUGdGS2RzY2xoczRSdVpBZThKSDA4RmFMUW1ySXR4VGVTOWl3OEFTMnROU3JOelV1aXdESHdad0FWTU5XVXM5Zw?oc=5",
-     "fonte": "Camboriú News",
-     "data": "2026-11-21T18:07:25+00:00"
+     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQV0VJWk55TTlTRHZMQU9XX3p3WEZObng0NVpQNWNabExLWEZKd2MtNzJDZDBmMkRkbGxCbDl2aUVqbWNrVHFBbk1peFpLQU02cTJENG1HZ1RTcVRuYWt1UW5ISF9iLWFISk1EVGJaVEVPTHpNeWtETU83bEFXSEVja0ZOSjdNMHpQNDB2MkkzbkNRV1c1ZHZrRm5fb3QzM19iVG1VWFhpeUhlSHpMbkYwRDRLNHVwa1FYMHZKWkNxemhBS3VMWjl6Uy1wQm5nSGQ3YjY5UTRKOWwtQWQ5UnlDZl94WDRZZWJfZEtWbUV0aTZTYnBZTGxFTkZjaFBMa1k?oc=5",
+     "fonte": "Click Camboriú",
+     "data": "2026-11-21T22:45:37+00:00"
     },
     {
-     "titulo": "Brasil ganha primeira medalha no Mundial de Parataekwondo na Coreia",
+     "titulo": "Nova alça de acesso à BR-101 em Balneário Camboriú começa a ser construída e deve ficar pronta em dezembro",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVHVXTmZzejlKVEU5NWR0UVlYdEY5amVFb2NmMlAzaDl6WHQ3UHlkb1JGRmgtRGFkdmNYOW9NbmttOGYzQzVMcmlMdTQwVHhWTWFqekZGX3JvM3pNQjlYR0Y1cU1jRnkzWEJKeVduSC03b3Jobzk1aXA2SzdtMjI3TVd4Y3pQb29lSlRRa2hZcU0wWE9YVzVMbk9UTHZQOFRGbzBN?oc=5",
-     "fonte": "Notícia Já",
-     "data": "2026-11-21T17:54:00+00:00"
-    },
-    {
-     "titulo": "Balneário Camboriú terá desfile de Natal e teste de fogos neste sábado; veja horários e locais",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRzdJakRMWWhsLS1sUVVNVk1LTDBDSE9jemF6MWp2UF83a3RYdjdWZzJzMy1ZM3lDZ1prSjR6c25JYm8zSmJnT0xUay1NUGxFWUV0SG4tTXdtcVpua2pCeDI3RmVMb2ZMTmowZE5mYVFubmlJQ1h6eVpyNEpZLU1Fa0NRRlV4cWdqM0RLc2VINnJjODgyLTVEdm5jNkFFMldJdzh1aDhUUVpsVnMtYUlKbFBST3VIclBwM3ZsVmExNjVSZw?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQTVrcU1GdVVGaWlCSkR4QWp4QUZvbVh6YVgtbDRfR1B0S2xTV1EtYmF4Q0NvZ2Z5alR0eHZPQ25tVl8yOGZhUHhQN0t5QlJlQmRxLVdza0pMSVl3alFhX2p1QlUzby1MQ2NGT2VlV2pDbjlUd0V0d19OeTZYSXBQMmVsSHNUaWNzUlh1WF9Ia1dnWW8wa2ZhS3BNODhjQzBYOXp0T2xJc2g4ZUViLS05SjhtZjFEU3ZvQXlBMnFReVdwQ3ljMEFxemRJOF8wNmNuVnln?oc=5",
      "fonte": "BC Notícias",
-     "data": "2026-11-21T17:14:47+00:00"
+     "data": "2026-11-21T21:44:32+00:00"
+    },
+    {
+     "titulo": "Guarda Municipal de Balneário Camboriú participa de capacitação para operações com drones de primeira resposta",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUnJ6eWMxajRmbnFGc2NSTXowM3hlTFFWOEFPUG5KOWExS3N3UUN3dzZVQTNUMVZCRUhwSDFCbU5LaUFLNEVGRmNJb2hjTjAyZG03ZERVQU5EM1NobURiclFaU1cyekxWbzBwdnE3bVRYZHRDZVRhS0wwaVNkNGxYYnZYeHZDN1I5RWQzUTFLMGw2dDk5Q0tCbVVXUEE5UFpuNk01NUxQa2JNVlFIUnJ6cGdLcmpPSjQwNHRKR0Y1N3RFcmdYME0xQjFaUHBBcTE5Z0VHc3pR?oc=5",
+     "fonte": "O JANELÃO",
+     "data": "2026-11-21T20:07:43+00:00"
     }
    ]
   }

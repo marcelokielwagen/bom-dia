@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T19:38:51.042542+00:00",
+ "atualizado": "2026-11-23T01:42:31.213333+00:00",
  "ibovespa": {
   "pontos": 166376,
   "variacao": -0.69,
@@ -144,18 +144,12 @@
   ]
  },
  "rio": {
-  "nivel": 2.99,
-  "leitura": "2026-11-22 16:00",
-  "estagio": "Normalidade",
-  "tendencia": "estável",
-  "variacao3h": -0.01,
+  "nivel": 3.29,
+  "leitura": "2026-11-22 22:00",
+  "estagio": "Observação",
+  "tendencia": "subindo",
+  "variacao3h": 0.27,
   "historico": [
-   3.64,
-   3.61,
-   3.58,
-   3.53,
-   3.47,
-   3.45,
    3.43,
    3.42,
    3.4,
@@ -173,7 +167,13 @@
    3.0,
    2.97,
    2.97,
-   2.99
+   2.99,
+   3.01,
+   3.01,
+   3.02,
+   3.04,
+   3.12,
+   3.29
   ],
   "link": "https://alertablu.blumenau.sc.gov.br/"
  },
@@ -1581,25 +1581,46 @@
    "nome": "Mundo",
    "noticias": [
     {
-     "titulo": "COP31 termina sem acordo após impasse sobre combustíveis fósseis",
-     "resumo": "A quarta versão do texto não mencionava a necessidade de eliminar progressivamente o uso desses combustíveis, a principal causa das mudanças climáticas.",
-     "link": "https://www.bbc.com/portuguese/articles/cq742zpk1ln4o?at_medium=RSS&at_campaign=rss",
+     "titulo": "O que os homens mais ricos da Rússia esperam para o futuro sem Putin",
+     "resumo": "Silenciados pelo temor de represálias do Kremlin, integrantes da elite empresarial começam a imaginar como será o país quando o atual presidente deixar o poder.",
+     "link": "https://www.bbc.com/portuguese/articles/cmkgdx1w0dero?at_medium=RSS&at_campaign=rss",
      "fonte": "BBC Brasil",
-     "data": "2026-11-22T15:56:42+00:00"
+     "data": "2026-11-22T23:32:59+00:00"
     },
     {
-     "titulo": "Agência de aviação dos EUA suspende voos de companhia aérea após falha em sistema",
-     "resumo": "A Administração Federal de Aviação dos Estados Unidos (FAA, na sigla em inglês) determinou neste domingo (22) uma suspensão temporária das decolagens da Delta Air Lines no Aeroporto Internacional Hartsfield-Jackson, em…",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/22/suspensao-temporaria-voos-companhia-aerea-eua-falha-em-sistema.ghtml",
+     "titulo": "Como dois refrigeradores abandonados pelo exército dos EUA na Toscana deram origem ao sorvete italiano",
+     "resumo": "A cada verão, dezenas de milhões de viajantes internacionais chegam à Itália, e muitos deles pedem pelo menos um sorvete durante sua estadia.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/22/como-dois-refrigeradores-abandonados-pelo-exercito-dos-eua-na-toscana-deram-origem-ao-sorvete-italiano.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-22T19:37:09+00:00"
+     "data": "2026-11-22T21:47:30+00:00"
+    },
+    {
+     "titulo": "Caos digital alimenta teorias de ataque cibernético nos Estados Unidos",
+     "resumo": "Cancelamento de voos, instabilidade em serviços e invasões hackers aumentam preocupações. Problema, no entanto, reflete cortes orçamentários da gestão Trump.",
+     "link": "https://www.dw.com/pt-br/caos-digital-alimenta-teorias-de-ataque-cibernético-nos-estados-unidos/a-80013869?maca=bra-rss-br-all-1030-rdf",
+     "fonte": "DW Brasil",
+     "data": "2026-11-22T22:42:00+00:00"
+    },
+    {
+     "titulo": "COP31 termina sem acordo após impasse sobre combustíveis fósseis",
+     "resumo": "Negociações, que deveriam ter terminado na sexta-feira, se estenderam até hoje, tornando essa a conferência climática da ONU mais longa da história.",
+     "link": "https://www.bbc.com/portuguese/articles/cq742zpk1ln4o?at_medium=RSS&at_campaign=rss",
+     "fonte": "BBC Brasil",
+     "data": "2026-11-22T20:14:02+00:00"
+    },
+    {
+     "titulo": "'Fui coagida a ter um filho': como um bilionário enganou a DJ de sucesso Liv Nervo para que ela engravidasse",
+     "resumo": "Se soubesse a verdade, não teria tido relações sexuais com o parceiro que mentiu para ela durante anos, diz Liv BBC Você já ouviu falar do Nervo, a dupla australiana de música eletrônica? O nome vem do sobrenome das…",
+     "link": "https://g1.globo.com/pop-arte/noticia/2026/11/22/fui-coagida-a-ter-um-filho-como-um-bilionario-enganou-a-dj-de-sucesso-liv-nervo-para-que-ela-engravidasse.ghtml",
+     "fonte": "g1 Mundo",
+     "data": "2026-11-22T20:15:21+00:00"
     },
     {
      "titulo": "Explosão em navio russo na Líbia levanta suspeita de ataque de drone",
      "resumo": "Explosão deixou feridos em embarcação ancorada em Benghazi. Caso reforça temores de expansão do conflito entre Moscou e Kiev para além dos principais campos de batalha",
      "link": "https://www.dw.com/pt-br/explosão-em-navio-russo-na-líbia-levanta-suspeita-de-ataque-de-drone/a-80014687?maca=bra-rss-br-all-1030-rdf",
      "fonte": "DW Brasil",
-     "data": "2026-11-22T17:23:00+00:00"
+     "data": "2026-11-22T22:34:00+00:00"
     },
     {
      "titulo": "'Fui coagida a ter um filho': como um bilionário enganou a DJ de sucesso Liv Nervo para que ela engravidasse",
@@ -1609,32 +1630,11 @@
      "data": "2026-11-22T18:41:29+00:00"
     },
     {
-     "titulo": "EUA: Chá de bebê termina em tiroteio com 3 mortos e 1 ferido",
-     "resumo": "Três pessoas morreram e uma ficou ferida durante um chá de bebê em Ohio, nos Estados Unidos (EUA). A gestante, que celebrava a festa, não ficou machucada.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/22/eua-cha-de-bebe-termina-em-tiroteio-com-3-mortos-e-1-ferido.ghtml",
+     "titulo": "Agência de aviação dos EUA suspende voos de companhia aérea após falha em sistema",
+     "resumo": "A Administração Federal de Aviação dos Estados Unidos (FAA, na sigla em inglês) determinou neste domingo (22) uma suspensão temporária das decolagens da Delta Air Lines no Aeroporto Internacional Hartsfield-Jackson, em…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/22/suspensao-temporaria-voos-companhia-aerea-eua-falha-em-sistema.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-22T18:51:41+00:00"
-    },
-    {
-     "titulo": "Fiéis são hospitalizados após vazamento de gás em igreja na Alemanha",
-     "resumo": "Mais de 50 pessoas que acompanhavam missa de domingo no sul da Alemanha foram intoxicadas com monóxido de carbono. Dispositivo de segurança do aquecimento teria falhado.",
-     "link": "https://www.dw.com/pt-br/fiéis-são-hospitalizados-após-vazamento-de-gás-em-igreja-na-alemanha/a-80014673?maca=bra-rss-br-all-1030-rdf",
-     "fonte": "DW Brasil",
-     "data": "2026-11-22T17:05:00+00:00"
-    },
-    {
-     "titulo": "Como um adolescente e sua mãe ajudaram a resgatar uma garota desaparecida após um encontro em um jogo online",
-     "resumo": "Quando Landon Tresp, de 16 anos, conheceu uma adolescente em um jogo online, isso fez com que ele e sua mãe ajudassem o FBI a resgatá-la de um sequestro.",
-     "link": "https://www.bbc.com/portuguese/articles/cm8x08negze2o?at_medium=RSS&at_campaign=rss",
-     "fonte": "BBC Brasil",
-     "data": "2026-11-22T12:00:07+00:00"
-    },
-    {
-     "titulo": "Bancada democrata na Câmara dos EUA atinge marca histórica e é a maior em 34 anos",
-     "resumo": "Os democratas garantiram seu melhor resultado em décadas nas eleições para a Câmara dos Representantes dos Estados Unidos, com pelo menos 258 cadeiras conquistadas. A bancada do partido é a maior desde 1992.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/22/bancada-democrata-na-camara-dos-eua-atinge-marca-historica.ghtml",
-     "fonte": "g1 Mundo",
-     "data": "2026-11-22T18:39:33+00:00"
+     "data": "2026-11-22T19:37:09+00:00"
     }
    ]
   },
@@ -1650,11 +1650,11 @@
      "data": "2026-11-22T16:54:30+00:00"
     },
     {
-     "titulo": "Editora L&PM aciona Justiça contra OpenAI por direitos autorais",
-     "resumo": "Empresa pede explicações sobre possível uso de dicionário no treinamento do ChatGPT",
-     "link": "https://www.poder360.com.br/poder-internacional/editora-lpm-aciona-justica-contra-openai-por-direitos-autorais/",
+     "titulo": "Democratas garantem 258 cadeiras na Câmara, melhor resultado desde 1992",
+     "resumo": "Partido amplia bancada em 20,6% e consolida maioria no Congresso; 4 disputas ainda aguardam definição",
+     "link": "https://www.poder360.com.br/poder-internacional/democratas-garantem-258-cadeiras-na-camara-melhor-resultado-desde-1992/",
      "fonte": "Poder360",
-     "data": "2026-11-22T19:26:48+00:00"
+     "data": "2026-11-23T01:08:33+00:00"
     },
     {
      "titulo": "PEC da Segurança: como uma guarda civil municipal pode virar polícia e o que muda para a população",
@@ -1664,11 +1664,11 @@
      "data": "2026-11-22T03:00:00+00:00"
     },
     {
-     "titulo": "ICE prende 2 imigrantes em aeroporto dos EUA e recebe críticas",
-     "resumo": "Detidos são mexicanos e estavam com vistos vencidos; companhia aérea, Porto de Seattle e governador criticaram a operação",
-     "link": "https://www.poder360.com.br/poder-internacional/ice-prende-2-imigrantes-em-aeroporto-dos-eua-e-recebe-criticas/",
+     "titulo": "Estudantes de gestão pública pedem a Lula demissão de Esther Dweck",
+     "resumo": "Manifesto da Fenecap será entregue a Lula na 2ª feira (23.nov); entidade cita falta de diálogo e defende regulamentação das profissões",
+     "link": "https://www.poder360.com.br/poder-governo/estudantes-de-gestao-publica-pedem-a-lula-demissao-de-esther-dweck/",
      "fonte": "Poder360",
-     "data": "2026-11-22T19:06:54+00:00"
+     "data": "2026-11-23T00:57:43+00:00"
     },
     {
      "titulo": "Câmara deve votar projeto de ajuste fiscal nesta segunda",
@@ -1678,11 +1678,11 @@
      "data": "2026-11-22T03:00:00+00:00"
     },
     {
-     "titulo": "Aplicativo pode ajudar a racionalizar filas para consultas e cirurgias",
-     "resumo": "Modelo decide como distribuir os médicos entre o ambulatório e o centro cirúrgico",
-     "link": "https://www.poder360.com.br/poder-saude/aplicativo-pode-ajudar-a-racionalizar-filas-para-consultas-e-cirurgias/",
+     "titulo": "Agência de aviação suspende voos da Delta após falha de sistema",
+     "resumo": "Administração Federal de Aviação dos EUA adiou todas as viagens operadas pela companhia com destino e partida em Atlanta",
+     "link": "https://www.poder360.com.br/poder-internacional/agencia-de-aviacao-suspende-voos-da-delta-apos-falha-de-sistema/",
      "fonte": "Poder360",
-     "data": "2026-11-22T19:00:54+00:00"
+     "data": "2026-11-23T00:48:28+00:00"
     },
     {
      "titulo": "Maioria das cidades terá dificuldade para criar polícia municipal, diz deputado",
@@ -1692,11 +1692,11 @@
      "data": "2026-11-22T03:00:00+00:00"
     },
     {
-     "titulo": "Leia a íntegra do boletim médico de Bolsonaro deste domingo",
-     "resumo": "Ex-presidente está estável na UTI e segue sem previsão de alta; permanece em jejum e recebe suporte nutricional",
-     "link": "https://www.poder360.com.br/poder-flash/leia-a-integra-do-boletim-medico-de-bolsonaro-deste-domingo/",
+     "titulo": "Rosinha anuncia separação de Anthony Garotinho após 45 anos",
+     "resumo": "Ex-governadora do RJ atribui decisão a diferenças de entendimento e pede respeito à privacidade da família",
+     "link": "https://www.poder360.com.br/poder-gente/rosinha-anuncia-separacao-de-anthony-garotinho-apos-45-anos/",
      "fonte": "Poder360",
-     "data": "2026-11-22T17:31:11+00:00"
+     "data": "2026-11-23T00:43:11+00:00"
     }
    ]
   },
@@ -1705,11 +1705,11 @@
    "nome": "TI e Segurança",
    "noticias": [
     {
-     "titulo": "Mapa interativo de GTA 6 mostra localização de todos os itens! Veja como usar",
+     "titulo": "Arkheron, Appulse e mais! Veja os lançamentos de games da semana",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/mapa-interativo-de-gta-6-mostra-localizacao-de-todos-os-itens-veja-como-usar/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/arkheron-appulse-e-mais-veja-os-lancamentos-de-games-da-semana/",
      "fonte": "TecMundo",
-     "data": "2026-11-22T18:15:00+00:00"
+     "data": "2026-11-22T22:30:00+00:00"
     },
     {
      "titulo": "A falha crítica descoberta na linguagem de programação usada por 90% das grandes empresas do mundo",
@@ -1719,11 +1719,11 @@
      "data": "2026-11-22T06:00:00+00:00"
     },
     {
-     "titulo": "Como funciona o Perfil Criminal de GTA 6? Entenda os níveis e consequências",
+     "titulo": "3 apps pagos estão grátis na Play Store, incluindo gestor financeiro; confira",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/como-funciona-o-perfil-criminal-de-gta-6-entenda-os-niveis-e-consequencias/",
+     "link": "https://www.estadao.com.br/tecmundo/produto-e-review/3-apps-pagos-estao-gratis-na-play-store-incluindo-gestor-financeiro-confira/",
      "fonte": "TecMundo",
-     "data": "2026-11-22T16:15:00+00:00"
+     "data": "2026-11-22T22:00:00+00:00"
     },
     {
      "titulo": "União Europeia propõe taxar big techs para financiar orçamento até 2034",
@@ -1733,11 +1733,11 @@
      "data": "2026-11-21T11:26:05+00:00"
     },
     {
-     "titulo": "Red Dead Redemption 2 baratinho, Like a Dragon na PS Plus e mais! Veja as indicações de games",
+     "titulo": "Mapa interativo de GTA 6 mostra localização de todos os itens! Veja como usar",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/red-dead-redemption-2-baratinho-like-a-dragon-na-ps-plus-e-mais-veja-as-indicacoes-de-games/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/mapa-interativo-de-gta-6-mostra-localizacao-de-todos-os-itens-veja-como-usar/",
      "fonte": "TecMundo",
-     "data": "2026-11-22T14:00:00+00:00"
+     "data": "2026-11-22T18:15:00+00:00"
     },
     {
      "titulo": "Ataques cibernéticos, IA ou atualizações pendentes: o que há por trás da onda de apagões dos últimos dias",
@@ -1747,11 +1747,11 @@
      "data": "2026-11-21T10:27:04+00:00"
     },
     {
-     "titulo": "Epic Games libera novo jogo grátis no celular! Resgate agora no Android (22)",
+     "titulo": "Como funciona o Perfil Criminal de GTA 6? Entenda os níveis e consequências",
      "resumo": "",
-     "link": "https://www.estadao.com.br/tecmundo/voxel/epic-games-libera-novo-jogo-gratis-no-celular-resgate-agora-no-android-22/",
+     "link": "https://www.estadao.com.br/tecmundo/voxel/como-funciona-o-perfil-criminal-de-gta-6-entenda-os-niveis-e-consequencias/",
      "fonte": "TecMundo",
-     "data": "2026-11-22T11:15:00+00:00"
+     "data": "2026-11-22T16:15:00+00:00"
     },
     {
      "titulo": "Dos algoritmos ao aroma: como a IA está mudando a criação de perfumes",
@@ -1774,11 +1774,11 @@
      "data": "2026-11-22T14:50:46+00:00"
     },
     {
-     "titulo": "Chefe de inteligência dos EUA prevê mais interrupções tecnológicas conforme sistemas são atualizados",
+     "titulo": "Perspectivas econômicas do Goldman Sachs para 2027",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/chefe-de-inteligencia-dos-eua-preve-mais-interrupcoes-tecnologicas-conforme-sistemas-sao-atualizados-2134964",
+     "link": "https://br.investing.com/news/stock-market-news/perspectivas-economicas-do-goldman-sachs-para-2027-2134987",
      "fonte": "Investing.com",
-     "data": "2026-11-22T18:21:18+00:00"
+     "data": "2026-11-22T22:24:42+00:00"
     },
     {
      "titulo": "Dólar, ouro e até o real entram no jogo: onde o UBS vê oportunidades para ganhar dinheiro — e se proteger — em 2027",
@@ -1802,11 +1802,11 @@
      "data": "2026-11-22T14:50:00+00:00"
     },
     {
-     "titulo": "Houthis dizem ter atacado refinaria de petróleo de Rabigh, na Arábia Saudita",
+     "titulo": "Rússia - Ações fecharam o pregão em queda e o Índice MOEX Russia Index terminou sem alterações",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/houthis-dizem-ter-atacadorefinaria-de-petroleo-de-rabigh-na-arabia-saudita-2134963",
+     "link": "https://br.investing.com/news/stock-market-news/russia--acoes-fecharam-o-pregao-em-queda-e-o-indice-moex-russia-index-terminou-sem-alteracoes-2134981",
      "fonte": "Investing.com",
-     "data": "2026-11-22T18:07:04+00:00"
+     "data": "2026-11-22T21:20:21+00:00"
     },
     {
      "titulo": "Morre Paolo Bulgari, nome por trás da ascensão da Bulgari no mercado global de luxo",
@@ -1830,11 +1830,11 @@
      "data": "2026-11-22T12:51:24+00:00"
     },
     {
-     "titulo": "A economia continuará a superar a geopolítica?",
+     "titulo": "Qual é a exposição do S&P 500 a uma bolha de IA?",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/a-economia-continuara-a-superar-a-geopolitica-2134890",
+     "link": "https://br.investing.com/news/stock-market-news/qual-e-a-exposicao-do-sp-500-a-uma-queda-no-setor-de-ia-2134979",
      "fonte": "Investing.com",
-     "data": "2026-11-22T18:00:12+00:00"
+     "data": "2026-11-22T20:42:53+00:00"
     }
    ]
   },
@@ -1842,6 +1842,27 @@
    "id": "blumenau",
    "nome": "Blumenau",
    "noticias": [
+    {
+     "titulo": "28 cães são resgatados de canil clandestino em Blumenau e homem é preso",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc1pWNGpOS3QzRVlOTnFwQ1hOcUJvQTlYMjc1NU56cmFpX0s4ZlNIS2o2V3dLd1hfb3E2TGl2aWcwcDVPWk9HcFFCaHVXMW5NUUxWclJ4OUc4ZWY0QnV6TU9LcF9UUzZzeUtXb0dWSGpLZzd4Q21abVNLeEhTQkRqbFBsa0E2U1FkaThzYk5Pd1lTWTJGZU93ODNhaGwzVEU?oc=5",
+     "fonte": "Click Xaxim",
+     "data": "2026-11-22T20:50:24+00:00"
+    },
+    {
+     "titulo": "Filhotes aglomerados e expostos a sol de 30°C: homem é preso após 28 cães serem encontrados em situação de maus-tratos em Blumenau (SC) - ANDA",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNenFlcExfN3BJRjVvNUk2YVBnZ3ZodzZ0YmRReXlaSy1sdUZoRVRSSUJPU2tTZ1NEc2hBODk1blFYUS1fblRyZTVvTklEc0I4UFNGOFBHZXZUSFcydXNKeFJjWThIVXdZTlNIZUQ5VUFKclhFVmdaWlRKanh0THhYQk5ISngwVEJ4bnNrdVpuN1o2V1JaYnhRcE1zZ3Q2SjlROEFoMFI1b2lVUEJGdHZkeFNHbzVrOWU4dzcwV3N1d29SbzlKOTFhOUhzRk1UbXNLNlhjMExLREdJQkRPRzNkUklPaG9LSUE?oc=5",
+     "fonte": "Agência de Notícias de Direitos Animais",
+     "data": "2026-11-22T19:53:51+00:00"
+    },
+    {
+     "titulo": "Dois homens são presos furtando fios da decoração de Natal em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSVdoRTlXRFZzUGZLUXlsTGpwRy00SGxCbExnaWt6d2RoSFdKcE1Wd3dLeE5QVmdNS3RBUk8yN1phc0Y5TkVMU2RDaWlKZHZST2ZTclVtWTZPUXppbzVCOXl3NjZ3dUhLY1VRRXVYRkZLTXdwUDMwRGhma3RkX0IxVDJiMmRyMkZVbmEySFJPMXZsbmg0eEl5NXQwWEtKMzZVRmQ0dEl6NDE?oc=5",
+     "fonte": "RBA TV",
+     "data": "2026-11-22T19:38:57+00:00"
+    },
     {
      "titulo": "De Blumenau a Florianópolis: veja as 14 pequenas empresas de SC que embarcam para conquistar clientes em Portugal",
      "resumo": "",
@@ -1871,32 +1892,11 @@
      "data": "2026-11-22T17:24:57+00:00"
     },
     {
-     "titulo": "28 cães são resgatados de canil clandestino em Blumenau e homem é preso",
+     "titulo": "Sorriso: Motorista esquece de puxar freio de mão e Gol desce a Blumenau desgovernado e prensa três jovens contra outro carro",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc1pWNGpOS3QzRVlOTnFwQ1hOcUJvQTlYMjc1NU56cmFpX0s4ZlNIS2o2V3dLd1hfb3E2TGl2aWcwcDVPWk9HcFFCaHVXMW5NUUxWclJ4OUc4ZWY0QnV6TU9LcF9UUzZzeUtXb0dWSGpLZzd4Q21abVNLeEhTQkRqbFBsa0E2U1FkaThzYk5Pd1lTWTJGZU93ODNhaGwzVEU?oc=5",
-     "fonte": "Click Xaxim",
-     "data": "2026-11-22T17:22:49+00:00"
-    },
-    {
-     "titulo": "Sorriso: Motorista esquece de puxar ferio de mão e Gol desce a Blumenau desgovernado e prensa três jovens contra outro carro",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOLWVEelNfaDZwczF6RzVwSTZxd3hwRDZQVmQ3Z185WXRGWi1mR2dnZF85QXRVOFhLcXpnN2pqWi1GRkt0dXRTRjNJQXFHWXFlZE9BZFk1Mm9jeVd5ckJObU0zbWpnYXVqa2p1ejFWbVBVRUNhdTBFc2ozcmFIWnhJaUNpWkpzTU5YZjVlTXYwNmtKYlRRMzgxLUI5d0NlbmJ5QmYxUDRTQmxTWmJuVEFQRGl6bXhSdlpIX1VmZHNMRFE0VXJFQ2IxcDkwNzZsNGZIejdKOFpyUmdJSVJ1UHZ5UV9GcGhydXktZVFqYzZjWQ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdnd2UUVTa0xCUEY4aEVyWGVvZmhIMFlsUU94TnVLc3dDU2NrM3VZS1VDc253WFp5N2lxWVBTU0JTUk5NbGJkdUpyRkN0N3FOb3JmZU05OEZjbmZ3alR2TTQyTjd4ZHJmY00tWFJyTHQxbUxab2RrZGhpNmcwLWphcXNsajJBb0M0NHdnQ19xSjB4QW1JamlZM25CeVJXWHJVMEVOZFVseGswWC0wYXZ4MzFDV2J6SVc5dzVmRFBKU2xHRXlSNEp5SmFGMTBtV2k2dnl5LTJOeTNSOGNZRnp4SmQxT1BUSkdfaFU1R2lrRQ?oc=5",
      "fonte": "JK Notícias",
      "data": "2026-11-22T16:05:16+00:00"
-    },
-    {
-     "titulo": "FURB - SC abre processo seletivo para formação de cadastro reserva com ganhos de até R$ 5.906,88",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc0hXU3N0dTg4WHBLMkdtUzVBSHFkUjJEMXFadmZ2aFliNi1KendQWTUzMnlrbkZ3dXVZeE1ybUtPZ19UNy12ZGdhVFI5STUtV0tLcFBTSmNHc0YyOWJKQ2tEeDVxZEl6RGNCamxLckFLSEZXakdjYnlCT05INlV2QnFXWU9Ea2ZsTWdWckxWLXF1SEFaS19VbVdSeDZWLS1jZ1ZORWNwek5mel9uX2QzTjdFam4waEktdTlROUZxX2kybU83V1BV?oc=5",
-     "fonte": "PCI Concursos",
-     "data": "2026-11-22T16:04:36+00:00"
-    },
-    {
-     "titulo": "FURB - SC abre processo seletivo para aprimoramento profissional em medicina veterinária",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY2pZeHpGSVRvSE1sRWUyamp2TWJfMkhPMVpxUFcxWTI2U0hVemNyS0dXUC1WZGNIQnBTcUpma2FQWkVhYnhDVXh6aWUxaGtjUHN5YllfMTBGOG9VendobEJPdDNjMWhad3dWcG16aTFNaTNHREJnMFY1WFVpMkJhOVBlZl96Y2FHSk9YTWgxbk92SThvejlMN2pGQXg4UEhmY0w4QU85ZkIzS0hZQVZhQndGYUprSS00cjgzdXdiNkFvaWpzOFE?oc=5",
-     "fonte": "PCI Concursos",
-     "data": "2026-11-22T15:54:15+00:00"
     }
    ]
   },
@@ -1905,6 +1905,34 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
+     "titulo": "Shakira em BC: Prefeitura monta comitê e busca apoio do Estado para segurança do show",
+     "resumo": "Evento privado terá também área gratuita na orla e mobilização de autoridades municipais, estaduais e federais Leia no Camboriú News",
+     "link": "https://camboriu.news/shakira-em-bc-prefeitura-monta-comite-e-busca-apoio-do-estado-para-seguranca-do-show/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-23T01:38:36+00:00"
+    },
+    {
+     "titulo": "Shakira em BC: Prefeitura monta comitê e busca apoio do Estado para segurança do show",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYV9EQl9GQjNnU0dZd0xOSEtTdHcxcGtmLWFSQUVjWk05MTF6b2ZZMFc2U2x1bzJfRWgtaHpKSFZjU3RrNHVvaVlPWm5VbnoySE1EM04tdGtSRGVFd3paZHJIUWdzUnBKWjVIT2FfUnZsMzdmUFI1VXVLUjRGN1JNRUp1VXlOSzhycTlkVUt3cjB4SlBtQzhNV1hCblZVN0VBWUhRUWdyb2NWaVE?oc=5",
+     "fonte": "Camboriú News",
+     "data": "2026-11-23T01:38:36+00:00"
+    },
+    {
+     "titulo": "Show de Shakira é confirmado com setores pagos para o Réveillon em Balneário Camboriú",
+     "resumo": "Apresentação está marcada para 31 de dezembro de 2027, na Barra Norte, e ingressos começam a ser vendidos no dia 26 Leia no Camboriú News",
+     "link": "https://camboriu.news/show-de-shakira-e-confirmado-com-setores-pagos-para-o-reveillon-em-balneario-camboriu/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-22T22:02:57+00:00"
+    },
+    {
+     "titulo": "Além de Salvador, Shakira fará show de Réveillon em Balneário Camboriú e apresentações em Fortaleza e Cariacica",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaGhmcVhJY0hBRWJkLVZHNnNXMC1jR3BybkVoaHI0X1Jzd2RMUnFORW9vUWJESndHQ1BFMkMxcU9JZy1nMW90ZFZ2QlpaZFpfclZIaHFmbHlacHBZbTZDTnhCeXR5R0dfTFBheXViQkxEV2hPVm5DdS1Wc3RMMWJHZFJLeV91ekY2eWw5U1hJWGY1MVFOdXgxdGF2UmxMVXU0WUFZcHl0TVJXa1E4NUN6cEtxRlFrX1NzZnZDbnV1QTdMQlFrU0hVUTJRdnNIdzhYNTZ5ZmJZV19ucDFtVFp5N3JMUjVoT1BSeUt3d2lsUkYyVng3WjdKc2V3?oc=5",
+     "fonte": "Bahia Notícias",
+     "data": "2026-11-23T00:20:00+00:00"
+    },
+    {
      "titulo": "Homem é preso com fuzil, 300 munições e mais de 5 kg de drogas em Itajaí",
      "resumo": "Polícia encontrou crack, cocaína, maconha, R$ 8 mil e material usado para mistura de entorpecentes em apartamento no bairro São João Leia no Camboriú News",
      "link": "https://camboriu.news/homem-e-preso-com-fuzil-300-municoes-e-mais-de-5-kg-de-drogas-em-itajai/",
@@ -1912,11 +1940,11 @@
      "data": "2026-11-22T05:22:31+00:00"
     },
     {
-     "titulo": "Agora é oficial: Shakira é confirmada no Réveillon de Balneário Camboriú",
+     "titulo": "Show de Shakira em Balneário Camboriú terá área gratuita com som e telões na orla",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMUZoMVNzcDh2dU5SdlZmUXpseU1iSzNmZmxNcUVPOTJMcURQLXVReU1HNjFWbERFaWV4RXNQdGVlV3hWa29KVncydmI1RklmZEVrRHAxZTNSZkJHU24tZjlmZ3ZJSjdfYWZRZ2ZuMXM4X2FwRXF3RE0tZENMblZaS2hGUnFFLU5FS1MyQXVIY1BYSnhSSndEUGE4WVVSNzJFeWFJcDl3UWNvOHBR?oc=5",
-     "fonte": "TopElegance",
-     "data": "2026-11-22T19:32:47+00:00"
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY0VKOTM2SGhBVjVqaTZqNVNFOWlWaFB4YTV4ZlVObFMwNTNHUXlSSmllaFpBbnlIYVd1NnRPV3RhNU1qMlk5UFloSTlFRDE3M1ZvM3Fvc2JGbmpsb0hKckF5WEp2MEsxdEYteVZfcGoyTUZqMVdvNnFQdTZ3WTZaN3o0RDlfRGkwTVlrZjE4MzJFaG5ORllVUVVGUUxoZjQzdkptc2JqMWtidExLSlI1YU9n?oc=5",
+     "fonte": "BC Notícias",
+     "data": "2026-11-23T00:04:47+00:00"
     },
     {
      "titulo": "Homem invade subestação para furtar cobre, sofre descarga elétrica e morre em Itajaí",
@@ -1926,53 +1954,25 @@
      "data": "2026-11-22T05:07:22+00:00"
     },
     {
-     "titulo": "Feira do Calçadão volta no dia 27 e terá edições quinzenais em Balneário Camboriú",
+     "titulo": "Shakira é confirmada no Réveillon de Balneário Camboriú com show na Barra Norte",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY0JjT1M0QVBSeV9IeXBXMHpWa0NyQ0pWbWo3NEFzOFRNLWVkdWU5anhCOG1sMDJiSDRBeU5WaG9JUExzanVVcFNFZ1hwcWZwaTlZMEdQN1hRZ19wM1dzajlsWktZQWxfZFNZTm95SWx4TFhPcVRGOTA5SjlYdGRQOVI3Vkx0cVRVM29ubUROR2tEMFRmLU1lOEFFVjdWNG1QckVieVpnNnBTVTZrbThSVnpn?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-22T19:30:38+00:00"
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVWZVMm5mZ3hqYkpiMFljMm8xeWlHUDJJQzRXVE40dHhiOG9rcllvLXIzbHRCdVJjWUZhaEN5dlFxa3NVTGwtR2VTWHNYUVk3eGQtdGd2ZUVMNVR3WmdJMjlaVXN2QjBfM3I1QlVkODFrQ21HaW1lNktaRGJydzNleHFRaC1MQTZhVnFuTFFXRFQzZWY1TnhRc1JoSXNhMnluWlQyUlJtQVdfUFczcnpv?oc=5",
+     "fonte": "BC Notícias",
+     "data": "2026-11-23T00:00:00+00:00"
     },
     {
-     "titulo": "Homem tenta assaltar farmácia, esfaqueia duas pessoas durante luta corporal e foge em Itajaí",
-     "resumo": "Vítimas foram atendidas pelo Samu e levadas ao hospital; autor não havia sido localizado até o fim da ocorrência Leia no Camboriú News",
-     "link": "https://camboriu.news/homem-tenta-assaltar-farmacia-esfaqueia-duas-pessoas-durante-luta-corporal-e-foge-em-itajai/",
-     "fonte": "Camboriú News",
-     "data": "2026-11-22T05:03:12+00:00"
-    },
-    {
-     "titulo": "Agora é oficial! Shakira é confirmada no Réveillon de Balneário Camboriú",
+     "titulo": "Shakira é confirmada na virada de ano de Balneário Camboriú; veja quando será o show",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNnl0blNtU2ZmRkduTFU2bW1sN2g2Tm9vR1lyQy10YmFZWE9CZXVpSnZRellEdzVGQkNGN2l1Tnp6ei1FV0pKVHNmOFhLTjUwNjhOYXNuNktBMktBU0hmUXdpZGh5dm9SdzFVLTY4bERjWldTTTFseEV5YUZOWlRBQ1g4OUZtQUExQ2ExOVJnaU5iQ0ZDLVA2eDdudGRZZF9PS3RQQjU1Y2FVTHY1czFQMjRjT3k?oc=5",
-     "fonte": "NSC Total",
-     "data": "2026-11-22T19:22:12+00:00"
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWI2VHJJdnZuYmpWY3MwMEI1czZjWFB5a0VJajlON3FxOEEzbDYwb3g5LWhkcFVzREtwazdKblJlUGdyQ3pYTmlWVGZlMTk5RFFEQlZBOVpIRXlpZmVPTDJXV3FBbnZtWmxsOHVhcUhOQTZtb3V2eUo5emJaTzMxdG9RTTJRaDdmVVF3SGk5dmx2Zw?oc=5",
+     "fonte": "SCC10",
+     "data": "2026-11-22T23:55:29+00:00"
     },
     {
-     "titulo": "Mulher com filha recém-nascida é assaltada enquanto voltava para casa de scooter em Camboriú",
-     "resumo": "Criminoso em uma motocicleta insinuou estar armado, roubou o celular da vítima e fugiu em direção ao Monte Alegre Leia no Camboriú News",
-     "link": "https://camboriu.news/mulher-com-filha-recem-nascida-e-assaltada-enquanto-voltava-para-casa-de-scooter-em-camboriu/",
-     "fonte": "Camboriú News",
-     "data": "2026-11-22T05:03:09+00:00"
-    },
-    {
-     "titulo": "Jovens jogam “loló” por cima de muro de casa noturna e acabam presos em Balneário Camboriú",
+     "titulo": "Shakira confirma show gratuito na orla de Balneário Camboriú na virada de 2026 para 2027",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbEN3TzJyelZCUUFfeXJ1WkxjSEp2MTJna0l3RmwtN1RkRzRSMXQ1V28xRmpoU0E0ck9DMVpMM3pGQzVILWphX0ZfOWpOLUdzY044bDFQTDU1eEVzQTRmeVJZWVJ6NWZjVWdGRW5NbjhLREZPWW1LNlV4VTFpb2xxckFHMmdOZzRNaFZ6RVJfWmEzX0hOTHczNTB2MDJObTN0cGVHbDFIUmVtNGl3Yk52QVdLbXNaREtpNFJWay04cC13eHFxZG1tVw?oc=5",
-     "fonte": "TopElegance",
-     "data": "2026-11-22T19:01:59+00:00"
-    },
-    {
-     "titulo": "Encontro sobre engenharia de alto nível vai discutir prédios altos e gestão de projetos em Balneário Camboriú",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdk1zYXVaQ2tzLUwxbVliamI1VndTcUNLYXRMcU9VVHhESHNoMlNoOHdKYnB4Nkh2XzZLU0dLVXVPdWt3SzhyX2NPcWlSLTUtQ3J4Y2ZGT1RDRDJ2ZVJrM2loVGFxNlRleUVmdGxUTmdJLUVCa3dqREVVemVBWExoYkNPRUVqaG5vZGtmSmV3aGp5dFlpWklndzFRVXh4cnhPQ1NnNXpTOFFNVU5RRjB5NVJSbzR4dHIycUNpMzc1MHRwRTdjeU5uRjU4el80ZXpsQXVWRTF3OA?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-22T19:01:19+00:00"
-    },
-    {
-     "titulo": "Bolsonaro segue internado na UTI sem previsão de alta",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOalNIcFp6THNlYTFnUU9VekxPMWhQSUMybkRxeWltX3Y5aFV4aXhSaTU1bHB1S3B0UlNFVW5BNVU4ZVd3NkZTaU1RRnRycTAza3ppbTZ3SWlQd3N4RWNaNjZkMHp4WW02THVmVm9GV3NaeDk3UGlqZTFidkdyTWN6aG1KaU5XeGFrLWtVcTNCdUw?oc=5",
-     "fonte": "Notícia Já",
-     "data": "2026-11-22T18:58:00+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeTBVcGFLQ1ZTOVNDMkRzdHpHNlBIMExhSTUzaDUySEdoNG55bFBweUJJTXN4eTg3V0RhVUNTRWFxODNleTZNZmQ5dUFoUkpRRVBncTVEOHNCUnV3Ul82b2pocFhYVUpIOG1LQy1oRXpBX1Nab1JiWm1ZTHBXMGVmQm0yNUJRZXRhLWNiMHVrd0Q3YW1qS1pUR3AyRG9sY0N2S3J4TGpyYUVJcGoxRDZGSXlMVzF0Rm5aZmU3ZE1GM1RPZWs?oc=5",
+     "fonte": "No Ponto SC",
+     "data": "2026-11-22T23:51:38+00:00"
     }
    ]
   }

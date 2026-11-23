@@ -176,14 +176,6 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .faturas .fat b{font-weight:800}
 .faturas .fat span{color:var(--soft);font-weight:600}
 .faturas .fat .perto{color:var(--cai);font-weight:800}
-/* Seguranca (noticias em portugues) */
-.vidro.seguranca{padding:12px 16px;margin-bottom:12px}
-.seguranca ul{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:8px}
-.seguranca li{border-top:1px solid var(--grid);padding-top:8px;display:grid;gap:2px}
-.seguranca li:first-child{border-top:0;padding-top:0}
-.seguranca a{color:var(--ink);font:600 .92rem/1.3 var(--serif);text-decoration:none}
-.seguranca a:hover{text-decoration:underline}
-.seguranca .fonte-s{font-size:.66rem;font-weight:700;color:var(--soft);text-transform:uppercase;letter-spacing:.06em}
 /* Cartoes da bolsa clicaveis + janela do grafico */
 .cartao-bolsa{font:inherit;color:inherit;text-align:left;cursor:pointer;display:block;width:100%;border:1px solid var(--card-line)}
 .cartao-bolsa:hover{transform:translateY(-2px)}
@@ -208,29 +200,6 @@ main{max-width:1040px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) 1
 .hora.atual.sel{background:var(--ink)}
 .grafico svg{cursor:pointer}
 .voltar-dia{border:1px solid var(--card-line);background:var(--chip);color:var(--ink);font:700 .75rem var(--sans);padding:4px 12px;border-radius:999px;cursor:pointer}
-/* Ranking de paises mais atacados */
-.vidro.ataques{padding:14px 14px 12px;margin-bottom:12px;border-left:5px solid #d9453b;
-  background:linear-gradient(140deg,color-mix(in srgb,#d9453b 16%,var(--card)),var(--card) 55%)}
-.atq-sub{margin:2px 0 8px;font-size:.78rem;color:var(--soft)}
-.atq-lista{list-style:none;margin:0;padding:0;display:grid;gap:3px}
-.atq-lista li{position:relative;display:grid;grid-template-columns:22px 24px minmax(0,1fr) auto auto;gap:8px;align-items:center;padding:5px 8px;border-radius:9px;overflow:hidden;background:var(--chip)}
-.atq-lista li::before{content:"";position:absolute;top:0;bottom:0;left:0;width:var(--w);background:linear-gradient(90deg,rgba(255,163,0,.34),rgba(217,69,59,.5));border-radius:9px 0 0 9px}
-.atq-lista li>*{position:relative}
-.atq-lista .pos{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-size:.68rem;font-weight:800;background:var(--chip);color:var(--ink)}
-.atq-lista .atq-top .pos{background:#d9453b;color:#fff}
-.atq-lista .band{font-size:1.15rem;line-height:1}
-.atq-lista .pais{font-weight:700;font-size:.85rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.atq-lista .pct{font:600 .95rem var(--serif)}
-.atq-lista .mov{font-size:.68rem;font-weight:800;min-width:26px;text-align:right}
-.mov.sobe-atq{color:var(--cai)}
-.mov.desce-atq{color:var(--sobe)}
-.mov.igual{color:var(--soft)}
-.ataques .fonte{font-size:.66rem;color:var(--soft);margin-top:8px}
-/* Ranking de ataques: linha do Brasil e abas */
-.atq-br{margin-top:8px;padding:7px 12px;border-radius:10px;background:var(--chip);font-size:.82rem}
-.mov.novo{font-size:.62rem;color:var(--warm)}
-.ataques .abas{margin:8px 0 6px}
-.abas button[data-per="w"]{margin-left:8px}
 /* Novela */
 #novela{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;font-size:.74rem;padding-top:6px;border-top:1px solid var(--grid)}
 #novela[hidden]{display:none}
@@ -406,10 +375,6 @@ footer a{color:inherit}
   </div>
   <div class="dica" id="mercado-hora"></div>
   <div id="bolsas"></div>
-
-  <section class="vidro ataques" id="ataques" hidden></section>
-
-  <section class="vidro seguranca" id="seguranca" hidden></section>
 
   <h2 class="titulo">Notícias</h2>
   <section class="vidro">
@@ -915,58 +880,6 @@ function desenharRio() {
 }
 // " · 14/11 08:30" (horario de Brasilia) para as noticias
 const hmData = iso => iso && !isNaN(Date.parse(iso)) ? " · " + new Date(iso).toLocaleString("pt-BR", {timeZone: TZ, day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit"}).replace(",", "") : "";
-function desenharSeguranca(lista) {
-  const itens = (lista || []).filter(v => v && v.titulo && v.link);
-  if (!itens.length) { $("seguranca").hidden = true; return; }
-  const dm = hmData;
-  $("seguranca").innerHTML = `<div class="etiqueta">🛡️ Segurança digital · notícias em português</div><ul>${[...itens].sort((a, b) => (b.data || "").localeCompare(a.data || "")).slice(0, 4).map(v => `<li>
-    <a href="${esc(v.link)}" target="_blank" rel="noopener">${esc(v.titulo)}</a><span class="fonte-s">${esc(v.fonte)}${dm(v.data)}</span></li>`).join("")}</ul>`;
-  $("seguranca").hidden = false;
-}
-
-// Ranking diario dos paises mais atacados (o robo le o mapa de ameacas da Kaspersky todo dia)
-const ATQ_TIPOS = {
-  oas: ["Computador", "usuários com ameaça detectada no computador"], wav: ["Navegação", "usuários atacados ao navegar na web"],
-  mav: ["E-mail", "usuários atacados por e-mail"], ids: ["Rede", "usuários com ataque de rede bloqueado"], rmw: ["Ransomware", "usuários atacados por ransomware"]};
-let atqTipo = "oas", atqPer = "w", nomesPaises = null;
-const bandeira = iso => String.fromCodePoint(...[...iso.toUpperCase()].map(c => 0x1F1E6 + c.charCodeAt(0) - 65));
-const nomePais = iso => { try { nomesPaises = nomesPaises || new Intl.DisplayNames(["pt-BR"], {type: "region"}); return nomesPaises.of(iso) || iso; } catch (e) { return iso; } };
-function desenharAtaques() {
-  const a = dadosRobo && dadosRobo.ataques, dados = a && a.tipos && a.tipos[atqTipo] && a.tipos[atqTipo][atqPer];
-  if (!dados) { $("ataques").hidden = true; return; }
-  const top = dados.top.slice(0, 10), max = top[0][1] || 1;
-  const ont = a.ontem && a.ontem.tipos && a.ontem.tipos[atqTipo] && a.ontem.tipos[atqTipo][atqPer];
-  const antes = ont ? ont.top.map(x => x[0]) : null;
-  const dec = v => (v < 1 ? v.toFixed(2) : v.toFixed(1)).replace(".", ",");
-  const dataFmt = a.data ? a.data.slice(8) + "/" + a.data.slice(5, 7) : "";
-  const linhas = top.map(([iso, v], i) => {
-    let seta = "";
-    if (antes) {
-      const k = antes.indexOf(iso), mov = k - i;
-      seta = k < 0 ? '<span class="mov novo" title="Não estava entre os 15 primeiros ontem">novo</span>'
-        : mov > 0 ? `<span class="mov sobe-atq" title="Subiu ${mov} posição(ões) desde ontem">▲${mov}</span>`
-        : mov < 0 ? `<span class="mov desce-atq" title="Caiu ${-mov} posição(ões) desde ontem">▼${-mov}</span>`
-        : '<span class="mov igual" title="Mesma posição de ontem">＝</span>';
-    }
-    return `<li class="${i < 3 ? "atq-top" : ""}" style="--w:${(Math.sqrt(v / max) * 100).toFixed(1)}%"><span class="pos">${i + 1}</span><span class="band">${bandeira(iso)}</span>
-      <span class="pais">${esc(nomePais(iso))}</span><b class="pct">${dec(v)}%</b>${seta}</li>`;
-  }).join("");
-  const br = dados.br;
-  $("ataques").innerHTML = `<div class="etiqueta">🌍 Ataques hackers · top 10 países mais atacados</div>
-    <div class="abas">${Object.entries(ATQ_TIPOS).map(([k, [nome]]) => `<button type="button" data-tipo="${k}" aria-selected="${k === atqTipo}">${nome}</button>`).join("")}
-      <button type="button" data-per="w" aria-selected="${atqPer === "w"}">Semana</button><button type="button" data-per="m" aria-selected="${atqPer === "m"}">Mês</button></div>
-    <p class="atq-sub">% dos ${ATQ_TIPOS[atqTipo][1]} · ${atqPer === "w" ? "última semana" : "último mês"}${dataFmt ? " · dados de " + dataFmt : ""}</p>
-    <ol class="atq-lista">${linhas}</ol>
-    ${br ? `<div class="atq-br">🇧🇷 Brasil: <b>${br.pos}º de ${br.de} países</b> · ${dec(br.pct)}%</div>` : ""}
-    <div class="fonte">Fonte: ${esc(a.fonte)}, atualizado todo dia. Mede a % de usuários atacados em cada país, não o número de ataques.${antes ? " ▲▼ = posições desde o dia anterior." : " As setas de subida e descida aparecem a partir do próximo dia."}</div>`;
-  $("ataques").hidden = false;
-}
-$("ataques").addEventListener("click", e => {
-  const t = e.target.closest("[data-tipo]"), per = e.target.closest("[data-per]");
-  if (t) atqTipo = t.dataset.tipo; else if (per) atqPer = per.dataset.per; else return;
-  desenharAtaques();
-});
-
 // Faturas dos cartoes: fecha 10 dias antes do vencimento (o proximo fechamento e o proximo vencimento)
 const CARTOES = [{nome: "Amazon", vence: 1}, {nome: "Ailos", vence: 3}];
 const DIAS_FECHAMENTO = 10;
@@ -1095,7 +1008,7 @@ fetch("noticias.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).
   else $("m-ibov").textContent = "—";
   if (j.novela) desenharNovela(j.novela);
   if (j.bolsas) desenharBolsas(j.bolsas);
-  dadosRobo = j; desenharRio(); desenharSeguranca(j.seguranca); desenharAtaques();
+  dadosRobo = j; desenharRio();
   const todas = (j.categorias || [{id: "mundo", nome: "Mundo", noticias: j.noticias || []}]).filter(c => c.noticias.length);
   let cats = [], atual = "mundo";
   try { atual = localStorage.getItem("categoria") || atual; } catch(e) {}

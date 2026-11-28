@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-27T23:27:41.129425+00:00",
+ "atualizado": "2026-11-28T07:47:25.395315+00:00",
  "ibovespa": {
   "pontos": 176573,
   "variacao": -0.13,
@@ -9,11 +9,6 @@
   "nome": "Quem Ama Cuida",
   "canal": "TV Globo",
   "exibicoes": [
-   {
-    "data": "2026-11-25",
-    "inicio": "21:30",
-    "duracao": 70
-   },
    {
     "data": "2026-11-26",
     "inicio": "21:30",
@@ -51,6 +46,11 @@
    },
    {
     "data": "2026-12-04",
+    "inicio": "21:30",
+    "duracao": 70
+   },
+   {
+    "data": "2026-12-05",
     "inicio": "21:30",
     "duracao": 70
    }
@@ -149,20 +149,12 @@
   ]
  },
  "rio": {
-  "nivel": 3.56,
-  "leitura": "2026-11-27 20:00",
+  "nivel": 3.43,
+  "leitura": "2026-11-28 04:00",
   "estagio": "Observação",
-  "tendencia": "estável",
-  "variacao3h": 0.04,
+  "tendencia": "descendo",
+  "variacao3h": -0.08,
   "historico": [
-   3.76,
-   3.76,
-   3.76,
-   3.77,
-   3.73,
-   3.71,
-   3.68,
-   3.67,
    3.69,
    3.72,
    3.74,
@@ -178,7 +170,15 @@
    3.52,
    3.54,
    3.55,
-   3.56
+   3.56,
+   3.56,
+   3.55,
+   3.53,
+   3.51,
+   3.51,
+   3.49,
+   3.46,
+   3.43
   ],
   "link": "https://alertablu.blumenau.sc.gov.br/"
  },
@@ -1593,11 +1593,11 @@
      "data": "2026-11-27T16:49:25+00:00"
     },
     {
-     "titulo": "Ministério Público do Canadá pede 25 anos de prisão para homem suspeito de colaborar com 93 suicídios",
-     "resumo": "A folha de bordo, presente na bandeira, é um dos ícones do Canadá e representa a natureza exuberante do país Crédito: Pixabay.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/27/ministerio-publico-do-canada-pede-25-anos-de-prisao-para-homem-suspeito-de-colaborar-com-93-suicidios.ghtml",
+     "titulo": "Rússia afirma ter derrubado mais de 1,2 mil drones ucranianos em ataque",
+     "resumo": "Agora no g1 As forças de defesa aérea da Rússia derrubaram 1.246 drones ucranianos durante a noite, informou neste sábado (28) o Ministério da Defesa russo.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/28/russia-afirma-ter-derrubado-mais-de-12-mil-drones-ucranianos-em-ataque.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-27T22:02:18+00:00"
+     "data": "2026-11-28T07:32:13+00:00"
     },
     {
      "titulo": "Estudo descobre área do cérebro que faz \"rascunho\" da fala",
@@ -1614,11 +1614,11 @@
      "data": "2026-11-27T13:53:59+00:00"
     },
     {
-     "titulo": "Mulheres afegãs perdem o direito de ter nomes e passam a ser identificadas como 'vovó', 'cabra' ou 'vaca', diz jornal",
-     "resumo": "Autoridades do Talibã proibiram o uso de nomes de mulheres em documentos oficiais em uma no norte do Afeganistão.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/27/mulheres-afegas-perdem-o-direito-de-ter-nomes-e-passam-a-ser-identificadas-como-vovo-cabra-ou-vaca-diz-jornal.ghtml",
+     "titulo": "Taça com formato de seio de Maria Antonieta quebra recorde e é leiloada por R$ 18 milhões",
+     "resumo": "Uma peça de porcelana com formato de seio feminino, que pertenceu à rainha francesa Maria Antonieta, foi vendida por € 2,9 milhões (cerca de R$ 18 milhões) em um leilão realizado na última quinta-feira (26), na França.",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/28/taca-com-formato-de-seio-de-maria-antonieta-quebra-recorde-e-e-leiloada-por-r-18-milhoes.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-27T20:39:14+00:00"
+     "data": "2026-11-28T07:00:01+00:00"
     },
     {
      "titulo": "Sabotagem russa pode causar mortes em massa na Europa, diz relatório",
@@ -1635,11 +1635,11 @@
      "data": "2026-11-27T10:21:42+00:00"
     },
     {
-     "titulo": "Líder da seita do jejum é considerado culpado pela morte de 123 pessoas no Quênia",
-     "resumo": "Um autoproclamado pastor queniano foi considerado culpado nesta sexta-feira (27) por homicídio culposo pela morte de 123 pessoas.",
-     "link": "https://g1.globo.com/mundo/noticia/2026/11/27/lider-da-seita-do-jejum-e-considerado-culpado-pela-morte-de-123-pessoas-no-quenia.ghtml",
+     "titulo": "Tortura, escravidão e frio intenso: como é a prisão russa onde está jogadora brasileira",
+     "resumo": "Presa na Rússia há um 1 e 4 meses, a atleta brasileira de futebol de areia, Letícia Villar Pais, conhecida como \"Lelê\", disse em carta enviada ao presidente Lula no inicio deste mês que foi enviada para a prisão de…",
+     "link": "https://g1.globo.com/mundo/noticia/2026/11/28/tortura-escravidao-e-frio-intenso-como-e-a-prisao-russa-onde-esta-jogadora-brasileira.ghtml",
      "fonte": "g1 Mundo",
-     "data": "2026-11-27T19:54:37+00:00"
+     "data": "2026-11-28T07:00:00+00:00"
     }
    ]
   },
@@ -1648,6 +1648,48 @@
    "nome": "Política",
    "noticias": [
     {
+     "titulo": "Fios clandestinos terão prazo para ser regularizados; entenda regras aprovadas pelo Congresso sobre compartilhamento de postes",
+     "resumo": "O Congresso Nacional concluiu neste mês a análise de um projeto de lei que redefine as regras para o compartilhamento dos postes.",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/28/fios-clandestinos-terao-prazo-para-ser-regularizados-entenda-regras-aprovadas-pelo-congresso-sobre-compartilhamento-de-postes.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-28T03:00:00+00:00"
+    },
+    {
+     "titulo": "Fachin libera R$ 316 milhões da liquidação do Master ao BRB",
+     "resumo": "Decisão autoriza retomada de repasses de carteiras de crédito sem disputa de titularidade; ministro mantém bloqueados valores de operações contestadas",
+     "link": "https://www.poder360.com.br/poder-justica/fachin-libera-r-316-milhoes-do-master-ao-brb/",
+     "fonte": "Poder360",
+     "data": "2026-11-28T03:10:42+00:00"
+    },
+    {
+     "titulo": "Nas escolas, 1 em cada 8 meninos admite ter criado nudes com IA; alunas e professoras são as vítimas",
+     "resumo": "Um levantamento inédito divulgado nesta semana pela ONG SaferNet Brasil mostra que 12,4% dos meninos adolescentes ouvidos (um em cada oito) admitem já ter criado ao menos um deepfake sexual.",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/28/safernet-estudo-deepfake-escola.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-28T03:00:00+00:00"
+    },
+    {
+     "titulo": "Atleta brasileira presa na Rússia pede ajuda em carta enviada a Lula",
+     "resumo": "Letícia Villar Pais foi detida em julho de 2025 ao entrar no país com 6 gramas de haxixe para consumo próprio",
+     "link": "https://www.poder360.com.br/poder-internacional/atleta-brasileira-presa-na-russia-pede-ajuda-em-carta-enviada-a-lula/",
+     "fonte": "Poder360",
+     "data": "2026-11-28T02:25:38+00:00"
+    },
+    {
+     "titulo": "Ministério da Segurança Pública não é inédito no Brasil; veja como era e o que especialistas esperam do novo órgão",
+     "resumo": "A promulgação da PEC da Segurança Pública, aprovada pelo Senado Federal, passo que abrirá caminho para o presidente Luiz Inácio Lula da Silva (PT) criar o Ministério da Segurança Pública, é aguardada para os próximos…",
+     "link": "https://g1.globo.com/politica/noticia/2026/11/28/ministerio-da-seguranca-publica-nao-e-inedito-no-brasil-veja-como-era-e-o-que-especialistas-esperam-do-novo-orgao.ghtml",
+     "fonte": "g1 Política",
+     "data": "2026-11-28T03:00:00+00:00"
+    },
+    {
+     "titulo": "MP apura uso de praia em show de Shakira em Balneário Camboriú",
+     "resumo": "Ministério Público de SC pediu documentos à prefeitura sobre a ocupação de 50.000 m² da faixa de areia durante o Réveillon",
+     "link": "https://www.poder360.com.br/poder-justica/mp-apura-uso-de-praia-em-show-de-shakira-em-balneario-camboriu/",
+     "fonte": "Poder360",
+     "data": "2026-11-28T01:04:55+00:00"
+    },
+    {
      "titulo": "Ao falar para idosos, Lula cita estado de saúde de FHC: 'Está com demência, um morto-vivo'",
      "resumo": "Lula comenta saúde de FHC e chama de 'morto-vivo' O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta sexta-feira (27) que visitou o ex-presidente Fernando Henrique Cardoso recentemente e que o ex-presidente está…",
      "link": "https://g1.globo.com/politica/noticia/2026/11/27/ao-falar-para-idosos-lula-cita-estado-de-saude-de-fhc-esta-com-demencia-um-morto-vivo.ghtml",
@@ -1655,53 +1697,11 @@
      "data": "2026-11-27T19:55:03+00:00"
     },
     {
-     "titulo": "Ferramenta gratuita reúne mudanças para MEIs",
-     "resumo": "Plataforma apresenta 11 medidas sobre faturamento, impostos e dívidas; consulta orienta cada tipo de negócio",
-     "link": "https://www.poder360.com.br/poder-empreendedor/ferramenta-gratuita-reune-mudancas-para-meis/",
+     "titulo": "Saiba o que se sabe sobre a nova variante da covid-19 no Brasil",
+     "resumo": "Linhagem PJ.2.1 foi identificada em 5 Estados e no DF e pode estar relacionada à alta de casos no país",
+     "link": "https://www.poder360.com.br/poder-saude/saiba-o-que-se-sabe-sobre-a-nova-variante-da-covid-19-no-brasil/",
      "fonte": "Poder360",
-     "data": "2026-11-27T23:15:31+00:00"
-    },
-    {
-     "titulo": "#NÃOÉBEMASSIM: STF não proibiu pacientes de irem à Justiça por remédios fora da lista do SUS, mas impôs condições para liberação",
-     "resumo": "Decisão do STF não proibe obtenção de medicamentos, mas faz restrições g1 Circulam nas redes sociais publicações alegando que o Supremo Tribunal Federal (STF) proibiu pacientes de recorrerem à Justiça para conseguir…",
-     "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/27/naoebemassim-stf-nao-proibiu-pacientes-de-irem-a-justica-por-remedios-fora-da-lista-do-sus-mas-impos-condicoes-para-liberacao.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-27T19:48:02+00:00"
-    },
-    {
-     "titulo": "Indústria farmacêutica defende limitar importação direta de medicamentos",
-     "resumo": "Interfarma quer que compra de remédio no exterior por paciente seja válida só em casos excepcionais; Anvisa revisa regras em consulta pública",
-     "link": "https://www.poder360.com.br/poder-saude/industria-farmaceutica-defende-limitar-importacao-direta-de-medicamentos/",
-     "fonte": "Poder360",
-     "data": "2026-11-27T23:14:32+00:00"
-    },
-    {
-     "titulo": "Dino suspende tramitação de emendas de Flávio Bolsonaro para 2027 e pede ao Senado explicações sobre atuação do senador",
-     "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), determinou a suspensão da tramitação de emendas do senador Flávio Bolsonaro (PL-RJ) para o orçamento de 2027.",
-     "link": "https://g1.globo.com/politica/noticia/2026/11/27/dino-suspende-tramitacao-de-emendas-de-flavio-bolsonaro-para-2027-ministro-pediu-que-senado-explique-atuacao-do-senador-de-fora-do-pais.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-27T19:27:37+00:00"
-    },
-    {
-     "titulo": "Conta de luz terá bandeira verde pelo 3º mês seguido em dezembro",
-     "resumo": "Aneel mantém tarifa sem cobrança adicional em novembro; decisão indica condições hidrológicas favoráveis à geração de energia",
-     "link": "https://www.poder360.com.br/poder-energia/conta-de-luz-tera-bandeira-verde-pelo-3o-mes-seguido-em-dezembro/",
-     "fonte": "Poder360",
-     "data": "2026-11-27T22:48:15+00:00"
-    },
-    {
-     "titulo": "Do fim dos supersalários à previdência de militares: o que Durigan pensou para 2027 e agora deixa para Trabuco",
-     "resumo": "O ministro da Fazenda, Dario Durigan, nega que razão para a alta de recuperações judiciais seja somente as taxas de juros EPA-Shutterstock Luiz Carlos Trabuco, presidente do conselho do Bradesco, aceitou o convite do…",
-     "link": "https://g1.globo.com/economia/noticia/2026/11/27/durigan-deixa-agenda-fiscal-para-2027.ghtml",
-     "fonte": "g1 Política",
-     "data": "2026-11-27T18:50:34+00:00"
-    },
-    {
-     "titulo": "Quase 400.000 menores viviam em união conjugal no Brasil em 2022",
-     "resumo": "Estudo do UNFPA com dados do Censo 2022 identifica 387.300 menores em união conjugal; 92,3% são informais",
-     "link": "https://www.poder360.com.br/poder-brasil/quase-400-000-menores-viviam-em-uniao-conjugal-no-brasil-em-2022/",
-     "fonte": "Poder360",
-     "data": "2026-11-27T22:45:22+00:00"
+     "data": "2026-11-28T00:20:11+00:00"
     }
    ]
   },
@@ -1724,11 +1724,11 @@
      "data": "2022-05-16T12:00:00+00:00"
     },
     {
-     "titulo": "OpenAI processa Apple e acusa empresa de roubar segredos comerciais e bloquear fornecedores",
-     "resumo": "A OpenAI processou a Apple nesta sexta-feira (27), acusando a fabricante do iPhone de roubar segredos comerciais e dificultar seu acesso a fornecedores de equipamentos.",
-     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/27/open-ai-apple-ia-segredo-processo.ghtml",
+     "titulo": "Data centers gigantes invadem bairros residenciais no Japão e provocam revolta de moradores",
+     "resumo": "Até alguns anos atrás, a casa de Susumu Goto em Kashiwa, a nordeste de Tóquio, tinha vista para um campo gramado onde os vizinhos jogavam beisebol e futebol.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/28/data-centers-gigantes-invadem-bairros-residenciais-no-japao-e-provocam-revolta-de-moradores.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-27T19:47:43+00:00"
+     "data": "2026-11-28T07:00:01+00:00"
     },
     {
      "titulo": "Tem vontade de trabalhar em big techs? Veja vagas de emprego disponíveis no Brasil",
@@ -1745,11 +1745,11 @@
      "data": "2022-05-09T12:00:00+00:00"
     },
     {
-     "titulo": "Golpes no WhatsApp: veja como proteger sua conta e evitar que usem seu número; VÍDEO",
-     "resumo": "Como proteger seu WhatsApp de golpes Golpes no WhatsApp podem envolver a criação de perfis falsos, pedidos de dinheiro e tentativas de roubar contas.",
-     "link": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/27/golpes-no-whatsapp-veja-como-proteger-sua-conta-e-evitar-que-usem-seu-numero-video.ghtml",
+     "titulo": "OpenAI processa Apple e acusa empresa de roubar segredos comerciais e bloquear fornecedores",
+     "resumo": "A OpenAI processou a Apple nesta sexta-feira (27), acusando a fabricante do iPhone de roubar segredos comerciais e dificultar seu acesso a fornecedores de equipamentos.",
+     "link": "https://g1.globo.com/tecnologia/noticia/2026/11/27/open-ai-apple-ia-segredo-processo.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-27T16:00:00+00:00"
+     "data": "2026-11-27T19:47:43+00:00"
     },
     {
      "titulo": "Como jogar GTA 6 no celular",
@@ -1766,11 +1766,11 @@
      "data": "2022-05-04T12:00:00+00:00"
     },
     {
-     "titulo": "É #FAKE vídeo de balões de Dora Aventureira e agentes do ICE em desfile de Ação de Graças de Nova York; cena foi criada com IA",
-     "resumo": "Circula nas redes sociais um vídeo que supostamente mostra balões de agentes do Serviço de Imigração e Controle de Alfândegas (ICE, na sigla em inglês) correndo atrás da personagem Dora Aventureira durante o tradicional…",
-     "link": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/27/e-fake-video-de-baloes-de-dora-aventureira-e-agentes-do-ice-em-desfile-de-acao-de-gracas-de-nova-york-cena-foi-criada-com-ia.ghtml",
+     "titulo": "Golpes no WhatsApp: veja como proteger sua conta e evitar que usem seu número; VÍDEO",
+     "resumo": "Como proteger seu WhatsApp de golpes Golpes no WhatsApp podem envolver a criação de perfis falsos, pedidos de dinheiro e tentativas de roubar contas.",
+     "link": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/27/golpes-no-whatsapp-veja-como-proteger-sua-conta-e-evitar-que-usem-seu-numero-video.ghtml",
      "fonte": "g1 Tecnologia",
-     "data": "2026-11-27T14:26:20+00:00"
+     "data": "2026-11-27T16:00:00+00:00"
     },
     {
      "titulo": "Samsung está desenvolvendo nuvem privada para recursos do Galaxy AI",
@@ -1793,11 +1793,11 @@
      "data": "2026-11-27T23:17:02+00:00"
     },
     {
-     "titulo": "Fastline, da Tegma, vai comprar transportadora de veículos pesados por R$105 mi",
+     "titulo": "Perdeu a Black Friday? Esta é sua última chance de garantir 60% off no InvestingPro",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/fastline-da-tegma-vai-comprar-transportadora-de-veiculos-pesados-por-r105-mi-2139468",
+     "link": "https://br.investing.com/news/stock-market-news/perdeu-a-black-friday-esta-e-sua-ultima-chance-de-garantir-60-off-no-investingpro-2139528",
      "fonte": "Investing.com",
-     "data": "2026-11-27T23:14:05+00:00"
+     "data": "2026-11-28T05:53:19+00:00"
     },
     {
      "titulo": "De golpe de Natal da Cacau Show a tramoias na Black Friday: como empresas podem agir quando são usadas em fraudes?",
@@ -1807,6 +1807,13 @@
      "data": "2026-11-27T22:20:00+00:00"
     },
     {
+     "titulo": "Ascenty anuncia investimento de US$ 1,2 bilhão em primeiro data center de IA da América Latina",
+     "resumo": "A operadora de data centers Ascenty anunciou investimentos de US$ 1,2 bilhão para a construção de quatro novos data centers no Estado de São Paulo. Os contratos somam 150 megawatts (MW) de capacidade de processamento,",
+     "link": "https://einvestidor.estadao.com.br/investimentos/ascenty-investimento-12-bilhao-primeiro-data-center-inteligencia-artificial-ia-america-latina/",
+     "fonte": "E-Investidor",
+     "data": "2026-05-27T21:59:36+00:00"
+    },
+    {
      "titulo": "Bancada do PT na Câmara reafirma apoio a Lula e defende investimentos e redução dos juros",
      "resumo": "A bancada do PT na Câmara dos Deputados divulgou nota nesta sexta-feira (27) em que defende a exclusão dos investimentos públicos dos limites do arcabouço fiscal, a redução das taxas de juros e a ampliação da tributação…",
      "link": "https://www.moneytimes.com.br/bancada-do-pt-na-camara-reafirma-apoio-a-lula-e-defende-investimentos-e-reducao-dos-juros/",
@@ -1814,11 +1821,11 @@
      "data": "2026-11-27T23:01:13+00:00"
     },
     {
-     "titulo": "BTG Pactual monta fundo de R$1,5 bi para compra de consignados do BRB",
+     "titulo": "Ações de IA em alta: aproveite o desconto de 60% da Black Friday",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/btg-pactual-monta-fundo-de-r15-bi-para-compra-de-consignados-do-brb-2139450",
+     "link": "https://br.investing.com/news/stock-market-news/acoes-de-ia-em-alta-aproveite-o-desconto-de-60-da-black-friday-2139507",
      "fonte": "Investing.com",
-     "data": "2026-11-27T22:21:03+00:00"
+     "data": "2026-11-28T02:34:55+00:00"
     },
     {
      "titulo": "Entre gritos de guerra e 54 milhões de ofertas, Mercado Livre (MELI34) bate recorde na Black Friday",
@@ -1828,6 +1835,13 @@
      "data": "2026-11-27T21:01:00+00:00"
     },
     {
+     "titulo": "Ibovespa hoje: Usiminas (USIM5) lidera altas e já sobe quase 72% no ano; Cosan (CSAN3) cai",
+     "resumo": "O Ibovespa hoje fechou em queda, em movimento contrário ao dos índices de Nova York, que encerraram em alta. Nesta quarta-feira (27), a principal referência da B3 cedeu 0,48% aos 175.744,37 pontos, com volume negociado",
+     "link": "https://einvestidor.estadao.com.br/mercado/ibovespa-hoje-usiminas-usim5-lidera-altas-cosan-csan3-cai/",
+     "fonte": "E-Investidor",
+     "data": "2026-05-27T21:47:03+00:00"
+    },
+    {
      "titulo": "Herdeiros da Armani consideram comprar pequena participação na grife em operação de venda de ações, dizem fontes",
      "resumo": "Os herdeiros do falecido estilista Giorgio Armani estão considerando comprar uma pequena parcela da participação de 15% que está à venda, conforme estipulado no testamento do fundador, afirmaram duas pessoas a par do…",
      "link": "https://www.moneytimes.com.br/herdeiros-da-armani-consideram-comprar-pequena-participacao-na-grife-em-operacao-de-venda-de-acoes-dizem-fontes/",
@@ -1835,25 +1849,11 @@
      "data": "2026-11-27T22:30:00+00:00"
     },
     {
-     "titulo": "Trabuco na Fazenda vai salvar o Banco do Brasil (BBAS3)?",
+     "titulo": "As economias insanas estão acabando! InvestingPro por menos de US$ 7,50/mês",
      "resumo": "",
-     "link": "https://br.investing.com/news/stock-market-news/trabuco-na-fazenda-vai-salvar-o-banco-do-brasil-bbas3-2139369",
+     "link": "https://br.investing.com/news/stock-market-news/as-economias-insanas-estao-acabando-investingpro-por-menos-de-us-750mes-2139504",
      "fonte": "Investing.com",
-     "data": "2026-11-27T22:17:40+00:00"
-    },
-    {
-     "titulo": "Da Faria Lima a Wall Street: o que os bancos esperam de Trabuco no Ministério da Fazenda",
-     "resumo": "Da possibilidade de uma alta de 30% da bolsa à blindagem do Banco Central, instituições financeiras avaliam os impactos da escolha de Lula The post Da Faria Lima a Wall Street: o que os bancos esperam de Trabuco no…",
-     "link": "https://www.seudinheiro.com/2026/economia/da-faria-lima-a-wall-street-o-que-os-bancos-esperam-de-trabuco-no-ministerio-da-fazenda-jcav/",
-     "fonte": "Seu Dinheiro",
-     "data": "2026-11-27T20:30:00+00:00"
-    },
-    {
-     "titulo": "Padilha deve continuar na Saúde no quarto mandato de Lula, diz Estadão",
-     "resumo": "O ministro da Saúde, Alexandre Padilha, será mantido no cargo no quarto mandato do presidente Luiz Inácio Lula da Silva (PT), segundo fontes ouvidas pelo Estadão.",
-     "link": "https://www.moneytimes.com.br/padilha-deve-continuar-na-saude-no-quarto-mandato-de-lula-diz-estadao/",
-     "fonte": "Money Times",
-     "data": "2026-11-27T22:10:00+00:00"
+     "data": "2026-11-28T02:17:58+00:00"
     }
    ]
   },
@@ -1861,6 +1861,20 @@
    "id": "blumenau",
    "nome": "Blumenau",
    "noticias": [
+    {
+     "titulo": "FURB oferece três vagas em programa de aprimoramento profissional para veterinários em Blumenau",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQTzJTcXowZ2xDVC1ZOVljWTVjZFVfZlZCRThhbUplTkVPQV9lSzJPSkdWUldkaWdLcmQ1YzhoLXJLQzRmZUlZc2ZfZXkyemc3MzRSQTA0ZHVSWHdjMEpJbktBQWg4UmxQZ3dueHFtUGFSc2RsdjNRVmsyQUQ0ZnRMN2U0SmNrd0ZnYlVMTnBQZWV2MFNTQ3FBVG5GaVpnbG9LejU1djJWV3VFVEtPSW95ZndoRHpsWkZyOXFHM3hLTk54YS1ZTjVqRVlNWlRldElYWTRFaw?oc=5",
+     "fonte": "Sou Enfermagem",
+     "data": "2026-11-28T05:11:09+00:00"
+    },
+    {
+     "titulo": "Prefeitura de Blumenau lança concurso público com 19 vagas para magistério e salários até R$ 5.130,63",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNVpYbEFxU2FwRHBkYzBJMjBIOGVZQjRZcldOdDZwcVEyaHBZWUNJNjBkeWhNMHdpYlV4bTBaT1B1QllDSnVIbkJUUkNLWDhHVzlKaTFIOXk2QmZ4R2p1U0NTY2drM202enhjdmhEMnJGMVBLZHV3Yk9OYlRFME1NWnJWMTF1d0ZxUVZsRjRfejRaTWxyOEZJLVNKXzlfblgzQ3UxMFZ2MVFsY2dZOW5uaTg4OFpLRl9sa0ZxSk9uellOamtWazRTNTJTblZDWXNzNjFITWRSd0I3QQ?oc=5",
+     "fonte": "Sou Enfermagem",
+     "data": "2026-11-28T03:38:39+00:00"
+    },
     {
      "titulo": "Blumenau promove Dia D de combate à dengue com mutirão de limpeza neste sábado",
      "resumo": "",
@@ -1902,20 +1916,6 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeHphX0FHUmkzcWNXZ1dKT0U1UlFPeXZkMU1NbFlmMmxXd1dzanNQeno4RWxFMm5tN0pRRjVvVzNlWlktNkNXbG10aEJ6bmdrUFZXWm5SMUk2YUhCckt3aHZ4bWsxVzQxOUE3NkozTU5ZNm9uYS1SREwzdWJKVFQ0TXBZb3lDVDFmc3ZPZzNZbXMweEFjUFd0eQ?oc=5",
      "fonte": "HojeSC",
      "data": "2026-11-27T19:21:05+00:00"
-    },
-    {
-     "titulo": "Sábado de chuva em Blumenau? Que tal trocar um pouco das telas por histórias, imaginação e tempo de qualidade com as crianças?",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQm0zeEhCQnRGckx6bUZYWXBPSWVydldoNlYxNU9oMldrb1dGUDg2dVA0LXVsV3B6RXFBd2hhNk04NVQ2UW1YNTh1cFBFRi1XQzg1a2x0RjkxSEptUm03X1BuZ0VuQ1g4aDUwdU1TcklzaGxyZC1NbEVNYUJ1SEI2Nmh6MF94M1Q0WHRfSFFtMUg4Z0VPZXdUdVVySU5Ca3N2bEF2NUllbkZjaWg5TGRFVGtqaUQzc0FMN3JGRF9FTFBrZUl3TFQ0TFI3cFhKQU9VUzlnd1VBbnNXM29STkp5YkxXLVBiQQ?oc=5",
-     "fonte": "Blog do Jaime",
-     "data": "2026-11-27T18:15:00+00:00"
-    },
-    {
-     "titulo": "Vídeo: Vendedor de doces agredido por guardas | Vídeos - Jornal do Almoço SC (Blumenau)",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdDR3ZWo0R3I5bVNlRmFXckpmc28yMUtLU0tsUmJHazNsWkU3RUhXbHh1QnRRTXBPdVhDTDUtOEd6ckVzQnNTSHA0aDRGREQ3RmhJYURuOG9RUnl4SG1kOVpPYjJXaF9iU0hkZl9QZVdIaEhOYzI5M05GdDNaVi15dlRBRFAyTVAzQjBINnZKY1RodGpyUkhPdDR4M0pVcGs4c0YwYmFjXzFJUlVJcm5VTHAtUHBVdm5FYndMNUxRNkxMWmFlbFBuWnAybVV5anc?oc=5",
-     "fonte": "G1",
-     "data": "2026-11-27T18:07:34+00:00"
     }
    ]
   },
@@ -1924,60 +1924,74 @@
    "nome": "Balneário Camboriú",
    "noticias": [
     {
-     "titulo": "MPSC investiga ocupação da Praia Central para show da Shakira no Réveillon em SC",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSUg5dW1hVkZvc1dCbHRhekxEcC1WbnRiQXhvX1JmSF9XNHk0YlJLNGdXazhBamtZQTRjM3pzODVRUl9BWERpUTBfS3Y2dU9yRzM1dDdMS09mQ3RtR1VLSnVHTU1EZUdlelVELVNPZ2FXeWUzanNUb3dKX3RPeUlfMFNiWHJXRU5iYWFtUUZkY09BeUFZcGxfeEtFbDQ5QnhGNElLNjl3WEhoNnV0NkpBNktQWlVKUTZSNkRsTG9TVzhURE80cG9VVlBvQ3dpR3draDZGU1dNaGhhTTAycGZobndJX21qUkZBd0E?oc=5",
-     "fonte": "NSC Total",
-     "data": "2026-11-27T23:00:54+00:00"
+     "titulo": "Grávida com tornozeleira eletrônica é presa por tráfico com filho de 5 meses ao lado em BC",
+     "resumo": "Mulher usava tornozeleira eletrônica e foi presa; Conselho Tutelar encaminhou o filho de cinco meses ao acolhimento Leia no Camboriú News",
+     "link": "https://camboriu.news/gravida-com-tornozeleira-eletronica-e-presa-por-trafico-com-filho-de-5-meses-ao-lado-em-bc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-28T03:57:47+00:00"
     },
     {
-     "titulo": "Vencedores do concurso Eu e a Lei são premiados na Câmara",
+     "titulo": "Operação Janelas Quebradas retira 20 toneladas de entulho da Vila Fortaleza, em Balneário Camboriú",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR0tmcUo3aVpkaGpoSFJvZ1pyeF9pYkRxUVM4QjNrblloTlNKdFAzQkJzNGVmS1JKU2RON1VxMFhNOHlUN2xKMVhtLWdCQVh6RzdZdzlQT0cwMzdYTlE2enAyVUsxbEUzdmRCRHlid09aOUpDdDNuVmZGTHhCeDN6UDJRSkgzVDdVYzBGMUx6Z08xVkhMRGc?oc=5",
-     "fonte": "Notícia Já",
-     "data": "2026-11-27T22:58:00+00:00"
-    },
-    {
-     "titulo": "Para show com Shakira, Balneário Camboriú cede praia a grupo bilionário por R$ 114,68 por m²",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDMGk2SWRYWmY1UV9Vbk9aQkdxNzJlakxTSVZHdmlVNjBRY3NjR0JZWmNuN0x2UW1neExJY3NlR3VweUFOZW9hVkttc2lWakpMVkd0WktSdzNMMEoyd0Q5cm1ZWE9mSlZsWHhQcjM4NjhhNHM?oc=5",
-     "fonte": "ICL Notícias",
-     "data": "2026-11-27T22:17:06+00:00"
-    },
-    {
-     "titulo": "MPSC apura legalidade para uso da Praia Central de Balneário Camboriú em show da Shakira",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVEpmNHYyUHBEN09ZZC12RzdIRS1NY1JEMERjNEZUM0E2aGpLeGR2UVJGdXhibkV4T0RSaUpRdl9JamdyblI4UEQ1c1BMZ00zaGpDTmtRUHVuZ0NRY01ZX1ZQSTBxTDVqbFBONnNDZm54NkRNU1o3dnNobGxuM08tcG9RZjBnX0hEalR3dlJGRzdVLU5IQ3NBMDdCdE9TOUxNYkcwT0M2T0VFTUFFdWJOdkNtMHFLdWtOb0RDUXN1Yw?oc=5",
-     "fonte": "Ministério Público de Santa Catarina",
-     "data": "2026-11-27T22:09:00+00:00"
-    },
-    {
-     "titulo": "Ato marca um ano do duplo feminicídio de servidoras no Cefet-RJ",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcHUtenFFREN1V004UUNVM2F1OXZsMzVKSUVRTW5JdXVOTmNGalpxcUI5U205TUJnOVJTVWQ1eV9aRUVsam80UGgzbV9YOWR6aWZGM2dXcEZfM0h1STdsRjBqd05vWUZEamlRc0xqekFTYW9iVG53WVFDVVc5b0tFTlpYX1pHLUNjNWhsRjFYeXhTNUFDRXRHZjFyU0xCQQ?oc=5",
-     "fonte": "Notícia Já",
-     "data": "2026-11-27T21:58:00+00:00"
-    },
-    {
-     "titulo": "Fim de tarde tem BR-101 com filas de Barra Velha a Itapema e trânsito pesado em Itajaí e BC",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZXl6a0laNVpWV0JxZzdtXzFYY3RnenY3MTlpZlM1bHh1TVhTSG5xbUZOLXIwS1ZmMmg2UXgyYnktUV9SX2R6b2lsUk9xRm5mQ2dDdEwwS1hNcnJEZFVVUEs4SV9pQnpTZjRzRjM0RWlOX0FHeTE4SVBNZER0VkhOZkdBMXVBSy13MFFBSXpQdkMzMlRfQjczak1LbkFSRktmMktEaWN0QjVIQmdQdzRldnJHZjRUb3lVU2prTW5zaFRNRzhJT1QwbHNxdw?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPc3V2NExrYXd4aFJQNE0xbDVXWG1YRGpFYU9RTWJfaHhLcEd2a1pqZVJDSFI5TlpIbU1vT0xGeHdpOExGSENQOHJWSDl3ZkZlWDF6dVlrVkF1eUZYWHBCQmZaa043U3h2dy1iLUZrLXl4dWs5Zk1BaTBOd3FFblRPa2ZwdjlHZWhESGRETnZlaVF6MERSYXRLN2tFbXB2VldFMGxBbTVYbmVvUHJpTXFxLThVcFZqNkF2QmpjU1JBQTRiQVV3cGZoUmpZQlgtQTg?oc=5",
      "fonte": "TopElegance",
-     "data": "2026-11-27T21:09:31+00:00"
+     "data": "2026-11-28T01:39:09+00:00"
     },
     {
-     "titulo": "Ouvidoria do MPSC e NEAVIT apresentam Proteção Mora ao Lado a síndicos em Balneário Camboriú",
-     "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZzZTNVhlcmUyT0ZxUXByYU8wZjBjYzdfWng5eUp6ZkNvLXZkdW0zRDNwRHZRZy1mLS1CbzRQTkNvTUdQQWxKV0UwNkxFOFY3b2NoR3VRNUJET1UtTjNNUWdqYTViNkxRRFg1SkRkSFNnbVBlZmJ3MzhqdUtwOGtMamVkUUotekhzeVpWMW1jWVV0Ti1reGxVM21fUXFPV2dSZ0hxVFFXbHRwRDBBT1RhYWN3a3JTVm96emlGZE5uemd6WDA?oc=5",
-     "fonte": "Ministério Público de Santa Catarina",
-     "data": "2026-11-27T20:13:00+00:00"
+     "titulo": "Idoso de 83 anos é atropelado ao atravessar rua para pegar ônibus em BC",
+     "resumo": "Vítima atravessava fora da faixa quando foi atingida por motocicleta e sofreu suspeita de fratura na perna Leia no Camboriú News",
+     "link": "https://camboriu.news/idoso-de-83-anos-e-atropelado-ao-atravessar-rua-para-pegar-onibus-em-bc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-28T03:45:24+00:00"
     },
     {
-     "titulo": "Programa Transitar forma 88 alunos do CEM Governador Ivo Silveira em Balneário Camboriú",
+     "titulo": "MP apura uso de praia em show de Shakira em Balneário Camboriú",
      "resumo": "",
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcU5sOUsyXzFPZ29zZEVRQjZKZklwZ3JGWmpHVWE2UUhBbE9TTFBUblh1ckRoeXltQzFfN19ITjlRVC1pVmhmTTlBRmZsMU05NHpFd2xVaGVEYm95TEFveFNfNU5xektxNjNuY3lpOG9CT0RDNWhBeXNmZGR4UUJoQUpzLXRmNnZPWHNJVHdVWHJWM1hjYzVWeDhSR25kX25JVnhVX3dnYnJZSWtUbmxIb3BDT1pyT0h5clQ5Qg?oc=5",
-     "fonte": "Página 3",
-     "data": "2026-11-27T19:43:55+00:00"
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZjYtZGdnQlpYMFoyVkpZeTBObUo0OU8zYUxWWEJLVXVHZllkZFo3d3VGN1BpckxNVWI2VEpGMEdSNU5OM2lCSXlKYlFoSVJHSlR6aVpGem1fbGNnUHZQQk53a3kwLTFwU1lxWnpqSXktTnRqWHA3bXF5N0RPZDQ5V1VZejlzNGpvck1Sd2V3bmNCWkhONmNWaXFBaDZyWHROXzI4c2lrVGI?oc=5",
+     "fonte": "Poder360",
+     "data": "2026-11-28T01:06:42+00:00"
+    },
+    {
+     "titulo": "Caminhão da coleta de lixo perde os freios, atinge casa, poste e rompe tubulação de água em BC",
+     "resumo": "Acidente atingiu poste, rompeu tubulação de água e mobilizou Celesc, Emasa, Defesa Civil e Polícia Militar Leia no Camboriú News",
+     "link": "https://camboriu.news/caminhao-da-coleta-de-lixo-perde-os-freios-atinge-casa-poste-e-rompe-tubulacao-de-agua-em-bc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-28T03:40:51+00:00"
+    },
+    {
+     "titulo": "Caminhão de coleta de lixo atinge casa e deixa garagem sob risco de desabamento em Balneário Camboriú",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSjRGWDJ3ZWhCMWwxeFZocUgxMDN3OV80YV9VWHp6STJjdWJqdXNIQUhodzVQQjRLbmJ5YnllaHZ3T2ZjWS1WUTZyUFFwN1lERWE2YUg3WDh2U1B6MnpYWmNKSDlqYUhyQUtucFI5QURZNzF5YU41dXUwNWwwQ05yOUFsazhucWNTZWNORFZQaGxONjkybE5nTWxiVTV0UmRmUGE3U3Y3RnVDZE5QQ21Pc1BHaGdwSVQxMUtURFozY3ZNN19TZG1SbkdZMk5IZkpKakJ0cWhidS0?oc=5",
+     "fonte": "TopElegance",
+     "data": "2026-11-28T01:00:58+00:00"
+    },
+    {
+     "titulo": "Prefeitura é condenada a recuperar área degradada por extração de pedras em SC",
+     "resumo": "Perícia apontou alterações no solo, interrupção de curso d’água e danos à mata ciliar em cerca de 155 metros Leia no Camboriú News",
+     "link": "https://camboriu.news/prefeitura-e-condenada-a-recuperar-area-degradada-por-extracao-de-pedras-em-sc/",
+     "fonte": "Camboriú News",
+     "data": "2026-11-28T03:33:12+00:00"
+    },
+    {
+     "titulo": "MP apura uso de praia em Balneário Camboriú para show de Shakira",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT1NzdXlhTkFDTTVNS1c5Wmd5bGVRVGlyS1JxUGhHWHhYbTJJWHdTY21zaVVEc1pGdFRGVVNmWlJ5NWJTamZ3S3NCWDZ2T1dSQVltcU9PY3BMUnVQOXdfZlB1TV9uMTlEVWRjTkNFbW02RmEwNXNscHFzWGhDTE5BR1BsN1lNcnN3VXBqQlo4ZFc4MnAxZTZRd1puUUd2X3lKWUNtSWRCZ0tYQQ?oc=5",
+     "fonte": "Metrópoles",
+     "data": "2026-11-28T00:07:00+00:00"
+    },
+    {
+     "titulo": "MP investiga uso da faixa de areia da Praia Central em Balneário Camboriú",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV0U2Skhwbmh5TXFNTzRnVDQ3a0JSYnpadEdfbXc2ZFB2MnEwSlZCQzFOLWpnYWdndGRnSnp4WWduQkpzcVJpV0tHYUhndF9BLUUtMER4VXgybV8wZ19JYUlaTVVaWk5HLUVtQ0x2bmJLWGxUUTdzU0pVTmtnR1ZNeDdrMGJGRVlHQTFGYmhoSG1vS2E3aTdFa2FRN1d3Y01jeFhieEMyUTFqX2FrX3FieWxpdG1seUd1WURmNmZpTQ?oc=5",
+     "fonte": "www.oimagem.com.br",
+     "data": "2026-11-28T00:06:48+00:00"
+    },
+    {
+     "titulo": "Praia de Balneário Camboriú vira alvo do MP antes do show de Shakira",
+     "resumo": "",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVHN6ZE1NVjl0Y25KRGVPeU9xUl84N0YyNm1zWjFZV2E5NTBnRHB1VkVHQ0twdjYwcmdzSy1oclRhWElpM1dxTC1uUW1fZWFNM0hjMlVOMml5U252c1BRd3dSTHdfbDE5RElOVmxMMzVQNW5fZXpQU19GMkY4ZlZ5OHJjOVhXWTNUY1JMek1IdmRweXlaNl80LVdFT0x4M3prVHdzWFEwWUhTcm5rb1V6aEZTUkw3ZW1RZkV0UGpwemp4VmJKS3dF?oc=5",
+     "fonte": "TV Sim Brasil",
+     "data": "2026-11-27T23:48:19+00:00"
     }
    ]
   }
